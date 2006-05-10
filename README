@@ -1,0 +1,91 @@
+About Regression Testing
+
+Running the fully automated testsuite for AbiWord is as simple as calling
+
+	./regression.pl
+	
+The results of the test are displayed on STDOUT, and can be in plain text format
+or HTML, depending on the value of the $html variable located near the top
+of the regression.conf configuration file.
+
+The rest of this file describes in some more detail which tests are performed.
+
+
+* Import / Export Testing
+=========================
+
+Raw Diff Test
+-------------
+
+The raw diff test is a simple test to see if a file that is imported into
+abiword is converted into the same internal representation every time. Changes
+that are made to an importer can result in a different awml document for
+example. Some of the detected changes may be desired, others can indicate 
+regressions.
+
+This test will compare the current output of abiword --to=abw <file> against 
+a stored version of the output. The comparison is done using the 'diff' command.
+
+Note that whenever the raw diff test reports a change, it does not necessarily
+mean that an error has been found. Several different cases can be identified:
+
+- an importer has been changed, for example to fix a bug or to add a new feature. 
+A change reported by the raw diff test should be examined closely to determine if 
+the change includes ONLY the expected result of the change. If it includes some 
+other unexpected/unwanted changes in the output as well, a regression has been found.
+
+- AbiWord outputs awml differently, for example because of an internal change, or a 
+change in the awml exporter. The raw diff test will now report changes for possible 
+all exported files. In this canse no real harm has been done, and thus the change 
+should not be considered as an error.
+
+Whenever the awml output changes as expected, the raw output for every file in the 
+test set should be regenerated and stored. This process is automated, and can be 
+done simply by calling:
+
+	./regenerate_raw.pl
+	
+After the raw output has been updated, the changes should be stored in cvs.
+
+NOTE: make sure to have executed ./bootstrap.pl at least once before running 
+      ./regenerate_raw.pl. When you have executed the regression test before,
+      bootstrap.pl has already been executed for you.
+
+
+Valgrind Test
+--------------
+
+This test checks for memory errors during the conversions, as well as for memoryleaks.
+
+
+Adding new documents to the test set
+------------------------------------
+
+In the various subdirectories (abw, doc, rtf, etc.) of ./impexp, files can be added at 
+will. Make sure to also add them to the regression.in file located in each directory.
+
+When you finished adding new files, enter the impexp directory and run:
+
+	./regenerate_raw.pl
+
+Commit the results to cvs if you want the new files to be part of the 'official' testruns.
+
+NOTE: make sure to have executed ./bootstrap.pl at least once before running 
+      ./regenerate_raw.pl. When you have executed the regression test before,
+      bootstrap.pl has already been executed for you.
+
+
+
+* Unit Testing
+==============
+
+<not implemented at the moment>
+
+
+* Compilation Warning testing
+=============================
+
+This test compiles both abiword and abiword plugins, and checks if there are no 
+compiler warnings. The presence of warnings could point out a true problem, so 
+it is important to keep the code compiling warning free (which can be hard, given
+the different compilers out there).
