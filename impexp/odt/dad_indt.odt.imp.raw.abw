@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="175" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.4.5" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="meta:editing-cycles">29</m>
+<m key="abiword.keywords">OpenDocument AbiWord importer test</m>
+<m key="dc.date">2005-12-19T13:32:50</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.creator">Daniel Carvalho</m>
+<m key="meta:editing-duration">PT7H43M53S</m>
+<m key="dc.language">en-US</m>
+<m key="meta:initial-creator">Daniel Carvalho</m>
+<m key="abiword.date_last_changed">2005-12-20T18:03:25</m>
+<m key="dc.title">Test document for AbiWord's OpenDocument importer</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1147370613" uid="75839870-e118-11da-8c8b-c61d0b061248">
+<version id="1" started="1147370613" uid="75a77682-e118-11da-8c8b-c61d0b061248" auto="0" top-xid="175"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; margin-right:0pt; lang:en-US; line-height:1.0; font-size:12pt; text-decoration:none; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+<s type="P" name="Chapter Title" followedby="Normal" props="font-weight:bold; font-size:20pt"/>
+<s type="P" name="Double Line Spacing" basedon="Normal" followedby="Double Line Spacing" props="margin-left:0.7799in; font-size:10pt; text-indent:0in; lang:pt-BR; line-height:2.000000; margin-right:0in; font-style:italic"/>
+<s type="P" name="Sample Paragaph Two" basedon="Normal" followedby="Sample Paragaph Two" props="margin-bottom:1in; margin-top:2in"/>
+<s type="P" name="Footnote" basedon="Normal" followedby="Footnote" props="text-indent:-0.1965in; font-size:10pt; margin-left:0.1965in; margin-right:0in"/>
+<s type="P" name="Endnote" basedon="Normal" followedby="Endnote" props="text-indent:-0.1965in; font-size:10pt; margin-left:0.1965in; margin-right:0in"/>
+<s type="P" name="Table Heading" basedon="Normal" followedby="Table Heading" props="text-align:center; font-weight:bold; font-style:italic"/>
+<s type="P" name="Text body" basedon="Normal" followedby="Text body" props="margin-bottom:0.0835in; margin-top:0in"/>
+<s type="P" name="Contents Heading" basedon="Heading" followedby="Contents Heading" props="text-indent:0in; font-size:16pt; font-weight:bold; margin-left:0in; margin-right:0in"/>
+<s type="P" name="Contents 6" basedon="Normal" followedby="Contents 6" props="text-indent:0in; margin-left:0.9827in; margin-right:0in"/>
+<s type="P" name="Contents 7" basedon="Normal" followedby="Contents 7" props="text-indent:0in; margin-left:1.1791in; margin-right:0in"/>
+<s type="P" name="Contents 8" basedon="Normal" followedby="Contents 8" props="text-indent:0in; margin-left:1.3756in; margin-right:0in"/>
+<s type="P" name="Contents 9" basedon="Normal" followedby="Contents 9" props="text-indent:0in; margin-left:1.572in; margin-right:0in"/>
+<s type="P" name="Heading" basedon="Normal" followedby="Text body" props="margin-top:0.1665in; keep-with-next:yes; margin-bottom:0.0835in; font-family:Arial; font-size:14pt"/>
+<s type="P" name="Heading 1" basedon="Heading" followedby="Text body" props="font-weight:bold; font-size:16pt"/>
+<s type="P" name="Contents 10" basedon="Normal" followedby="Contents 10" props="text-indent:0in; margin-left:1.7689in; margin-right:0in"/>
+<s type="P" name="Caption" basedon="Normal" followedby="Caption" props="margin-top:0.0835in; font-size:10pt; margin-bottom:0.0835in; font-style:italic"/>
+<s type="C" name="Bullet Symbols_text" followedby="Bullet Symbols_text" props="font-family:StarSymbol; font-size:9pt"/>
+<s type="P" name="Bold Redish" basedon="Chapter Title" followedby="Bold Redish" props="font-family:Arial; color:#800000"/>
+<s type="P" name="Underlined blue" basedon="Contents Heading" followedby="Underlined blue" props="text-decoration:underline; color:#0000ff"/>
+<s type="C" name="Footnote anchor_text" followedby="Footnote anchor_text" props="text-position:superscript"/>
+<s type="P" name="Contents 5" basedon="Normal" followedby="Contents 5" props="text-indent:0in; margin-left:0.7862in; margin-right:0in"/>
+<s type="C" name="Endnote anchor_text" followedby="Endnote anchor_text" props="text-position:superscript"/>
+<s type="P" name="Contents 1" basedon="Normal" followedby="Contents 1" props="text-indent:0in; margin-left:0in; margin-right:0in"/>
+<s type="P" name="Contents 2" basedon="Normal" followedby="Contents 2" props="text-indent:0in; margin-left:0.1965in; margin-right:0in"/>
+<s type="P" name="Contents 3" basedon="Normal" followedby="Contents 3" props="text-indent:0in; margin-left:0.3929in; margin-right:0in"/>
+<s type="P" name="Contents 4" basedon="Normal" followedby="Contents 4" props="text-indent:0in; margin-left:0.5898in; margin-right:0in"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:0.7874in; page-margin-left:0.7874in; page-margin-top:0.7874in; page-margin-bottom:0.7874in">
+<p style="Normal" xid="2" props="text-decoration:underline; font-size:18pt">This document should be imported into AbiWord <c props="font-weight:normal">without crashing.</c></p>
+<p style="Normal" xid="3" props="font-weight:normal; text-decoration:underline; font-size:18pt">It will probably have some visual differences but no content should be lost.</p>
+<p style="Normal" xid="4" props="font-weight:normal; text-decoration:underline; font-size:18pt"></p>
+<p style="Normal" xid="5" props="font-weight:normal; font-size:16pt">Copyright © 2005 INdT – Intituto Nokia de Tecnologia (Nokia's Technology Institute)</p>
+<p style="Normal" xid="6" props="font-weight:normal; font-size:16pt"></p>
+<p style="Normal" xid="7" props="font-weight:normal; font-size:16pt">Author: Daniel d'Andrada Tenório de Carvalho - daniel.carvalho@indt.org.br</p>
+</section>
+<section footer="3" header="2" xid="8" props="page-margin-right:1.0299in; page-margin-footer:0.8984in; page-margin-left:1.0299in; page-margin-top:2in; page-margin-bottom:6.564884cm">
+<p xid="9"><pbr/></p>
+<p style="Normal" props="" xid="10">Here comes a Table of Contents</p>
+<p xid="11"></p>
+<toc xid="12" props="toc-dest-style1:Bold Redish; toc-heading:TOC title goes here; toc-dest-style2:Contents 2; toc-dest-style4:Contents 4; toc-dest-style3:Contents 3; toc-has-heading:1; toc-heading-style:Underlined blue; toc-source-style1:Chapter Title">
+</toc><p style="Normal" xid="13"> </p>
+</section>
+<section footer="1" header="0" xid="14" props="page-margin-right:0.7874in; page-margin-left:0.7874in; page-margin-top:0.7874in; page-margin-bottom:0.7874in">
+<p xid="15"><pbr/></p>
+<p style="Chapter Title" props="" xid="16">Paragraphs</p>
+<p style="Normal" xid="17"></p>
+<p style="Double Line Spacing" xid="18" props="text-indent:-1.111in; margin-left:1.6945in; margin-right:0in">Double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing double line spacing.</p>
+<p style="Sample Paragaph Two" xid="19">Lot's of space before and after this paragraph. Lot's of space before and after this paragraph. Lot's of space before and after this paragraph. Lot's of space before and after this paragraph. Lot's of space before and after this paragraph. Lot's of space before and after this paragraph. Lot's of space before and after this paragraph. Lot's of space before and after this paragraph. Lot's of space before and after this paragraph. Lot's of space before and after this paragraph. <c props="font-weight:bold">A footnote</c><field type="footnote_ref" footnote-id="0" xid="20" props="text-position:superscript"></field><foot footnote-id="0" xid="21">
+<p style="Footnote" xid="22"><field type="footnote_anchor" footnote-id="0" xid="23"></field><c props="font-weight:bold">Footnote text.</c></p>
+</foot><c props="font-weight:bold"> and an endnote</c><field type="endnote_ref" endnote-id="0" xid="24" props="text-position:superscript"></field><endnote endnote-id="0" xid="25">
+<p style="Endnote" xid="26"><field type="endnote_anchor" endnote-id="0" xid="27"></field><c props="font-weight:bold">Endnote text.</c></p>
+</endnote><c props="font-weight:bold">.</c></p>
+<p style="Normal" xid="28"></p>
+<p style="Chapter Title" xid="29">Tables</p>
+<p style="Normal" xid="30"></p>
+<table xid="31" props="table-column-props:3.4625in/3.4625in/; table-row-heights://; background-color:#ccffff">
+<cell xid="32" props="left-color:#008000; bot-style:1; bot-thickness:0.0347in; right-attach:1; top-thickness:0.0347in; top-color:#008000; bot-color:#008000; left-attach:0; top-style:1; right-style:0; left-style:1; left-thickness:0.0347in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="33">Nested</p>
+</cell>
+<cell xid="34" props="right-color:#008000; left-color:#008000; bot-style:1; bot-thickness:0.0347in; right-attach:2; top-thickness:0.0347in; right-thickness:0.0347in; top-color:#008000; bot-color:#008000; left-attach:1; top-style:1; right-style:1; left-style:1; left-thickness:0.0347in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="35">Tables</p>
+</cell>
+<cell xid="36" props="bot-style:1; bot-thickness:0.0347in; right-attach:1; left-thickness:0.0347in; left-color:#008000; top-style:0; left-attach:0; left-style:1; right-style:0; bot-color:#008000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="37">foo<image dataid="0" xid="38" props="height:1.139in; width:0.9583in"/>bar</p>
+</cell>
+<cell xid="39" props="right-color:#008000; bot-style:1; bot-thickness:0.0347in; right-attach:2; left-thickness:0.0347in; right-thickness:0.0347in; left-color:#008000; top-style:0; left-attach:1; left-style:1; right-style:1; bot-color:#008000; bot-attach:2; top-attach:1">
+<table xid="40" props="table-row-heights://; table-column-props:1.6931in/1.6938in/">
+<cell xid="41" props="left-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:1; top-thickness:0.0007in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:1; right-style:0; left-style:1; left-thickness:0.0007in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="42">foo</p>
+</cell>
+<cell xid="43" props="right-color:#000000; left-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:2; top-thickness:0.0007in; right-thickness:0.0007in; top-color:#000000; bot-color:#000000; left-attach:1; top-style:1; right-style:1; left-style:1; left-thickness:0.0007in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="44">bar</p>
+</cell>
+<cell xid="45" props="bot-style:1; bot-thickness:0.0007in; right-attach:1; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:0; left-style:1; right-style:0; bot-color:#000000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="46"></p>
+</cell>
+<cell xid="47" props="right-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:2; left-thickness:0.0007in; right-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:1; left-style:1; right-style:1; bot-color:#000000; bot-attach:2; top-attach:1">
+<table xid="48" props="table-row-heights://; table-column-props:0.8083in/0.809in/">
+<cell xid="49" props="left-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:1; top-thickness:0.0007in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:1; right-style:0; left-style:1; left-thickness:0.0007in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="50"></p>
+</cell>
+<cell xid="51" props="right-color:#000000; left-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:2; top-thickness:0.0007in; right-thickness:0.0007in; top-color:#000000; bot-color:#000000; left-attach:1; top-style:1; right-style:1; left-style:1; left-thickness:0.0007in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="52"></p>
+</cell>
+<cell xid="53" props="bot-style:1; bot-thickness:0.0007in; right-attach:1; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:0; left-style:1; right-style:0; bot-color:#000000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="54"></p>
+</cell>
+<cell xid="55" props="right-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:2; left-thickness:0.0007in; right-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:1; left-style:1; right-style:1; bot-color:#000000; bot-attach:2; top-attach:1">
+<table xid="56" props="table-row-heights://; table-column-props:0.366in/0.3667in/">
+<cell xid="57" props="left-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:1; top-thickness:0.0007in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:1; right-style:0; left-style:1; left-thickness:0.0007in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="58">1</p>
+</cell>
+<cell xid="59" props="right-color:#000000; left-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:2; top-thickness:0.0007in; right-thickness:0.0007in; top-color:#000000; bot-color:#000000; left-attach:1; top-style:1; right-style:1; left-style:1; left-thickness:0.0007in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="60">2</p>
+</cell>
+<cell xid="61" props="bot-style:1; bot-thickness:0.0007in; right-attach:1; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:0; left-style:1; right-style:0; bot-color:#000000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="62">3</p>
+</cell>
+<cell xid="63" props="right-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:2; left-thickness:0.0007in; right-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:1; left-style:1; right-style:1; bot-color:#000000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="64" props="font-size:14pt; color:#ff0000; font-weight:bold">4</p>
+</cell>
+</table>
+<p style="Normal" xid="65"></p>
+</cell>
+</table>
+<p style="Normal" xid="66"></p>
+</cell>
+</table>
+<p style="Normal" xid="67"></p>
+</cell>
+</table>
+<p style="Normal" xid="68"></p>
+<table xid="69" props="table-row-heights://; table-column-props:3.4625in/1.7313in/1.7313in/">
+<cell xid="70" props="right-color:#000000; left-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:3; top-thickness:0.0007in; right-thickness:0.0007in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:1; right-style:1; left-style:1; left-thickness:0.0007in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="71">Horizontal merging</p>
+</cell>
+<cell xid="72" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<table xid="73" props="table-row-heights:///; table-column-props:1.7313in/1.7313in/">
+<cell xid="74" props="bot-style:1; bot-thickness:0.0007in; right-attach:1; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:0; left-style:1; right-style:0; bot-color:#000000; bot-attach:1; top-attach:0">
+<p style="Normal" xid="75">foo</p>
+</cell>
+<cell xid="76" props="bot-style:1; bot-thickness:0.0007in; right-attach:2; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:1; left-style:1; right-style:0; bot-color:#000000; bot-attach:1; top-attach:0">
+<p style="Normal" xid="77">bar</p>
+</cell>
+<cell xid="78" props="bot-style:1; bot-thickness:0.0007in; right-attach:1; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:0; left-style:1; right-style:0; bot-color:#000000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="79">ham1</p>
+</cell>
+<cell xid="80" props="bot-style:1; bot-thickness:0.0007in; right-attach:2; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:1; left-style:1; right-style:0; bot-color:#000000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="81">eggs1</p>
+</cell>
+<cell xid="82" props="bot-style:1; bot-thickness:0.0007in; right-attach:1; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:0; left-style:1; right-style:0; bot-color:#000000; bot-attach:3; top-attach:2">
+<p style="Normal" xid="83">spam1</p>
+</cell>
+<cell xid="84" props="bot-style:1; bot-thickness:0.0007in; right-attach:2; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:1; left-style:1; right-style:0; bot-color:#000000; bot-attach:3; top-attach:2">
+<p style="Normal" xid="85">ham2</p>
+</cell>
+</table>
+</cell>
+<cell xid="86" props="bot-style:1; bot-thickness:0.0007in; right-attach:2; left-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:1; left-style:1; right-style:0; bot-color:#000000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="87" props="text-align:center">Vertical<br/>Merging</p>
+</cell>
+<cell xid="88" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<table xid="89" props="table-row-heights:///; table-column-props:1.7313in/">
+<cell xid="90" props="right-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:1; left-thickness:0.0007in; right-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:0; left-style:1; right-style:1; bot-color:#000000; bot-attach:1; top-attach:0">
+<p style="Normal" xid="91">ham3</p>
+</cell>
+<cell xid="92" props="right-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:1; left-thickness:0.0007in; right-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:0; left-style:1; right-style:1; bot-color:#000000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="93">spam2</p>
+</cell>
+<cell xid="94" props="right-color:#000000; bot-style:1; bot-thickness:0.0007in; right-attach:1; left-thickness:0.0007in; right-thickness:0.0007in; left-color:#000000; top-style:0; left-attach:0; left-style:1; right-style:1; bot-color:#000000; bot-attach:3; top-attach:2">
+<p style="Normal" xid="95">eggs2</p>
+</cell>
+</table>
+</cell>
+</table>
+<p style="Normal" xid="96"></p>
+<table xid="97" props="table-column-props:3.4625in/3.4625in/; table-row-heights://; background-color:#ffff99">
+<cell xid="98" props="left-color:#008000; bot-style:1; bot-thickness:0.0347in; right-attach:1; top-thickness:0.0347in; top-color:#008000; bot-color:#008000; left-attach:0; top-style:1; right-style:0; left-style:1; left-thickness:0.0347in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="99">Table styles</p>
+</cell>
+<cell xid="100" props="right-color:#008000; left-color:#008000; bot-style:1; bot-thickness:0.0347in; right-attach:2; top-thickness:0.0347in; right-thickness:0.0347in; top-color:#008000; bot-color:#008000; left-attach:1; top-style:1; right-style:1; left-style:1; left-thickness:0.0347in; bot-attach:1; top-attach:0">
+<p style="Table Heading" xid="101"></p>
+</cell>
+<cell xid="102" props="bot-style:1; bot-thickness:0.0347in; right-attach:1; left-thickness:0.0347in; left-color:#008000; top-style:0; left-attach:0; left-style:1; right-style:0; bot-color:#008000; bot-attach:2; top-attach:1">
+<p style="Normal" xid="103"></p>
+</cell>
+<cell xid="104" props="right-color:#800000; left-color:#800000; bot-style:1; bot-thickness:0.0556in; right-attach:2; top-thickness:0.0556in; background-color:#99ccff; right-thickness:0.0556in; top-color:#800000; bot-color:#800000; left-attach:1; top-style:1; right-style:1; left-style:1; left-thickness:0.0556in; bot-attach:2; top-attach:1">
+<p style="Normal" xid="105">Light blue background and dark red border.</p>
+</cell>
+</table>
+<p style="Normal" xid="106"></p>
+<p style="Chapter Title" xid="107">Lists</p>
+<p style="Normal" xid="108"></p>
+<p level="1" listid="1000" parentid="0" style="Normal" xid="109" props="text-indent:-0.635000cm; list-style:Bullet List; field-font:Symbol; margin-left:1.270000cm"><field type="list_label" xid="110"></field>	Bulleted list item</p>
+<p level="1" listid="1000" parentid="0" style="Normal" xid="111" props="text-indent:-0.635000cm; list-style:Bullet List; field-font:Symbol; margin-left:1.270000cm"><field type="list_label" xid="112"></field>	Bulleted list item</p>
+<p level="1" listid="1000" parentid="0" style="Normal" xid="113" props="text-indent:-0.635000cm; list-style:Bullet List; field-font:Symbol; margin-left:1.270000cm"><field type="list_label" xid="114"></field>	Bulleted list item</p>
+<p style="Normal" xid="115"></p>
+<p level="1" listid="1050" parentid="0" style="Normal" xid="116" props="text-indent:-0.635000cm; list-style:Numbered List; field-font:NULL; margin-left:1.270000cm"><field type="list_label" xid="117"></field>	One</p>
+<p level="2" listid="1051" parentid="1050" style="Normal" xid="118" props="text-indent:-0.635000cm; list-style:Numbered List; field-font:NULL; margin-left:1.905000cm"><field type="list_label" xid="119"></field>	One dot one</p>
+<p level="2" listid="1051" parentid="1050" style="Normal" xid="120" props="text-indent:-0.635000cm; list-style:Numbered List; field-font:NULL; margin-left:1.905000cm"><field type="list_label" xid="121"></field>	One dot two</p>
+<p level="2" listid="1051" parentid="1050" style="Normal" xid="122" props="text-indent:-0.635000cm; list-style:Numbered List; field-font:NULL; margin-left:1.905000cm"><field type="list_label" xid="123"></field>	One dot three</p>
+<p level="3" listid="1052" parentid="1051" style="Normal" xid="124" props="text-indent:-0.635000cm; list-style:Numbered List; field-font:NULL; margin-left:2.540000cm"><field type="list_label" xid="125"></field>	One dot three dot one</p>
+<p level="1" listid="1050" parentid="0" style="Normal" xid="126" props="text-indent:-0.635000cm; list-style:Numbered List; field-font:NULL; margin-left:1.270000cm"><field type="list_label" xid="127"></field>	Two</p>
+<p style="Normal" xid="128"></p>
+<p level="1" listid="1030" parentid="0" style="Normal" xid="129" props="text-indent:-0.499110cm; list-style:Upper Roman List; field-font:NULL; margin-left:0.499110cm"><field type="list_label" xid="130"></field>	<c props="font-weight:bold">Upper Roman </c>One</p>
+<p level="1" listid="1030" parentid="0" style="Normal" xid="131" props="text-indent:-0.499110cm; list-style:Upper Roman List; field-font:NULL; margin-left:0.499110cm"><field type="list_label" xid="132"></field>	Upper Roman Two</p>
+<p style="Normal" xid="133"></p>
+<p level="1" listid="1010" parentid="0" style="Normal" xid="134" props="text-indent:-2.999994cm; list-style:Lower Roman List; field-font:NULL; margin-left:2.999994cm"><field type="list_label" xid="135"></field>	Lower roman one</p>
+<p level="1" listid="1010" parentid="0" style="Normal" xid="136" props="text-indent:-2.999994cm; list-style:Lower Roman List; field-font:NULL; margin-left:2.999994cm"><field type="list_label" xid="137"></field>	Lower roman two</p>
+<p level="1" listid="1010" parentid="0" style="Normal" xid="138" props="text-indent:-2.999994cm; list-style:Lower Roman List; field-font:NULL; margin-left:2.999994cm"><field type="list_label" xid="139"></field>	Lower roman three</p>
+<p style="Normal" xid="140"></p>
+<p level="1" listid="1060" parentid="0" style="Normal" xid="141" props="text-indent:-0.635000cm; list-style:Upper Case List; field-font:NULL; margin-left:1.270000cm"><field type="list_label" xid="142"></field>	Upper letter numbering one</p>
+<p level="1" listid="1060" parentid="0" style="Normal" xid="143" props="text-indent:-0.635000cm; list-style:Upper Case List; field-font:NULL; margin-left:1.270000cm"><field type="list_label" xid="144"></field>	Upper letter numbering two</p>
+<p style="Normal" xid="145"></p>
+<p style="Chapter Title" xid="146">Sections and columns</p>
+<p style="Normal" xid="147"></p>
+</section>
+<section xid="148" props="columns:2">
+<p style="Normal" xid="149">Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
+<p xid="150"><cbr/></p>
+<p style="Normal" props="" xid="151">Foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar.</p>
+</section>
+<section props="" xid="152">
+<p style="Normal" xid="153"></p>
+<p style="Chapter Title" xid="154">Frames</p>
+<p style="Normal" xid="155"></p>
+<p style="Normal" xid="156">Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.</p>
+<frame xid="157" props="bot-style:1; xpos:2.2756in; wrap-mode:wrapped-both; frame-type:textbox; ypos:0.4543in; frame-height:1.8791in; left-style:1; position-to:block-above-text; frame-width:1.8626in; right-style:1; top-style:1">
+<p style="Text body" xid="158">Textbox content.</p>
+<p style="Text body" xid="159"><image dataid="1" xid="160" props="height:1.139in; width:0.9583in"/></p>
+</frame></section>
+<section id="0" type="header" xid="161">
+<p style="Normal" xid="162" props="text-align:center; font-size:16pt; text-decoration:underline; color:#3deb3d">Page header<image dataid="2" xid="163" props="height:1.139in; width:0.9583in"/></p>
+</section>
+<section id="1" type="footer" xid="164">
+<p style="Normal" xid="165" props="text-align:right"><c props="font-size:14pt; text-decoration:underline; font-weight:bold; font-family:Arial; color:#ff0000; font-style:italic">Page</c> footer</p>
+</section>
+<section id="2" type="header" xid="166">
+<p style="Normal" xid="167">Index Header</p>
+</section>
+<section id="3" type="footer" xid="168">
+<p style="Normal" xid="169">Index footer</p>
+<p style="Normal" xid="170"></p>
+<p style="Normal" xid="171">Index footer</p>
+<p style="Normal" xid="172"></p>
+<p style="Normal" xid="173">Index footer.</p>
+<p style="Normal" xid="174"></p>
+<p style="Normal" xid="175">Index footer</p>
+</section>
+<data>
+<d name="0" mime-type="image/png" base64="yes">
+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
+</d>
+<d name="1" mime-type="image/png" base64="yes">
+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
+</d>
+<d name="2" mime-type="image/png" base64="yes">
+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
+</d>
+</data>
+</abiword>

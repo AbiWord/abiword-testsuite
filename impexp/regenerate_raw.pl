@@ -4,7 +4,7 @@ $abicommand = "../$prefix/bin/abiword";
 
 sub GenRaw {
 
-	$importDirs = 'abw rtf txt doc wpd';
+	$importDirs = 'abw rtf txt odt doc wpd';
 
 	@subDirList = split(/\s+/, $importDirs);
 
