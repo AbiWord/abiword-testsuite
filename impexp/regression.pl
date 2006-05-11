@@ -146,7 +146,7 @@ sub ValgrindTest
 
 	$vgPath = $filePath . '.vg.txt';
 	$valgrind = 0;
-	`export DISPLAY=; $vgCommand --num-callers=16 --leak-check=full $abicommand --to=$destPath $filePath >& $vgPath`;
+	`export DISPLAY=; $vgCommand -v --show-reachable=yes --leak-resolution=high --num-callers=16 --leak-check=full $abicommand --to=$destPath $filePath >& $vgPath`;
 	open VG, "$vgPath";
 	my $vg_output;
 	while (<VG>)
