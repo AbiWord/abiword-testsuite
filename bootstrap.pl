@@ -3,7 +3,6 @@ eval `cat regression.conf`;
 
 use Cwd;
 
-$CVSROOT=":pserver:anoncvs\@anoncvs.abisource.com:/cvsroot";
 $ROOT=getcwd;
 
 #TODO: login
@@ -14,8 +13,8 @@ $ROOT=getcwd;
 
 # cvs update abiword (HEAD)
 `cd .src &&\
- cvs -d $CVSROOT -z3 co -r $abi_branch abi abidistfiles abiword-plugins &&\
- cvs -d $CVSROOT -z3 co -r wv-1-0-0-STABLE wv`;
+ cvs -d $cvsroot -z3 co -r $abi_branch abi abidistfiles abiword-plugins &&\
+ cvs -d $cvsroot -z3 co -r wv-1-0-0-STABLE wv`;
 
 # build abiword
 `cd .src/abi &&\
