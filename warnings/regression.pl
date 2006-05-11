@@ -15,7 +15,6 @@ sub ExecUnitTest
 
 	$CVSROOT=":pserver:anoncvs\@anoncvs.abisource.com:/cvsroot";
 	$ROOT=getcwd;
-	$ABI_BRANCH="ABI-2-4-0-STABLE";
 
 	#TODO: login
 
@@ -26,20 +25,20 @@ sub ExecUnitTest
 
 	# cvs update abiword (HEAD)
 	`cd .src &&\
-	 cvs -d $CVSROOT -z3 co -r $ABI_BRANCH abi abidistfiles abiword-plugins &&\
+	 cvs -d $CVSROOT -z3 co -r $abi_branch abi abidistfiles abiword-plugins &&\
 	 cvs -d $CVSROOT -z3 co -r wv-1-0-0-STABLE wv`;
 
 	# build abiword
 	`cd .src/abi &&\
 	 ./autogen.sh &&\
 	 CXXFLAGS="-pg -g" ./configure --prefix=$ROOT/.local --enable-gnome\
-	 make 2>abiword_compilation_report.txt`;
+	 make 2>../../abiword_compilation_report.txt`;
 
 	# build required abiword plugins
 	`cd .src/abiword-plugins &&\
 	 ./nextgen.sh &&\
 	 CXXFLAGS="-pg -g" ./configure --prefix=$ROOT/.local &&\
-	 make 2>abiword_plugins_compilation_report.txt`;
+	 make 2>../../abiword_plugins_compilation_report.txt`;
 
 
 	# reporting
@@ -53,7 +52,7 @@ sub ExecUnitTest
 		print "<td>AbiWord</td>\n";
 		if ($abiword_compilation_report)
 		{
-			DisplayCell($fail_colour, "failed <a href=\".src/abi/abiword_compilation_report.txt\">log</a>");
+			DisplayCell($fail_colour, "failed <a href=\"abiword_compilation_report.txt\">log</a>");
 		}
 		else
 		{
@@ -64,7 +63,7 @@ sub ExecUnitTest
 		print "<td>AbiWord Plugins</td>\n";
 		if ($abiword__plugins_compilation_report)
 		{
-			DisplayCell($fail_colour, "failed <a href=\".src/abiword-plugins/abiword_plugins_compilation_report.txt\">log</a>");
+			DisplayCell($fail_colour, "failed <a href=\"abiword_plugins_compilation_report.txt\">log</a>");
 		}
 		else
 		{

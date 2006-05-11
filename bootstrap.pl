@@ -5,7 +5,6 @@ use Cwd;
 
 $CVSROOT=":pserver:anoncvs\@anoncvs.abisource.com:/cvsroot";
 $ROOT=getcwd;
-$ABI_BRANCH="ABI-2-4-0-STABLE";
 
 #TODO: login
 
@@ -15,7 +14,7 @@ $ABI_BRANCH="ABI-2-4-0-STABLE";
 
 # cvs update abiword (HEAD)
 `cd .src &&\
- cvs -d $CVSROOT -z3 co -r $ABI_BRANCH abi abidistfiles abiword-plugins &&\
+ cvs -d $CVSROOT -z3 co -r $abi_branch abi abidistfiles abiword-plugins &&\
  cvs -d $CVSROOT -z3 co -r wv-1-0-0-STABLE wv`;
 
 # build abiword
