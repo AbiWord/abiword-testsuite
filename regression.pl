@@ -2,7 +2,7 @@
 eval `cat regression.conf`;
 
 # list of directories containing test sets
-my @subDirList = ( "impexp", "warning" );
+my @subDirList = ( "impexp", "warnings" );
 
 sub ExecTests
 {
