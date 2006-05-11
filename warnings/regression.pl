@@ -40,8 +40,8 @@ sub ExecUnitTest
 
 
 	# reporting
-	my $abiword_compilation_report = `cat .src/abi/abiword_compilation_report.txt`;
-	my $abiword_plugins_compilation_report = `cat .src/abiword-plugins/abiword_plugins_compilation_report.txt`;
+	my $abiword_compilation_report = `cat abiword_compilation_report.txt`;
+	my $abiword_plugins_compilation_report = `cat abiword_plugins_compilation_report.txt`;
 	if ($html)
 	{
 		print "<b>Summary</b><br>\n";
