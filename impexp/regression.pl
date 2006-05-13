@@ -145,7 +145,8 @@ sub ValgrindTest
 	}
 
 	$vgPath = $filePath . '.vg.txt';
-	$valgrind = 0;
+	$valgrind_error = 0;
+	$valgrind_leak = 0;
 	`export DISPLAY=; export G_SLICE=always-malloc; $vgCommand -v --show-reachable=yes --leak-resolution=high --num-callers=16 --leak-check=full $abicommand --to=$destPath $filePath >& $vgPath`;
 	open VG, "$vgPath";
 	my $vg_output;
@@ -153,10 +154,12 @@ sub ValgrindTest
 	{
 		if (/^\=\=/) {
 			$vgOutput .= $_;
-			if (/definitely lost: [1-9]/ ||
-			/ERROR SUMMARY: [1-9]/ ||
-			/Invalid read of/) {
-				$valgrind = 1;
+			if (/ERROR SUMMARY: [1-9]/ ||
+			    /Invalid read of/) {
+				$valgrind_error = 1;
+			}
+			if (/definitely lost: [1-9]/) {
+				$valgrind_leak = 1;
 			}
 		}
 	}
@@ -164,7 +167,7 @@ sub ValgrindTest
 	
 	`rm -f $vgPath`;
 	`rm -f $destPath`;
-	if ($valgrind)
+	if ($valgrind_error || $valgrind_leak)
 	{
 		open VG, ">$vgPath";
 		print VG $vgOutput;
@@ -174,9 +177,11 @@ sub ValgrindTest
 	$vgOutput = "";
 	
 	if ($html) {
-		($valgrind eq 0 ? DisplayCell($pass_colour, "passed") : DisplayCell($fail_colour, "failed <a href='$vgPath'>log<a>"));
+		($valgrind_error eq 0 ? DisplayCell($pass_colour, "passed") : DisplayCell($fail_colour, "failed <a href='$vgPath'>log<a>"));
+		($valgrind_leak eq 0 ? DisplayCell($pass_colour, "passed") : DisplayCell($fail_colour, "failed <a href='$vgPath'>log<a>"));
 	} else {
-		print "! $file valgrind: " . ($valgrind eq "0" ? "pass" : "fail") . "\n";
+		print "! $file valgrind errors: " . ($valgrind_error eq "0" ? "pass" : "fail") . "\n";
+		print "! $file valgrind leaks: " . ($valgrind_leak eq "0" ? "pass" : "fail") . "\n";
 	}
 }
 
@@ -202,7 +207,7 @@ sub ImportRegTest
 			print "<tr>\n";
 			print "<td style='background-color: rgb(204, 204, 255);' width='200px'><b>File</b></td>\n";
 			print "<td style='background-color: rgb(204, 204, 255);'><b>Raw Diff Test</b></td>\n";
-			print "<td style='background-color: rgb(204, 204, 255);'><b>Valgrind Test</b></td>\n";
+			print "<td style='background-color: rgb(204, 204, 255);' colspan=\"2\"><b>Valgrind Test [errors | leaks]</b></td>\n";
 			print "<td style='background-color: rgb(204, 204, 255);'><b>Profile</b></td>\n";
 			print "</tr>\n";
 		}
@@ -327,7 +332,7 @@ sub ExportRegTest
 				print "<tr>\n";
 				print "<td style='background-color: rgb(204, 204, 255);' width='200px'><b>File</b></td>\n";
 				print "<td style='background-color: rgb(204, 204, 255);'><b>Raw Diff Test</b></td>\n";
-				print "<td style='background-color: rgb(204, 204, 255);'><b>Valgrind Test</b></td>\n";
+				print "<td style='background-color: rgb(204, 204, 255);' colspan=\"2\"><b>Valgrind Test [errors | leaks]</b></td>\n";
 				print "<td style='background-color: rgb(204, 204, 255);'><b>Time/Profile</b></td>\n";
 				print "</tr>\n";
 			}
