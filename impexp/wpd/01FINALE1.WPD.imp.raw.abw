@@ -12,8 +12,8 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1147370617" uid="78624992-e118-11da-832f-b206f8074dfa">
-<version id="1" started="1147370617" uid="787f53de-e118-11da-832f-b206f8074dfa" auto="0" top-xid="223"/>
+<history version="1" edit-time="0" last-saved="1147822990" uid="bbbc8ec0-e535-11da-97b1-e0462431a7a9">
+<version id="1" started="1147822990" uid="bbe1417a-e535-11da-97b1-e0462431a7a9" auto="0" top-xid="223"/>
 </history>
 <styles>
 <s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; margin-right:0pt; lang:en-US; line-height:1.0; font-size:12pt; text-decoration:none; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; text-align:left; font-stretch:normal"/>

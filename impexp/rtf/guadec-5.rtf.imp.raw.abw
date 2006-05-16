@@ -12,8 +12,8 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1147370608" uid="71836868-e118-11da-8cdf-e6b4964e3e63">
-<version id="1" started="1147370608" uid="72e13758-e118-11da-8cdf-e6b4964e3e63" auto="0" top-xid="496"/>
+<history version="1" edit-time="0" last-saved="1147822986" uid="b89ac0b8-e535-11da-9876-dc7d9f1c2dce">
+<version id="1" started="1147822986" uid="b92acc3a-e535-11da-9876-dc7d9f1c2dce" auto="0" top-xid="496"/>
 </history>
 <styles>
 <s followedby="guadec-body" name="guadec-head" basedon="Heading 1" type="P" props="margin-top:0.0278in; margin-left:0.6993in; font-size:36pt; text-indent:-0.6194in; margin-bottom:0.0417in; font-weight:bold; line-height:1.000000; text-align:center; font-family:Arial"/>

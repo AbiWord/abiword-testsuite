@@ -21,8 +21,8 @@
 <m key="dc.title">Test document for AbiWord's OpenDocument importer</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1147370613" uid="75839870-e118-11da-8c8b-c61d0b061248">
-<version id="1" started="1147370613" uid="75a77682-e118-11da-8c8b-c61d0b061248" auto="0" top-xid="175"/>
+<history version="1" edit-time="0" last-saved="1147822988" uid="ba585e06-e535-11da-9245-bf5b9b96ba19">
+<version id="1" started="1147822988" uid="ba6dde16-e535-11da-9245-bf5b9b96ba19" auto="0" top-xid="175"/>
 </history>
 <styles>
 <s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; margin-right:0pt; lang:en-US; line-height:1.0; font-size:12pt; text-decoration:none; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; text-align:left; font-stretch:normal"/>

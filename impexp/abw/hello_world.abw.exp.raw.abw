@@ -12,9 +12,9 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<history version="2" edit-time="13" last-saved="1147370644" uid="dd36d1ae-40be-11d9-806d-f30e307e0c95">
+<history version="2" edit-time="13" last-saved="1147823007" uid="dd36d1ae-40be-11d9-806d-f30e307e0c95">
 <version id="1" started="1101592461" uid="e4edfa9e-40be-11d9-806d-f30e307e0c95" auto="0" top-xid="0"/>
-<version id="2" started="1147370644" uid="887dd7f6-e118-11da-819e-cd349eefad89" auto="0" top-xid="2"/>
+<version id="2" started="1147823007" uid="c5fe1ac0-e535-11da-9c36-e2a5942e121b" auto="0" top-xid="2"/>
 </history>
 <styles>
 <s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
