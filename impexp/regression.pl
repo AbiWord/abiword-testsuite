@@ -333,7 +333,7 @@ sub ExportRegTest
 				print "<td style='background-color: rgb(204, 204, 255);' width='200px'><b>File</b></td>\n";
 				print "<td style='background-color: rgb(204, 204, 255);'><b>Raw Diff Test</b></td>\n";
 				print "<td style='background-color: rgb(204, 204, 255);' colspan=\"2\"><b>Valgrind Test [errors | leaks]</b></td>\n";
-				print "<td style='background-color: rgb(204, 204, 255);'><b>Time/Profile</b></td>\n";
+				print "<td style='background-color: rgb(204, 204, 255);'><b>Profile</b></td>\n";
 				print "</tr>\n";
 			}
 			else
@@ -387,7 +387,7 @@ sub ExportRegTest
 				# ////////////////////////			
 
 				`gprof $abicommand gmon.out > $sourcePath.$sink.gmon.txt`;
-				DisplayCell("white", "00:00:00 <a href=' $sourcePath.$sink.gmon.txt'>prof<\/a>");
+				DisplayCell("white", "<a href=' $sourcePath.$sink.gmon.txt'>profile<\/a>");
 				
 				if ($html)
 				{
