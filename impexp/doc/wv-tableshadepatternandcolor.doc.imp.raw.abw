@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="12" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.4.5" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1147903513" uid="3745c26c-e5f1-11da-9eeb-8e621989d468">
+<version id="1" started="1147903513" uid="374c1ea0-e5f1-11da-9eeb-8e621989d468" auto="0" top-xid="12"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Normal" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<table xid="2" props="table-column-props:1.2250in/1.2250in/1.2250in/1.2250in/; table-column-leftpos:0.2583in; table-line-thickness:0.8pt; table-col-spacing:0.03in; table-line-type:1; table-line-ignore:0">
+<cell xid="3" props="right-color:000000; right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; top-thickness:0.000000pt; right-style:1; background-color:ff0000; bg-style:1; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:808080; top-style:1; left-thickness:0.000000px; bot-attach:1; top-attach:0">
+<p style="Normal" xid="4" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">One</c></p>
+</cell>
+<cell xid="5" props="right-color:000000; right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; top-thickness:0.000000pt; right-style:1; background-color:ff0000; bg-style:1; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:808080; top-style:1; left-thickness:0.000000px; bot-attach:1; top-attach:0">
+<p style="Normal" xid="6" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Two</c></p>
+</cell>
+<cell xid="7" props="right-color:000000; right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; top-thickness:0.000000pt; right-style:1; background-color:ff0000; bg-style:1; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:808080; top-style:1; left-thickness:0.000000px; bot-attach:2; top-attach:1">
+<p style="Normal" xid="8" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Three</c></p>
+</cell>
+<cell xid="9" props="right-color:000000; right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; top-thickness:0.000000pt; right-style:1; background-color:ff0000; bg-style:1; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:808080; top-style:1; left-thickness:0.000000px; bot-attach:2; top-attach:1">
+<p style="Normal" xid="10" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Four</c></p>
+</cell>
+</table>
+<p style="Normal" xid="11" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p xid="12"></p>
+</section>
+</abiword>
