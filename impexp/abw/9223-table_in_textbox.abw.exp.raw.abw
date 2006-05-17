@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="41" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="2" edit-time="49" last-saved="1147860554" uid="6512b320-e84b-11d9-9f75-de6b02b896ae">
+<version id="1" started="1120014699" uid="828f082c-e84b-11d9-9f76-de6b02b896ae" auto="0" top-xid="41"/>
+<version id="2" started="1147860554" uid="315e0698-e58d-11da-8069-dc208cb30091" auto="0" top-xid="41"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="40" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Normal" xid="41" props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></p>
+<frame xid="5" props="xpad:0.03in; ypad:0.03in; frame-col-ypos:0.020833in; bot-style:1; frame-col-xpos:0.687500in; position-to:column-above-text; left-style:1; xpos:0.687500in; bg-style:1; ypos:0.020833in; frame-width:3.510417in; frame-height:2.406250in; frame-page-ypos:1.020833in; frame-type:textbox; top-style:1; frame-page-xpos:1.687500in; background-color:ffffff; wrap-mode:wrapped-both; tight-wrap:0; right-style:1">
+<table xid="8">
+<cell xid="9" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="10"></p>
+</cell>
+<cell xid="12" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="13"></p>
+</cell>
+<cell xid="15" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="16"></p>
+</cell>
+<cell xid="18" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="19"></p>
+</cell>
+<cell xid="21" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="22"></p>
+</cell>
+<cell xid="24" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="25"></p>
+</cell>
+<cell xid="27" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="28"></p>
+</cell>
+<cell xid="30" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="31"></p>
+</cell>
+<cell xid="33" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="34"></p>
+</cell>
+<cell xid="36" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="37"></p>
+</cell>
+</table>
+<p xid="7" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></p>
+</frame><p xid="4"></p>
+</section>
+</abiword>
