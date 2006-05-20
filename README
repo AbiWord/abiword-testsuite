@@ -62,7 +62,8 @@ Adding new documents to the test set
 ------------------------------------
 
 In the various subdirectories (abw, doc, rtf, etc.) of ./impexp, files can be added at 
-will. Make sure to also add them to the regression.in file located in each directory.
+will. Make sure to also add them to the regression.in file located in each directory (note:
+you can disable specific files from being tested by commenting them out with a '#').
 
 When you finished adding new files, enter the impexp directory and run:
 

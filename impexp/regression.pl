@@ -221,6 +221,12 @@ sub ImportRegTest
 		my @fileList = split(/\n/, `cat $regrInput`);
 		foreach $file ( @fileList )
 		{
+			if ($file =~ /^\s*#/ )
+			{
+				next;
+			}
+				
+
 			my $filePath = $docFormat  . '/' . $file;
 			
 			if ($html)
@@ -346,6 +352,10 @@ sub ExportRegTest
 			my @fileList = split(/\n/, `cat $regrInput`);
 			foreach $file ( @fileList )
 			{
+				if ($file =~ /^\s*#/ )
+				{
+					next;
+				}
 				my $sourcePath = $source  . '/' . $file;
 				
 				if ($html)
