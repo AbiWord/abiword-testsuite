@@ -45,11 +45,12 @@ done simply by calling:
 
 	./regenerate_raw.pl
 	
-After the raw output has been updated, the changes should be stored in cvs.
+After the raw output has been updated, the changes to the *.raw.* files should be 
+stored in cvs.
 
-NOTE: make sure to have executed ./bootstrap.pl at least once before running 
-      ./regenerate_raw.pl. When you have executed the regression test before,
-      bootstrap.pl has already been executed for you.
+NOTE: this process will take a while, as a totally new clean build for
+      each branch is created (which is slightly dumb, but the easiest way
+      to make sure the raw files are created with the correct abiword version.
 
 
 Valgrind Test

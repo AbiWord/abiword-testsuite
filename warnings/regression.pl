@@ -1,8 +1,6 @@
 #!/usr/bin/perl
 eval `cat ../regression.conf`;
 
-use Cwd;
-
 sub DisplayCell
 {
 	my ($bgColor, $text) = @_;
@@ -12,36 +10,14 @@ sub DisplayCell
 
 sub ExecUnitTest 
 {
-	$ROOT=getcwd;
+	my ($branch) = @_;
 
-	#TODO: login
+	# reporting; just reuse the compilation reports from the bootstrap process
+	$abi_log = "../abiword_compilation_report_$branch.txt";
+	$abi_plugin_log = "../abiword_plugins_compilation_report_$branch.txt";
 
-	#TODO: move to config
-	#TODO: don't ditch the tree every time
-	`rm -rf .src && mkdir -p .src`;
-	`rm -rf .local && mkdir -p .local`;
-
-	# cvs update abiword (HEAD)
-	`cd .src &&\
-	 cvs -d $cvsroot -z3 co -r $abi_branch abi abidistfiles abiword-plugins &&\
-	 cvs -d $cvsroot -z3 co -r wv-1-0-0-STABLE wv`;
-
-	# build abiword
-	`cd .src/abi &&\
-	 ./autogen.sh &&\
-	 CXXFLAGS="-pg -g" ./configure --prefix=$ROOT/.local --enable-gnome\
-	 make 2>../../abiword_compilation_report.txt`;
-
-	# build required abiword plugins
-	`cd .src/abiword-plugins &&\
-	 ./nextgen.sh &&\
-	 CXXFLAGS="-pg -g" ./configure --prefix=$ROOT/.local &&\
-	 make 2>../../abiword_plugins_compilation_report.txt`;
-
-
-	# reporting
-	my $abiword_compilation_report = `cat abiword_compilation_report.txt`;
-	my $abiword_plugins_compilation_report = `cat abiword_plugins_compilation_report.txt`;
+	$abiword_compilation_report = `cat $abi_log`;
+	$abiword_plugins_compilation_report = `cat $abi_plugin_log`;
 	if ($html)
 	{
 		print "<b>Summary</b><br>\n";
@@ -50,7 +26,7 @@ sub ExecUnitTest
 		print "<td>AbiWord</td>\n";
 		if ($abiword_compilation_report)
 		{
-			DisplayCell($fail_colour, "failed <a href=\"abiword_compilation_report.txt\">log</a>");
+			DisplayCell($fail_colour, "failed <a href=\"$abi_log\">log</a>");
 		}
 		else
 		{
@@ -61,7 +37,7 @@ sub ExecUnitTest
 		print "<td>AbiWord Plugins</td>\n";
 		if ($abiword__plugins_compilation_report)
 		{
-			DisplayCell($fail_colour, "failed <a href=\"abiword_plugins_compilation_report.txt\">log</a>");
+			DisplayCell($fail_colour, "failed <a href=\"$abi_plugin_log\">log</a>");
 		}
 		else
 		{
@@ -107,7 +83,15 @@ if ($html)
 	&HtmlHeader;
 }
 
-&ExecUnitTest;
+if ($#ARGV+1 != 1)
+{
+	print "Usage: regression.pl <branchname>\n";
+	die;
+}
+
+$branch = $ARGV[0];
+
+&ExecUnitTest($branch);
 
 if ($html)
 {

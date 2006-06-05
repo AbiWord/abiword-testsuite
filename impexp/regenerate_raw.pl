@@ -3,7 +3,9 @@ eval `cat ../regression.conf`;
 $abicommand = "../$prefix/bin/abiword";
 
 sub GenRaw {
+	my ($branch) = @_;
 
+	# TODO: Move this to regression.conf
 	$importDirs = 'abw rtf txt odt doc wpd';
 
 	@subDirList = split(/\s+/, $importDirs);
@@ -11,7 +13,7 @@ sub GenRaw {
 	foreach $subDir ( @subDirList )
 	{
 		# remove all diff files, since they are possible outdated now
-		$diffs = $subDir . '/*.diff';
+		$diffs = $subDir . "/" . $branch . '/*.raw.*';
 		`rm -f $diffs`;
     
 		$regrInput = $subDir . '/regression.in';
@@ -20,12 +22,14 @@ sub GenRaw {
 		@fileList = split(/\n/, $FL);
 	        foreach $file ( @fileList )
 		{
-		    $filePath = $subDir  . '/' . $file;
-		    `export DISPLAY=; $abicommand --to=$filePath.imp.raw.abw $filePath`;
+			$filePath = $subDir  . '/' . $file;
+			$fileOutPath = $subDir  . '/' . "raw-" . $branch . "/" . $file . ".imp.raw.abw";
+			`$abicommand --to=$fileOutPath $filePath`;
 		}
 	    }
 
 	@sourceList = ( "abw" );
+	# TODO: Move this to regression.conf
 	@sinkList = ( "abw", "rtf", "txt");
 
 	my $source;
@@ -33,22 +37,29 @@ sub GenRaw {
 
 	foreach $source ( @sourceList )
 	{
-	    foreach $sink ( @sinkList )
-	    {
-		    $regrInput = $source . '/regression.in';
-		    $FL = `cat $regrInput`;
+		foreach $sink ( @sinkList )
+		{
+			$regrInput = $source . '/regression.in';
+			$FL = `cat $regrInput`;
 
-		    @fileList = split(/\n/, $FL);
-		    foreach $file ( @fileList )
-		    {
-			    $filePath = $source . '/' . $file;
-			    `export DISPLAY=; $abicommand --to=$filePath.exp.raw.$sink $filePath`;
-		    }
-	    }
+			@fileList = split(/\n/, $FL);
+			foreach $file ( @fileList )
+			{
+				$filePath = $source . '/' . $file;
+				$fileOutPath = $source  . '/' . "raw-" . $branch . "/" . $file . ".exp.raw." .$sink;
+				`$abicommand --to=$fileOutPath $filePath`;
+			}
+		}
 	}
 }
 
 # Main function
-&GenRaw;
+
+my $branch;
+foreach $branch ( @branches )
+{
+	`cd .. ; ./cleanup.pl $branch ; ./bootstrap.pl $branch`;
+	&GenRaw($branch);
+}
 
 1;

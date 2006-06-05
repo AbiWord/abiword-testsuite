@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 eval `cat ../regression.conf`;
+
+# TODO: Set the path properly
 $abicommand = "../$prefix/bin/abiword";
 
 sub DisplayCell
@@ -20,48 +22,42 @@ sub _DiffPruneAWML
 	`sed -i -e 's/\<version.*\>/\<!-- version tag removed --\>/g' $f.pruned`; 
 	`sed -i -e 's/\<history.*\>/\<!-- history tag removed --\>/g' $f.pruned`;
 	`sed -i -e 's/\<\\/history.*\>/\\<!-- \\/history tag removed --\\>/g' $f.pruned`;
+
+	`mv -f $f.pruned $f`;
 }
 
 sub DiffTest
 {
-	my ($command, $command2, $file, $extension, $exp_extension) = @_;
+	my ($branch_dir, $basedir, $file, $exp_extension) = @_;
+
 	my $result = "pass";
 	my $comment = "";
+
+	# setup a lot of directories	
+	my $errPath = $basedir . '/' . $branch_dir . '/' . $file . ".raw.err.txt";
 	
-	my $errPath = $file . ".$extension.err.txt";
 	my $rawPath;
-	if ($exp_extension)
-	{
-	    $rawPath = "$file.exp.$extension.$exp_extension";
-	}
-	else
-	{
-	    $rawPath = "$file.imp.$extension.abw";
-	}
-	my $diffPath = "$rawPath.diff.txt";
 	my $newRawPath;
 	if ($exp_extension)
 	{
-	    $newRawPath = "$file.exp.$extension.new.$exp_extension";
+		$rawPath = $basedir . '/' . $branch_dir . '/' . $file . ".exp.raw.$exp_extension";
+		$newRawPath = $basedir . '/' . $branch_dir . '/' . $file . ".exp.raw.new.$exp_extension";
 	}
 	else
 	{
-	    $newRawPath = "$rawPath.new.abw";
+		$rawPath = $basedir . '/' . $branch_dir . '/' . $file . ".imp.raw.abw";
+		$newRawPath = $rawPath . ".new.abw";
 	}
+
+	my $diffPath = "$rawPath.diff.txt";
 	
 	# generate a new raw output to compare with
-	`$command $file`;
-	if ($command2)
-	{
-		`mv $newRawPath $newRawPath.tmp`;
-		`$command2 $newRawPath.tmp >& $newRawPath`;
-		`rm $newRawPath.tmp`;
-	}
+	`$abicommand --to=$newRawPath $basedir/$file`;
 	
 	# HACK: check if there is a raw file with _some_ contents. If not, we assume to have been segfaulted
 	my $err = "";
 	my $diff = "";
-	$newRaw=`cat $newRawPath`;
+	$newRaw = `cat $newRawPath`;
 	if ($newRaw eq "")
 	{
 		$err = "No output file: possible segmentation fault!";
@@ -80,7 +76,7 @@ sub DiffTest
 		# diff the stored raw data with the newly generated raw data
 		&_DiffPruneAWML($rawPath);
 		&_DiffPruneAWML($newRawPath);
-		`diff -u $rawPath.pruned $newRawPath.pruned 1>$diffPath 2>$diffPath`;
+		`diff -u $rawPath $newRawPath 1>$diffPath 2>$diffPath`;
 		$diff=`cat $diffPath`;
 		
 		if ($diff ne "")
@@ -147,7 +143,7 @@ sub ValgrindTest
 	$vgPath = $filePath . '.vg.txt';
 	$valgrind_error = 0;
 	$valgrind_leak = 0;
-	`export DISPLAY=; export G_SLICE=always-malloc; $vgCommand -v --show-reachable=yes --leak-resolution=high --num-callers=16 --leak-check=full $abicommand --to=$destPath $filePath >& $vgPath`;
+	`$vgCommand $vg_options $abicommand --to=$destPath $filePath >& $vgPath`;
 	open VG, "$vgPath";
 	my $vg_output;
 	while (<VG>)
@@ -176,10 +172,13 @@ sub ValgrindTest
 	}
 	$vgOutput = "";
 	
-	if ($html) {
+	if ($html)
+	{
 		($valgrind_error eq 0 ? DisplayCell($pass_colour, "passed") : DisplayCell($fail_colour, "failed <a href='$vgPath'>log<a>"));
 		($valgrind_leak eq 0 ? DisplayCell($pass_colour, "passed") : DisplayCell($fail_colour, "failed <a href='$vgPath'>log<a>"));
-	} else {
+	}
+	else
+	{
 		print "! $file valgrind errors: " . ($valgrind_error eq "0" ? "pass" : "fail") . "\n";
 		print "! $file valgrind leaks: " . ($valgrind_leak eq "0" ? "pass" : "fail") . "\n";
 	}
@@ -187,6 +186,8 @@ sub ValgrindTest
 
 sub ImportRegTest 
 {
+	my ($branch) = @_;
+
 	my $rawDiffFailures = 0;
 	my $vgFailures = 0;
 	
@@ -226,7 +227,6 @@ sub ImportRegTest
 				next;
 			}
 				
-
 			my $filePath = $docFormat  . '/' . $file;
 			
 			if ($html)
@@ -239,8 +239,23 @@ sub ImportRegTest
 			# DIFF REGRESSION TESTS
 			# /////////////////////
 		
-			if (DiffTest("export DISPLAY=; $abicommand --to=$filePath.imp.raw.abw.new.abw", 0, $filePath, "raw", 0) eq "fail") {
-				$rawDiffFailures++;
+			if ($do_diff)
+			{
+				if (DiffTest("raw-" . $branch, $docFormat, $file, 0) eq "fail")
+				{
+					$rawDiffFailures++;
+				}
+			}
+			else
+			{
+				if ($html)
+				{
+					DisplayCell($skip_colour, "skipped");
+				}
+				else
+				{					
+					print "! $file raw diff: skipped\n";
+				}
 			}
 			
 			# ////////////////////////
@@ -256,6 +271,7 @@ sub ImportRegTest
 				if ($html)
 				{
 					DisplayCell($skip_colour, "skipped");
+					DisplayCell($skip_colour, "skipped");
 				}
 				else
 				{					
@@ -267,8 +283,22 @@ sub ImportRegTest
 			# PROFILE
 			# ////////////////////////			
 			
-			`gprof $abicommand gmon.out > $filePath.gmon.txt`;
-			DisplayCell("white", "<a href=' $filePath.gmon.txt'>profile<\/a>");
+			if ($do_gprof)
+			{
+				`gprof $abicommand gmon.out > $filePath.gmon.txt`;
+				DisplayCell("white", "<a href=' $filePath.gmon.txt'>profile<\/a>");
+			}
+			else
+			{
+				if ($html)
+				{
+					DisplayCell($skip_colour, "skipped");
+				}
+				else
+				{					
+					print "! $file gprof: skipped\n";
+				}
+			}
 			
 			if ($html)
 			{
@@ -313,6 +343,8 @@ sub ImportRegTest
 
 sub ExportRegTest 
 {
+	my ($branch) = @_;
+
 	my $rawDiffFailures = 0;
 	my $vgFailures = 0;
 	
@@ -368,7 +400,8 @@ sub ExportRegTest
 				# DIFF REGRESSION TESTS
 				# /////////////////////
 			
-				if (DiffTest("export DISPLAY=; $abicommand --to=$sourcePath.exp.raw.new.$sink", 0, $sourcePath, "raw", $sink) eq "fail") {
+				if (DiffTest("raw-" . $branch, $source, $file, $sink) eq "fail")
+				{
 					$rawDiffFailures++;
 				}
 				
@@ -385,6 +418,7 @@ sub ExportRegTest
 					if ($html)
 					{
 						DisplayCell($skip_colour, "skipped");
+						DisplayCell($skip_colour, "skipped");						
 					}
 					else
 					{					
@@ -450,18 +484,28 @@ sub HtmlFooter {
 	print "</body>\n</html>\n";
 }
 
+#
 # Main function
+#
+if ($#ARGV+1 != 1)
+{
+	print "Usage: bootstrap.pl <branchname>\n";
+	die;
+}
+
+$branch = $ARGV[0];
+
 if ($html)
 {
 	&HtmlHeader;
 }
 
-&ImportRegTest;
+&ImportRegTest($branch);
 if ($html)
 {
 	print "<br/>\n<br/>\n";
 }
-&ExportRegTest;
+&ExportRegTest($branch);
 
 if ($html)
 {

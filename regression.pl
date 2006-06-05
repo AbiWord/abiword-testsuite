@@ -1,25 +1,22 @@
 #!/usr/bin/perl
 eval `cat regression.conf`;
 
-# list of directories containing test sets
-my @subDirList = ( "impexp", "warnings" );
-
 sub ExecTests
 {
-    foreach $subDir ( @subDirList ) {
-	if ($html) {
-	    print "View report for <a href=\"./$subDir/index.html\">$subDir</a><br>\n";
-	}
+	my ($branch) = @_;
 
-	if ($html) {
-    	    `cd $subDir; ./regression.pl >index.html`;
+	foreach $test ( @tests )
+	{
+		if ($html)
+		{
+			# TODO: add branch
+			`cd $test; ./regression.pl $branch >index_$branch.html`;
+		}
+		else
+		{
+			`cd $test; ./regression.pl $branch 2>/dev/null`;
+		}
 	}
-	else {
-    	    `cd $subDir; ./regression.pl 2>/dev/null`;
-	}
-	
-	print $output;
-    }
 }
 
 sub HtmlHeader {
@@ -34,19 +31,43 @@ sub HtmlFooter {
 #
 # Main function
 #
-if ($html) {
-    open(STDOUT, ">index.html");
-    &HtmlHeader;
+if ($html)
+{
+	open(STDOUT, ">index.html");
+	&HtmlHeader;
+
+	# write out the branch overview index
+	my $branch;
+	foreach $branch ( @branches )
+	{
+		print "<h3>Branch: " . $branch . "</h3>\n";
+
+		foreach $test ( @tests )
+		{
+			print "View report for <a href=\"./$test/index_$branch.html\">$test</a><br>\n";
+		}
+        }
 }
 
-# bootstrap the regression test suite
-`./bootstrap.pl`;
+my $branch;
+foreach $branch ( @branches )
+{
+	if (!$html)
+	{
+		print "Branch: " . $branch . "\n";
+	}
+	
+	# bootstrap the regression test suite
+	system './cleanup.pl', $branch;
+	system './bootstrap.pl', $branch;
 
-# execute the tests
-&ExecTests;
+	# execute the regression test suite
+	&ExecTests($branch);
+}
 
 if ($html) {
-    &HtmlFooter;
+	&HtmlFooter;
+	close(STDOUT);
 }
 
 1;
