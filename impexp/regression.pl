@@ -400,10 +400,24 @@ sub ExportRegTest
 				# /////////////////////
 				# DIFF REGRESSION TESTS
 				# /////////////////////
-			
-				if (DiffTest("raw-" . $branch, $source, $file, $sink) eq "fail")
+	
+				if ($do_diff)
+				{		
+					if (DiffTest("raw-" . $branch, $source, $file, $sink) eq "fail")
+					{
+						$rawDiffFailures++;
+					}
+				}
+				else
 				{
-					$rawDiffFailures++;
+					if ($html)
+					{
+						DisplayCell($skip_colour, "skipped");
+					}
+					else
+					{					
+						print "! $file raw diff: skipped\n";
+					}
 				}
 				
 				# ////////////////////////
@@ -433,7 +447,7 @@ sub ExportRegTest
 
 				if ($do_gprof)
 				{
-                                	$gprofOutPath = $source  . '/raw-' . $branch . '/' . $file . $sink . '.gmon.txt';
+                                	$gprofOutPath = $source  . '/raw-' . $branch . '/' . $file . '.' . $sink . '.gmon.txt';
 	                                `gprof $abicommand gmon.out > $gprofOutPath`;
         	                        DisplayCell("white", "<a href='$gprofOutPath'>profile<\/a>");
 
