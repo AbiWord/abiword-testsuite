@@ -58,8 +58,8 @@ foreach $branch ( @branches )
 	}
 	
 	# bootstrap the regression test suite
-	#system './cleanup.pl', $branch;
-	#system './bootstrap.pl', $branch;
+	system './cleanup.pl', $branch;
+	system './bootstrap.pl', $branch;
 
 	# execute the regression test suite
 	&ExecTests($branch);

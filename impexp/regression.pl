@@ -285,8 +285,9 @@ sub ImportRegTest
 			
 			if ($do_gprof)
 			{
-				`gprof $abicommand gmon.out > $filePath.gmon.txt`;
-				DisplayCell("white", "<a href=' $filePath.gmon.txt'>profile<\/a>");
+				$gprofOutPath = $docFormat  . '/raw-' . $branch . '/' . $file . '.gmon.txt';
+				`gprof $abicommand gmon.out > $gprofOutPath`;
+				DisplayCell("white", "<a href='$gprofOutPath'>profile<\/a>");
 			}
 			else
 			{
@@ -430,13 +431,17 @@ sub ExportRegTest
 				# PROFILE
 				# ////////////////////////			
 
-				`gprof $abicommand gmon.out > $sourcePath.$sink.gmon.txt`;
-				DisplayCell("white", "<a href=' $sourcePath.$sink.gmon.txt'>profile<\/a>");
-				
-				if ($html)
+				if ($do_gprof)
 				{
-					print "</tr>\n";
-				}				
+                                	$gprofOutPath = $source  . '/raw-' . $branch . '/' . $file . $sink . '.gmon.txt';
+	                                `gprof $abicommand gmon.out > $gprofOutPath`;
+        	                        DisplayCell("white", "<a href='$gprofOutPath'>profile<\/a>");
+
+					if ($html)
+					{
+						print "</tr>\n";
+					}
+				}
 			}
 	
 			if ($html)
