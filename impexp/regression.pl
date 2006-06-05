@@ -456,6 +456,17 @@ sub ExportRegTest
 						print "</tr>\n";
 					}
 				}
+				else
+				{
+					if ($html)
+					{
+						DisplayCell($skip_colour, "skipped");
+					}
+					else
+					{					
+						print "! $file gprof: skipped\n";
+					}
+				}
 			}
 	
 			if ($html)
