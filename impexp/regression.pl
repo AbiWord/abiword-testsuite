@@ -22,8 +22,6 @@ sub _DiffPruneAWML
 	`sed -i -e 's/\<version.*\>/\<!-- version tag removed --\>/g' $f.pruned`; 
 	`sed -i -e 's/\<history.*\>/\<!-- history tag removed --\>/g' $f.pruned`;
 	`sed -i -e 's/\<\\/history.*\>/\\<!-- \\/history tag removed --\\>/g' $f.pruned`;
-
-	`mv -f $f.pruned $f`;
 }
 
 sub DiffTest
@@ -76,7 +74,7 @@ sub DiffTest
 		# diff the stored raw data with the newly generated raw data
 		&_DiffPruneAWML($rawPath);
 		&_DiffPruneAWML($newRawPath);
-		`diff -u $rawPath $newRawPath 1>$diffPath 2>$diffPath`;
+		`diff -u $rawPath.pruned $newRawPath.pruned 1>$diffPath 2>$diffPath`;
 		$diff=`cat $diffPath`;
 		
 		if ($diff ne "")
@@ -129,8 +127,23 @@ sub DiffTest
 
 sub ValgrindTest
 {
-	my ($filePath, $destPath) = @_;
+	my ($branch, $basedir, $file, $exp_extension) = @_;
 	
+	$filePath = $basedir . '/' . $file;
+	my $destPath;
+	my $vgPath; 
+	if ($exp_extension)
+	{
+		$destPath = "/tmp/abiword-testsuite/valgrind.tmp." . $exp_extension;
+		$vgPath = $basedir . '/raw-' . $branch . '/' . $file . '.' . $exp_extension . '.vg.txt';
+	}
+	else
+	{
+		$destPath = "/tmp/abiword-testsuite/valgrind.tmp.abw";
+		$vgPath = $basedir . '/raw-' . $branch . '/' . $file . '.vg.txt';
+	}
+
+
 	my $vgCommand = "valgrind";
 	my $vgVersionOutput = `valgrind --version`;
 	if ($vgVersionOutput =~ /\-2.1/ || 
@@ -140,7 +153,6 @@ sub ValgrindTest
 		$vgCommand = "valgrind --tool=memcheck";
 	}
 
-	$vgPath = $filePath . '.vg.txt';
 	$valgrind_error = 0;
 	$valgrind_leak = 0;
 	`$vgCommand $vg_options $abicommand --to=$destPath $filePath >& $vgPath`;
@@ -264,7 +276,7 @@ sub ImportRegTest
 			
 			if ($do_vg)
 			{
-				ValgrindTest($filePath, "abw.tmp.vg");
+				ValgrindTest($branch, $docFormat, $file, 0);
 			}
 			else
 			{
@@ -426,7 +438,7 @@ sub ExportRegTest
 				
 				if ($do_vg)
 				{
-					ValgrindTest($sourcePath, $sourcePath . "vg" . $sink);
+					ValgrindTest($branch, $source, $file, $sink);
 				}
 				else
 				{
