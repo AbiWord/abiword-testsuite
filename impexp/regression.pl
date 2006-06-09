@@ -22,6 +22,7 @@ sub _DiffPruneAWML
 	`sed -i -e 's/\<version.*\>/\<!-- version tag removed --\>/g' $f.pruned`; 
 	`sed -i -e 's/\<history.*\>/\<!-- history tag removed --\>/g' $f.pruned`;
 	`sed -i -e 's/\<\\/history.*\>/\\<!-- \\/history tag removed --\\>/g' $f.pruned`;
+	`sed -i -e 's/listid=".*"/\\<!-- listid removed --\\>/g' $f.pruned`;
 }
 
 sub DiffTest
