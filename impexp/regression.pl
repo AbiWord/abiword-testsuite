@@ -23,6 +23,8 @@ sub _DiffPruneAWML
 	`sed -i -e 's/\<history.*\>/\<!-- history tag removed --\>/g' $f.pruned`;
 	`sed -i -e 's/\<\\/history.*\>/\\<!-- \\/history tag removed --\\>/g' $f.pruned`;
 	`sed -i -e 's/listid=".*"/\\<!-- listid removed --\\>/g' $f.pruned`;
+	`sed -i -e 's/table-sdh:[a-zA-Z0-9]*/\\<!-- table-sdh removed --\\>/g' $f.pruned`;
+	`sed -i -e 's/shplid[0-9]*/\\<!-- shplid removed --\\>/g' $f.pruned`;
 }
 
 sub DiffTest
