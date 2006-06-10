@@ -30,7 +30,7 @@ sub GenRaw {
 
 	@sourceList = ( "abw" );
 	# TODO: Move this to regression.conf
-	@sinkList = ( "abw", "rtf", "txt");
+	@sinkList = ( "abw", "rtf", "txt", "xml", "html");
 
 	my $source;
 	my $sink;
