@@ -19,13 +19,18 @@ sub ExecTests
 	}
 }
 
-sub HtmlHeader {
-    print "<html>\n<head>\n</head>\n<body>\n";
-    print "<h2>AbiWord TestSuite</h2>\n";
+sub HtmlHeader
+{
+	print "<html>\n<head>\n</head>\n<body>\n";
+	print "<h2>AbiWord TestSuite</h2>\n";
 }
 
-sub HtmlFooter {
-    print "</body>\n</html>\n";
+sub HtmlFooter
+{
+	$now = gmtime;	
+	print "<br/>\n";
+	print "Generated at $now GMT\n";
+	print "</body>\n</html>\n";
 }
 
 #
