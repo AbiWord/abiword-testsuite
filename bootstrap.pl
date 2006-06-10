@@ -43,7 +43,7 @@ if ($branch eq "ABI-2-4-0-STABLE")
 	# build required abiword plugins
 	`cd $source_dir/abiword-plugins &&\
 	 ./nextgen.sh &&\
-	 CXXFLAGS="-pg -g" ./configure --prefix=$root/$prefix --disable-all --enable-wordperfect --enable-OpenDocument &&\
+	 CXXFLAGS="-pg -g" ./configure --prefix=$root/$prefix &&\
 	 make 2>$abi_plugin_log && make install`;
 } 
 elsif ($branch eq "HEAD")
@@ -69,6 +69,6 @@ elsif ($branch eq "HEAD")
 	# build required abiword plugins
 	`cd $source_dir/abiword-plugins &&\
 	 ./nextgen.sh &&\
-	 CXXFLAGS="-pg -g" ./configure --prefix=$root/$prefix --disable-all --enable-wordperfect --enable-OpenDocument &&\
+	 CXXFLAGS="-pg -g" ./configure --prefix=$root/$prefix &&\
 	 make 2>$abi_plugin_log && make install`;
 }
