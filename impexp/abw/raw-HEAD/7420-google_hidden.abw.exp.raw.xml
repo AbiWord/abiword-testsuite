@@ -1,0 +1,25 @@
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+<!-- ================================================================================ -->
+<!-- This DocBook file was created by AbiWord.										-->
+<!-- AbiWord is a free, Open Source word processor.								   -->
+<!-- You may obtain more information about AbiWord at www.abisource.com			   -->
+<!-- ================================================================================ -->
+
+
+	<chapter>
+		<title></title>
+		<section role="unnumbered">
+			<title></title>
+			<para>Top of Form 1</para>
+			<para>Web <link linkend="imghp?hl=en&tab=wi">Images</link> <link linkend="grphp?hl=en&tab=wg">Groups</link> <link linkend="nwshp?hl=en&tab=wn">News</link> <link linkend="froogle?hl=en&tab=wf">Froogle</link> <link linkend="options/index.html">more »</link></para>
+			<para><br/><link linkend="advanced_search?hl=en">Advanced Search</link><br/><link linkend="preferences?hl=en">Preferences</link><br/><link linkend="language_tools?hl=en">Language Tools</link>Bottom of Form 1</para>
+			<para>New! Need to know? Be the first to find out with <ulink url="http://www.google.com/alerts?promo=hpp-us-1">Google Alerts</ulink>.<br/></para>
+			<para><br/><link linkend="ads/">Advertising Programs</link> - <link linkend="services/">Business Solutions</link> - <link linkend="about.html">About Google</link> </para>
+			<para>©2004 Google - Searching 4,285,199,774 web pages</para>
+			<para></para>
+		</section>
+	</chapter>
+</book>

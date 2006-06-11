@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//ABISOURCE//DTD XHTML plus AWML 2.2//EN" "http://www.abisource.com/2004/xhtml-awml/xhtml-awml.mod">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:awml="http://www.abisource.com/2004/xhtml-awml/">
+ <head>
+  <!-- ======================================================= -->
+  <!-- Created by AbiWord, a free, Open Source wordprocessor.  -->
+  <!-- For more information visit http://www.abisource.com.    -->
+  <!-- ======================================================= -->
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>7268-Vexi.abw.exp.raw.html</title>
+  <style type="text/css">
+   <!--
+@media print, projection, embossed {
+	body {
+		padding-top:1in;
+		padding-bottom:1in;
+		padding-left:1in;
+		padding-right:1in;
+	}
+}
+body {
+	text-indent:0in;
+	text-align:left;
+	font-variant:normal;
+	text-decoration:none;
+	font-weight:normal;
+	color:#000000;
+	font-size:12pt;
+	font-style:normal;
+	widows:2;
+	font-family:'Times New Roman';
+}
+table {
+}
+td {
+	border-collapse:collapse;
+	text-align:left;
+	vertical-align:top;
+}
+p, h1, h2, h3, li {
+	color:#000000;
+	font-family:'Times New Roman';
+	font-size:12pt;
+	margin-top:0.1090in;
+	text-align:left;
+	vertical-align:normal;
+}
+h1 {
+	font-family:'Arial';
+	font-size:17pt;
+	font-weight:bold;
+	margin-bottom:0.0417in;
+	margin-top:0.3056in;
+	page-break-after:avoid;
+}
+h2 {
+	font-family:'Arial';
+	font-size:14pt;
+	font-weight:bold;
+	margin-bottom:0.0417in;
+	margin-top:0.3056in;
+	page-break-after:avoid;
+}
+*.code_inline {
+	font-family:'Courier New';
+	font-size:10pt;
+}
+h3 {
+	font-family:'Arial';
+	font-weight:bold;
+	margin-bottom:0.0417in;
+	margin-top:0.3056in;
+	page-break-after:avoid;
+}
+*.property_type {
+	font-style:italic;
+	margin-left:0.0000in;
+	margin-right:0.0000in;
+	margin-top:0pt;
+}
+*.property {
+	font-weight:bold;
+	margin-left:0.0000in;
+	margin-right:0.0000in;
+	margin-top:0pt;
+}
+*.code {
+	font-family:'Courier New';
+	font-size:10pt;
+	margin-top:0.1097in;
+}
+*.emphasis {
+	color:#000000;
+	text-decoration:underline ;
+}
+     -->
+  </style>
+ </head>
+ <body>
+  <div>
+   <p style="text-align:center"><span style="font-weight:bold;font-size:24pt;font-family:'Arial';text-decoration:underline">Vexi Core Reference</span></p>
+   <p style="text-align:center"></p>
+   <p dir="ltr" style="text-align:center;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in"><span style="font-size:16pt;font-family:'Arial'" xml:lang="en-US" lang="en-US">Vexi Platform 1.0 Release</span></p>
+   <p dir="ltr" style="text-align:center;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in"></p>
+   <p dir="ltr" style="text-align:center;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in"><span style="font-size:16pt;font-family:'Arial'" xml:lang="en-US" lang="en-US">Charles Goodwin</span></p>
+   <p dir="ltr" style="text-align:center;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in"><span style="font-size:16pt;font-family:'Arial'" xml:lang="en-US" lang="en-US">charlie@vexi.org</span></p>
+   <p dir="ltr" style="text-align:center;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in"></p>
+   <p dir="ltr" style="text-align:center;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in"><span style="font-size:16pt;font-family:'Arial'" xml:lang="en-US" lang="en-US">15th August 2004</span></p>
+   <p dir="ltr" style="text-align:center;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in"></p>
+   <p dir="ltr" style="text-align:center;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in"><span style="font-size:16pt;font-family:'Arial'" xml:lang="en-US" lang="en-US">Reference Version 1.0pre3</span></p>
+   <p><br />    <h1 style="text-align:center">
+Table of Contents    </h1>
+    <p style="text-indent:0in">
+<a href="#__AbiTOC0__">[1] <br />Preface</a>    </p>
+    <p style="text-indent:1in">
+<a href="#__AbiTOC1__">[1.0.1] About This Document</a>    </p>
+    <p style="text-indent:1in">
+<a href="#__AbiTOC2__">[1.0.2] Vexi Platform Components</a>    </p>
+    <p style="text-indent:1in">
+<a href="#__AbiTOC3__">[1.0.3] Required Knowledge</a>    </p>
+    <p style="text-indent:1in">
+<a href="#__AbiTOC4__">[1.0.4] Key Concepts</a>    </p>
+    <p style="text-indent:1in">
+<a href="#__AbiTOC5__">[1.0.5] Application Life-Cycle</a>    </p>
+    <p style="text-indent:0in">
+<a href="#__AbiTOC6__">[2] <br />Vexi Fundamentals</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC7__">[2.1] Boxes</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC8__">[2.2] Surfaces</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC9__">[2.3] Templates</a>    </p>
+    <p style="text-indent:0in">
+<a href="#__AbiTOC10__">[3] <br />The Box Model: Layout and Rendering</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC11__">[3.1] Box Semantics</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC12__">[3.2] Packed Boxes</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC13__">[3.3] Non-packed Boxes</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC14__">[3.4] Grid Layout</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC15__">[3.5] Further Information on Vexi Grid Layout</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC16__">[3.6] Box Rendering</a>    </p>
+    <p style="text-indent:0in">
+<a href="#__AbiTOC17__">[4] <br />Box Properties</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC18__">[4.1] Layout</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC19__">[4.2] Rendering</a>    </p>
+    <p style="text-indent:0in">
+<a href="#__AbiTOC20__">[5] <br />VexiScript</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC21__">[5.1] About VexiScript</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC22__">[5.2] Declare Before Use</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC23__">[5.3] Traps</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC24__">[5.4] Read Traps</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC25__">[5.5] Write Traps</a>    </p>
+    <p style="text-indent:0.5in">
+<a href="#__AbiTOC26__">[5.6] Trap Cascades</a>    </p>
+    <p style="text-indent:0in">
+<a href="#__AbiTOC27__">[6] <br />Events</a>    </p>
+    <p></p>
+    <h1 id="__AbiTOC0__"><br />Preface</h1>
+    <h3 id="__AbiTOC1__">About This Document</h3>
+    <p>The goal of this document is to describe the Vexi Core <span xml:lang="en-GB" lang="en-GB">behaviour in detail, to facilitate development usage of the Vexi Core. &nbsp;This document is not a tutorial, and unsuitable for people unfamiliar with Vexi. &nbsp;Neither is it a specification and hence may not provide enough &nbsp;detail for a reimplementing Vexi, the Core or the Platform.</span></p>
+    <p><span xml:lang="en-GB" lang="en-GB">Any queries regarding this document or about Vexi should be sent to the users@vexi.org mailing list, which can be subscribed to from http://lists.vexi.org on the Vexi website.</span></p>
+    <h3 id="__AbiTOC2__">Vexi Platform Components</h3>
+    <ul>
+     <li><span xml:lang="en-GB" lang="en-GB">&nbsp;</span><span xml:lang="en-GB" lang="en-GB">Platform	&nbsp;The combination of the following components</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	Core	&nbsp;&nbsp;The native core (or Java byte-code) that powers the UI</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	Launcher	&nbsp;A small mini-application that "shoehorns" the Core onto the<br />	&nbsp;&nbsp;client PC and is beyond the scope of this document</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	UI / Application	The set of files, bundled as a zip file with a ".vexi" extension,<br />	&nbsp;&nbsp;that are used to create and control a Vexi UI</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	Widgets	&nbsp;An official set of Vexi UI files that provide usable widgets<br />	&nbsp;&nbsp;for use in Vexi applications</span>     </li>
+    </ul>
+    <h3 id="__AbiTOC3__">Required Knowledge</h3>
+    <ul>
+     <li><span xml:lang="en-GB" lang="en-GB">	ECMAScript</span><span xml:lang="en-GB" lang="en-GB"> / Javascript	ECMAScript (aka Javascript) controls Vexi UI behaviour</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">&nbsp;</span><span xml:lang="en-GB" lang="en-GB">XML	&nbsp;&nbsp;&nbsp;Vexi UIs are described using XML</span>     </li>
+    </ul>
+    <h3 id="__AbiTOC4__">Key Concepts</h3>
+    <ul>
+     <li><span xml:lang="en-GB" lang="en-GB">	VexiScript	&nbsp;The enhanced version of ECMAScript used by Vexi</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	Put / Write	&nbsp;In VexiScript, when you change the value of something you are<br />	&nbsp;</span><span xml:lang="en-GB" lang="en-GB">	putting or writing to it e.g. 'foo = 5' puts 5 to 'foo'</span></li>
+     <li dir="ltr" style="text-align:left;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in"><span xml:lang="en-GB" lang="en-GB">	G</span><span xml:lang="en-GB" lang="en-GB">et / Read	&nbsp;In VexiScript, when you access the value of something you are<br />	&nbsp;&nbsp;getting or reading it e.g. 'return bar' reads (then returns) 'bar'</span>     </li>
+    </ul>
+    <h3 id="__AbiTOC5__">Application Life-Cycle</h3>
+    <p dir="ltr" style="text-align:left;margin-bottom:0.0000in;margin-top:0.0000in;margin-right:0.0000in;margin-left:0pt;text-indent:0in"><span xml:lang="en-GB" lang="en-GB">&lt;describe the life-cycle of a Vexi application, with diagram&gt;</span></p>
+    <h1 id="__AbiTOC6__"><span xml:lang="en-GB" lang="en-GB"><br />Vexi Fundamentals</span></h1>
+    <h2 id="__AbiTOC7__"><span xml:lang="en-GB" lang="en-GB">Boxes</span></h2>
+    <p><span xml:lang="en-GB" lang="en-GB">The fundamental building block for Vexi UIs is the box.</span></p>
+    <p>A box may contain other boxes, which is referred to as the parent-child relationship. &nbsp;This is a one-to-many relationship; a <span class="emphasis" style="">parent box</span> may contain many children, but a <span class="emphasis" style="">child box</span> can only have one parent. &nbsp;A box may be a parent, or a child, or both, or neither. &nbsp;A parent-less box is considered an <span class="emphasis" style="">orphan</span>.</p>
+    <p><span xml:lang="en-GB" lang="en-GB">The parent of a box and any subsequent parents are referred to as the </span><span class="emphasis" style="" xml:lang="en-GB" lang="en-GB">ascendants</span><span xml:lang="en-GB" lang="en-GB"> of the subject box. &nbsp;The children of a box and any subsequent children of the child boxes are referred to as </span><span class="emphasis" style="" xml:lang="en-GB" lang="en-GB">descendants</span><span xml:lang="en-GB" lang="en-GB"> of the subject box.</span></p>
+    <p>The combination of a box and it's ascendants and descendants is referred to as a box tree. &nbsp;The top box of a box tree is referred to as a <span class="emphasis" style="">root box</span> or a <span class="emphasis" style="">surface box</span>.</p>
+    <p><span xml:lang="en-GB" lang="en-GB">There are three ways in which to consider a box:</span></p>
+    <ol>
+     <li><span xml:lang="en-GB" lang="en-GB">	Visual Representation	&nbsp;As a rendered object on-screen</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	Object Representation	&nbsp;As a VexiScript object</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	XML Representation	&nbsp;As an XML node (tag)</span>     </li>
+    </ol>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-GB" lang="en-GB">Boxes are encapsulated objects. &nbsp;That means a child box has no direct way of accessing or ascertaining information about it's parent.</span></p>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-GB" lang="en-GB">New boxes are created using the &lt;ui:box /&gt; XML tag or by reading from vexi.box (the box property on the Vexi Object).</span></p>
+    <h2 id="__AbiTOC8__"><span xml:lang="en-GB" lang="en-GB">Surfaces</span></h2>
+    <p><span xml:lang="en-GB" lang="en-GB">A top-level window in a Vexi UI is referred to as a </span><span class="emphasis" style="" xml:lang="en-GB" lang="en-GB">surface</span><span xml:lang="en-GB" lang="en-GB">. &nbsp;There are four kinds of surfaces available to Vexi applications (see the Vexi Object for information on creating surfaces):</span></p>
+    <ol>
+     <li><span xml:lang="en-GB" lang="en-GB">	Frame	&nbsp;A fully-fledged application window decorated<br />	&nbsp;with platform specific borders and buttons</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	Window	A fully-fledged application window but without<br /></span><span xml:lang="en-GB" lang="en-GB">	&nbsp;any decorations</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	Dialog	&nbsp;A modal dialog attached to an application<br />	&nbsp;window, with platform-specific decorations</span></li>
+     <li><span xml:lang="en-GB" lang="en-GB">	Popup	&nbsp;A modal dialog, attached to an application<br />	&nbsp;window, but without any decorations</span>     </li>
+    </ol>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-GB" lang="en-GB">All surfaces are </span><span class="emphasis" style="" xml:lang="en-GB" lang="en-GB">scarred</span><span xml:lang="en-GB" lang="en-GB"> for security reasons. &nbsp;See the appendix on Security Precautions for further information on surface scarring.</span></p>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-GB" lang="en-GB">Whenever we refer to the size or position of a surface box, we refer to the UI accessible portion of the surface, disregarding any platform specific decoration. &nbsp;This has the caveat that if you set the position of a frame or dialog to (0,0) then the platform specific title-bar will be placed off-screen.</span></p>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">Surface boxes are not directly accessible as VexiScript objects to any descendants of a surface box. &nbsp;However, every box has a object, accessed as '</span><span class="code_inline" style="">surface</span><span xml:lang="en-US" lang="en-US">', associated with it which is know as the </span><span class="code_inline" style="">surface object</span><span xml:lang="en-US" lang="en-US">. &nbsp;Whenever reading this object, the Core recursively reads the surface object of the parent and returns a value when it is encountered.</span><span xml:lang="en-US" lang="en-US"> &nbsp;When a box changes surface, including addition and removal, then 'true' is put to the value of this object, and the surface object will read the value of the new surface object. &nbsp;By default, there is no value for the surface object; this is implemented in widget space.</span></p>
+    <h2 id="__AbiTOC9__"><span xml:lang="en-US" lang="en-US">Templates</span></h2>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">Boxes are combined to form more useful widgets using templates. &nbsp;Templates are defined using XML files with the .t extension.</span></p>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">The root node of a template is always &lt;vexi /&gt;. &nbsp;Any non-XML content in the vexi node is interpreted as VexiScript and forms the static portion of a template. &nbsp;The static content of a template is executed only once when the template is first used. &nbsp;Any reference to the static content of a template is referring to the same object.</span></p>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">The vexi node can contain the following XML nodes:</span></p>
+    <ol>
+     <li><span xml:lang="en-US" lang="en-US">	&lt;ui:box /&gt;</span></li>
+     <li><span xml:lang="en-US" lang="en-US">	Another template e.g. &lt;.path.to.valid.template /&gt;</span></li>
+     <li><span xml:lang="en-US" lang="en-US">	Any custom node using the meta namespace e.g. &lt;meta:foo /&gt;</span>     </li>
+    </ol>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">Of the non-meta namespace nodes, only one can have content. &nbsp;The single tag nodes are pre- or post-applied to the template in the order in which they are defined.</span></p>
+    <p style="margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">Example:</span></p>
+    <p class="code" awml:style="Code">&lt;vexi xmlns:namespace1=".name.space.one"&gt;<br />	&lt;meta:doc&gt;I wrote this!&lt;/meta:doc&gt;<br /><br />	// static content goes here<br /><br />	&lt;.name.space.two.foo /&gt;<br />	&lt;namespace1:bar /&gt;<br />	&lt;ui:box&gt;<br /><br />	&nbsp;// regular content goes here<br /><br />	&lt;/ui:box&gt;<br />&lt;/vexi&gt;</p>
+    <h1 id="__AbiTOC10__"><span xml:lang="en-US" lang="en-US"><br />The Box Model: Layout and Rendering</span></h1>
+    <h2 id="__AbiTOC11__"><span xml:lang="en-US" lang="en-US">Box Semantics</span></h2>
+    <p><span xml:lang="en-US" lang="en-US">A box can have 0 or more child boxes. &nbsp;Child boxes are assigned an index based on their order within the parent, which is numbered '0' (for the first child) to 'n-1' (for the last child).</span></p>
+    <p><span xml:lang="en-US" lang="en-US">A parent box has the numerical properties 'cols' and 'rows'. &nbsp;If one is set to a value greater than '0', the other is set to '0'. &nbsp;If one is set to '0', the other is set to '1'. &nbsp;The value of one of either cols or rows for a box is always 0; they can never be simultaneously greater than 0. &nbsp;Whichever of the 'cols' or 'rows' properties has a value greater than zero</span><span xml:lang="en-US" lang="en-US"> will always read that value and</span><span xml:lang="en-US" lang="en-US"> is considered the constraint for packing child boxes into columns and rows, with the property whose value is '0' being dynamic with no limits.</span></p>
+    <p><span xml:lang="en-US" lang="en-US">Child boxes are either packed or non-packed, defined by the boolean property packed.</span></p>
+    <h2 id="__AbiTOC12__"><span xml:lang="en-US" lang="en-US">Packed Boxes</span></h2>
+    <p><span xml:lang="en-US" lang="en-US">A packed box is a box whose packed property is true.</span></p>
+    <p dir="ltr" style="text-align:left;margin-bottom:0.0000in;margin-top:0.1111in;margin-right:0.0000in"><span xml:lang="en-US" lang="en-US">Packed boxes are placed, in order, into columns and rows. &nbsp;If the constraining property on the parent box is 'cols' then packing is done by placing the next child box into the next available column space, otherwise it is done by row.</span></p>
+    <p><span xml:lang="en-US" lang="en-US">A packed box's width is set to the aggregation of the widths of the columns it spans. &nbsp;If this width exceeds the box's maxwidth, if it's hshrink property is false, or the box's content width, if it's hshrink property is true, then the box is sized to it's maxwidth or content width respectively and then aligned horizontally according to it's align attribute within the space occupied by it's spanned columns. &nbsp;</span>This is then repeated for rows and height.</p>
+    <h2 id="__AbiTOC13__"><span xml:lang="en-US" lang="en-US">Non-packed Boxes</span></h2>
+    <p><span xml:lang="en-US" lang="en-US">A non-packed box is a box whose packed property is false.</span></p>
+    <p><span xml:lang="en-US" lang="en-US">Non-packed boxes are placed within the parent, irrespective of the parents columns and rows, according to their align property and are offset by their x and y properties.</span></p>
+    <h2 id="__AbiTOC14__"><span xml:lang="en-US" lang="en-US">Grid Layout</span></h2>
+    <p><span style="font-style:italic" xml:lang="en-US" lang="en-US">Note: [ brackets ] are added for clarity only.</span></p>
+    <p dir="ltr" style="text-align:left;margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">A box's </span><span class="emphasis" style="" xml:lang="en-US" lang="en-US">content width</span><span xml:lang="en-US" lang="en-US"> is the maximum of [ the minimum of </span><span xml:lang="en-US" lang="en-US">the aggregation of it's columns' minimum widths</span><span xml:lang="en-US" lang="en-US"> and the box's maxwidth property ] and the box's minwidth property</span><span xml:lang="en-US" lang="en-US">.</span></p>
+    <p dir="ltr" style="text-align:left;margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">A column's </span><span class="emphasis" style="" xml:lang="en-US" lang="en-US">minimum width</span><span xml:lang="en-US" lang="en-US"> is the maximum content width of all the boxes in that column.</span></p>
+    <p dir="ltr" style="text-align:left;margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">A column's </span><span class="emphasis" style="" xml:lang="en-US" lang="en-US">maximum width</span><span xml:lang="en-US" lang="en-US"> is the maximum of [ the maximum maxwidth from each of the column's boxes whose hshrink property is false ] and [ the maximum content width from each of the column's boxes whose hshrink property is true ], but a column's maximum width is never smaller than it's minimum width.</span></p>
+    <p dir="ltr" style="text-align:left;margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">A box with colspan occupying several columns will never affect the minimum or maximum width of a column any more than is necessary to render the box according to it's minwidth and maxwidth properties. &nbsp;A box with colspan will only ever affect the last column it spans.</span></p>
+    <p dir="ltr" style="text-align:left;margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">A column's </span><span class="emphasis" style="" xml:lang="en-US" lang="en-US">actual width</span><span xml:lang="en-US" lang="en-US"> is then determined by the space available in the parent, but will never be less than the column's minimum width. &nbsp;If the aggregation of the columns' maximum widths is less than the parent box's maxwidth then the remaining space, also called 'slack', is spread equally over the columns.</span></p>
+    <p dir="ltr" style="text-align:left;margin-left:0pt;text-indent:0in"><span xml:lang="en-US" lang="en-US">This is all then repeated for rows and height.</span></p>
+    <h2 id="__AbiTOC15__"><span xml:lang="en-US" lang="en-US">Further Information on Vexi Grid Layout</span></h2>
+    <p><span xml:lang="en-US" lang="en-US">The Vexi Core grid layout engine is scalable with regards to columns, rows, and spanning children. &nbsp;What this means is that the grid layout for a parent box with 10,000 columns and a child spanning 10,000 columns will</span><span xml:lang="en-US" lang="en-US"> be calculated as fast as the </span><span xml:lang="en-US" lang="en-US">single column equivalent.</span></p>
+    <h2 id="__AbiTOC16__"><span xml:lang="en-US" lang="en-US">Box Rendering</span></h2>
+    <p><span xml:lang="en-US" lang="en-US">Boxes are rendering "back to front" in Vexi, with parents being placed behind children and children rendered in order of index. &nbsp;Only the minimum area needed to update the screen to reflect the current box tree contained in a surface will be rendered at any given time.</span></p>
+    <p><span xml:lang="en-US" lang="en-US">They way a box is rendered is controlled by it's </span><span class="emphasis" style="" xml:lang="en-US" lang="en-US">rendering properties</span><span xml:lang="en-US" lang="en-US">. &nbsp;These control how a box adapts to the space provided and the children inside of it.</span></p>
+    <h1 id="__AbiTOC17__"><br />Box Properties</h1>
+    <p>A box is also accessible as a VexiScript object, and with key-value pairs that can be used to control the behaviour of a box.</p>
+    <h2 id="__AbiTOC18__">Layout</h2>
+    <p></p>
+    <table cellpadding="0" border="0" rules="all" style="width:100%;border:1pt none #000000;border-collapse:collapse;empty-cells:show;table-layout:fixed;border-style:solid">
+     <colgroup>
+      <col />
+      <col />
+      <col />
+     </colgroup>
+     <tbody style="border:inherit">
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+     </tbody>
+    </table>
+    <p></p>
+    <h2 id="__AbiTOC19__">Rendering</h2>
+    <p>These properties effect how a box is visually presented on-screen.</p>
+    <p></p>
+    <table cellpadding="0" border="0" rules="all" style="width:100%;border:0.25pt none #000000;border-collapse:collapse;empty-cells:show;table-layout:fixed;border-style:solid">
+     <colgroup>
+      <col />
+      <col />
+      <col />
+     </colgroup>
+     <tbody style="border:inherit">
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p>Property</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p>Default Value</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p>Description</p>
+       </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p class="property" awml:style="Property">fill</p>
+	<p class="property_type" awml:style="Property Type">(string)</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p class="property" awml:style="Property">font</p>
+	<p class="property_type" awml:style="Property Type">(stream)</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p class="property" awml:style="Property">fontsize</p>
+	<p class="property_type" awml:style="Property Type">(int)</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p class="property" awml:style="Property">text</p>
+	<p class="property_type" awml:style="Property Type">(string)</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p class="property" awml:style="Property">textcolor</p>
+	<p class="property_type" awml:style="Property Type">(string)</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p class="property" awml:style="Property">path</p>
+	<p class="property_type" awml:style="Property Type">(string)</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p class="property" awml:style="Property">strokecolor</p>
+	<p class="property_type" awml:style="Property Type">(string)</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+      <tr style="border:inherit">
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p class="property" awml:style="Property">strokewidth</p>
+	<p class="property_type" awml:style="Property Type">(string)</p>
+       </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+       <td style="padding: 0.00pt;border:inherit inherit inherit">
+	<p></p>
+        </td>
+      </tr>
+     </tbody>
+    </table>
+    <p></p>
+    <h1 id="__AbiTOC20__"><br />VexiScript</h1>
+    <h2 id="__AbiTOC21__">About VexiScript</h2>
+    <p>VexiScript is an adaptation of ECMAScript, Standard ECMA-262, which is most popularly implemented as Javascript. &nbsp;VexiScript implements a few additional features to ECMAScript. &nbsp;There are also some omissions and inconsistencies between VexiScript and ECMAScript.</p>
+    <p>A familiarity with ECMAScript / Javascript syntax is assumed.</p>
+    <h2 id="__AbiTOC22__">Declare Before Use</h2>
+    <p>In VexiScript any variables must be declared before they can be used.</p>
+    <p>Private variables are initialized using the '<span class="code_inline" style="">var</span>' keyword:</p>
+    <p class="code" awml:style="Code">// a private variable<br />var my_var = "only my scope can see me";</p>
+    <p>Public variables, also known as box properties, are initialized using the '<span class="code_inline" style="">thisbox</span>' keyword:</p>
+    <p class="code" awml:style="Code">// a box property (public variable)<br />thisbox.my_prop = "any box can see this";</p>
+    <p>Box properties only need to be declared once per box, and the standard box properties are already declared by the Core.</p>
+    <h2 id="__AbiTOC23__">Traps</h2>
+    <p>Traps are a feature unique to Vexi and it's predecessors. &nbsp;They can be likened to events, except the work on any property and events are just one application of traps. &nbsp;The basic concept is that whenever something that is trapped is accessed, a trap is fired. &nbsp;There are two types of access and hence two types of traps: read traps and write traps.</p>
+    <p>Traps are assigned using the '<span class="code_inline" style="">++=</span>' syntax. &nbsp;This is peculiar to VexiScript, and hence not part of ECMAScript. &nbsp;You can assign traps either anonymously or by reference:</p>
+    <p class="code" awml:style="Code">// assign an anonymous trap<br />$box.some_prop ++= function(v) { /* do something */ }<br /><br />// assign a referenced trap<br />var some_trap = function(v) { /* do something */ }<br />$box.some_prop ++= some_trap;</p>
+    <p>Traps can be unassigned using the '<span class="code_inline" style="">--=</span>' syntax. &nbsp;You can easily unassign referenced traps:</p>
+    <p class="code" awml:style="Code">// unassign a referenced trap<br />$box.some_prop --= some_trap;</p>
+    <p>You can only unassign anonymous traps from within themselves using the 'callee' keyword:</p>
+    <p class="code" awml:style="Code">// unassign an anonymous trap<br />$box.some_prop ++= function(v) {<br /> &nbsp;&nbsp;&nbsp;$box.some_prop --= callee;<br />}</p>
+    <h2 id="__AbiTOC24__">Read Traps</h2>
+    <p>Read traps are executed whenever a property is read in VexiScript. &nbsp;Read traps are created when the function has <span style="font-weight:bold">zero</span> arguments.</p>
+    <p class="code" awml:style="Code">// a read trap<br />$box.foo ++= function() { return 2 * cascade; }<br /><br />// will output 10<br />vexi.log.info($box.foo);</p>
+    <h2 id="__AbiTOC25__">Write Traps</h2>
+    <p>Write traps are executed whenever a property is written to, in VexiCode. &nbsp;Write traps are created when the assigned function has <span style="font-weight:bold">one</span> argument.</p>
+    <p class="code" awml:style="Code">// a write trap<br />$box.bar ++= function(v) { cascade = 3 * v; }<br /><br />$box.bar = 5;<br /><br />// will output 15<br />vexi.log.info($box.foo);</p>
+    <h2 id="__AbiTOC26__">Trap Cascades</h2>
+    <p>Multiple traps can be added on a single property. &nbsp;The execution of the trap functions in order is called <span class="emphasis" style="">cascading</span>.</p>
+    <p>The order of a trap cascade is the reverse of the order in which the traps are applied.</p>
+    <p class="code" awml:style="Code">// trap 1<br />$box.prop ++= function(v) { vexi.log.info("FOO!"); }<br /><br />// trap 2<br />$box.prop ++= function(v) { vexi.log.info("BAR!"); }<br /><br />// outputs BAR! then FOO!<br />$box.prop = true;</p>
+    <p>The cascade can be bypassed by appending an underscore to the property name.</p>
+    <p class="code" awml:style="Code">// trap 1<br />$box._prop ++= function(v) { vexi.log.info("FOO!"); }<br /><br />// trap 2<br />$box.prop ++= function(v) { vexi.log.info("BAR!"); }<br /><br />// outputs FOO! then BAR!<br />$box.prop = true;</p>
+    <h1 id="__AbiTOC27__"><br />Events</h1>
+    <p><br /></p>
+    <p style="margin-left:0pt;text-indent:0in"></p>
+   </p>
+  </div>
+ </body>
+</html>
