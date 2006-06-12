@@ -13,4 +13,4 @@ $source_dir = ".src/" . $abi_branch; # TODO: make this configurable
 #TODO: it isn't really safe to exec rm -rf :-P
 #TODO: run make uninstall first?
 `rm -rf $source_dir`;
-`rm -rf $root/$prefex`;
+`rm -rf $root/$prefix`;
