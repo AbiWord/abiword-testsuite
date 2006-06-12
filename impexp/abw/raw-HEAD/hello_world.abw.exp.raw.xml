@@ -1,17 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
 
-<book>
 <!-- ================================================================================ -->
-<!-- This DocBook file was created by AbiWord.										-->
-<!-- AbiWord is a free, Open Source word processor.								   -->
-<!-- You may obtain more information about AbiWord at www.abisource.com			   -->
+<!-- This DocBook file was created by AbiWord.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                                   -->
+<!-- You may obtain more information about AbiWord at http://www.abisource.com        -->
 <!-- ================================================================================ -->
 
-
+<book condition="document-footnote-initial:1; document-footnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-endnote-initial:1; document-endnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-place-endsection:0; dom-dir:ltr" lang="en-US">
+	<bookinfo>
+		<bibliomisc><application class="software">AbiWord</application></bibliomisc>
+	</bookinfo>
 	<chapter>
 		<title></title>
-		<section role="unnumbered">
+		<section role="Normal">
 			<title></title>
 			<para>Hello World!</para>
 		</section>
