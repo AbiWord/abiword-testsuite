@@ -16,9 +16,9 @@ sub _DiffPruneAWML
 
 	# apply a set of filters to remove the lines that screw up the diff test
 
-	`sed -i -e 's/\<version.*\>/\<!-- version tag removed --\>/g' $f.pruned`; 
-	`sed -i -e 's/\<history.*\>/\<!-- history tag removed --\>/g' $f.pruned`;
-	`sed -i -e 's/\<\\/history.*\>/\\<!-- \\/history tag removed --\\>/g' $f.pruned`;
+	`sed -i -e 's/^\<version.*\>/\<!-- version tag removed --\>/g' $f.pruned`; 
+	`sed -i -e 's/^\<history.*\>/\<!-- history tag removed --\>/g' $f.pruned`;
+	`sed -i -e 's/^\<\\/history.*\>/\\<!-- \\/history tag removed --\\>/g' $f.pruned`;
 	`sed -i -e 's/listid=".*"/\\<!-- listid removed --\\>/g' $f.pruned`;
 	`sed -i -e 's/table-sdh:[a-zA-Z0-9]*/\\<!-- table-sdh removed --\\>/g' $f.pruned`;
 	`sed -i -e 's/shplid[0-9]*/\\<!-- shplid removed --\\>/g' $f.pruned`;
