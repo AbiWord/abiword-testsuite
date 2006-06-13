@@ -36,6 +36,13 @@ sub HtmlFooter
 #
 # Main function
 #
+
+if ($root eq "")
+{
+	printf "\$root is unset, please check your regression.conf file\n";
+	die;
+}
+
 if ($html)
 {
 	open(STDOUT, ">index.html");

@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 eval `cat ../regression.conf`;
-$abicommand = "../$prefix/bin/abiword";
 
 sub GenRaw {
 	my ($branch) = @_;
@@ -24,7 +23,7 @@ sub GenRaw {
 		{
 			$filePath = $subDir  . '/' . $file;
 			$fileOutPath = $subDir  . '/' . "raw-" . $branch . "/" . $file . ".imp.raw.abw";
-			`$abicommand --to=$fileOutPath $filePath`;
+			`abiword --to=$fileOutPath $filePath`;
 		}
 	    }
 
@@ -47,13 +46,19 @@ sub GenRaw {
 			{
 				$filePath = $source . '/' . $file;
 				$fileOutPath = $source  . '/' . "raw-" . $branch . "/" . $file . ".exp.raw." .$sink;
-				`$abicommand --to=$fileOutPath $filePath`;
+				`abiword --to=$fileOutPath $filePath`;
 			}
 		}
 	}
 }
 
 # Main function
+
+if ($root eq "")
+{
+	printf "\$root is unset, please check your regression.conf file\n";
+	die;
+}
 
 my $branch;
 foreach $branch ( @branches )

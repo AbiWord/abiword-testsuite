@@ -1,6 +1,12 @@
 #!/usr/bin/perl
 eval `cat regression.conf`;
 
+if ($root eq "")
+{
+        printf "\$root is unset, please check your regression.conf file\n";
+        die;
+}
+
 if ($#ARGV+1 != 1)
 {
 	print "Usage: bootstrap.pl <branchname>\n";

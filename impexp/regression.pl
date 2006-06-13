@@ -1,9 +1,6 @@
 #!/usr/bin/perl
 eval `cat ../regression.conf`;
 
-# TODO: Set the path properly
-$abicommand = "../$prefix/bin/abiword";
-
 sub DisplayCell
 {
 	my ($bgColor, $text) = @_;
@@ -25,6 +22,7 @@ sub _DiffPruneAWML
 	`sed -i -e 's/listid=".*"/\\<!-- listid removed --\\>/g' $f.pruned`;
 	`sed -i -e 's/table-sdh:[a-zA-Z0-9]*/\\<!-- table-sdh removed --\\>/g' $f.pruned`;
 	`sed -i -e 's/shplid[0-9]*/\\<!-- shplid removed --\\>/g' $f.pruned`;
+	`sed -i -e 's/version=".*"/\\<!-- version removed --\\>/g' $f.pruned`;
 }
 
 sub DiffTest
@@ -53,7 +51,7 @@ sub DiffTest
 	my $diffPath = "$rawPath.diff.txt";
 	
 	# generate a new raw output to compare with
-	`$abicommand --to=$newRawPath $basedir/$file`;
+	`abiword --to=$newRawPath $basedir/$file`;
 	
 	# HACK: check if there is a raw file with _some_ contents. If not, we assume to have been segfaulted
 	my $err = "";
@@ -158,7 +156,7 @@ sub ValgrindTest
 
 	$valgrind_error = 0;
 	$valgrind_leak = 0;
-	`$vgCommand $vg_options $abicommand --to=$destPath $filePath >& $vgPath`;
+	`$vgCommand $vg_options abiword --to=$destPath $filePath >& $vgPath`;
 	open VG, "$vgPath";
 	my $vg_output;
 	while (<VG>)
@@ -301,7 +299,8 @@ sub ImportRegTest
 			if ($do_gprof)
 			{
 				$gprofOutPath = $docFormat  . '/raw-' . $branch . '/' . $file . '.gmon.txt';
-				`gprof $abicommand gmon.out > $gprofOutPath`;
+				$actual_abiword = `which abiword`;
+				`gprof $actual_abiword gmon.out > $gprofOutPath`;
 				DisplayCell("white", "<a href='$gprofOutPath'>profile<\/a>");
 			}
 			else
@@ -463,7 +462,8 @@ sub ExportRegTest
 				if ($do_gprof)
 				{
                                 	$gprofOutPath = $source  . '/raw-' . $branch . '/' . $file . '.' . $sink . '.gmon.txt';
-	                                `gprof $abicommand gmon.out > $gprofOutPath`;
+					$actual_abiword = `which abiword`;
+	                                `gprof $actual_abiword gmon.out > $gprofOutPath`;
         	                        DisplayCell("white", "<a href='$gprofOutPath'>profile<\/a>");
 
 					if ($html)
@@ -532,6 +532,12 @@ sub HtmlFooter {
 #
 # Main function
 #
+if ($root eq "")
+{
+	printf "\$root is unset, please check your regression.conf file\n";
+	die;
+}
+
 if ($#ARGV+1 != 1)
 {
 	print "Usage: bootstrap.pl <branchname>\n";

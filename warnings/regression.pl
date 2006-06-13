@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-eval `cat ../regression.conf`;
+eval `cd ../ && cat regression.conf`;
 
 sub DisplayCell
 {
@@ -78,15 +78,21 @@ sub HtmlFooter {
 }
 
 # Main function
-if ($html)
+if ($root eq "")
 {
-	&HtmlHeader;
+	printf "\$root is unset, please check your regression.conf file\n";
+	die;
 }
 
 if ($#ARGV+1 != 1)
 {
 	print "Usage: regression.pl <branchname>\n";
 	die;
+}
+
+if ($html)
+{
+	&HtmlHeader;
 }
 
 $branch = $ARGV[0];
