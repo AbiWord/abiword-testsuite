@@ -1,0 +1,501 @@
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+<!-- ================================================================================ -->
+<!-- This DocBook file was created by AbiWord.										-->
+<!-- AbiWord is a free, Open Source word processor.								   -->
+<!-- You may obtain more information about AbiWord at www.abisource.com			   -->
+<!-- ================================================================================ -->
+
+
+	<chapter>
+		<table frame="all">
+			<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+			<colspec colname='c1'/>
+			<colspec colname='c2'/>
+			<colspec colname='c3'/>
+			<colspec colname='c4'/>
+			<colspec colname='c5'/>
+			<tbody>
+				<row>
+					<entry>
+						<title></title>
+						<section role="unnumbered">
+							<title></title>
+							<para>table</para>
+						</entry>
+						<entry>
+							<para>at</para>
+						</entry>
+						<entry>
+							<para>the</para>
+						</entry>
+						<entry>
+							<para>beginning</para>
+						</entry>
+						<entry>
+							<para>of</para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para>a</para>
+						</entry>
+						<entry>
+							<para>section</para>
+						</entry>
+						<entry>
+							<section role="unnumbered">
+								<title>Heading Text - make sure we don't open a section in a table!</title>
+							</entry>
+							<entry>
+								<para>don't write before a nested table</para>
+								<table frame="all">
+									<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+									<colspec colname='c1'/>
+									<colspec colname='c2'/>
+									<colspec colname='c3'/>
+									<colspec colname='c4'/>
+									<colspec colname='c5'/>
+									<tbody>
+										<row>
+											<entry>
+											</section>
+											<section role="unnumbered">
+												<title>a</title>
+											</entry>
+											<entry>
+												<para></para>
+											</entry>
+											<entry>
+												<para></para>
+											</entry>
+											<entry>
+												<para></para>
+											</entry>
+											<entry>
+												<para></para>
+											</entry>
+										</row>
+										<row>
+											<entry>
+												<para></para>
+											</entry>
+											<entry>
+												<para></para>
+											</entry>
+											<entry>
+												<para></para>
+											</entry>
+											<entry>
+												<para></para>
+											</entry>
+											<entry>
+												<para></para>
+											</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</table>
+							<para>don't write after either</para>
+						</entry>
+						<entry>
+							<para></para>
+							<table frame="all">
+								<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+								<colspec colname='c1'/>
+								<colspec colname='c2'/>
+								<colspec colname='c3'/>
+								<colspec colname='c4'/>
+								<colspec colname='c5'/>
+								<tbody>
+									<row>
+										<entry>
+											<para></para>
+											<table frame="all">
+												<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+												<colspec colname='c1'/>
+												<colspec colname='c2'/>
+												<colspec colname='c3'/>
+												<colspec colname='c4'/>
+												<colspec colname='c5'/>
+												<tbody>
+													<row>
+														<entry>
+															<para></para>
+														</entry>
+														<entry>
+															<para></para>
+														</entry>
+														<entry>
+															<para></para>
+														</entry>
+														<entry>
+															<para></para>
+														</entry>
+														<entry>
+															<para></para>
+														</entry>
+													</row>
+													<row>
+														<entry>
+															<para></para>
+														</entry>
+														<entry>
+															<para></para>
+														</entry>
+														<entry>
+															<para></para>
+														</entry>
+														<entry>
+															<para></para>
+														</entry>
+														<entry>
+															<para></para>
+														</entry>
+													</row>
+												</tbody>
+											</tgroup>
+										</table>
+										<para></para>
+									</entry>
+									<entry>
+										<para></para>
+									</entry>
+									<entry>
+										<para></para>
+									</entry>
+									<entry>
+										<para></para>
+									</entry>
+									<entry>
+										<para></para>
+									</entry>
+								</row>
+								<row>
+									<entry>
+										<para></para>
+									</entry>
+									<entry>
+										<para></para>
+									</entry>
+									<entry>
+										<para></para>
+									</entry>
+									<entry>
+										<para></para>
+									</entry>
+									<entry>
+										<para></para>
+									</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+					<para>only one level of nesting allowed!</para>
+				</entry>
+			</row>
+		</tbody>
+	</tgroup>
+</table>
+<para></para>
+<para>invalid title &amp;alt: <figure>
+	<title>f0050e48-fb90-11da-81d0-b289a9504188.png</title>
+	<mediaobject>
+		<imageobject>
+			<imagedata fileref="dbk_corner_cases_general.abw.exp.raw.xml_data/f0050e48-fb90-11da-81d0-b289a9504188.png" format="PNG"></imagedata>
+		</imageobject>
+	</mediaobject>
+</figure>
+</para>
+<para></para>
+<para><ulink url="http://www.<>.com">this is a link with invalid xml chars</ulink></para>
+<para></para>
+<para>bookmark <anchor id="<>"/>with invalid chars</para>
+<para>TOC with &lt;&gt;in title:</para>
+<para></para>
+</section>
+<section role="unnumbered">
+	<title>	<figure>
+		<title>c2e681e6-fb98-11da-820c-b289a9504188.png</title>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="dbk_corner_cases_general.abw.exp.raw.xml_data/c2e681e6-fb98-11da-820c-b289a9504188.png" format="PNG"></imagedata>
+			</imageobject>
+		</mediaobject>
+	</figure>
+heading with pic</title>
+	<para>aaaaaaadddd</para>
+	<para>style name with &lt;&gt;</para>
+	<para>style name with &lt;&gt;</para>
+	<para></para>
+	<table frame="all">
+		<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+		<colspec colname='c1'/>
+		<colspec colname='c2'/>
+		<colspec colname='c3'/>
+		<colspec colname='c4'/>
+		<colspec colname='c5'/>
+		<tbody>
+			<row>
+				<entry namest='c1' nameend='c3'>
+					<para>merged cell</para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+			</row>
+			<row>
+				<entry morerows='1'>
+					<para></para>
+				</entry>
+				<entry morerows='1'>
+					<para></para>
+				</entry>
+				<entry morerows='1'>
+					<para></para>
+				</entry>
+				<entry morerows='1'>
+					<para></para>
+				</entry>
+				<entry>
+					<para>split cell</para>
+				</entry>
+			</row>
+			<entry>
+				<para>split cell</para>
+			</entry>
+		</row>
+	</tbody>
+</tgroup>
+</table>
+</section>
+<section role="unnumbered">
+	<title>chart in heading</title>
+	<para></para>
+</section>
+<section role="unnumbered">
+	<title>equation in heading</title>
+	<para></para>
+</section>
+<section role="unnumbered">
+	<title>Pagebreak</title>
+	<para></para>
+	<para></para>
+</section>
+<section role="unnumbered">
+	<title> in title</title>
+	<para></para>
+</section>
+<section role="unnumbered">
+	<title><phrase role="strong"></phrase></title>
+	<para></para>
+</section>
+<section role="unnumbered">
+	<title><phrase role="strong">Heading Text - make sure we don't open a section in a textbox!</phrase></title>
+	<table frame="all">
+		<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+		<colspec colname='c1'/>
+		<colspec colname='c2'/>
+		<colspec colname='c3'/>
+		<colspec colname='c4'/>
+		<colspec colname='c5'/>
+		<tbody>
+			<row>
+				<entry>
+					<para></para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+			</row>
+			<row>
+				<entry>
+					<para></para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+				<entry>
+					<para></para>
+				</entry>
+			</row>
+		</tbody>
+	</tgroup>
+</table>
+</section>
+<section role="unnumbered">
+	<title></title>
+	<para></para>
+</section>
+<section role="unnumbered">
+	<title></title>
+	<para></para>
+</section>
+</section>
+</chapter>
+<chapter>
+	<title><phrase role="strong">	</phrase> chapter</title>
+	<section role="unnumbered">
+		<title></title>
+		<section role="unnumbered">
+			<title> Heading Text - make sure we don't open a section in a footnote! heading with footnote reference</title>
+			<para></para>
+		</section>
+	</section>
+</chapter>
+<chapter>
+	<title><phrase role="strong">	</phrase> chaptertest field text (1 updates)</title>
+	<section role="unnumbered">
+		<title></title>
+		<para></para>
+	</section>
+</chapter>
+<chapter>
+	<title></title>
+	<section role="unnumbered">
+		<title></title>
+		<section role="unnumbered">
+			<title>test field text (1 updates) Heading Text - make sure we don't open a section in an endnote!<phrase role="strong"> heading with endnote reference</phrase><phrase role="strong"> </phrase></title>
+			<para></para>
+		</section>
+	</section>
+</chapter>
+<chapter>
+	<title></title>
+	<section role="unnumbered">
+		<title></title>
+		<section role="unnumbered">
+			<title>Heading Text - make sure we don't open a section in a footer!</title>
+			<para></para>
+			<table frame="all">
+				<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1'/>
+				<colspec colname='c2'/>
+				<colspec colname='c3'/>
+				<colspec colname='c4'/>
+				<colspec colname='c5'/>
+				<tbody>
+					<row>
+						<entry>
+						</section>
+						<section role="unnumbered">
+							<title>2</title>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+		<para></para>
+	</section>
+</section>
+</chapter>
+<chapter>
+	<title></title>
+	<section role="unnumbered">
+		<title></title>
+		<section role="unnumbered">
+			<title>Heading Text - make sure we don't open a section in a header!</title>
+			<table frame="all">
+				<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1'/>
+				<colspec colname='c2'/>
+				<colspec colname='c3'/>
+				<colspec colname='c4'/>
+				<colspec colname='c5'/>
+				<tbody>
+					<row>
+						<entry>
+						</section>
+						<section role="unnumbered">
+							<title>6</title>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+					</row>
+					<row>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+						<entry>
+							<para></para>
+						</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</section>
+	<section role="unnumbered">
+		<title></title>
+		<para></para>
+	</section>
+</section>
+</chapter>
+</book>
