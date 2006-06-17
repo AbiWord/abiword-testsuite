@@ -39,10 +39,11 @@ if ($branch eq "ABI-2-4-0-STABLE")
 	 cvs -d $cvsroot -z3 co -r $branch abi abidistfiles abiword-plugins &&\
 	 cvs -d $cvsroot -z3 co -r wv-1-0-0-STABLE wv`;
 
-	# apply the testsuite specific patches to the tree
+	# apply the testsuite specific patches to the tree 
+	# (TODO: make this a function)
 	foreach $patch ( @patches )
 	{
-		`cd $source_dir && patch -p0 < $root/patches/$patch`;
+		`cd $source_dir && patch -p0 < $root/patches/$patch-$branch.diff`;
 	}
 
 	# build abiword
@@ -68,7 +69,7 @@ elsif ($branch eq "HEAD")
 	# apply the testsuite specific patches to the tree
 	foreach $patch ( @patches )
 	{
-		`cd $source_dir && patch -p0 < $root/patches/$patch`;
+		`cd $source_dir && patch -p0 < $root/patches/$patch-$branch.diff`;
 	}
 
 	# build wv

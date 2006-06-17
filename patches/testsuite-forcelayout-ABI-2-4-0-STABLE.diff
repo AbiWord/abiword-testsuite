@@ -1,0 +1,39 @@
+Index: abi/src/wp/ap/xp/ap_Convert.cpp
+===================================================================
+RCS file: /cvsroot/abi/src/wp/ap/xp/ap_Convert.cpp,v
+retrieving revision 1.35
+diff -u -r1.35 ap_Convert.cpp
+--- abi/src/wp/ap/xp/ap_Convert.cpp	26 Feb 2006 19:24:14 -0000	1.35
++++ abi/src/wp/ap/xp/ap_Convert.cpp	17 Jun 2006 13:51:05 -0000
+@@ -44,7 +44,10 @@
+ 
+ #ifdef XP_UNIX_TARGET_GTK
+ // needed for unix printing
++#include "xap_UnixFontManager.h"
+ #include "xap_UnixPSGraphics.h"
++#include "xap_UnixNullGraphics.h"
++#include "xap_UnixApp.h"
+ #endif
+ 
+ //////////////////////////////////////////////////////////////////
+@@ -239,6 +242,20 @@
+ 		error = handleMerge (m_mergeSource.utf8_str(), *listener);
+ 		DELETEP(listener);
+ 	} else {
++		// force layout the document; for testing purposes only; *nix only; 
++		XAP_UnixNullGraphicsAllocInfo ai( new XAP_UnixFontManager(), XAP_App::getApp() );
++		GR_GraphicsFactory *pGrFact = XAP_App::getApp()->getGraphicsFactory();
++		GR_Graphics* pGr = pGrFact->newGraphics((UT_uint32)GRID_UNIX_NULL, ai);
++
++		FL_DocLayout *pDocLayout = new FL_DocLayout(pNewDoc, pGr);
++		FV_View *pNullView = new FV_View(XAP_App::getApp(), 0, pDocLayout);
++		pDocLayout->fillLayouts();
++		pDocLayout->formatAll();
++		pDocLayout->recalculateTOCFields();
++		delete pDocLayout;
++		delete pNullView;
++		// end: force layout the document; for testing purposes only; *nix only; 
++
+ 		error = pNewDoc->saveAs(szTargetFilename, targetFormat, m_expProps.utf8_str());
+ 		switch (error) {
+ 		case UT_OK:
