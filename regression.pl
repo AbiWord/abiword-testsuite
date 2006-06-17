@@ -61,6 +61,9 @@ if ($html)
         }
 }
 
+# start a virtual X server
+`Xvfb $DISPLAY & disown`;
+
 my $branch;
 foreach $branch ( @branches )
 {
@@ -81,5 +84,8 @@ if ($html) {
 	&HtmlFooter;
 	close(STDOUT);
 }
+
+# Stop the virtual X server (TODO: should only kill the one we started)
+`killall Xvfb`;
 
 1;
