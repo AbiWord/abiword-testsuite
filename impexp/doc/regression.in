@@ -4,7 +4,7 @@
 6953-headers_and_footnotes.doc
 6953-tables.doc
 6972.doc
-#9005-various_lists.doc  This files gets abi killed hard by glib, disable it for now
+9005-various_lists.doc
 9044-table_in_header.doc
 wv-95list.doc
 wv-asd.doc
