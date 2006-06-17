@@ -62,7 +62,7 @@ if ($html)
 }
 
 # start a virtual X server
-`Xvfb $DISPLAY & disown`;
+`Xvfb $DISPLAY -ac & disown`;
 
 my $branch;
 foreach $branch ( @branches )
