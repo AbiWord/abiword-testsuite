@@ -1,0 +1,8 @@
+{
+   _X11TransWrite(Param)/write(buf)
+   Memcheck:Param
+   write(buf)
+   fun:__write_nocancel
+   fun:*X11TransWrite
+}
+
