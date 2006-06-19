@@ -24,7 +24,7 @@ sub _DiffPruneAWML
 	`sed -i -e 's/table-sdh:[a-zA-Z0-9]*/\<!-- table-sdh removed --\>/g' $f.pruned`;
 	`sed -i -e 's/shplid[0-9]*/\<!-- shplid removed --\>/g' $f.pruned`;
 	`sed -i -e 's/version=".*"/\<!-- version removed --\>/g' $f.pruned`;
-	`sed -i -e 's/fileref=".*"/\<!-- fileref removed --\>/g' $f.pruned`;
+	`sed -i -e 's/fileref=".*" /\<!-- fileref removed --\>/g' $f.pruned`;
 	`sed -i -e 's/raw.*.html_files/\<!-- html_files directory filtered --\>/g' $f.pruned`;
 }
 
