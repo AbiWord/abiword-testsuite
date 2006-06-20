@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<!-- ================================================================================ -->
+<!-- This DocBook file was created by AbiWord.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                                   -->
+<!-- You may obtain more information about AbiWord at http://www.abisource.com        -->
+<!-- ================================================================================ -->
+
+<book condition="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0" lang="en-US">
+	<bookinfo>
+		<bibliomisc><application class="software">AbiWord</application></bibliomisc>
+	</bookinfo>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+			<para><phrase lang="en-US" condition="lang:en-US">ABC</phrase></para>
+			<informaltable frame="all">
+				<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1'/>
+				<colspec colname='c2'/>
+				<colspec colname='c3'/>
+				<colspec colname='c4'/>
+				<colspec colname='c5'/>
+				<tbody>
+					<row>
+						<entry condition="bot-attach:1; left-attach:0; right-attach:1; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:1; right-attach:2; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:2; right-attach:3; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:3; right-attach:4; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:4; right-attach:5; top-attach:0"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:2; left-attach:0; right-attach:1; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:1; right-attach:2; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:2; right-attach:3; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:3; right-attach:4; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:4; right-attach:5; top-attach:1"><para></para></entry>
+					</row>
+				</tbody>
+				</tgroup>
+			</informaltable>
+			<para condition="start-value:0; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	a</phrase></para>
+			<para condition="text-indent:0in; margin-left:0pt"></para>
+			<para condition="text-indent:0in; margin-left:0pt"></para>
+			<para condition="text-indent:0in; margin-left:0pt"></para>
+			<section role="abi-toc">
+				<title>Table of Contents</title>
+				<toc></toc>
+				<para></para>
+			</section>
+		</section>
+		<section>
+			<title></title>
+			<para condition="text-indent:0in; margin-left:0pt"></para>
+			<informaltable frame="all">
+				<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1'/>
+				<colspec colname='c2'/>
+				<colspec colname='c3'/>
+				<colspec colname='c4'/>
+				<colspec colname='c5'/>
+				<tbody>
+					<row>
+						<entry condition="bot-attach:1; left-attach:0; right-attach:1; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:1; right-attach:2; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:2; right-attach:3; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:3; right-attach:4; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:4; right-attach:5; top-attach:0"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:2; left-attach:0; right-attach:1; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:1; right-attach:2; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:2; right-attach:3; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:3; right-attach:4; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:4; right-attach:5; top-attach:1"><para></para></entry>
+					</row>
+				</tbody>
+				</tgroup>
+			</informaltable>
+			<para condition="text-indent:0in; margin-left:0pt"></para>
+			<para condition="text-indent:0in; margin-left:0pt"><phrase role="footnote_ref" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; bgcolor:transparent; homogeneous:1; height:0in; color:000000; font-stretch:normal"><footnoteref linkend="footnote-id-0"/></phrase><footnote id="footnote-id-0"><para><phrase role="footnote_anchor" condition="text-position:superscript"></phrase><phrase> </phrase></para></footnote></para>
+			<informaltable frame="all">
+				<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1'/>
+				<colspec colname='c2'/>
+				<colspec colname='c3'/>
+				<colspec colname='c4'/>
+				<colspec colname='c5'/>
+				<tbody>
+					<row>
+						<entry condition="bot-attach:1; left-attach:0; right-attach:1; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:1; right-attach:2; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:2; right-attach:3; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:3; right-attach:4; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:4; right-attach:5; top-attach:0"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:2; left-attach:0; right-attach:1; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:1; right-attach:2; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:2; right-attach:3; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:3; right-attach:4; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:4; right-attach:5; top-attach:1"><para></para></entry>
+					</row>
+				</tbody>
+				</tgroup>
+			</informaltable>
+			<para condition="text-indent:0in; margin-left:0pt"></para>
+			<para condition="start-value:0; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	</phrase></para>
+			<informaltable frame="all">
+				<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1'/>
+				<colspec colname='c2'/>
+				<colspec colname='c3'/>
+				<colspec colname='c4'/>
+				<colspec colname='c5'/>
+				<tbody>
+					<row>
+						<entry condition="bot-attach:1; left-attach:0; right-attach:1; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:1; right-attach:2; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:2; right-attach:3; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:3; right-attach:4; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:4; right-attach:5; top-attach:0"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:2; left-attach:0; right-attach:1; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:1; right-attach:2; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:2; right-attach:3; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:3; right-attach:4; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:4; right-attach:5; top-attach:1"><para></para></entry>
+					</row>
+				</tbody>
+				</tgroup>
+			</informaltable>
+			<informaltable frame="all">
+				<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1'/>
+				<colspec colname='c2'/>
+				<colspec colname='c3'/>
+				<colspec colname='c4'/>
+				<colspec colname='c5'/>
+				<tbody>
+					<row>
+						<entry condition="bot-attach:1; left-attach:0; right-attach:1; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:1; right-attach:2; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:2; right-attach:3; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:3; right-attach:4; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:4; right-attach:5; top-attach:0"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:2; left-attach:0; right-attach:1; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:1; right-attach:2; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:2; right-attach:3; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:3; right-attach:4; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:4; right-attach:5; top-attach:1"><para></para></entry>
+					</row>
+				</tbody>
+				</tgroup>
+			</informaltable>
+			<para condition="start-value:0; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	</phrase></para>
+		</section>
+	</chapter>
+</book>

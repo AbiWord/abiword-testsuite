@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" version="2.4.2" xmlns:svg="http://www.w3.org/2000/svg" xid-max="183" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="2" edit-time="88" last-saved="1150805382" uid="ef862bda-004c-11db-98c5-87ccd887651b">
+<version id="1" started="1150801725" uid="23cab88e-004d-11db-98c7-87ccd887651b" auto="0" top-xid="183"/>
+<version id="2" started="1150805382" uid="a7fb7fc8-0055-11db-947c-8de191efc721" auto="0" top-xid="183"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; font-weight:normal; margin-right:0pt; font-size:12pt; text-decoration:none; margin-bottom:0pt; line-height:1.0; bgcolor:transparent; text-align:left; lang:en-US; font-stretch:normal"/>
+<s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; font-size:10pt"/>
+<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; font-size:10pt"/>
+</styles>
+<lists>
+<l id="1000" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1003" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="182">
+<p xid="183"><c props="lang:en-US">ABC</c></p>
+<table xid="3">
+<cell xid="4" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="5"></p>
+</cell>
+<cell xid="7" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="8"></p>
+</cell>
+<cell xid="10" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="11"></p>
+</cell>
+<cell xid="13" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="14"></p>
+</cell>
+<cell xid="16" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="17"></p>
+</cell>
+<cell xid="19" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="20"></p>
+</cell>
+<cell xid="22" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="23"></p>
+</cell>
+<cell xid="25" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="26"></p>
+</cell>
+<cell xid="28" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="29"></p>
+</cell>
+<cell xid="31" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="32"></p>
+</cell>
+</table>
+<p level="1" listid="1000" parentid="0" xid="1" props="start-value:0; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><field type="list_label" xid="2" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	a</c></p>
+<p xid="35" props="text-indent:0in; margin-left:0pt"></p>
+<p xid="37" props="text-indent:0in; margin-left:0pt"></p>
+<p xid="38" props="text-indent:0in; margin-left:0pt"></p>
+<toc xid="40">
+</toc><p xid="39" props="text-indent:0in; margin-left:0pt"></p>
+<table xid="43">
+<cell xid="44" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="45"></p>
+</cell>
+<cell xid="47" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="48"></p>
+</cell>
+<cell xid="50" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="51"></p>
+</cell>
+<cell xid="53" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="54"></p>
+</cell>
+<cell xid="56" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="57"></p>
+</cell>
+<cell xid="59" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="60"></p>
+</cell>
+<cell xid="62" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="63"></p>
+</cell>
+<cell xid="65" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="66"></p>
+</cell>
+<cell xid="68" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="69"></p>
+</cell>
+<cell xid="71" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="72"></p>
+</cell>
+</table>
+<p xid="42" props="text-indent:0in; margin-left:0pt"></p>
+<p xid="75" props="text-indent:0in; margin-left:0pt"><field footnote-id="0" type="footnote_ref" style="Footnote Reference" xid="79" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; bgcolor:transparent; homogeneous:1; height:0in; color:000000; font-stretch:normal"></field><foot footnote-id="0" xid="76">
+<p footnote-id="0" style="Footnote Text" xid="77"><field footnote-id="0" type="footnote_anchor" style="Footnote Text" xid="80" props="text-position:superscript"></field><c footnote-id="0"> </c></p>
+</foot></p>
+<table xid="82">
+<cell xid="83" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="84"></p>
+</cell>
+<cell xid="86" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="87"></p>
+</cell>
+<cell xid="89" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="90"></p>
+</cell>
+<cell xid="92" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="93"></p>
+</cell>
+<cell xid="95" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="96"></p>
+</cell>
+<cell xid="98" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="99"></p>
+</cell>
+<cell xid="101" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="102"></p>
+</cell>
+<cell xid="104" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="105"></p>
+</cell>
+<cell xid="107" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="108"></p>
+</cell>
+<cell xid="110" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="111"></p>
+</cell>
+</table>
+<p xid="81" props="text-indent:0in; margin-left:0pt"></p>
+<p level="1" listid="1003" parentid="0" xid="114" props="start-value:0; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><field type="list_label" xid="115" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	</c></p>
+<table xid="150">
+<cell xid="151" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="152"></p>
+</cell>
+<cell xid="154" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="155"></p>
+</cell>
+<cell xid="157" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="158"></p>
+</cell>
+<cell xid="160" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="161"></p>
+</cell>
+<cell xid="163" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="164"></p>
+</cell>
+<cell xid="166" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="167"></p>
+</cell>
+<cell xid="169" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="170"></p>
+</cell>
+<cell xid="172" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="173"></p>
+</cell>
+<cell xid="175" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="176"></p>
+</cell>
+<cell xid="178" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="179"></p>
+</cell>
+</table>
+<table xid="117">
+<cell xid="118" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="119"></p>
+</cell>
+<cell xid="121" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="122"></p>
+</cell>
+<cell xid="124" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="125"></p>
+</cell>
+<cell xid="127" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="128"></p>
+</cell>
+<cell xid="130" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="131"></p>
+</cell>
+<cell xid="133" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="134"></p>
+</cell>
+<cell xid="136" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="137"></p>
+</cell>
+<cell xid="139" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="140"></p>
+</cell>
+<cell xid="142" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="143"></p>
+</cell>
+<cell xid="145" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="146"></p>
+</cell>
+</table>
+<p level="1" listid="1003" parentid="0" xid="116" props="start-value:0; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><field type="list_label" xid="149" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	</c></p>
+</section>
+</abiword>
