@@ -54,6 +54,9 @@ sub GenRaw {
 
 # Main function
 
+# start a virtual X server
+`Xvfb $DISPLAY -ac & disown`;
+
 if ($root eq "")
 {
 	printf "\$root is unset, please check your regression.conf file\n";
@@ -66,5 +69,7 @@ foreach $branch ( @branches )
 	`cd .. ; ./cleanup.pl $branch ; ./bootstrap.pl $branch`;
 	&GenRaw($branch);
 }
+
+`killall Xvfb`;
 
 1;
