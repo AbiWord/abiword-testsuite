@@ -367,7 +367,7 @@ sub ExportRegTest
 	my $vgFailures = 0;
 	
 	my @sourceList = ( "abw" );
-	my @sinkList = ( "abw", "rtf", "txt", "xml", "html");
+	my @sinkList = ( "abw", "rtf", "txt", "xml", "html", "odt");
 	
 	my $source;
 	my $sink;
