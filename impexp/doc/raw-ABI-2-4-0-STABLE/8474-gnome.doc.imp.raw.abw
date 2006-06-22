@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="553" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.4.5" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="1" edit-time="56" last-saved="1150996048" uid="74240d10-0211-11db-8187-ffa7d1abb40c">
+<version id="1" started="1150996048" uid="956f97f0-0211-11db-8187-ffa7d1abb40c" auto="0" top-xid="553"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; margin-right:0pt; lang:en-US; line-height:1.0; font-size:12pt; text-decoration:none; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Footnote Text" followedby="Textkörper" props="font-family:Nimbus Roman No9 L; dom-dir:ltr; font-weight:bold; lang:en-US; margin-top:12pt; text-align:left; orphans:0; keep-with-next:yes; widows:0; margin-bottom:14pt; line-height:1.0; font-size:18pt"/>
+<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; font-size:10pt"/>
+<s type="P" name="Textkörper" basedon="Normal" followedby="Textkörper" props="font-family:Nimbus Roman No9 L; font-size:12pt; dom-dir:ltr; margin-bottom:14pt; lang:en-US; line-height:1.0; orphans:0; text-align:left; widows:0"/>
+<s type="P" name="Tabellen Überschrift" basedon="Tabellen Inhalt" followedby="Tabellen Überschrift" props="font-family:Nimbus Roman No9 L; font-size:12pt; dom-dir:ltr; margin-bottom:14pt; lang:en-US; font-weight:bold; line-height:1.0; orphans:0; text-align:center; widows:0"/>
+<s type="P" name="Tabellen Inhalt" basedon="Textkörper" followedby="Tabellen Inhalt" props="font-family:Nimbus Roman No9 L; font-size:12pt; dom-dir:ltr; margin-bottom:14pt; lang:en-US; line-height:1.0; orphans:0; text-align:left; widows:0"/>
+<s type="P" name="Heading 3" basedon="Footnote Text" followedby="Textkörper" props="font-family:Nimbus Roman No9 L; dom-dir:ltr; font-weight:bold; lang:en-US; margin-top:12pt; text-align:left; orphans:0; keep-with-next:yes; widows:0; margin-bottom:14pt; line-height:1.0; font-size:14pt"/>
+<s type="P" name="Vorformatierter Text" basedon="Normal" followedby="Vorformatierter Text" props="font-family:Luxi Mono; font-size:10pt; dom-dir:ltr; lang:en-US; line-height:1.0; orphans:0; text-align:left; widows:0"/>
+<s type="P" name="Rahmeninhalt" basedon="Textkörper" followedby="Rahmeninhalt" props="font-family:Nimbus Roman No9 L; font-size:12pt; dom-dir:ltr; margin-bottom:14pt; lang:en-US; line-height:1.0; orphans:0; text-align:left; widows:0"/>
+<s type="P" name="Heading 1" basedon="Footnote Text" followedby="Textkörper" props="font-family:Nimbus Roman No9 L; dom-dir:ltr; font-weight:bold; lang:en-US; margin-top:12pt; text-align:left; orphans:0; keep-with-next:yes; widows:0; margin-bottom:14pt; line-height:1.0; font-size:24pt"/>
+<s type="P" name="Überschrift" basedon="Normal" followedby="Textkörper" props="font-family:Luxi Sans; dom-dir:ltr; margin-top:12pt; lang:en-US; text-align:left; orphans:0; keep-with-next:yes; widows:0; margin-bottom:14pt; line-height:1.0; font-size:14pt"/>
+</styles>
+<lists>
+<l id="1000" parentid="0" type="0" start-value="2" list-delim="%L." list-decimal="."/>
+<l id="1001" parentid="0" type="0" start-value="3" list-delim="%L." list-decimal="."/>
+<l id="1002" parentid="0" type="0" start-value="4" list-delim="%L." list-decimal="."/>
+<l id="1003" parentid="0" type="0" start-value="5" list-delim="%L." list-decimal="."/>
+<l id="1004" parentid="0" type="0" start-value="3" list-delim="%L." list-decimal="."/>
+<l id="1005" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
+<l id="1006" parentid="0" type="0" start-value="2" list-delim="%L." list-decimal="."/>
+<l id="1007" parentid="0" type="0" start-value="3" list-delim="%L." list-decimal="."/>
+</lists>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:0.7875in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.2875in; page-margin-header:0.5000in; page-margin-left:0.7875in; page-margin-top:0.7875in; page-margin-bottom:0.7875in">
+<p style="Normal" xid="2" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="3" props="frame-col-xpos:0.019444in; wrap-mode:wrapped-both; frame-height:0.286806in; frame-type:textbox; ypos:0.079167in; frame-col-ypos:0.079167in; frame-width:6.879167in; xpos:0.019444in; position-to:block-above-text">
+<p style="Normal" xid="4" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="5" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p xid="6"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">Version 1.0  03/28/04 mgansser@ngi.de</c></p>
+<p style="Normal" xid="7" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="8" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">1. Be sure that the following System Sofware is installed.</c></p>
+<p style="Normal" xid="9" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="10" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">HPUX 11.11 System Patches and Developer Toolkit B3394BA from:</c></p>
+<p style="Normal" xid="11" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><a xlink:href="http://www.software.hp.com/portal/swdepot/displayProductInfo.do?productNumber=B3394BA" xid="12"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">http://www.software.hp.com/portal/swdepot/displayProductInfo.do?productNumber=B3394BA</c></a></p>
+<p style="Normal" xid="14" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="15" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">  B3394BA                       B.11.11.02     HP-UX Developer's Toolkit for 11.11</c></p>
+<p style="Normal" xid="16" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">  HP-UX 11iv1                 Quality Pack (GOLDQPK11i) December 2003 (B.11.11.0312.4)</c></p>
+<p style="Normal" xid="17" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">  PHCO_25569                    1.0            libc cumulative header file patch</c></p>
+<p style="Normal" xid="18" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">  PHCO_29955                    1.0            libc cumulative patch</c></p>
+<p style="Normal" xid="19" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">  PHSS_30049                     1.0            ld(1) and linker tools cumulative patch</c></p>
+<p style="Normal" xid="20" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">  PHSS_30173                    B.11.11.19     Xserver cumulative patch</c></p>
+<p style="Normal" xid="21" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="22" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">  s700_800 11.11 X/Motif DevKit Periodic Patch  </c><a xlink:href="http://www4.itrc.hp.com/service/patch/patchDetail.do?BC=patch.breadcrumb.main%7cpatch.breadcrumb.search%7c%26patchid=PHSS_30263%26context=hpux%3a800%3a11%3a11" xid="23"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">PHSS_30263</c></a><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L"><br/>  s700_800 11.11 X/Motif Runtime Periodic Patch  </c><a xlink:href="http://www4.itrc.hp.com/service/patch/patchDetail.do?BC=patch.breadcrumb.main%7cpatch.breadcrumb.search%7c%26patchid=PHSS_30262%26context=hpux%3a800%3a11%3a11" xid="25"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">PHSS_30262</c></a></p>
+<p style="Normal" xid="27" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="28" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="29" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="30" props="frame-col-xpos:0.018056in; wrap-mode:wrapped-both; frame-height:0.251389in; frame-type:textbox; ypos:0.079167in; frame-col-ypos:0.079167in; frame-width:6.901389in; xpos:0.018056in; position-to:block-above-text">
+<p xid="31"></p>
+<p style="Normal" xid="32" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Heading 2" xid="33" props="margin-top:12pt; orphans:0; tabstops:0.0000in/L; dom-dir:ltr; margin-bottom:14pt; line-height:1.0; text-align:left; widows:0; keep-with-next:yes"></p>
+</frame><p xid="34"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">Here is a list off all the packages that I downloaded from </c><a xlink:href="http://hpux.connect.org.uk/" xid="35"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">the porting centre for HP-UX</c></a><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">.</c></p>
+<table xid="37" props="table-column-props:0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/0.9785in/0.9792in/3.6417in/; table-column-leftpos:0.0000in; table-line-thickness:0.8pt; table-col-spacing:0.03in; table-line-type:1; table-line-ignore:0">
+<cell xid="38" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:808080; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.125000pt; bot-attach:1; top-attach:0">
+<p style="Tabellen Überschrift" xid="39" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">Name</c></p>
+</cell>
+<cell xid="40" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:808080; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.125000pt; bot-attach:1; top-attach:0">
+<p style="Tabellen Überschrift" xid="41" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">Version</c></p>
+</cell>
+<cell xid="42" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:808080; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.125000pt; bot-attach:1; top-attach:0">
+<p style="Tabellen Überschrift" xid="43" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">Notes</c></p>
+</cell>
+<cell xid="44" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:2; top-attach:1">
+<p style="Tabellen Inhalt" xid="45" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gcc </c></p>
+</cell>
+<cell xid="46" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:2; top-attach:1">
+<p style="Tabellen Inhalt" xid="47" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">3.3.3 </c></p>
+</cell>
+<cell xid="48" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:2; top-attach:1">
+<p style="Tabellen Inhalt" xid="49" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><a xlink:href="http://www.cmve.net/%7embrand/gcc-3.3.3-32-11.11-hppa2.0.tbz" xid="50"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">gcc 3.3.3 + binutils 2.14 + gdb-6.0</c></a></p>
+</cell>
+<cell xid="52" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:3; top-attach:2">
+<p style="Tabellen Inhalt" xid="53" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">unzip </c></p>
+</cell>
+<cell xid="54" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:3; top-attach:2">
+<p style="Tabellen Inhalt" xid="55" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">5.50 </c></p>
+</cell>
+<cell xid="56" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:3; top-attach:2">
+<p style="Tabellen Inhalt" xid="57" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">Mozilla wants it</c></p>
+</cell>
+<cell xid="58" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Tabellen Inhalt" xid="59" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">zlib </c></p>
+</cell>
+<cell xid="60" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Tabellen Inhalt" xid="61" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.2.1 </c></p>
+</cell>
+<cell xid="62" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Tabellen Inhalt" xid="63" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="64" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:5; top-attach:4">
+<p style="Tabellen Inhalt" xid="65" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">xpm</c></p>
+</cell>
+<cell xid="66" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:5; top-attach:4">
+<p style="Tabellen Inhalt" xid="67" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">3.4k </c></p>
+</cell>
+<cell xid="68" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:5; top-attach:4">
+<p style="Tabellen Inhalt" xid="69" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="70" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:6; top-attach:5">
+<p style="Tabellen Inhalt" xid="71" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">wget </c></p>
+</cell>
+<cell xid="72" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:6; top-attach:5">
+<p style="Tabellen Inhalt" xid="73" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.8.1 </c></p>
+</cell>
+<cell xid="74" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:6; top-attach:5">
+<p style="Tabellen Inhalt" xid="75" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">for garnome</c></p>
+</cell>
+<cell xid="76" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:7; top-attach:6">
+<p style="Tabellen Inhalt" xid="77" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">tiff </c></p>
+</cell>
+<cell xid="78" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:7; top-attach:6">
+<p style="Tabellen Inhalt" xid="79" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">3.5.7 </c></p>
+</cell>
+<cell xid="80" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:7; top-attach:6">
+<p style="Tabellen Inhalt" xid="81" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">pixbuff</c></p>
+</cell>
+<cell xid="82" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:8; top-attach:7">
+<p style="Tabellen Inhalt" xid="83" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">bzip2</c></p>
+</cell>
+<cell xid="84" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:8; top-attach:7">
+<p style="Tabellen Inhalt" xid="85" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.0.2</c></p>
+</cell>
+<cell xid="86" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:8; top-attach:7">
+<p style="Tabellen Inhalt" xid="87" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">for garnome </c></p>
+</cell>
+<cell xid="88" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:9; top-attach:8">
+<p style="Tabellen Inhalt" xid="89" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">db</c></p>
+</cell>
+<cell xid="90" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:9; top-attach:8">
+<p style="Tabellen Inhalt" xid="91" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">4.2.52</c></p>
+</cell>
+<cell xid="92" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:9; top-attach:8">
+<p style="Tabellen Inhalt" xid="93" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="94" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:10; top-attach:9">
+<p style="Tabellen Inhalt" xid="95" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">expat</c></p>
+</cell>
+<cell xid="96" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:10; top-attach:9">
+<p style="Tabellen Inhalt" xid="97" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.95.6</c></p>
+</cell>
+<cell xid="98" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:10; top-attach:9">
+<p style="Tabellen Inhalt" xid="99" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="100" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:11; top-attach:10">
+<p style="Tabellen Inhalt" xid="101" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">fileutils</c></p>
+</cell>
+<cell xid="102" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:11; top-attach:10">
+<p style="Tabellen Inhalt" xid="103" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">4.1.7</c></p>
+</cell>
+<cell xid="104" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:11; top-attach:10">
+<p style="Tabellen Inhalt" xid="105" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">for garnome </c></p>
+</cell>
+<cell xid="106" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:12; top-attach:11">
+<p style="Tabellen Inhalt" xid="107" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gettext</c></p>
+</cell>
+<cell xid="108" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:12; top-attach:11">
+<p style="Tabellen Inhalt" xid="109" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">0.14.1</c></p>
+</cell>
+<cell xid="110" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:12; top-attach:11">
+<p style="Tabellen Inhalt" xid="111" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="112" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:13; top-attach:12">
+<p style="Tabellen Inhalt" xid="113" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">imake</c></p>
+</cell>
+<cell xid="114" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:13; top-attach:12">
+<p style="Tabellen Inhalt" xid="115" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">6.00</c></p>
+</cell>
+<cell xid="116" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:13; top-attach:12">
+<p style="Tabellen Inhalt" xid="117" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">for garnome </c></p>
+</cell>
+<cell xid="118" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:14; top-attach:13">
+<p style="Tabellen Inhalt" xid="119" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">jpeg</c></p>
+</cell>
+<cell xid="120" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:14; top-attach:13">
+<p style="Tabellen Inhalt" xid="121" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">6b</c></p>
+</cell>
+<cell xid="122" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:14; top-attach:13">
+<p style="Tabellen Inhalt" xid="123" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="124" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:15; top-attach:14">
+<p style="Tabellen Inhalt" xid="125" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">autoconf</c></p>
+</cell>
+<cell xid="126" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:15; top-attach:14">
+<p style="Tabellen Inhalt" xid="127" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">2.57</c></p>
+</cell>
+<cell xid="128" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:15; top-attach:14">
+<p style="Tabellen Inhalt" xid="129" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="130" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:16; top-attach:15">
+<p style="Tabellen Inhalt" xid="131" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">automake</c></p>
+</cell>
+<cell xid="132" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:16; top-attach:15">
+<p style="Tabellen Inhalt" xid="133" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.74</c></p>
+</cell>
+<cell xid="134" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:16; top-attach:15">
+<p style="Tabellen Inhalt" xid="135" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="136" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:17; top-attach:16">
+<p style="Tabellen Inhalt" xid="137" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">libiconv</c></p>
+</cell>
+<cell xid="138" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:17; top-attach:16">
+<p style="Tabellen Inhalt" xid="139" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.9.2</c></p>
+</cell>
+<cell xid="140" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:17; top-attach:16">
+<p style="Tabellen Inhalt" xid="141" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="142" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:18; top-attach:17">
+<p style="Tabellen Inhalt" xid="143" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">libpng</c></p>
+</cell>
+<cell xid="144" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:18; top-attach:17">
+<p style="Tabellen Inhalt" xid="145" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.2.4</c></p>
+</cell>
+<cell xid="146" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:18; top-attach:17">
+<p style="Tabellen Inhalt" xid="147" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="148" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:19; top-attach:18">
+<p style="Tabellen Inhalt" xid="149" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">make</c></p>
+</cell>
+<cell xid="150" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:19; top-attach:18">
+<p style="Tabellen Inhalt" xid="151" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">3.80</c></p>
+</cell>
+<cell xid="152" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:19; top-attach:18">
+<p style="Tabellen Inhalt" xid="153" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">for garnome </c></p>
+</cell>
+<cell xid="154" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:20; top-attach:19">
+<p style="Tabellen Inhalt" xid="155" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">bison</c></p>
+</cell>
+<cell xid="156" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:20; top-attach:19">
+<p style="Tabellen Inhalt" xid="157" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.8.75</c></p>
+</cell>
+<cell xid="158" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:20; top-attach:19">
+<p style="Tabellen Inhalt" xid="159" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="160" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:21; top-attach:20">
+<p style="Tabellen Inhalt" xid="161" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">flex</c></p>
+</cell>
+<cell xid="162" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:21; top-attach:20">
+<p style="Tabellen Inhalt" xid="163" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">2.5.4a</c></p>
+</cell>
+<cell xid="164" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:21; top-attach:20">
+<p style="Tabellen Inhalt" xid="165" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="166" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:22; top-attach:21">
+<p style="Tabellen Inhalt" xid="167" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">texinfo</c></p>
+</cell>
+<cell xid="168" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:22; top-attach:21">
+<p style="Tabellen Inhalt" xid="169" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">4.5</c></p>
+</cell>
+<cell xid="170" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:22; top-attach:21">
+<p style="Tabellen Inhalt" xid="171" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="172" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:23; top-attach:22">
+<p style="Tabellen Inhalt" xid="173" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">m4</c></p>
+</cell>
+<cell xid="174" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:23; top-attach:22">
+<p style="Tabellen Inhalt" xid="175" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.4</c></p>
+</cell>
+<cell xid="176" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:23; top-attach:22">
+<p style="Tabellen Inhalt" xid="177" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="178" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:24; top-attach:23">
+<p style="Tabellen Inhalt" xid="179" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">perl</c></p>
+</cell>
+<cell xid="180" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:24; top-attach:23">
+<p style="Tabellen Inhalt" xid="181" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">5.8.3</c></p>
+</cell>
+<cell xid="182" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:24; top-attach:23">
+<p style="Tabellen Inhalt" xid="183" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="184" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:25; top-attach:24">
+<p style="Tabellen Inhalt" xid="185" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">tar</c></p>
+</cell>
+<cell xid="186" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:25; top-attach:24">
+<p style="Tabellen Inhalt" xid="187" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.13.25</c></p>
+</cell>
+<cell xid="188" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:25; top-attach:24">
+<p style="Tabellen Inhalt" xid="189" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">for garnome </c></p>
+</cell>
+<cell xid="190" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:26; top-attach:25">
+<p style="Tabellen Inhalt" xid="191" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">zip</c></p>
+</cell>
+<cell xid="192" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:26; top-attach:25">
+<p style="Tabellen Inhalt" xid="193" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">2.3</c></p>
+</cell>
+<cell xid="194" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:26; top-attach:25">
+<p style="Tabellen Inhalt" xid="195" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">Mozilla wants it </c></p>
+</cell>
+<cell xid="196" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:27; top-attach:26">
+<p style="Tabellen Inhalt" xid="197" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">pcre</c></p>
+</cell>
+<cell xid="198" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:27; top-attach:26">
+<p style="Tabellen Inhalt" xid="199" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">4.4</c></p>
+</cell>
+<cell xid="200" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:27; top-attach:26">
+<p style="Tabellen Inhalt" xid="201" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">BlueFish needs it </c></p>
+</cell>
+<cell xid="202" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:28; top-attach:27">
+<p style="Tabellen Inhalt" xid="203" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">diffutils </c></p>
+</cell>
+<cell xid="204" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:28; top-attach:27">
+<p style="Tabellen Inhalt" xid="205" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">2.8.1</c></p>
+</cell>
+<cell xid="206" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:28; top-attach:27">
+<p style="Tabellen Inhalt" xid="207" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">You need to aply some patches!! </c></p>
+</cell>
+<cell xid="208" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:29; top-attach:28">
+<p style="Tabellen Inhalt" xid="209" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gawk</c></p>
+</cell>
+<cell xid="210" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:29; top-attach:28">
+<p style="Tabellen Inhalt" xid="211" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">3.1.2</c></p>
+</cell>
+<cell xid="212" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:29; top-attach:28">
+<p style="Tabellen Inhalt" xid="213" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="214" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:30; top-attach:29">
+<p style="Tabellen Inhalt" xid="215" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gdbm</c></p>
+</cell>
+<cell xid="216" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:30; top-attach:29">
+<p style="Tabellen Inhalt" xid="217" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.8.3</c></p>
+</cell>
+<cell xid="218" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:30; top-attach:29">
+<p style="Tabellen Inhalt" xid="219" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">For GnomeICU</c></p>
+</cell>
+<cell xid="220" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:31; top-attach:30">
+<p style="Tabellen Inhalt" xid="221" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">ncurses</c></p>
+</cell>
+<cell xid="222" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:31; top-attach:30">
+<p style="Tabellen Inhalt" xid="223" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">5.4</c></p>
+</cell>
+<cell xid="224" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:31; top-attach:30">
+<p style="Tabellen Inhalt" xid="225" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+<cell xid="226" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:1; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:32; top-attach:31">
+<p style="Tabellen Inhalt" xid="227" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">popt</c></p>
+</cell>
+<cell xid="228" props="right-thickness:0.000000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:2; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:808080; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:32; top-attach:31">
+<p style="Tabellen Inhalt" xid="229" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">1.7</c></p>
+</cell>
+<cell xid="230" props="right-thickness:0.125000px; left-color:808080; bot-style:1; bot-thickness:0.125000px; right-attach:3; left-thickness:0.125000px; right-style:1; background-color:ffffff; right-color:808080; top-color:000000; bot-color:808080; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:32; top-attach:31">
+<p style="Tabellen Inhalt" xid="231" props="text-align:center; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</cell>
+</table>
+<p style="Normal" xid="232" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="233" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">Install gcc 3.3.3</c></p>
+<p style="Normal" xid="234" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">tar xfj gcc-3.3.3-32-11.11-hppa2.0.tbz -C /usr/local/</c></p>
+<p style="Normal" xid="235" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="236" props="frame-col-xpos:0.011111in; wrap-mode:wrapped-both; frame-height:0.400694in; frame-type:textbox; ypos:0.325000in; frame-col-ypos:0.325000in; frame-width:6.887500in; xpos:0.011111in; position-to:block-above-text">
+<p style="Normal" xid="237" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="238" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p xid="239"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">and the other Depot software with: swinstall -s /tmp/paketname.depot paketname</c></p>
+<p style="Heading 3" xid="240" props="margin-top:12pt; orphans:0; tabstops:0.0000in/L; dom-dir:ltr; margin-bottom:14pt; line-height:1.0; text-align:left; widows:0; keep-with-next:yes"><bookmark type="start" name="head-a300459d78bbcb70e72c699d68bbe2c60d99400e" xid="241"/><bookmark type="end" name="head-a300459d78bbcb70e72c699d68bbe2c60d99400e" xid="242"/><c props="lang:en-US; font-size:14pt; font-family:Nimbus Roman No9 L; font-weight:bold">How to start</c></p>
+<p style="Normal" xid="243" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">1. Download the latest garnome, unpack it:</c><bookmark type="start" name="head-bae7d5be70820ed56467bd9a63744e23b47bd711" xid="244"/><bookmark type="end" name="head-bae7d5be70820ed56467bd9a63744e23b47bd711" xid="245"/></p>
+<p style="Normal" xid="246" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><a xlink:href="http://www.gnome.org/%7ejdub/garnome/download/garnome-0.27.1.tar.bz2" xid="247"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">http://www.gnome.org/~jdub/garnome/download/garnome-0.27.1.tar.bz2</c></a></p>
+<p style="Normal" xid="249" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="250" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="251" props="frame-col-xpos:0.016667in; wrap-mode:wrapped-both; frame-height:0.319444in; frame-type:textbox; ypos:0.088194in; frame-col-ypos:0.088194in; frame-width:6.881944in; xpos:0.016667in; position-to:block-above-text">
+<p xid="252"></p>
+<p style="Normal" xid="253" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="254" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p level="1" listid="1000" parentid="0" style="Normal" xid="255" props="dom-dir:ltr; margin-left:0.1965in; widows:0; text-indent:-0.1965in; text-align:left; orphans:0; start-value:2; tabstops:0.1965in/L; list-style:Numbered List; line-height:1.0; field-font:Times New Roman"><field type="list_label" xid="256" props="text-decoration:none"></field><c props="text-decoration:none">	</c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">link make with gmake</c></p>
+<p style="Normal" xid="257" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="258" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="259" props="frame-col-xpos:0.016667in; wrap-mode:wrapped-both; frame-height:0.319444in; frame-type:textbox; ypos:0.079167in; frame-col-ypos:0.079167in; frame-width:6.881944in; xpos:0.016667in; position-to:block-above-text">
+<p xid="260"></p>
+<p style="Normal" xid="261" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="262" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p level="1" listid="1001" parentid="0" style="Normal" xid="263" props="dom-dir:ltr; margin-left:0.1965in; widows:0; text-indent:-0.1965in; text-align:left; orphans:0; start-value:3; tabstops:0.1965in/L; list-style:Numbered List; line-height:1.0; field-font:Times New Roman"><field type="list_label" xid="264" props="text-decoration:none"></field><c props="text-decoration:none">	</c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">Now edit gar.conf.mk Add to:</c></p>
+<p style="Normal" xid="265" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="266" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="267" props="frame-col-xpos:0.010417in; wrap-mode:wrapped-both; frame-height:0.777778in; frame-type:textbox; ypos:0.166667in; frame-col-ypos:0.166667in; frame-width:6.898611in; xpos:0.010417in; position-to:block-above-text">
+<p xid="268"></p>
+<p xid="269"></p>
+<p style="Normal" xid="270" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p xid="271"></p>
+<p style="Normal" xid="272" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p xid="273"></p>
+<p style="Normal" xid="274" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Vorformatierter Text" xid="275" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p style="Normal" xid="276" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">Only if you have a PA8000 or newer!!!</c></p>
+<p style="Vorformatierter Text" xid="277" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="278" props="frame-col-xpos:0.018056in; wrap-mode:wrapped-both; frame-height:0.275694in; frame-type:textbox; ypos:0.275694in; frame-col-ypos:0.275694in; frame-width:6.890972in; xpos:0.018056in; position-to:block-above-text">
+<p xid="279"></p>
+<p style="Normal" xid="280" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Vorformatierter Text" xid="281" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p style="Normal" xid="282" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">Change CC &amp; CXX to your gcc location</c></p>
+<p style="Normal" xid="283" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="284" props="frame-col-xpos:0.015278in; wrap-mode:wrapped-both; frame-height:0.435417in; frame-type:textbox; ypos:0.275694in; frame-col-ypos:0.275694in; frame-width:6.883333in; xpos:0.015278in; position-to:block-above-text">
+<p xid="285"></p>
+<p style="Vorformatierter Text" xid="286" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+<p xid="287"></p>
+<p style="Normal" xid="288" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Textkörper" xid="289" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p style="Normal" xid="290" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p level="1" listid="1002" parentid="0" style="Normal" xid="291" props="dom-dir:ltr; margin-left:0.1965in; widows:0; text-indent:-0.1965in; text-align:left; orphans:0; start-value:4; tabstops:0.1965in/L; list-style:Numbered List; line-height:1.0; field-font:Times New Roman"><field type="list_label" xid="292" props="text-decoration:none"></field><c props="text-decoration:none">	</c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">compile glib with gnu libiconv<br/></c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">edit gnome/glib/Makefile</c></p>
+<p style="Normal" xid="293" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="294" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="295" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="296" props="frame-col-xpos:0.014583in; wrap-mode:wrapped-both; frame-height:0.319444in; frame-type:textbox; ypos:0.016667in; frame-col-ypos:0.016667in; frame-width:6.884028in; xpos:0.014583in; position-to:block-above-text">
+<p xid="297"></p>
+<p style="Normal" xid="298" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="299" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p level="1" listid="1003" parentid="0" style="Normal" xid="300" props="dom-dir:ltr; margin-left:0.1965in; widows:0; text-indent:-0.1965in; text-align:left; orphans:0; start-value:5; tabstops:0.1965in/L; list-style:Numbered List; line-height:1.0; field-font:Times New Roman"><field type="list_label" xid="301" props="text-decoration:none"></field><c props="text-decoration:none">	</c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">Change X-Server from Xft to fontconfig</c></p>
+<p style="Normal" xid="302" props="text-align:left; line-height:1.0; margin-left:0.1965in; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">because hp-ux X server have not Xrender, so we can not build Xft1.<br/>edit gnome/pango/Makefile</c></p>
+<p style="Normal" xid="303" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="304" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="305" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="306" props="frame-col-xpos:0.017361in; wrap-mode:wrapped-both; frame-height:0.344444in; frame-type:textbox; ypos:0.079167in; frame-col-ypos:0.079167in; frame-width:6.881250in; xpos:0.017361in; position-to:block-above-text">
+<p xid="307"></p>
+<p style="Normal" xid="308" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="309" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p style="Normal" xid="310" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="311" props="frame-col-xpos:0.002778in; wrap-mode:wrapped-both; frame-height:0.343056in; frame-type:textbox; ypos:0.079167in; frame-col-ypos:0.079167in; frame-width:6.916667in; xpos:0.002778in; position-to:block-above-text">
+<p xid="312"></p>
+<p style="Normal" xid="313" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="314" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p style="Normal" xid="315" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">First we need to patch some programs, because they fails at compilation.</c></p>
+<p style="Normal" xid="316" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="317" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><a xlink:href="http://nauta.homeunix.net/%7ematias/garnome-hpux/" xid="318"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">http://nauta.homeunix.net/~matias/garnome-hpux/</c></a></p>
+<p style="Normal" xid="320" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="321" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">1. Patching gnome/libxml2</c></p>
+<p style="Normal" xid="322" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">could not locate docbookx.dtd for DocBook XML</c></p>
+<p style="Normal" xid="323" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="324" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">Patch for gnome/libxml2/files/buildDocBookCatalog</c></p>
+<p style="Normal" xid="325" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="326" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="327" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="328" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">2. Patching gnome/gnome-vfs</c></p>
+<p style="Normal" xid="329" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L; font-weight:bold">error message:</c></p>
+<p style="Normal" xid="330" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gnome-vfs-mime-magic.c  -fPIC -DPIC -o gnome-vfs-mime-magic.lo</c></p>
+<p style="Normal" xid="331" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gnome-vfs-mime-magic.c: In function `_gnome_vfs_sniff_buffer_looks_like_text':</c></p>
+<p style="Normal" xid="332" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gnome-vfs-mime-magic.c:770: error: `mbstate_t' undeclared (first use in this function)</c></p>
+<p style="Normal" xid="333" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gnome-vfs-mime-magic.c:770: error: (Each undeclared identifier is reported only once</c></p>
+<p style="Normal" xid="334" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gnome-vfs-mime-magic.c:770: error: for each function it appears in.)</c></p>
+<p style="Normal" xid="335" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gnome-vfs-mime-magic.c:770: error: parse error before "state"</c></p>
+<p style="Normal" xid="336" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">gnome-vfs-mime-magic.c:775: error: `state' undeclared (first use in this function)</c></p>
+<p style="Normal" xid="337" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="338" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="339" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><a xlink:href="http://bugzilla.gnome.org/attachment.cgi?id=15650%26action=view" xid="340"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">http://bugzilla.gnome.org/attachment.cgi?id=15650&amp;action=view</c></a></p>
+<p style="Normal" xid="342" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Vorformatierter Text" xid="343" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">? configure.diff</c></p>
+<p style="Vorformatierter Text" xid="344" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">? doc/xml</c></p>
+<p style="Vorformatierter Text" xid="345" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">? doc/tmpl/gnome-vfs-unused.sgml</c></p>
+<p style="Vorformatierter Text" xid="346" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">? doc/tmpl/gnome-vfs.sgml</c></p>
+<p style="Vorformatierter Text" xid="347" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">Index: configure.in</c></p>
+<p style="Vorformatierter Text" xid="348" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">===================================================================</c></p>
+<p style="Vorformatierter Text" xid="349" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">RCS file: /cvs/gnome/gnome-vfs/configure.in,v</c></p>
+<p style="Vorformatierter Text" xid="350" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">retrieving revision 1.227</c></p>
+<p style="Vorformatierter Text" xid="351" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">diff -u -r1.227 configure.in</c></p>
+<p style="Vorformatierter Text" xid="352" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">--- configure.in        31 Mar 2003 11:22:39 -0000      1.227</c></p>
+<p style="Vorformatierter Text" xid="353" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">+++ configure.in        11 Apr 2003 17:58:51 -0000</c></p>
+<p style="Vorformatierter Text" xid="354" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">@@ -88,7 +88,7 @@</c></p>
+<p style="Vorformatierter Text" xid="355" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> AM_GLIB_GNU_GETTEXT</c></p>
+<p style="Vorformatierter Text" xid="356" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> </c></p>
+<p style="Vorformatierter Text" xid="357" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> AC_FUNC_ALLOCA</c></p>
+<p style="Vorformatierter Text" xid="358" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">-AC_CHECK_FUNCS(getdtablesize open64 lseek64 statvfs seteuid setegid setresuid setresgid readdir_r)</c></p>
+<p style="Vorformatierter Text" xid="359" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">+AC_CHECK_FUNCS(getdtablesize open64 lseek64 statvfs seteuid setegid setresuid setresgid readdir_r mbrtowc)</c></p>
+<p style="Vorformatierter Text" xid="360" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> AC_REPLACE_FUNCS(getdelim)</c></p>
+<p style="Vorformatierter Text" xid="361" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> </c></p>
+<p style="Vorformatierter Text" xid="362" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> dnl Specify the gconf configuration source, </c></p>
+<p style="Vorformatierter Text" xid="363" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">@@ -151,7 +151,7 @@</c></p>
+<p style="Vorformatierter Text" xid="364" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> AC_SUBST(VFS_SIZE_PRINTF)</c></p>
+<p style="Vorformatierter Text" xid="365" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> AC_SUBST(VFS_OFFSET_PRINTF)</c></p>
+<p style="Vorformatierter Text" xid="366" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> </c></p>
+<p style="Vorformatierter Text" xid="367" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">-AC_CHECK_HEADERS(sys/param.h sys/resource.h sys/vfs.h sys/mount.h sys/statvfs.h)</c></p>
+<p style="Vorformatierter Text" xid="368" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">+AC_CHECK_HEADERS(sys/param.h sys/resource.h sys/vfs.h sys/mount.h sys/statvfs.h wctype.h)</c></p>
+<p style="Vorformatierter Text" xid="369" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> </c></p>
+<p style="Vorformatierter Text" xid="370" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> dnl ====================================</c></p>
+<p style="Vorformatierter Text" xid="371" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> dnl =</c></p>
+<p style="Vorformatierter Text" xid="372" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">Index: libgnomevfs/gnome-vfs-mime-magic.c</c></p>
+<p style="Vorformatierter Text" xid="373" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">===================================================================</c></p>
+<p style="Vorformatierter Text" xid="374" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">RCS file: /cvs/gnome/gnome-vfs/libgnomevfs/gnome-vfs-mime-magic.c,v</c></p>
+<p style="Vorformatierter Text" xid="375" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">retrieving revision 1.45</c></p>
+<p style="Vorformatierter Text" xid="376" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">diff -u -r1.45 gnome-vfs-mime-magic.c</c></p>
+<p style="Vorformatierter Text" xid="377" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">--- libgnomevfs/gnome-vfs-mime-magic.c  19 Feb 2003 09:50:02 -0000      1.45</c></p>
+<p style="Vorformatierter Text" xid="378" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">+++ libgnomevfs/gnome-vfs-mime-magic.c  11 Apr 2003 17:58:51 -0000</c></p>
+<p style="Vorformatierter Text" xid="379" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">@@ -29,8 +29,11 @@</c></p>
+<p style="Vorformatierter Text" xid="380" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> #include &lt;sys/types.h&gt;</c></p>
+<p style="Vorformatierter Text" xid="381" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> #include &lt;sys/stat.h&gt;</c></p>
+<p style="Vorformatierter Text" xid="382" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> #include &lt;stdlib.h&gt;</c></p>
+<p style="Vorformatierter Text" xid="383" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">+</c></p>
+<p style="Vorformatierter Text" xid="384" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">+#ifdef HAVE_WCTYPE_H</c></p>
+<p style="Vorformatierter Text" xid="385" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">/</c><c props="lang:en-US; font-weight:bold; font-size:10pt; font-family:Luxi Mono; color:ff0000">* We can handle multibyte string.  */</c></p>
+<p style="Vorformatierter Text" xid="386" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-weight:bold; font-size:10pt; font-family:Luxi Mono; color:ff0000">+# include &lt;sys/_mbstate_t.h&gt;</c></p>
+<p style="Vorformatierter Text" xid="387" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> #include &lt;wctype.h&gt;</c></p>
+<p style="Vorformatierter Text" xid="388" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> #include &lt;wchar.h&gt;</c></p>
+<p style="Vorformatierter Text" xid="389" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">+#endif</c></p>
+<p style="Vorformatierter Text" xid="390" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> </c></p>
+<p style="Vorformatierter Text" xid="391" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> #include &lt;glib/garray.h&gt;</c></p>
+<p style="Vorformatierter Text" xid="392" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> #include &lt;glib/gmessages.h&gt;</c></p>
+<p style="Vorformatierter Text" xid="393" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">@@ -759,6 +762,7 @@</c></p>
+<p style="Vorformatierter Text" xid="394" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">        </c></p>
+<p style="Vorformatierter Text" xid="395" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">                if (g_utf8_get_char_validated(end, remaining_bytes) == -2)</c></p>
+<p style="Vorformatierter Text" xid="396" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">                        return TRUE;</c></p>
+<p style="Vorformatierter Text" xid="397" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">+#if defined(HAVE_WCTYPE_H) &amp;&amp; defined (HAVE_MBRTOWC)</c></p>
+<p style="Vorformatierter Text" xid="398" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">                else {</c></p>
+<p style="Vorformatierter Text" xid="399" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">                        size_t wlen;</c></p>
+<p style="Vorformatierter Text" xid="400" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">                        wchar_t wc;</c></p>
+<p style="Vorformatierter Text" xid="401" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">@@ -802,6 +806,7 @@</c></p>
+<p style="Vorformatierter Text" xid="402" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">                        }</c></p>
+<p style="Vorformatierter Text" xid="403" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">                        return TRUE;</c></p>
+<p style="Vorformatierter Text" xid="404" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">                }</c></p>
+<p style="Vorformatierter Text" xid="405" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">+#endif /* defined(HAVE_WCTYPE_H) &amp;&amp; defined (HAVE_MBRTOWC) */</c></p>
+<p style="Vorformatierter Text" xid="406" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono">        } </c></p>
+<p style="Vorformatierter Text" xid="407" props="text-align:left; line-height:1.0; margin-bottom:14pt; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Luxi Mono"> }</c></p>
+<p level="1" listid="1004" parentid="0" style="Normal" xid="408" props="dom-dir:ltr; margin-left:0.1965in; widows:0; text-indent:-0.1965in; text-align:left; orphans:0; start-value:3; tabstops:0.1965in/L; list-style:Numbered List; line-height:1.0; field-font:Times New Roman"><field type="list_label" xid="409" props="text-decoration:none"></field><c props="text-decoration:none">	</c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">replace gnome/esound with version from</c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L"> </c><a xlink:href="http://hpux.connect.org.uk/" xid="410"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">the porting centre for HP-UX</c></a><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">.</c></p>
+<p style="Normal" xid="412" props="text-align:left; line-height:1.0; margin-left:0.1965in; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L; font-weight:bold">error message</c></p>
+<p style="Normal" xid="413" props="text-align:left; line-height:1.0; margin-left:0.1965in; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">/usr/ccs/bin/ld: Unsatisfied symbols:<br/>   hstrerror (first referenced in esd.o) (code)<br/>collect2: ld returned 1 exit status</c></p>
+<p style="Normal" xid="414" props="text-align:left; line-height:1.0; margin-left:0.1965in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="415" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L; font-weight:bold">In this version the function hstrerror() has been added</c></p>
+<p style="Normal" xid="416" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><a xlink:href="http://hpux.connect.org.uk/ftp/hpux/Development/Tools/esound-0.2.32/esound-0.2.32-ss-11.00.tar.gz" xid="417"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">http://hpux.connect.org.uk/ftp/hpux/Development/Tools/esound-0.2.32/esound-0.2.32-ss-11.00.tar.gz</c></a></p>
+<p style="Normal" xid="419" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="420" props="frame-col-xpos:0.026389in; wrap-mode:wrapped-both; frame-height:1.306944in; frame-type:textbox; ypos:0.105556in; frame-col-ypos:0.105556in; frame-width:6.872917in; xpos:0.026389in; position-to:block-above-text">
+<p style="Normal" xid="421" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="422" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="423" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="424" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="425" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="426" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="427" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p style="Normal" xid="428" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="429" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="430" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="431" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="432" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="433" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="434" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="435" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="436" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="437" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">Now you can start with compilation, go to garnnome-0.27.1/bootstrap and run make install.</c></p>
+<p style="Normal" xid="438" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">The step, go to garnome-0.27.1/gnome and run make install.</c></p>
+<p style="Normal" xid="439" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">This will take a lot of time and space. More then 2 GB for the compilation process and 600 MB for the binaries in /opt/garnome.</c></p>
+<p style="Normal" xid="440" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="441" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">Use the following command, if the compilation of a pakage fails, and you forgot to patch it.</c></p>
+<p style="Normal" xid="442" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:10pt; font-family:Nimbus Roman No9 L">Recompile it again with: make buildclean; make cookieclean; mak install.</c></p>
+<p style="Normal" xid="443" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="444" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="445" props="frame-col-xpos:0.002778in; wrap-mode:wrapped-both; frame-height:0.343056in; frame-type:textbox; ypos:0.079167in; frame-col-ypos:0.079167in; frame-width:6.916667in; xpos:0.002778in; position-to:block-above-text">
+<p style="Normal" xid="446" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="447" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p style="Normal" xid="448" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">This capture explains, how to add Gnome to the </c><a xlink:href="http://nauta.homeunix.net/gnomeHPUXWiki/DtLogin" xid="449"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">DtLogin</c></a></p>
+<p style="Normal" xid="451" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p level="1" listid="1005" parentid="0" style="Normal" xid="452" props="dom-dir:ltr; margin-left:0.1965in; widows:0; text-indent:-0.1965in; text-align:left; orphans:0; start-value:1; tabstops:0.1965in/L; list-style:Numbered List; line-height:1.0; field-font:Times New Roman"><field type="list_label" xid="453" props="text-decoration:none"></field><c props="text-decoration:none">	</c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">create the file  Xresources.gnome</c></p>
+<p style="Normal" xid="454" props="text-align:left; line-height:1.0; margin-left:0.1965in; dom-dir:ltr; orphans:0; widows:0"><c props="lang:-none-; font-size:12pt; font-family:Nimbus Roman No9 L">in /usr/dt/conf or /etc/dt/conf.</c></p>
+<p style="Normal" xid="455" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="456" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-weight:bold; font-size:12pt; font-family:Nimbus Roman No9 L; color:ff0000">/usr/dt/config/C/Xresources.d/Xresources.gnome:</c></p>
+<p style="Normal" xid="457" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="458" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="459" props="frame-col-xpos:0.020139in; wrap-mode:wrapped-both; frame-height:1.221528in; frame-type:textbox; ypos:0.000000in; frame-col-ypos:0.000000in; frame-width:6.881250in; xpos:0.020139in; position-to:block-above-text">
+<p style="Normal" xid="460" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="461" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="462" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="463" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="464" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="465" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="466" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p style="Normal" xid="467" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="468" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="469" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="470" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="471" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="472" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="473" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">Maybe you must set a link to your location line</c></p>
+<p style="Normal" xid="474" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">/usr/dt/config/de_DE.iso8815/Xresources.d/Xresources.gnome ...</c></p>
+<p style="Normal" xid="475" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">To use altDtLogo you must have a xpm logo with the size 294x224 in /usr/dt/appconf/icon/C. </c></p>
+<p style="Normal" xid="476" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p level="1" listid="1006" parentid="0" style="Normal" xid="477" props="dom-dir:ltr; margin-left:0.1965in; widows:0; text-indent:-0.1965in; text-align:left; orphans:0; start-value:2; tabstops:0.1965in/L; list-style:Numbered List; line-height:1.0; field-font:Times New Roman"><field type="list_label" xid="478" props="text-decoration:none"></field><c props="text-decoration:none">	</c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">create the file Xsession.gnome</c></p>
+<p style="Normal" xid="479" props="text-align:left; line-height:1.0; margin-left:0.1965in; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-weight:bold; font-size:12pt; font-family:Nimbus Roman No9 L; color:ff0000">/usr/dt/config/Xsession.gnome/Xsession.gnome</c></p>
+<p style="Normal" xid="480" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="481" props="frame-col-xpos:0.001389in; wrap-mode:wrapped-both; frame-height:3.459722in; frame-type:textbox; ypos:0.200000in; frame-col-ypos:0.200000in; frame-width:6.900000in; xpos:0.001389in; position-to:block-above-text">
+<p style="Normal" xid="482" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="483" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="484" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="485" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="486" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="487" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="488" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="489" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="490" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="491" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="492" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="493" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="494" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="495" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="496" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="497" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="498" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p style="Normal" xid="499" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="500" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="501" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="502" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="503" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="504" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="505" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="506" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="507" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="508" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="509" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="510" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="511" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="512" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="513" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="514" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="515" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="516" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p level="1" listid="1007" parentid="0" style="Normal" xid="517" props="dom-dir:ltr; margin-left:0.1965in; widows:0; text-indent:-0.1965in; text-align:left; orphans:0; start-value:3; tabstops:0.1965in/L; list-style:Numbered List; line-height:1.0; field-font:Times New Roman"><field type="list_label" xid="518" props="text-decoration:none"></field><c props="text-decoration:none">	</c><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L; font-weight:bold">Create the file Xsession.gnome2</c></p>
+<p style="Normal" xid="519" props="text-align:left; line-height:1.0; margin-left:0.1965in; dom-dir:ltr; orphans:0; widows:0"><c props="lang:en-US; font-size:12pt; font-family:Nimbus Roman No9 L">/usr/dt/config/Xsession.gnome: # cat Xsession.gnome2</c></p>
+<p style="Normal" xid="520" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<frame xid="521" props="frame-col-xpos:0.015278in; wrap-mode:wrapped-both; frame-height:5.915972in; frame-type:textbox; ypos:0.197917in; frame-col-ypos:0.197917in; frame-width:6.886111in; xpos:0.015278in; position-to:block-above-text">
+<p style="Normal" xid="522" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="523" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="524" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="525" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="526" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="527" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="528" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="529" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="530" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="531" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="532" props="text-align:left; line-height:1.0; margin-left:0.9819in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="533" props="text-align:left; line-height:1.0; margin-left:1.4729in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="534" props="text-align:left; line-height:1.0; margin-left:0.9819in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="535" props="text-align:left; line-height:1.0; margin-left:1.4729in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="536" props="text-align:left; line-height:1.0; margin-left:0.9819in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="537" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="538" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="539" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="540" props="text-align:left; line-height:1.0; margin-left:0.9819in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="541" props="text-align:left; line-height:1.0; margin-left:0.9819in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="542" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="543" props="text-align:left; line-height:1.0; margin-left:0.9819in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="544" props="text-align:left; line-height:1.0; margin-left:0.9819in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="545" props="text-align:left; line-height:1.0; margin-left:1.4729in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="546" props="text-align:left; line-height:1.0; margin-left:1.4729in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="547" props="text-align:left; line-height:1.0; margin-left:0.9819in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="548" props="text-align:left; line-height:1.0; margin-left:0.4910in; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="549" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="550" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="551" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+<p style="Normal" xid="552" props="text-align:left; line-height:1.0; dom-dir:ltr; orphans:0; widows:0"></p>
+</frame><p xid="553"></p>
+</section>
+</abiword>
