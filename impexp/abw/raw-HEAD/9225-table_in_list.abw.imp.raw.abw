@@ -12,13 +12,16 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<history version="2" edit-time="26" last-saved="1149981320" uid="ea51f792-e866-11d9-8b9a-afb68bed15cd">
+<history version="2" edit-time="27" last-saved="1151403088" uid="ea51f792-e866-11d9-8b9a-afb68bed15cd">
 <version id="1" started="1120026495" uid="f98757ac-e866-11d9-8b9b-afb68bed15cd" auto="0" top-xid="37"/>
-<version id="2" started="1149981320" uid="fc54b71e-f8d6-11da-8444-af15333a0417" auto="0" top-xid="37"/>
+<version id="2" started="1151403088" uid="4c0b160e-05c5-11db-8ef1-bb96316361ad" auto="0" top-xid="37"/>
 </history>
 <styles>
 <s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 </styles>
+<lists>
+<l id="1000" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section xid="36" props="page-margin-footer:0.5in; page-margin-header:0.5in">
 <p level="1" listid="1000" parentid="0" style="Normal" xid="37" props="start-value:0; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><field type="list_label" xid="1" props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; color:000000; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	</c></p>

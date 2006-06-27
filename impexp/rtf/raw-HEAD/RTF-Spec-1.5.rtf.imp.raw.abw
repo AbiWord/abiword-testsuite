@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="17344" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.4.5" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="17344" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.5.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -14,9 +14,9 @@
 <m key="dc.title">Appnote Template</m>
 <m key="dc.creator">Gwynethw</m>
 </metadata>
-<!-- history tag removed -->
-<!-- version tag removed -->
-<!-- /history tag removed -->
+<history version="1" edit-time="49" last-saved="1151403194" uid="61d64576-05c5-11db-8a04-a91d258c93d4">
+<version id="1" started="1151403194" uid="8b737390-05c5-11db-8a04-a91d258c93d4" auto="0" top-xid="17344"/>
+</history>
 <styles>
 <s type="P" name="toc 1" basedon="Normal" props="tabstops:7.000000in/R1; margin-bottom:0.0278in; font-family:Arial; font-size:10pt"/>
 <s type="P" name="Normal" followedby="Current Settings" props="font-weight:normal; font-family:Arial; margin-top:0pt; font-variant:normal; margin-left:0pt; bgcolor:transparent; widows:2; font-style:normal; text-indent:0in; text-position:normal; color:000000; line-height:1.0; text-align:left; margin-bottom:0.0833in; text-decoration:none; margin-right:0pt; font-size:10pt; lang:en-US; font-stretch:normal"/>
@@ -121,6 +121,10 @@
 <s followedby="Normal" name="half-line" basedon="Normal" type="P" props="font-size:5pt; margin-bottom:0.0833in; font-family:Arial"/>
 <s followedby="List1-Hang" name="List1-Indent" basedon="Normal" type="P" props="font-size:10pt; margin-bottom:0.0833in; font-family:Arial; margin-left:0.2000in"/>
 </styles>
+<lists>
+<l id="1021" parentid="0" type="0" start-value="0" list-delim="%L" list-decimal="."/>
+<l id="1076" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
+</lists>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section footer="1" header="0" footer-first="2" xid="1" props="page-margin-right:0.750000in; columns:1; page-margin-header:0.500000in; page-margin-left:0.750000in; column-gap:0.000000in; page-margin-footer:0.250000in; page-margin-top:1.000000in; page-margin-bottom:0.750000in">
 <frame strux-image-dataid="0" xid="2" props="frame-col-ypos:0.866667in; bot-style:none; xpos:5.216667in; frame-width:1.600000in; wrap-mode:wrapped-both; frame-type:image; frame-page-xpos:5.216667in; ypos:0.866667in; frame-height:0.284722in; frame-page-ypos:0.866667in; left-style:none; position-to:page-above-text; xpad:0.000000in; frame-col-xpos:5.216667in; right-style:none; top-style:none; ypad:0.000000in">

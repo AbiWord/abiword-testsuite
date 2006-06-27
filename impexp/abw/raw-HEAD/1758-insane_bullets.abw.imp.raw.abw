@@ -12,12 +12,28 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<!-- history tag removed -->
-<!-- version tag removed -->
-<!-- /history tag removed -->
+<history version="1" edit-time="0" last-saved="1151403055" uid="3889d930-05c5-11db-98d2-f1015d8cda50">
+<version id="1" started="1151403055" uid="38addfd8-05c5-11db-98d2-f1015d8cda50" auto="0" top-xid="50"/>
+</history>
 <styles>
 <s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; margin-right:0pt; lang:en-US; line-height:1.0; font-size:12pt; text-decoration:none; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; text-align:left; font-stretch:normal"/>
 </styles>
+<lists>
+<l id="108340252" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1964775854" parentid="108340252" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1735470730" parentid="1964775854" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="53218127" parentid="1735470730" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1893532784" parentid="53218127" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1511830739" parentid="1893532784" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="2092938308" parentid="1511830739" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="567406687" parentid="2092938308" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="160180813" parentid="567406687" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1719018333" parentid="160180813" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="21008633" parentid="1719018333" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1569045754" parentid="21008633" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="602102902" parentid="1569045754" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1254874794" parentid="602102902" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section xid="1">
 <p level="1" listid="108340252" parentid="0" style="Normal" xid="2" props="font-family:Times New Roman; list-style:Bullet List; margin-left:0.5000in; start-value:0; font-style:normal; font-weight:bold; color:000000; bgcolor:transparent; text-decoration:none; text-position:normal; text-indent:-0.3000in; font-size:12pt; lang:en-US; field-font:Symbol"><field type="list_label" xid="3"></field><c type="list_label">	t</c></p>
