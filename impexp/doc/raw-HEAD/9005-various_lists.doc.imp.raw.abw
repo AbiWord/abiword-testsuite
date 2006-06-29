@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="269" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.4.5" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="269" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.5.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -12,13 +12,48 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1149981512" uid="6eea3dbc-f8d7-11da-9b24-d08a891a5822">
-<version id="1" started="1149981512" uid="6efe7b4c-f8d7-11da-9b24-d08a891a5822" auto="0" top-xid="269"/>
+<history version="1" edit-time="1" last-saved="1151531810" uid="0030ff28-06f1-11db-9e00-e1c3640fd67c">
+<version id="1" started="1151531810" uid="007749a6-06f1-11db-9e00-e1c3640fd67c" auto="0" top-xid="269"/>
 </history>
 <styles>
 <s type="P" name="Normal" followedby="Normal" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:da-DK; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 <s type="P" name="Table Normal" followedby="Table Normal" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; lang:da-DK; orphans:0; text-align:left; widows:0"/>
 </styles>
+<lists>
+<l id="1000" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
+<l id="1001" parentid="0" type="0" start-value="1" list-delim="%L)" list-decimal="."/>
+<l id="1002" parentid="0" type="4" start-value="1" list-delim="%L." list-decimal="."/>
+<l id="1003" parentid="0" type="2" start-value="1" list-delim="%L." list-decimal="."/>
+<l id="1004" parentid="0" type="1" start-value="1" list-delim="%L)" list-decimal="."/>
+<l id="1005" parentid="0" type="1" start-value="1" list-delim="%L." list-decimal="."/>
+<l id="1006" parentid="0" type="3" start-value="1" list-delim="%L." list-decimal="."/>
+<l id="1007" parentid="0" type="5" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1008" parentid="0" type="5" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1009" parentid="0" type="5" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1010" parentid="0" type="5" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1011" parentid="0" type="5" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1012" parentid="0" type="5" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1013" parentid="0" type="5" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1014" parentid="0" type="5" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1015" parentid="0" type="5" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1016" parentid="0" type="0" start-value="1" list-delim="%L)" list-decimal="."/>
+<l id="1017" parentid="0" type="0" start-value="1" list-delim="%L)" list-decimal="."/>
+<l id="1018" parentid="0" type="2" start-value="24" list-delim="%L-" list-decimal="."/>
+<l id="1019" parentid="0" type="2" start-value="24" list-delim="%L-" list-decimal="."/>
+<l id="1020" parentid="0" type="0" start-value="1" list-delim="%L)" list-decimal="."/>
+<l id="1021" parentid="1020" type="1" start-value="1" list-delim="%L)" list-decimal="."/>
+<l id="1022" parentid="1021" type="3" start-value="1" list-delim="%L)" list-decimal="."/>
+<l id="1023" parentid="1022" type="0" start-value="1" list-delim="(%L)" list-decimal="."/>
+<l id="1024" parentid="1023" type="1" start-value="1" list-delim="(%L)" list-decimal="."/>
+<l id="1025" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
+<l id="1026" parentid="1025" type="0" start-value="1" list-delim="%L." list-decimal="."/>
+<l id="1027" parentid="1026" type="0" start-value="1" list-delim="%L.." list-decimal="."/>
+<l id="1028" parentid="1027" type="0" start-value="1" list-delim="%L..." list-decimal="."/>
+<l id="1029" parentid="1028" type="0" start-value="1" list-delim="%L...." list-decimal="."/>
+<l id="1030" parentid="0" type="0" start-value="9" list-delim="%L." list-decimal="."/>
+<l id="1031" parentid="0" type="0" start-value="9" list-delim="%L." list-decimal="."/>
+<l id="1032" parentid="0" type="0" start-value="9" list-delim="%L." list-decimal="."/>
+</lists>
 <pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
 <section xid="1" props="page-margin-right:0.7875in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.6896in; page-margin-header:0.4917in; page-margin-left:0.7875in; page-margin-top:1.1812in; page-margin-bottom:1.1812in">
 <p style="Normal" xid="2" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:da-DK; font-size:12pt; font-family:Times New Roman; font-weight:bold">Default Numbering</c></p>
