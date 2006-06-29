@@ -12,8 +12,8 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1149755934" uid="37812174-f6ca-11da-8a1b-c8bd9c4e9f81">
-<version id="1" started="1149755934" uid="38081fa8-f6ca-11da-8a1b-c8bd9c4e9f81" auto="0" top-xid="496"/>
+<history version="1" edit-time="2" last-saved="1151529813" uid="58017552-06ec-11db-93d4-e8b33f015dda">
+<version id="1" started="1151529813" uid="5a72e668-06ec-11db-93d4-e8b33f015dda" auto="0" top-xid="496"/>
 </history>
 <styles>
 <s followedby="guadec-body" name="guadec-head" basedon="Heading 1" type="P" props="margin-top:0.0278in; margin-left:0.6993in; font-size:36pt; text-indent:-0.6194in; margin-bottom:0.0417in; font-weight:bold; line-height:1.000000; text-align:center; font-family:Arial"/>
@@ -59,6 +59,20 @@
 <s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New; line-height:1.000000"/>
 <s followedby="Normal" name="Chapter Heading" basedon="Numbered Heading 1" type="P" props="list-delim:Chapter %L.; field-color:transparent; start-value:1; margin-left:0.0in; field-font:Arial; list-style:Numbered List; line-height:1.000000; text-indent:0.0in; tabstops:1.100000in/L0"/>
 </styles>
+<lists>
+<l id="1000" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1683" parentid="0" type="255" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1144725525" parentid="0" type="255" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1134688890" parentid="0" type="255" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1790331484" parentid="0" type="255" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1239" parentid="0" type="255" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1013" parentid="0" type="255" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1020" parentid="0" type="255" start-value="1" list-delim="%L" list-decimal="."/>
+<l id="1274" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1002" parentid="1274" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1030" parentid="0" type="255" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1290" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
 <pagesize pagetype="Custom" orientation="portrait" width="12.082639" height="9.456250" units="in" page-scale="1.000000"/>
 <section footer="2" header-even="1" header="0" footer-even="3" xid="1" props="page-margin-right:0.590278in; columns:1; page-margin-header:0.437500in; page-margin-left:0.538889in; column-gap:0.250000in; dom-dir:ltr; text-align:left; page-margin-top:1.636111in; page-margin-bottom:1.000000in">
 <p style="guadec-head" xid="2" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.6993in; lang:en-US; margin-bottom:0.0417in; text-indent:-0.6194in; text-position:normal; margin-top:0.0278in; font-weight:normal; line-height:1.000000; text-decoration:none; text-align:center; margin-right:0.0000in; font-size:12pt"><c props="font-family:Arial; font-size:36pt; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">AbiWord 2.2</c></p>

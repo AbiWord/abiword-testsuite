@@ -12,13 +12,16 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<history version="2" edit-time="47" last-saved="1149979729" uid="4a8081a8-e833-11d9-8f87-af7625f1c1aa">
+<history version="2" edit-time="47" last-saved="1151529789" uid="4a8081a8-e833-11d9-8f87-af7625f1c1aa">
 <version id="1" started="1120004344" uid="66cba9b4-e833-11d9-8f88-af7625f1c1aa" auto="0" top-xid="35"/>
-<version id="2" started="1149979729" uid="484caba8-f8d3-11da-9096-ccd696531a64" auto="0" top-xid="35"/>
+<version id="2" started="1151529789" uid="4c43ef4c-06ec-11db-9f1c-8f00c31fd53a" auto="0" top-xid="35"/>
 </history>
 <styles>
 <s type="P" name="Normal" followedby="Current Settings" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 </styles>
+<lists>
+<l id="1000" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section xid="34" props="page-margin-footer:0.5in; page-margin-header:0.5in">
 <table xid="1">

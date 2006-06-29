@@ -12,12 +12,15 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<!-- history tag removed -->
-<!-- version tag removed -->
-<!-- /history tag removed -->
+<history version="1" edit-time="0" last-saved="1151530149" uid="227d9c5c-06ed-11db-91d4-951a788bcf15">
+<version id="1" started="1151530149" uid="228c72e0-06ed-11db-91d4-951a788bcf15" auto="0" top-xid="11"/>
+</history>
 <styles>
 <s type="P" name="Normal" followedby="Normal" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 </styles>
+<lists>
+<l id="1000" parentid="0" type="0" start-value="1" list-delim="%L)" list-decimal="."/>
+</lists>
 <pagesize pagetype="Custom" orientation="portrait" width="8.270139" height="11.690278" units="in" page-scale="1.000000"/>
 <section xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Normal" xid="2" props="text-align:left; line-height:1.0; dom-dir:ltr"><a xlink:href="http://www.csn.ul.ie/%7ecaolan" xid="3"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">http://www.csn.ul.ie/~caolan</c></a></p>

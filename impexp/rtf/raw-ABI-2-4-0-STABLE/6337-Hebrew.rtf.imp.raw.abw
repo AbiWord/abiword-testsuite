@@ -14,8 +14,8 @@
 <m key="dc.title">èåôñ äúô÷ãåú ì-@</m>
 <m key="dc.creator">rivka</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1149755930" uid="35a3ef4e-f6ca-11da-8606-87e86086eefa">
-<version id="1" started="1149755930" uid="35c9abda-f6ca-11da-8606-87e86086eefa" auto="0" top-xid="64"/>
+<history version="1" edit-time="1" last-saved="1151529799" uid="5172ecd4-06ec-11db-9ea1-da5ef97e318f">
+<version id="1" started="1151529799" uid="51bdfabc-06ec-11db-9ea1-da5ef97e318f" auto="0" top-xid="64"/>
 </history>
 <styles>
 <s type="P" name="header" basedon="Normal" props="text-align:right; lang:en-US; tabstops:2.884028in/C0,5.768056in/R0; font-size:12pt; margin-right:0.0000in; margin-left:0.0000in"/>
@@ -26,6 +26,10 @@
 <s type="C" name="Default Paragraph Font" props=""/>
 <s type="P" name="footnote text" basedon="Normal" props="text-align:right; lang:en-US; font-size:10pt; margin-left:0.0000in; margin-right:0.0000in"/>
 </styles>
+<lists>
+<l id="1021" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
+<l id="1010" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal="."/>
+</lists>
 <pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
 <section footer="1" header="0" xid="1" props="page-margin-right:0.787500in; columns:1; page-margin-header:0.500000in; page-margin-left:0.787500in; column-gap:0.000000in; dom-dir:rtl; text-align:right; page-margin-footer:0.500000in; page-margin-top:0.669444in; page-margin-bottom:0.511806in">
 <p xid="2" props="font-family:David; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:he-IL; text-decoration:none; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; line-height:1.000000; margin-bottom:0.0000in; text-align:left; margin-right:0.0000in; font-size:12pt"><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">No.</c><c props="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:bold; dir-override:ltr; font-style:normal; text-decoration:none"> </c><c props="font-family:David; font-size:10pt; lang:he-IL; text-position:normal; font-weight:normal; dir-override:rtl; font-style:normal; text-decoration:none">|__|__|__|__|__|__|</c></p>

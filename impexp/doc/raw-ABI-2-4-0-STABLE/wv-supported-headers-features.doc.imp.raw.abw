@@ -12,9 +12,9 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<!-- history tag removed -->
-<!-- version tag removed -->
-<!-- /history tag removed -->
+<history version="1" edit-time="1" last-saved="1151530166" uid="2c39081c-06ed-11db-84fe-b24d6c842de3">
+<version id="1" started="1151530166" uid="2c6f3b30-06ed-11db-84fe-b24d6c842de3" auto="0" top-xid="150"/>
+</history>
 <styles>
 <s type="P" name="Normal" followedby="Normal" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:14pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; margin-top:12pt; keep-with-next:yes"/>
@@ -29,6 +29,9 @@
 <s type="P" name="Heading 9" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:9pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; font-style:italic; margin-top:12pt"/>
 <s type="P" name="Heading 5" basedon="Normal" followedby="Normal" props="margin-top:12pt; font-size:11pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; line-height:1.0; text-align:left; font-family:Times New Roman"/>
 </styles>
+<lists>
+<l id="1000" parentid="0" type="0" start-value="1" list-delim="Chapter%L" list-decimal="."/>
+</lists>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section header="7" xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Normal" xid="2" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>

@@ -25,12 +25,15 @@
 <m key="meta:editing-cycles">1</m>
 <m key="dc.subject">Subject of the document</m>
 </metadata>
-<!-- history tag removed -->
-<!-- version tag removed -->
-<!-- /history tag removed -->
+<history version="1" edit-time="0" last-saved="1151529894" uid="8a8fc294-06ec-11db-9239-8bbe9d134781">
+<version id="1" started="1151529894" uid="8a9eddec-06ec-11db-9239-8bbe9d134781" auto="0" top-xid="9"/>
+</history>
 <styles>
 <s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; margin-right:0pt; lang:en-US; line-height:1.0; font-size:12pt; text-decoration:none; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; text-align:left; font-stretch:normal"/>
 </styles>
+<lists>
+<l id="1000" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section xid="1" props="page-margin-right:1.0in; page-margin-left:1.0in; page-margin-top:1.0in; page-margin-bottom:1.0in">
 <p level="1" listid="1000" parentid="0" xid="2" props="text-indent:-0.635000cm; list-style:Bullet List; field-font:Symbol; margin-left:1.270000cm"><field type="list_label" xid="3"></field>	This is an example of bulleted list.</p>

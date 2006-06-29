@@ -12,13 +12,18 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="abiword.generator">AbiWord</m>
 </metadata>
-<!-- history tag removed -->
-<!-- version tag removed -->
-<!-- /history tag removed -->
+<history version="1" edit-time="0" last-saved="1151530154" uid="255c26b4-06ed-11db-944d-fbaf5172ce1d">
+<version id="1" started="1151530154" uid="256d9c28-06ed-11db-944d-fbaf5172ce1d" auto="0" top-xid="23"/>
+</history>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:14pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; margin-top:12pt; keep-with-next:yes"/>
 <s type="P" name="Normal" followedby="Normal" props="text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
 </styles>
+<lists>
+<l id="1000" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="."/>
+<l id="1001" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="."/>
+<l id="1002" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="."/>
+</lists>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
 <section xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Heading 1" xid="2" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-size:14pt; font-family:Arial; font-weight:bold">The Most Used Special Characters</c></p>
