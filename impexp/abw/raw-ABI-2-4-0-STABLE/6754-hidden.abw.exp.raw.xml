@@ -1,78 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
 
-<book>
 <!-- ================================================================================ -->
-<!-- This DocBook file was created by AbiWord.										-->
-<!-- AbiWord is a free, Open Source word processor.								   -->
-<!-- You may obtain more information about AbiWord at www.abisource.com			   -->
+<!-- This DocBook file was created by AbiWord.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                                   -->
+<!-- You may obtain more information about AbiWord at http://www.abisource.com        -->
 <!-- ================================================================================ -->
 
-
+<book condition="dom-dir:ltr; document-footnote-restart-section:1; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-GB; document-endnote-restart-section:1; document-footnote-restart-page:1; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:1" lang="en-GB">
+	<bookinfo>
+		<bibliomisc><application class="software">AbiWord</application></bibliomisc>
+	</bookinfo>
 	<chapter>
 		<title></title>
-		<section role="unnumbered">
+		<section role="Normal">
 			<title></title>
-			<para>5mm Margins except bottom which is 10mm. Word wrap off</para>
-			<para></para>
-			<para>**Case + PSU	Antec Sonata Piano Black Quiet Case + True Power 380W PSU (true 380s model psu) </para>
-			<para>	(Life style series Case + PSU - Mid Tower)</para>
-			<para></para>
-			<para>**MOBO	Asus K8VSE Deluxe (Socket 754) (VIA K8T800 Chipset + VIA VT8237 South)</para>
-			<para>**CPU	AMD Athlon 64 3400+(Socket 754) RETAIL (Processor, Heatsink &amp;Fan)</para>
-			<para></para>
-			<para>**Memory Geil 1GB (2x512Mb) PC3200 Ultra Series CAS 2 (GL1GB3200DC)</para>
-			<para>**Cooling	Zalman CNPS7000A-Cu Ultra Quiet CPU Cooler</para>
-			<para></para>
-			<para>**Hard Disk	2x Maxtor DiamondMax Plus Serial ATA 80Gb 8MB	(RAID)</para>
-			<para>Floppy Disk 1.44Mb 	(in current system)</para>
-			<para>CD-R/RW	LG 52x 24x 52x cd-rw 	(in current system) (write, rewrite, read)</para>
-			<para>**DVD	LG GSA-4082B dvd rewriter</para>
-			<para></para>
-			<para>**Graphics	Asus ATI Radeon 9800XT/TVD 256Mb &amp;Half-Life	(8x agp card)</para>
-			<para>**Monitor	View Sonic VP171b 17" LCD	(DVI @1280x1024 native resolution)</para>
-			<para>**Sound	Sound Blaster Audigy 2 ZS Gamer</para>
-			<para></para>
-			<para>Keyboard	PS/2 keyboard	(in current system)</para>
-			<para>Mouse	USB optical Mouse	(in current system)</para>
-			<para></para>
-			<para>**Networking	on board mobo 10/100/1000 MB</para>
-			<para></para>
-			<para></para>
-			<para>Items marked ** are what I need to purchase</para>
-			<para></para>
-			<para></para>
-			<para></para>
-			<para></para>
-			<para></para>
-			<para>To be attached</para>
-			<para>USB Zip Drive (has its own power supply)</para>
-			<para>Parallel Port Printer (Also has USB)</para>
-			<para>http://www.nvidia.com/page/geforce_pcx.html	pci-express conector cards from nvidia</para>
-			<para><beginpage/>Chris White</para>
-			<para>Overclockers UK (Esnet Ltd)</para>
-			<para>Fenton</para>
-			<para>0870 443 0880 (Sales)</para>
-			<para></para>
-			<para></para>
-			<para>CPU operating frequency=System clock X Multiplier </para>
-			<para>e.g. 133Mhz system clock x multiplier of 10=1.33Ghz cpu</para>
-			<para></para>
-			<para>Incoming in 2004</para>
-			<para>CPU Socket 939	AMD Athlon 64 fx- 53__ (1mb L2 cache)	64bit cpu's</para>
-			<para>Chipset VIA K8T890, PCI-Express solution for the AMD processor platform.</para>
-			<para>Chipset Nvidia	</para>
-			<para>Chipset AMD	</para>
-			<para>Chipset	SIS	</para>
-			<para></para>
-			<para></para>
-			<para>GPU	Nvidia	Native PCI Express</para>
-			<para>GPU	ATI	Native PCI Express</para>
-			<para></para>
-			<para>Ram	Dual channel xcontroller</para>
-			<para></para>
-			<para></para>
-			<para></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; display:none; margin-bottom:0.0000in; line-height:1.000000; dom-dir:ltr; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">5mm Margins except bottom which is 10mm. Word wrap off</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**Case + PSU	Antec Sonata Piano Black Quiet Case + True Power 380W PSU (true 380s model psu) </phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">	(Life style series Case + PSU - Mid Tower)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**MOBO	Asus K8VSE Deluxe (Socket 754) </phrase><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">(VIA K8T800 Chipset + VIA VT8237 South)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**CPU	AMD Athlon 64 3400+(Socket 754) RETAIL </phrase><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">(Processor, Heatsink &amp;Fan)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**Memory Geil 1GB (2x512Mb) PC3200 Ultra Series CAS 2 (GL1GB3200DC)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; display:inline; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; dom-dir:ltr; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:inline; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**Cooling	Zalman CNPS7000A-Cu Ultra Quiet CPU Cooler</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**Hard Disk	2x Maxtor DiamondMax Plus Serial ATA 80Gb 8MB	(RAID)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Floppy Disk 1.44Mb </phrase><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:inline; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">	</phrase><phrase condition="display:none">(in current system)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">CD-R/RW	LG 52x 24x 52x cd-rw </phrase><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">	</phrase><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">(in current system) (write, rewrite, read)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**DVD	LG GSA-4082B dvd rewriter</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**Graphics	Asus ATI Radeon 9800XT/TVD 256Mb &amp;Half-Life	</phrase><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">(8x agp card)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**Monitor	View Sonic VP171b 17" LCD	</phrase><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">(DVI @1280x1024 native resolution)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**Sound	Sound Blaster Audigy 2 ZS Gamer</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; display:none; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; dom-dir:ltr; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Keyboard	PS/2 keyboard	(in current system)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; display:none; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; dom-dir:ltr; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; display:none; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Mouse	USB optical Mouse	(in current system)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.000000in/L0,4.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">**Networking	on board mobo 10/100/1000 MB</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; tabstops:1.500000in/L0; dom-dir:ltr; margin-bottom:0.0000in; text-indent:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Items marked ** are what I need to purchase</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">To be attached</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">USB Zip Drive (has its own power supply)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Parallel Port Printer (Also has USB)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">http://www.nvidia.com/page/geforce_pcx.html	pci-express conector cards from nvidia</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><beginpage/>Chris White</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Overclockers UK (Esnet Ltd)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fenton</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">0870 443 0880 (Sales)</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">CPU operating frequency=System clock X Multiplier </phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">e.g. 133Mhz system clock x multiplier of 10=1.33Ghz cpu</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Incoming in 2004</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">CPU Socket 939	AMD Athlon 64 fx- 53__ (1mb L2 cache)	64bit cpu's</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Chipset VIA K8T890, PCI-Express solution for the AMD processor platform.</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Chipset Nvidia	</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Chipset AMD	</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Chipset	SIS	</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">GPU	Nvidia	Native PCI Express</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">GPU	ATI	Native PCI Express</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="font-family:Times New Roman; font-size:12pt; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Ram	Dual channel xcontroller</phrase></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
 		</section>
 	</chapter>
 </book>

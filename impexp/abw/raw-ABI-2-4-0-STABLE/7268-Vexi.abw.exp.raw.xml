@@ -1,497 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
 
-<book>
 <!-- ================================================================================ -->
-<!-- This DocBook file was created by AbiWord.										-->
-<!-- AbiWord is a free, Open Source word processor.								   -->
-<!-- You may obtain more information about AbiWord at www.abisource.com			   -->
+<!-- This DocBook file was created by AbiWord.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                                   -->
+<!-- You may obtain more information about AbiWord at http://www.abisource.com        -->
 <!-- ================================================================================ -->
 
-
+<book condition="dom-dir:ltr; document-footnote-restart-section:1; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:1; document-footnote-restart-page:1; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:1" lang="en-US">
+	<bookinfo>
+		<bibliomisc><application class="software">AbiWord</application></bibliomisc>
+	</bookinfo>
 	<chapter>
 		<title></title>
-		<section role="unnumbered">
+		<section>
 			<title></title>
-			<para><phrase role="strong"><phrase role="strong">Vexi Core Reference</phrase></para>
-			<para></para>
-			<para>Vexi Platform 1.0 Release</para>
-			<para></para>
-			<para>Charles Goodwin</para>
-			<para>charlie@vexi.org</para>
-			<para></para>
-			<para>15th August 2004</para>
-			<para></para>
-			<para>Reference Version 1.0pre3</para>
+			<para condition="text-align:center; font-size:24pt; font-weight:bold; font-family:Arial; text-decoration:underline"><phrase role="strong" condition="font-size:24pt; font-weight:bold; font-family:Arial; text-decoration:underline">Vexi Core Reference</phrase></para>
+			<para condition="text-align:center; font-weight:normal; font-family:Arial; font-size:16pt"></para>
+			<para condition="font-family:Arial; margin-top:0.0000in; margin-left:0.0000in; dom-dir:ltr; text-indent:0.0000in; text-align:center; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; font-size:16pt"><phrase lang="en-US" condition="font-family:Arial; font-size:16pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Vexi Platform 1.0 Release</phrase></para>
+			<para condition="font-family:Arial; margin-top:0.0000in; margin-left:0.0000in; dom-dir:ltr; text-indent:0.0000in; text-align:center; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; font-size:16pt"></para>
+			<para condition="font-family:Arial; margin-top:0.0000in; margin-left:0.0000in; dom-dir:ltr; text-indent:0.0000in; text-align:center; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; font-size:16pt"><phrase lang="en-US" condition="font-family:Arial; font-size:16pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Charles Goodwin</phrase></para>
+			<para condition="font-family:Arial; margin-top:0.0000in; margin-left:0.0000in; dom-dir:ltr; text-indent:0.0000in; text-align:center; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; font-size:16pt"><phrase lang="en-US" condition="font-family:Arial; font-size:16pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">charlie@vexi.org</phrase></para>
+			<para condition="font-family:Arial; margin-top:0.0000in; margin-left:0.0000in; dom-dir:ltr; text-indent:0.0000in; text-align:center; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; font-size:16pt"></para>
+			<para condition="font-family:Arial; margin-top:0.0000in; margin-left:0.0000in; dom-dir:ltr; text-indent:0.0000in; text-align:center; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; font-size:16pt"><phrase lang="en-US" condition="font-family:Arial; font-size:16pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">15th August 2004</phrase></para>
+			<para condition="font-family:Arial; margin-top:0.0000in; margin-left:0.0000in; dom-dir:ltr; text-indent:0.0000in; text-align:center; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; font-size:16pt"></para>
+			<para condition="font-family:Arial; margin-top:0.0000in; margin-left:0.0000in; dom-dir:ltr; text-indent:0.0000in; text-align:center; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; font-size:16pt"><phrase lang="en-US" condition="font-family:Arial; font-size:16pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Reference Version 1.0pre3</phrase></para>
 			<para><beginpage/></para>
+			<section role="abi-toc">
+				<title>Table of Contents</title>
+				<toc></toc>
+				<para></para>
+			</section>
+		</section>
+		<section role="Normal">
+			<title></title>
 			<para></para>
-			<section role="unnumbered">
-				<title>Preface</title>
-				<section role="unnumbered">
-					<title></title>
-					<section role="unnumbered">
-						<title>About This Document</title>
-						<para>The goal of this document is to describe the Vexi Core behaviour in detail, to facilitate development usage of the Vexi Core. This document is not a tutorial, and unsuitable for people unfamiliar with Vexi. Neither is it a specification and hence may not provide enough detail for a reimplementing Vexi, the Core or the Platform.</para>
-						<para>Any queries regarding this document or about Vexi should be sent to the users@vexi.org mailing list, which can be subscribed to from http://lists.vexi.org on the Vexi website.</para>
-					</section>
-					<section role="unnumbered">
-						<title>Vexi Platform Components</title>
-						<para>	Platform	The combination of the following components</para>
-						<para>	Core	The native core (or Java byte-code) that powers the UI</para>
-						<para>	Launcher	A small mini-application that "shoehorns" the Core onto the<br/>	client PC and is beyond the scope of this document</para>
-						<para>	UI / Application	The set of files, bundled as a zip file with a ".vexi" extension,<br/>	that are used to create and control a Vexi UI</para>
-						<para>	Widgets	An official set of Vexi UI files that provide usable widgets<br/>	for use in Vexi applications</para>
-					</section>
-					<section role="unnumbered">
-						<title>Required Knowledge</title>
-						<para>	ECMAScript / Javascript	ECMAScript (aka Javascript) controls Vexi UI behaviour</para>
-						<para>	XML	Vexi UIs are described using XML</para>
-					</section>
-					<section role="unnumbered">
-						<title>Key Concepts</title>
-						<para>	VexiScript	The enhanced version of ECMAScript used by Vexi</para>
-						<para>	Put / Write	In VexiScript, when you change the value of something you are<br/>		putting or writing to it e.g. 'foo = 5' puts 5 to 'foo'</para>
-						<para>	Get / Read	In VexiScript, when you access the value of something you are<br/>	getting or reading it e.g. 'return bar' reads (then returns) 'bar'</para>
-					</section>
-					<section role="unnumbered">
-						<title>Application Life-Cycle</title>
-						<para>&lt;describe the life-cycle of a Vexi application, with diagram&gt;</para>
-					</section>
-				</section>
+		</section>
+		<section role="Heading 1">
+			<title>Preface</title>
+			<section role="Heading 3">
+				<title>About This Document</title>
+				<para>The goal of this document is to describe the Vexi Core <phrase lang="en-GB" condition="lang:en-GB">behaviour in detail, to facilitate development usage of the Vexi Core. This document is not a tutorial, and unsuitable for people unfamiliar with Vexi. Neither is it a specification and hence may not provide enough detail for a reimplementing Vexi, the Core or the Platform.</phrase></para>
+				<para condition="lang:en-GB"><phrase lang="en-GB" condition="lang:en-GB">Any queries regarding this document or about Vexi should be sent to the users@vexi.org mailing list, which can be subscribed to from http://lists.vexi.org on the Vexi website.</phrase></para>
 			</section>
-			<section role="unnumbered">
-				<title>Vexi Fundamentals</title>
-				<section role="unnumbered">
-					<title>Boxes</title>
-					<para>The fundamental building block for Vexi UIs is the box.</para>
-					<para>A box may contain other boxes, which is referred to as the parent-child relationship. This is a one-to-many relationship; a parent box may contain many children, but a child box can only have one parent. A box may be a parent, or a child, or both, or neither. A parent-less box is considered an orphan.</para>
-					<para>The parent of a box and any subsequent parents are referred to as the ascendants of the subject box. The children of a box and any subsequent children of the child boxes are referred to as descendants of the subject box.</para>
-					<para>The combination of a box and it's ascendants and descendants is referred to as a box tree. The top box of a box tree is referred to as a root box or a surface box.</para>
-					<para>There are three ways in which to consider a box:</para>
-					<para>	Visual Representation	As a rendered object on-screen</para>
-					<para>	Object Representation	As a VexiScript object</para>
-					<para>	XML Representation	As an XML node (tag)</para>
-					<para>Boxes are encapsulated objects. That means a child box has no direct way of accessing or ascertaining information about it's parent.</para>
-					<para>New boxes are created using the &lt;ui:box /&gt; XML tag or by reading from vexi.box (the box property on the Vexi Object).</para>
-				</section>
-				<section role="unnumbered">
-					<title>Surfaces</title>
-					<para>A top-level window in a Vexi UI is referred to as a surface. There are four kinds of surfaces available to Vexi applications (see the Vexi Object for information on creating surfaces):</para>
-					<para>	Frame	A fully-fledged application window decorated<br/>	with platform specific borders and buttons</para>
-					<para>	Window	A fully-fledged application window but without<br/>	any decorations</para>
-					<para>	Dialog	A modal dialog attached to an application<br/>	window, with platform-specific decorations</para>
-					<para>	Popup	A modal dialog, attached to an application<br/>	window, but without any decorations</para>
-					<para>All surfaces are scarred for security reasons. See the appendix on Security Precautions for further information on surface scarring.</para>
-					<para>Whenever we refer to the size or position of a surface box, we refer to the UI accessible portion of the surface, disregarding any platform specific decoration. This has the caveat that if you set the position of a frame or dialog to (0,0) then the platform specific title-bar will be placed off-screen.</para>
-					<para>Surface boxes are not directly accessible as VexiScript objects to any descendants of a surface box. However, every box has a object, accessed as 'surface', associated with it which is know as the surface object. Whenever reading this object, the Core recursively reads the surface object of the parent and returns a value when it is encountered. When a box changes surface, including addition and removal, then 'true' is put to the value of this object, and the surface object will read the value of the new surface object. By default, there is no value for the surface object; this is implemented in widget space.</para>
-				</section>
-				<section role="unnumbered">
-					<title>Templates</title>
-					<para>Boxes are combined to form more useful widgets using templates. Templates are defined using XML files with the .t extension.</para>
-					<para>The root node of a template is always &lt;vexi /&gt;. Any non-XML content in the vexi node is interpreted as VexiScript and forms the static portion of a template. The static content of a template is executed only once when the template is first used. Any reference to the static content of a template is referring to the same object.</para>
-					<para>The vexi node can contain the following XML nodes:</para>
-					<para>	&lt;ui:box /&gt;</para>
-					<para>	Another template e.g. &lt;.path.to.valid.template /&gt;</para>
-					<para>	Any custom node using the meta namespace e.g. &lt;meta:foo /&gt;</para>
-					<para>Of the non-meta namespace nodes, only one can have content. The single tag nodes are pre- or post-applied to the template in the order in which they are defined.</para>
-					<para>Example:</para>
-					<para>&lt;vexi xmlns:namespace1=".name.space.one"&gt;<br/>	&lt;meta:doc&gt;I wrote this!&lt;/meta:doc&gt;<br/><br/>	// static content goes here<br/><br/>	&lt;.name.space.two.foo /&gt;<br/>	&lt;namespace1:bar /&gt;<br/>	&lt;ui:box&gt;<br/><br/>	// regular content goes here<br/><br/>	&lt;/ui:box&gt;<br/>&lt;/vexi&gt;</para>
-				</section>
+			<section role="Heading 3">
+				<title>Vexi Platform Components</title>
+				<para condition="start-value:0; lang:en-GB; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Bullet List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	</phrase><phrase lang="en-GB" condition="lang:en-GB">Platform	The combination of the following components</phrase></para>
+				<para condition="start-value:0; lang:en-GB; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Bullet List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Core	The native core (or Java byte-code) that powers the UI</phrase></para>
+				<para condition="start-value:0; lang:en-GB; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Bullet List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Launcher	A small mini-application that "shoehorns" the Core onto the	client PC and is beyond the scope of this document</phrase></para>
+				<para condition="start-value:0; lang:en-GB; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Bullet List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	UI / Application	The set of files, bundled as a zip file with a ".vexi" extension,	that are used to create and control a Vexi UI</phrase></para>
+				<para condition="start-value:0; lang:en-GB; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; text-position:normal; lang:en-GB; font-style:normal; font-variant:normal; list-style:Bullet List; bgcolor:transparent; homogeneous:1; text-decoration:none; height:0in; font-size:12pt; font-stretch:normal">	Widgets	An official set of Vexi UI files that provide usable widgets	for use in Vexi applications</phrase></para>
 			</section>
-			<section role="unnumbered">
-				<title>The Box Model: Layout and Rendering</title>
-				<section role="unnumbered">
-					<title>Box Semantics</title>
-					<para>A box can have 0 or more child boxes. Child boxes are assigned an index based on their order within the parent, which is numbered '0' (for the first child) to 'n-1' (for the last child).</para>
-					<para>A parent box has the numerical properties 'cols' and 'rows'. If one is set to a value greater than '0', the other is set to '0'. If one is set to '0', the other is set to '1'. The value of one of either cols or rows for a box is always 0; they can never be simultaneously greater than 0. Whichever of the 'cols' or 'rows' properties has a value greater than zero will always read that value and is considered the constraint for packing child boxes into columns and rows, with the property whose value is '0' being dynamic with no limits.</para>
-					<para>Child boxes are either packed or non-packed, defined by the boolean property packed.</para>
-				</section>
-				<section role="unnumbered">
-					<title>Packed Boxes</title>
-					<para>A packed box is a box whose packed property is true.</para>
-					<para>Packed boxes are placed, in order, into columns and rows. If the constraining property on the parent box is 'cols' then packing is done by placing the next child box into the next available column space, otherwise it is done by row.</para>
-					<para>A packed box's width is set to the aggregation of the widths of the columns it spans. If this width exceeds the box's maxwidth, if it's hshrink property is false, or the box's content width, if it's hshrink property is true, then the box is sized to it's maxwidth or content width respectively and then aligned horizontally according to it's align attribute within the space occupied by it's spanned columns. This is then repeated for rows and height.</para>
-				</section>
-				<section role="unnumbered">
-					<title>Non-packed Boxes</title>
-					<para>A non-packed box is a box whose packed property is false.</para>
-					<para>Non-packed boxes are placed within the parent, irrespective of the parents columns and rows, according to their align property and are offset by their x and y properties.</para>
-				</section>
-				<section role="unnumbered">
-					<title>Grid Layout</title>
-					<para><emphasis><emphasis>Note: [ brackets ] are added for clarity only.</emphasis></para>
-					<para>A box's content width is the maximum of [ the minimum of the aggregation of it's columns' minimum widths and the box's maxwidth property ] and the box's minwidth property.</para>
-					<para>A column's minimum width is the maximum content width of all the boxes in that column.</para>
-					<para>A column's maximum width is the maximum of [ the maximum maxwidth from each of the column's boxes whose hshrink property is false ] and [ the maximum content width from each of the column's boxes whose hshrink property is true ], but a column's maximum width is never smaller than it's minimum width.</para>
-					<para>A box with colspan occupying several columns will never affect the minimum or maximum width of a column any more than is necessary to render the box according to it's minwidth and maxwidth properties. A box with colspan will only ever affect the last column it spans.</para>
-					<para>A column's actual width is then determined by the space available in the parent, but will never be less than the column's minimum width. If the aggregation of the columns' maximum widths is less than the parent box's maxwidth then the remaining space, also called 'slack', is spread equally over the columns.</para>
-					<para>This is all then repeated for rows and height.</para>
-				</section>
-				<section role="unnumbered">
-					<title>Further Information on Vexi Grid Layout</title>
-					<para>The Vexi Core grid layout engine is scalable with regards to columns, rows, and spanning children. What this means is that the grid layout for a parent box with 10,000 columns and a child spanning 10,000 columns will be calculated as fast as the single column equivalent.</para>
-				</section>
-				<section role="unnumbered">
-					<title>Box Rendering</title>
-					<para>Boxes are rendering "back to front" in Vexi, with parents being placed behind children and children rendered in order of index. Only the minimum area needed to update the screen to reflect the current box tree contained in a surface will be rendered at any given time.</para>
-					<para>They way a box is rendered is controlled by it's rendering properties. These control how a box adapts to the space provided and the children inside of it.</para>
-				</section>
+			<section role="Heading 3">
+				<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Required Knowledge</phrase></title>
+				<para condition="start-value:0; lang:en-GB; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; text-position:normal; lang:en-GB; font-style:normal; list-style:Bullet List; homogeneous:1; bgcolor:transparent; text-decoration:none; color:000000; height:0in; font-size:12pt; font-stretch:normal">	ECMAScript</phrase><phrase lang="en-GB" condition="lang:en-GB; display:inline; height:0in; width:0in; text-position:normal; homogeneous:1"> / Javascript	ECMAScript (aka Javascript) controls Vexi UI behaviour</phrase></para>
+				<para condition="list-delim:%L; list-decimal:.; list-style:Bullet List; start-value:0; margin-left:0.5000in; lang:en-GB; text-indent:-0.3000in; field-font:Symbol"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; text-position:normal; lang:en-GB; font-style:normal; list-style:Bullet List; homogeneous:1; bgcolor:transparent; text-decoration:none; color:000000; height:0in; font-size:12pt; font-stretch:normal">	</phrase><phrase lang="en-GB" condition="lang:en-GB; display:inline; height:0in; width:0in; text-position:normal; homogeneous:1">XML	Vexi UIs are described using XML</phrase></para>
 			</section>
-			<section role="unnumbered">
-				<title>Box Properties</title>
-				<para>A box is also accessible as a VexiScript object, and with key-value pairs that can be used to control the behaviour of a box.</para>
-				<section role="unnumbered">
-					<title>Layout</title>
-					<para></para>
-					<table frame="all">
-						<tgroup cols='3' align='left' colsep='1' rowsep='1'>
-						<colspec colname='c1'/>
-						<colspec colname='c2'/>
-						<colspec colname='c3'/>
-						<tbody>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-							<row>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-								<entry>
-									<para></para>
-								</entry>
-							</row>
-						</tbody>
-					</tgroup>
-				</table>
-				<para></para>
+			<section role="Heading 3">
+				<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Key Concepts</phrase></title>
+				<para condition="start-value:0; lang:en-GB; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Bullet List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	VexiScript	The enhanced version of ECMAScript used by Vexi</phrase></para>
+				<para condition="start-value:0; lang:en-GB; text-indent:-0.3000in; list-style:Bullet List; field-font:Symbol; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Bullet List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Put / Write	In VexiScript, when you change the value of something you are	</phrase><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; text-decoration:none; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; list-style:Bullet List; height:0in; text-position:normal; font-stretch:normal">	putting or writing to it e.g. 'foo = 5' puts 5 to 'foo'</phrase></para>
+				<para condition="margin-top:0.0000in; list-decimal:NULL; margin-left:0.5000in; dom-dir:ltr; text-indent:-0.2993in; list-style:Bullet List; list-delim:%L; lang:en-GB; margin-right:0.0000in; margin-bottom:0.0000in; line-height:1.000000; text-align:left; start-value:0; field-font:Symbol"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; text-decoration:none; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; list-style:Bullet List; height:0in; text-position:normal; font-stretch:normal">	G</phrase><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Bullet List; homogeneous:1; bgcolor:transparent; font-size:12pt; color:000000; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">et / Read	In VexiScript, when you access the value of something you are	getting or reading it e.g. 'return bar' reads (then returns) 'bar'</phrase></para>
 			</section>
-			<section role="unnumbered">
-				<title>Rendering</title>
-				<para>These properties effect how a box is visually presented on-screen.</para>
-				<para></para>
-				<table frame="all">
-					<tgroup cols='3' align='left' colsep='1' rowsep='1'>
-					<colspec colname='c1'/>
-					<colspec colname='c2'/>
-					<colspec colname='c3'/>
-					<tbody>
-						<row>
-							<entry>
-								<para>Property</para>
-							</entry>
-							<entry>
-								<para>Default Value</para>
-							</entry>
-							<entry>
-								<para>Description</para>
-							</entry>
-						</row>
-						<row>
-							<entry>
-								<para>fill</para>
-								<para>(string)</para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-						</row>
-						<row>
-							<entry>
-								<para>font</para>
-								<para>(stream)</para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-						</row>
-						<row>
-							<entry>
-								<para>fontsize</para>
-								<para>(int)</para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-						</row>
-						<row>
-							<entry>
-								<para>text</para>
-								<para>(string)</para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-						</row>
-						<row>
-							<entry>
-								<para>textcolor</para>
-								<para>(string)</para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-						</row>
-						<row>
-							<entry>
-								<para>path</para>
-								<para>(string)</para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-						</row>
-						<row>
-							<entry>
-								<para>strokecolor</para>
-								<para>(string)</para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-						</row>
-						<row>
-							<entry>
-								<para>strokewidth</para>
-								<para>(string)</para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-							<entry>
-								<para></para>
-							</entry>
-						</row>
-					</tbody>
+			<section role="Heading 3">
+				<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Application Life-Cycle</phrase></title>
+				<para condition="margin-top:0.0000in; margin-left:0pt; text-indent:0in; dom-dir:ltr; margin-bottom:0.0000in; lang:en-GB; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; color:000000; bgcolor:transparent; font-size:12pt; text-decoration:none; homogeneous:1; height:0in; text-position:normal; font-stretch:normal">&lt;describe the life-cycle of a Vexi application, with diagram&gt;</phrase></para>
+			</section>
+		</section>
+		<section role="Heading 1">
+			<title><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">Vexi Fundamentals</phrase></title>
+			<section role="Heading 2">
+				<title><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">Boxes</phrase></title>
+				<para condition="lang:en-GB"><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">The fundamental building block for Vexi UIs is the box.</phrase></para>
+				<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">A box may contain other boxes, which is referred to as the parent-child relationship. This is a one-to-many relationship; a </phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">parent box</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1"> may contain many children, but a </phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">child box</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1"> can only have one parent. A box may be a parent, or a child, or both, or neither. A parent-less box is considered an </phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">orphan</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">.</phrase></para>
+				<para condition="lang:en-GB"><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">The parent of a box and any subsequent parents are referred to as the </phrase><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">ascendants</phrase><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1"> of the subject box. The children of a box and any subsequent children of the child boxes are referred to as </phrase><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">descendants</phrase><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1"> of the subject box.</phrase></para>
+				<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">The combination of a box and it's ascendants and descendants is referred to as a box tree. The top box of a box tree is referred to as a </phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">root box</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1"> or a </phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">surface box</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">.</phrase></para>
+				<para condition="lang:en-GB"><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">There are three ways in which to consider a box:</phrase></para>
+				<para condition="start-value:1; lang:en-GB; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Numbered List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Visual Representation	As a rendered object on-screen</phrase></para>
+				<para condition="start-value:1; lang:en-GB; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Numbered List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Object Representation	As a VexiScript object</phrase></para>
+				<para condition="start-value:1; lang:en-GB; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Numbered List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	XML Representation	As an XML node (tag)</phrase></para>
+				<para condition="lang:en-GB; text-indent:0in; margin-left:0pt"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; text-position:normal; lang:en-GB; text-decoration:none; color:000000; bgcolor:transparent; font-variant:normal; homogeneous:1; height:0in; font-size:12pt; font-stretch:normal">Boxes are encapsulated objects. That means a child box has no direct way of accessing or ascertaining information about it's parent.</phrase></para>
+				<para condition="lang:en-GB; text-indent:0in; margin-left:0pt"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; text-position:normal; lang:en-GB; text-decoration:none; color:000000; bgcolor:transparent; font-variant:normal; homogeneous:1; height:0in; font-size:12pt; font-stretch:normal">New boxes are created using the &lt;ui:box /&gt; XML tag or by reading from vexi.box (the box property on the Vexi Object).</phrase></para>
+			</section>
+			<section role="Heading 2">
+				<title><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">Surfaces</phrase></title>
+				<para condition="lang:en-GB"><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">A top-level window in a Vexi UI is referred to as a </phrase><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">surface</phrase><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">. There are four kinds of surfaces available to Vexi applications (see the Vexi Object for information on creating surfaces):</phrase></para>
+				<para condition="start-value:1; lang:en-GB; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Numbered List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Frame	A fully-fledged application window decorated	with platform specific borders and buttons</phrase></para>
+				<para condition="start-value:1; lang:en-GB; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Numbered List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Window	A fully-fledged application window but without</phrase><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; text-decoration:none; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; list-style:Numbered List; height:0in; text-position:normal; font-stretch:normal">	any decorations</phrase></para>
+				<para condition="start-value:1; lang:en-GB; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Numbered List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Dialog	A modal dialog attached to an application	window, with platform-specific decorations</phrase></para>
+				<para condition="start-value:1; lang:en-GB; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-GB" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-GB; font-style:normal; list-style:Numbered List; color:000000; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; text-position:normal; font-stretch:normal">	Popup	A modal dialog, attached to an application	window, but without any decorations</phrase></para>
+				<para condition="lang:en-GB; text-indent:0in; margin-left:0pt"><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">All surfaces are </phrase><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">scarred</phrase><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1"> for security reasons. See the appendix on Security Precautions for further information on surface scarring.</phrase></para>
+				<para condition="lang:en-GB; text-indent:0in; margin-left:0pt"><phrase lang="en-GB" condition="height:0in; display:inline; lang:en-GB; width:0in; homogeneous:1">Whenever we refer to the size or position of a surface box, we refer to the UI accessible portion of the surface, disregarding any platform specific decoration. This has the caveat that if you set the position of a frame or dialog to (0,0) then the platform specific title-bar will be placed off-screen.</phrase></para>
+				<para condition="text-indent:0in; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Surface boxes are not directly accessible as VexiScript objects to any descendants of a surface box. However, every box has a object, accessed as '</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">surface</phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">', associated with it which is know as the </phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">surface object</phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">. Whenever reading this object, the Core recursively reads the surface object of the parent and returns a value when it is encountered.</phrase><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; homogeneous:1; text-position:normal; height:0in; font-size:12pt"> When a box changes surface, including addition and removal, then 'true' is put to the value of this object, and the surface object will read the value of the new surface object. By default, there is no value for the surface object; this is implemented in widget space.</phrase></para>
+			</section>
+			<section role="Heading 2">
+				<title><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Templates</phrase></title>
+				<para condition="text-indent:0in; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Boxes are combined to form more useful widgets using templates. Templates are defined using XML files with the .t extension.</phrase></para>
+				<para condition="text-indent:0in; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">The root node of a template is always &lt;vexi /&gt;. Any non-XML content in the vexi node is interpreted as VexiScript and forms the static portion of a template. The static content of a template is executed only once when the template is first used. Any reference to the static content of a template is referring to the same object.</phrase></para>
+				<para condition="text-indent:0in; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">The vexi node can contain the following XML nodes:</phrase></para>
+				<para condition="start-value:1; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; text-position:normal; lang:en-US; font-style:normal; list-style:Numbered List; homogeneous:1; bgcolor:transparent; text-decoration:none; color:000000; height:0in; font-size:12pt; font-stretch:normal">	&lt;ui:box /&gt;</phrase></para>
+				<para condition="start-value:1; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; text-position:normal; lang:en-US; font-style:normal; list-style:Numbered List; homogeneous:1; bgcolor:transparent; text-decoration:none; color:000000; height:0in; font-size:12pt; font-stretch:normal">	Another template e.g. &lt;.path.to.valid.template /&gt;</phrase></para>
+				<para condition="start-value:1; text-indent:-0.3000in; list-style:Numbered List; field-font:NULL; margin-left:0.5000in"><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; text-position:normal; lang:en-US; font-style:normal; list-style:Numbered List; homogeneous:1; bgcolor:transparent; text-decoration:none; color:000000; height:0in; font-size:12pt; font-stretch:normal">	Any custom node using the meta namespace e.g. &lt;meta:foo /&gt;</phrase></para>
+				<para condition="text-indent:0in; margin-left:0pt"><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; color:000000; bgcolor:transparent; homogeneous:1; font-size:12pt; height:0in; text-position:normal; font-stretch:normal">Of the non-meta namespace nodes, only one can have content. The single tag nodes are pre- or post-applied to the template in the order in which they are defined.</phrase></para>
+				<para condition="text-indent:0in; margin-left:0pt"><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; color:000000; bgcolor:transparent; homogeneous:1; font-size:12pt; height:0in; text-position:normal; font-stretch:normal">Example:</phrase></para>
+			</section>
+			<section role="Code">
+				<title></title>
+				<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">&lt;vexi xmlns:namespace1=".name.space.one"&gt;	&lt;meta:doc&gt;I wrote this!&lt;/meta:doc&gt;	// static content goes here</phrase>	&lt;.name.space.two.foo /&gt;	&lt;namespace1:bar /&gt;<phrase condition="height:0in; display:inline; width:0in; homogeneous:1">	&lt;ui:box&gt;	// regular content goes here	&lt;/ui:box&gt;&lt;/vexi&gt;</phrase></para>
+			</section>
+		</section>
+		<section role="Heading 1">
+			<title><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">The Box Model: Layout and Rendering</phrase></title>
+			<para></para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Box Semantics</phrase></title>
+			<para><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">A box can have 0 or more child boxes. Child boxes are assigned an index based on their order within the parent, which is numbered '0' (for the first child) to 'n-1' (for the last child).</phrase></para>
+			<para><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">A parent box has the numerical properties 'cols' and 'rows'. If one is set to a value greater than '0', the other is set to '0'. If one is set to '0', the other is set to '1'. The value of one of either cols or rows for a box is always 0; they can never be simultaneously greater than 0. Whichever of the 'cols' or 'rows' properties has a value greater than zero</phrase><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; homogeneous:1; text-position:normal; height:0in; font-size:12pt"> will always read that value and</phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1"> is considered the constraint for packing child boxes into columns and rows, with the property whose value is '0' being dynamic with no limits.</phrase></para>
+			<para><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Child boxes are either packed or non-packed, defined by the boolean property packed.</phrase></para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Packed Boxes</phrase></title>
+			<para><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">A packed box is a box whose packed property is true.</phrase></para>
+			<para condition="margin-top:0.1111in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; homogeneous:1; font-weight:normal; lang:en-US; font-style:normal; text-position:normal; text-decoration:none; height:0in; font-size:12pt">Packed boxes are placed, in order, into columns and rows. If the constraining property on the parent box is 'cols' then packing is done by placing the next child box into the next available column space, otherwise it is done by row.</phrase></para>
+			<para><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; homogeneous:1; font-size:12pt; height:0in; text-position:normal">A packed box's width is set to the aggregation of the widths of the columns it spans. If this width exceeds the box's maxwidth, if it's hshrink property is false, or the box's content width, if it's hshrink property is true, then the box is sized to it's maxwidth or content width respectively and then aligned horizontally according to it's align attribute within the space occupied by it's spanned columns. </phrase>This is then repeated for rows and height.</para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Non-packed Boxes</phrase></title>
+			<para><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">A non-packed box is a box whose packed property is false.</phrase></para>
+			<para><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; homogeneous:1; font-size:12pt; height:0in; text-position:normal">Non-packed boxes are placed within the parent, irrespective of the parents columns and rows, according to their align property and are offset by their x and y properties.</phrase></para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Grid Layout</phrase></title>
+			<para condition="font-style:italic"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1; font-style:italic"><emphasis>Note: [ brackets ] are added for clarity only.</emphasis></phrase></para>
+			<para condition="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">A box's </phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">content width</phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1"> is the maximum of [ the minimum of </phrase><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; homogeneous:1; text-position:normal; height:0in; font-size:12pt">the aggregation of it's columns' minimum widths</phrase><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; homogeneous:1; font-size:12pt; height:0in; text-position:normal"> and the box's maxwidth property ] and the box's minwidth property</phrase><phrase lang="en-US" condition="width:0in; font-family:Times New Roman; display:inline; color:000000; font-weight:normal; lang:en-US; font-style:normal; text-decoration:none; homogeneous:1; text-position:normal; height:0in; font-size:12pt">.</phrase></para>
+			<para condition="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">A column's </phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">minimum width</phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1"> is the maximum content width of all the boxes in that column.</phrase></para>
+			<para condition="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">A column's </phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">maximum width</phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1"> is the maximum of [ the maximum maxwidth from each of the column's boxes whose hshrink property is false ] and [ the maximum content width from each of the column's boxes whose hshrink property is true ], but a column's maximum width is never smaller than it's minimum width.</phrase></para>
+			<para condition="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">A box with colspan occupying several columns will never affect the minimum or maximum width of a column any more than is necessary to render the box according to it's minwidth and maxwidth properties. A box with colspan will only ever affect the last column it spans.</phrase></para>
+			<para condition="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">A column's </phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">actual width</phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1"> is then determined by the space available in the parent, but will never be less than the column's minimum width. If the aggregation of the columns' maximum widths is less than the parent box's maxwidth then the remaining space, also called 'slack', is spread equally over the columns.</phrase></para>
+			<para condition="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt"><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">This is all then repeated for rows and height.</phrase></para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Further Information on Vexi Grid Layout</phrase></title>
+			<para><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">The Vexi Core grid layout engine is scalable with regards to columns, rows, and spanning children. What this means is that the grid layout for a parent box with 10,000 columns and a child spanning 10,000 columns will</phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; font-weight:normal; width:0in; homogeneous:1"> be calculated as fast as the </phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">single column equivalent.</phrase></para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Box Rendering</phrase></title>
+			<para><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">Boxes are rendering "back to front" in Vexi, with parents being placed behind children and children rendered in order of index. Only the minimum area needed to update the screen to reflect the current box tree contained in a surface will be rendered at any given time.</phrase></para>
+			<para><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">They way a box is rendered is controlled by it's </phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">rendering properties</phrase><phrase lang="en-US" condition="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">. These control how a box adapts to the space provided and the children inside of it.</phrase></para>
+		</section>
+		<section role="Heading 1">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Box Properties</phrase></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">A box is also accessible as a VexiScript object, and with key-value pairs that can be used to control the behaviour of a box.</phrase></para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Layout</phrase></title>
+			<para></para>
+			<informaltable frame="all" condition="list-tag:1; bot-style:0; bot-color:000000; top-style:0; top-color:000000; right-style:0; right-color:000000; bg-style:1; left-style:0; left-color:000000">
+				<tgroup cols='3' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1'/>
+				<colspec colname='c2'/>
+				<colspec colname='c3'/>
+				<tbody>
+					<row>
+						<entry condition="bot-attach:1; left-attach:0; right-attach:1; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:1; right-attach:2; top-attach:0"><para></para></entry>
+						<entry condition="bot-attach:1; left-attach:2; right-attach:3; top-attach:0"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:2; left-attach:0; right-attach:1; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:1; right-attach:2; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:2; right-attach:3; top-attach:1"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:3; left-attach:0; right-attach:1; top-attach:2"><para></para></entry>
+						<entry condition="bot-attach:3; left-attach:1; right-attach:2; top-attach:2"><para></para></entry>
+						<entry condition="bot-attach:3; left-attach:2; right-attach:3; top-attach:2"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:4; left-attach:0; right-attach:1; top-attach:3"><para></para></entry>
+						<entry condition="bot-attach:4; left-attach:1; right-attach:2; top-attach:3"><para></para></entry>
+						<entry condition="bot-attach:4; left-attach:2; right-attach:3; top-attach:3"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:5; left-attach:0; right-attach:1; top-attach:4"><para></para></entry>
+						<entry condition="bot-attach:5; left-attach:1; right-attach:2; top-attach:4"><para></para></entry>
+						<entry condition="bot-attach:5; left-attach:2; right-attach:3; top-attach:4"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:6; left-attach:0; right-attach:1; top-attach:5"><para></para></entry>
+						<entry condition="bot-attach:6; left-attach:1; right-attach:2; top-attach:5"><para></para></entry>
+						<entry condition="bot-attach:6; left-attach:2; right-attach:3; top-attach:5"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:7; left-attach:0; right-attach:1; top-attach:6"><para></para></entry>
+						<entry condition="bot-attach:7; left-attach:1; right-attach:2; top-attach:6"><para></para></entry>
+						<entry condition="bot-attach:7; left-attach:2; right-attach:3; top-attach:6"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:8; left-attach:0; right-attach:1; top-attach:7"><para></para></entry>
+						<entry condition="bot-attach:8; left-attach:1; right-attach:2; top-attach:7"><para></para></entry>
+						<entry condition="bot-attach:8; left-attach:2; right-attach:3; top-attach:7"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:9; left-attach:0; right-attach:1; top-attach:8"><para></para></entry>
+						<entry condition="bot-attach:9; left-attach:1; right-attach:2; top-attach:8"><para></para></entry>
+						<entry condition="bot-attach:9; left-attach:2; right-attach:3; top-attach:8"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:10; left-attach:0; right-attach:1; top-attach:9"><para></para></entry>
+						<entry condition="bot-attach:10; left-attach:1; right-attach:2; top-attach:9"><para></para></entry>
+						<entry condition="bot-attach:10; left-attach:2; right-attach:3; top-attach:9"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:11; left-attach:0; right-attach:1; top-attach:10"><para></para></entry>
+						<entry condition="bot-attach:11; left-attach:1; right-attach:2; top-attach:10"><para></para></entry>
+						<entry condition="bot-attach:11; left-attach:2; right-attach:3; top-attach:10"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:12; left-attach:0; right-attach:1; top-attach:11"><para></para></entry>
+						<entry condition="bot-attach:12; left-attach:1; right-attach:2; top-attach:11"><para></para></entry>
+						<entry condition="bot-attach:12; left-attach:2; right-attach:3; top-attach:11"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:13; left-attach:0; right-attach:1; top-attach:12"><para></para></entry>
+						<entry condition="bot-attach:13; left-attach:1; right-attach:2; top-attach:12"><para></para></entry>
+						<entry condition="bot-attach:13; left-attach:2; right-attach:3; top-attach:12"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:14; left-attach:0; right-attach:1; top-attach:13"><para></para></entry>
+						<entry condition="bot-attach:14; left-attach:1; right-attach:2; top-attach:13"><para></para></entry>
+						<entry condition="bot-attach:14; left-attach:2; right-attach:3; top-attach:13"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:15; left-attach:0; right-attach:1; top-attach:14"><para></para></entry>
+						<entry condition="bot-attach:15; left-attach:1; right-attach:2; top-attach:14"><para></para></entry>
+						<entry condition="bot-attach:15; left-attach:2; right-attach:3; top-attach:14"><para></para></entry>
+					</row>
+				</tbody>
 				</tgroup>
-			</table>
+			</informaltable>
 			<para></para>
 		</section>
-	</section>
-	<section role="unnumbered">
-		<title>VexiScript</title>
-		<section role="unnumbered">
-			<title>About VexiScript</title>
-			<para>VexiScript is an adaptation of ECMAScript, Standard ECMA-262, which is most popularly implemented as Javascript. VexiScript implements a few additional features to ECMAScript. There are also some omissions and inconsistencies between VexiScript and ECMAScript.</para>
-			<para>A familiarity with ECMAScript / Javascript syntax is assumed.</para>
+		<section role="Heading 2">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Rendering</phrase></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">These properties effect how a box is visually presented on-screen.</phrase></para>
+			<para></para>
+			<informaltable frame="all" condition="table-row-heights:0.1875in/0.1875in/0.1875in/0.1875in/0.2500in/0.1875in/; list-tag:1; bg-style:1; left-color:000000; bot-style:0; bot-thickness:0.003472in; table-column-props:1.0000in/1.1250in/4.1250in/; left-thickness:0.003472in; right-color:000000; right-thickness:0.003472in; top-color:000000; top-style:0; bot-color:000000; top-thickness:0.003472in; right-style:0; left-style:0">
+				<tgroup cols='3' align='left' colsep='1' rowsep='1'>
+				<colspec colname='c1'/>
+				<colspec colname='c2'/>
+				<colspec colname='c3'/>
+				<tbody>
+					<row>
+						<entry condition="bot-attach:1; left-attach:0; right-attach:1; top-attach:0"><para>Property</para></entry>
+						<entry condition="bot-attach:1; left-attach:1; right-attach:2; top-attach:0"><para>Default Value</para></entry>
+						<entry condition="bot-attach:1; left-attach:2; right-attach:3; top-attach:0"><para>Description</para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:2; left-attach:0; right-attach:1; top-attach:1"><para>fill</para><para>(string)</para></entry>
+						<entry condition="bot-attach:2; left-attach:1; right-attach:2; top-attach:1"><para></para></entry>
+						<entry condition="bot-attach:2; left-attach:2; right-attach:3; top-attach:1"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:3; left-attach:0; right-attach:1; top-attach:2"><para>font</para><para>(stream)</para></entry>
+						<entry condition="bot-attach:3; left-attach:1; right-attach:2; top-attach:2"><para></para></entry>
+						<entry condition="bot-attach:3; left-attach:2; right-attach:3; top-attach:2"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:4; left-attach:0; right-attach:1; top-attach:3"><para>fontsize</para><para>(int)</para></entry>
+						<entry condition="bot-attach:4; left-attach:1; right-attach:2; top-attach:3"><para></para></entry>
+						<entry condition="bot-attach:4; left-attach:2; right-attach:3; top-attach:3"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:5; left-attach:0; right-attach:1; top-attach:4"><para>text</para><para>(string)</para></entry>
+						<entry condition="bot-attach:5; left-attach:1; right-attach:2; top-attach:4"><para></para></entry>
+						<entry condition="bot-attach:5; left-attach:2; right-attach:3; top-attach:4"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:6; left-attach:0; right-attach:1; top-attach:5"><para>textcolor</para><para>(string)</para></entry>
+						<entry condition="bot-attach:6; left-attach:1; right-attach:2; top-attach:5"><para></para></entry>
+						<entry condition="bot-attach:6; left-attach:2; right-attach:3; top-attach:5"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:7; left-attach:0; right-attach:1; top-attach:6"><para>path</para><para>(string)</para></entry>
+						<entry condition="bot-attach:7; left-attach:1; right-attach:2; top-attach:6"><para></para></entry>
+						<entry condition="bot-attach:7; left-attach:2; right-attach:3; top-attach:6"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:8; left-attach:0; right-attach:1; top-attach:7"><para>strokecolor</para><para>(string)</para></entry>
+						<entry condition="bot-attach:8; left-attach:1; right-attach:2; top-attach:7"><para></para></entry>
+						<entry condition="bot-attach:8; left-attach:2; right-attach:3; top-attach:7"><para></para></entry>
+					</row>
+					<row>
+						<entry condition="bot-attach:9; left-attach:0; right-attach:1; top-attach:8"><para>strokewidth</para><para>(string)</para></entry>
+						<entry condition="bot-attach:9; left-attach:1; right-attach:2; top-attach:8"><para></para></entry>
+						<entry condition="bot-attach:9; left-attach:2; right-attach:3; top-attach:8"><para></para></entry>
+					</row>
+				</tbody>
+				</tgroup>
+			</informaltable>
+			<para></para>
 		</section>
-		<section role="unnumbered">
-			<title>Declare Before Use</title>
-			<para>In VexiScript any variables must be declared before they can be used.</para>
-			<para>Private variables are initialized using the 'var' keyword:</para>
-			<para>// a private variable<br/>var my_var = "only my scope can see me";</para>
-			<para>Public variables, also known as box properties, are initialized using the 'thisbox' keyword:</para>
-			<para>// a box property (public variable)<br/>thisbox.my_prop = "any box can see this";</para>
+		<section role="Heading 1">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">VexiScript</phrase></title>
+			<para></para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">About VexiScript</phrase></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">VexiScript is an adaptation of ECMAScript, Standard ECMA-262, which is most popularly implemented as Javascript. VexiScript implements a few additional features to ECMAScript. There are also some omissions and inconsistencies between VexiScript and ECMAScript.</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">A familiarity with ECMAScript / Javascript syntax is assumed.</phrase></para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Declare Before Use</phrase></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">In VexiScript any variables must be declared before they can be used.</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Private variables are initialized using the '</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">var</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">' keyword:</phrase></para>
+		</section>
+		<section role="Code">
+			<title></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">// a private variablevar my_var = "only my scope can see me";</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Public variables, also known as box properties, are initialized using the '</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">thisbox</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">' keyword:</phrase></para>
+			<para>// a box property (public variable)thisbox.my_prop = "any box can see this";</para>
 			<para>Box properties only need to be declared once per box, and the standard box properties are already declared by the Core.</para>
 		</section>
-		<section role="unnumbered">
-			<title>Traps</title>
-			<para>Traps are a feature unique to Vexi and it's predecessors. They can be likened to events, except the work on any property and events are just one application of traps. The basic concept is that whenever something that is trapped is accessed, a trap is fired. There are two types of access and hence two types of traps: read traps and write traps.</para>
-			<para>Traps are assigned using the '++=' syntax. This is peculiar to VexiScript, and hence not part of ECMAScript. You can assign traps either anonymously or by reference:</para>
-			<para>// assign an anonymous trap<br/>$box.some_prop ++= function(v) { /* do something */ }<br/><br/>// assign a referenced trap<br/>var some_trap = function(v) { /* do something */ }<br/>$box.some_prop ++= some_trap;</para>
-			<para>Traps can be unassigned using the '--=' syntax. You can easily unassign referenced traps:</para>
-			<para>// unassign a referenced trap<br/>$box.some_prop --= some_trap;</para>
-			<para>You can only unassign anonymous traps from within themselves using the 'callee' keyword:</para>
-			<para>// unassign an anonymous trap<br/>$box.some_prop ++= function(v) {<br/> $box.some_prop --= callee;<br/>}</para>
+		<section role="Heading 2">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Traps</phrase></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Traps are a feature unique to Vexi and it's predecessors. They can be likened to events, except the work on any property and events are just one application of traps. The basic concept is that whenever something that is trapped is accessed, a trap is fired. There are two types of access and hence two types of traps: read traps and write traps.</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Traps are assigned using the '</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">++=</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">' syntax. This is peculiar to VexiScript, and hence not part of ECMAScript. You can assign traps either anonymously or by reference:</phrase></para>
 		</section>
-		<section role="unnumbered">
-			<title>Read Traps</title>
-			<para>Read traps are executed whenever a property is read in VexiScript. Read traps are created when the function has <phrase role="strong">zero</phrase> arguments.</para>
-			<para>// a read trap<br/>$box.foo ++= function() { return 2 * cascade; }<br/><br/>// will output 10<br/>vexi.log.info($box.foo);</para>
+		<section role="Code">
+			<title></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">// assign an anonymous trap$box.some_prop ++= function(v) { /* do something */ }// assign a referenced trapvar some_trap = function(v) { /* do something */ }$box.some_prop ++= some_trap;</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Traps can be unassigned using the '</phrase><phrase>--=</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">' syntax. You can easily unassign referenced traps:</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">// unassign a referenced trap$box.some_prop --= some_trap;</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">You can only unassign anonymous traps from within themselves using the 'callee' keyword:</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">// unassign an anonymous trap$box.some_prop ++= function(v) { $box.some_prop --= callee;}</phrase></para>
 		</section>
-		<section role="unnumbered">
-			<title>Write Traps</title>
-			<para>Write traps are executed whenever a property is written to, in VexiCode. Write traps are created when the assigned function has <phrase role="strong">one</phrase> argument.</para>
-			<para>// a write trap<br/>$box.bar ++= function(v) { cascade = 3 * v; }<br/><br/>$box.bar = 5;<br/><br/>// will output 15<br/>vexi.log.info($box.foo);</para>
+		<section role="Heading 2">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Read Traps</phrase></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Read traps are executed whenever a property is read in VexiScript. Read traps are created when the function has </phrase><phrase role="strong" condition="height:0in; display:inline; font-weight:bold; width:0in; homogeneous:1">zero</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1"> arguments.</phrase></para>
 		</section>
-		<section role="unnumbered">
-			<title>Trap Cascades</title>
-			<para>Multiple traps can be added on a single property. The execution of the trap functions in order is called cascading.</para>
-			<para>The order of a trap cascade is the reverse of the order in which the traps are applied.</para>
-			<para>// trap 1<br/>$box.prop ++= function(v) { vexi.log.info("FOO!"); }<br/><br/>// trap 2<br/>$box.prop ++= function(v) { vexi.log.info("BAR!"); }<br/><br/>// outputs BAR! then FOO!<br/>$box.prop = true;</para>
-			<para>The cascade can be bypassed by appending an underscore to the property name.</para>
-			<para>// trap 1<br/>$box._prop ++= function(v) { vexi.log.info("FOO!"); }<br/><br/>// trap 2<br/>$box.prop ++= function(v) { vexi.log.info("BAR!"); }<br/><br/>// outputs FOO! then BAR!<br/>$box.prop = true;</para>
+		<section role="Code">
+			<title></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">// a read trap$box.foo ++= function() { return 2 * cascade; }// will output 10vexi.log.info($box.foo);</phrase></para>
 		</section>
-	</section>
-	<section role="unnumbered">
-		<title>Events</title>
-		<para><beginpage/></para>
-		<para></para>
-	</section>
-</section>
-</chapter>
+		<section role="Heading 2">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Write Traps</phrase></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Write traps are executed whenever a property is written to, in VexiCode. Write traps are created when the assigned function has </phrase><phrase role="strong" condition="height:0in; display:inline; font-weight:bold; width:0in; homogeneous:1">one</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1"> argument.</phrase></para>
+		</section>
+		<section role="Code">
+			<title></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">// a write trap$box.bar ++= function(v) { cascade = 3 * v; }$box.bar = 5;// will output 15vexi.log.info($box.foo);</phrase></para>
+		</section>
+		<section role="Heading 2">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Trap Cascades</phrase></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Multiple traps can be added on a single property. The execution of the trap functions in order is called </phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">cascading</phrase><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">.</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">The order of a trap cascade is the reverse of the order in which the traps are applied.</phrase></para>
+		</section>
+		<section role="Code">
+			<title></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">// trap 1$box.prop ++= function(v) { vexi.log.info("FOO!"); }// trap 2$box.prop ++= function(v) { vexi.log.info("BAR!"); }// outputs BAR! then FOO!$box.prop = true;</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">The cascade can be bypassed by appending an underscore to the property name.</phrase></para>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">// trap 1$box._prop ++= function(v) { vexi.log.info("FOO!"); }// trap 2$box.prop ++= function(v) { vexi.log.info("BAR!"); }// outputs FOO! then BAR!$box.prop = true;</phrase></para>
+		</section>
+		<section role="Heading 1">
+			<title><phrase condition="height:0in; display:inline; width:0in; homogeneous:1">Events</phrase></title>
+			<para><phrase condition="height:0in; display:inline; width:0in; homogeneous:1"><beginpage/></phrase></para>
+			<para condition="text-indent:0in; margin-left:0pt"></para>
+		</section>
+	</chapter>
 </book>

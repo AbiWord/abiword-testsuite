@@ -1,19 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
 	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
 
-<book>
 <!-- ================================================================================ -->
-<!-- This DocBook file was created by AbiWord.										-->
-<!-- AbiWord is a free, Open Source word processor.								   -->
-<!-- You may obtain more information about AbiWord at www.abisource.com			   -->
+<!-- This DocBook file was created by AbiWord.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                                   -->
+<!-- You may obtain more information about AbiWord at http://www.abisource.com        -->
 <!-- ================================================================================ -->
 
-
+<book condition="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:fr-FR; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0" lang="fr-FR">
+	<bookinfo>
+		<bibliomisc><application class="software">AbiWord</application></bibliomisc>
+	</bookinfo>
 	<chapter>
 		<title></title>
-		<section role="unnumbered">
+		<section role="Normal">
 			<title></title>
-			<para></para>
+			<para><informalfigure><mediaobject><imageobject><imagedata fileref="simple-chart.abw.exp.raw.xml_data/snapshot-png-0.png" format="PNG" depth="3.472222in" width="3.125000in" lang="fr-FR" condition="width:3.125000in; font-family:Times New Roman; display:inline; list-style:None; font-weight:normal; text-position:normal; ascent:3.472222in; font-style:normal; text-decoration:none; homogeneous:1; bgcolor:transparent; height:3.472222in; font-size:12pt; embed-type:GOChart; font-variant:normal; descent:0.000000in; color:000000; lang:fr-FR; font-stretch:normal"/></imageobject></mediaobject></informalfigure></para>
 		</section>
 	</chapter>
 </book>
