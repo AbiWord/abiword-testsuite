@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<toc>
+<tocfront pagenum="i">Preface</tocfront>
+<tocpart>
+  <tocentry>Part I</tocentry>
+  <tocchap>
+    <tocentry pagenum="1">Getting Started with SGML/XML</tocentry>
+    <toclevel1>
+      <tocentry pagenum="1">HTML and SGML vs. XML</tocentry>
+    </toclevel1>
+    <toclevel1>
+      <tocentry pagenum="3">How Does DocBook Fit In?</tocentry>
+      <toclevel2>
+        <tocentry pagenum="3">A Short DocBook History</tocentry>
+      </toclevel2>
+    </toclevel1>
+    <!-- ... -->
+  </tocchap>
+</tocpart>
+<!-- ... -->
+<tocback pagenum="305">Bibliography</tocback>
+</toc>
+<para></para>
+		</section>
+	</chapter>
+</book>

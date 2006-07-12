@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<lot><title>List of Figures</title>
+<lotentry pagenum='5'>The Letters &ldquo;g&rdquo; and &ldquo;h&rdquo; 
+   inside their boxes</lotentry>
+<lotentry pagenum='15'>Example figure produced by both TeX and
+   troff</lotentry>
+<!-- ... -->
+</lot>
+<para></para>
+		</section>
+	</chapter>
+</book>

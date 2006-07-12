@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<example><title>A DSSSL Function</title>
+<programlisting>
+(define (node-list-filter-by-gi nodelist gilist)
+  ;; Returns the node-list that contains every element of the original
+  ;; nodelist whose gi is in gilist
+  (let loop ((result (empty-node-list)) (nl nodelist))
+    (if (node-list-empty? nl)
+	result
+	(if (member (gi (node-list-first nl)) gilist)
+	    (loop (node-list result (node-list-first nl)) 
+		  (node-list-rest nl))
+	    (loop result (node-list-rest nl))))))
+</programlisting>
+</example>
+		</section>
+	</chapter>
+</book>

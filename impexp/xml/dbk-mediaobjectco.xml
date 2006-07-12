@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<mediaobjectco>
+<imageobjectco>
+<areaspec units="calspair">
+  <areaset id="oneway" coords="">
+    <area id="oneway1" coords="300 400"/>
+    <area id="oneway2" coords="325 340"/>
+  </areaset>
+  <area id="myhouse" coords="425 590"/>
+</areaspec>
+<imageobject>
+<imagedata fileref="http://maps.example.com/EARTH?USA?MA?01007"/>
+</imageobject>
+</imageobjectco>
+</mediaobjectco>
+		</section>
+	</chapter>
+</book>

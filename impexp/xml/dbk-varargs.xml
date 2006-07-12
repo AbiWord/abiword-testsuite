@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<funcsynopsis>
+<funcsynopsisinfo>
+#include &lt;varargs.h&gt;
+</funcsynopsisinfo>
+<funcprototype>
+  <funcdef>int <function>max</function></funcdef>
+  <varargs/>
+</funcprototype>
+</funcsynopsis>
+		</section>
+	</chapter>
+</book>

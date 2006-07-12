@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>
+To move a highlighted region, use 
+<keycombo action='simul'>
+  <keycap>Shift</keycap>
+  <mousebutton>Button1</mousebutton>
+</keycombo>
+and drag the text to the new location.
+</para>
+		</section>
+	</chapter>
+</book>

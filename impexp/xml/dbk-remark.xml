@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<example><title>The Grand Unified Theory</title>
+<para>
+<remark>Some details are still a bit shaky</remark>
+&hellip;
+Q.E.D.
+</para>
+</example>
+		</section>
+	</chapter>
+</book>

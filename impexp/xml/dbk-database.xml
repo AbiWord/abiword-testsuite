@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>
+The <database>ProjectStatus</database> database has been updated.
+Please note that <database class='field'>Year</database> has been
+extended to four digits.
+</para>
+		</section>
+	</chapter>
+</book>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+<bookinfo>
+<revhistory>
+
+<revision>
+  <revnumber>0.91</revnumber>
+  <date>11 Dec 1996</date>
+  <authorinitials>ndw</authorinitials>
+  <revremark>Bug fixes</revremark>
+</revision>
+
+<revision>
+  <revnumber>0.90</revnumber>
+  <date>30 Nov 1996</date>
+  <authorinitials>ndw</authorinitials>
+  <revremark>First beta release</revremark>
+</revision>
+
+</revhistory>
+</bookinfo>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+			<para></para>
+		</section>
+	</chapter>
+</book>

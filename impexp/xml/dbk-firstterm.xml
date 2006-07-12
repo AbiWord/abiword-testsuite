@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>
+In an <firstterm>Object Oriented</firstterm> programming language,
+data and procedures (called <glossterm>methods</glossterm>) are
+bound together.
+</para>
+		</section>
+	</chapter>
+</book>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>
+To install <application>The Great Foo</application>, insert the disk
+labelled <medialabel>TGF Setup 1</medialabel> and run 
+<command>setup</command>.
+</para>
+		</section>
+	</chapter>
+</book>

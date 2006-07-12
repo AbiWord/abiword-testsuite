@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>An example of a postal mail address in the United States:
+<address>
+John and Jane Doe
+<street>100 Main Street</street>
+<city>Anytown</city>, <state>NY</state> <postcode>12345</postcode>
+<country>USA</country>
+</address>
+</para>
+<para>An example of a post office box address in the United States:
+<address>
+<pob>P.O. Box 1234</pob>
+<city>Anytown</city>, <state>MA</state> <postcode>12345</postcode>
+<country>USA</country>
+</address>
+</para>
+<para>Addresses can also include phone numbers:
+<address>
+John Smith
+<street>100 Pine Blvd</street>
+<city>Anytown</city>, <state>NY</state> <postcode>12345</postcode>
+<country>USA</country>
+<phone>914.555.1212</phone>
+<fax>914.555.1212</fax>
+</address>
+</para>
+		</section>
+	</chapter>
+</book>

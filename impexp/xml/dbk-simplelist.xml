@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>
+Here is a <sgmltag>SimpleList</sgmltag>, rendered inline: 
+<simplelist type='inline'>
+<member>A</member>
+<member>B</member>
+<member>C</member>
+<member>D</member>
+<member>E</member>
+<member>F</member>
+<member>G</member>
+</simplelist>
+</para>
+		</section>
+	</chapter>
+</book>

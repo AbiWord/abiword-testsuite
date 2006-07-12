@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<formalpara><title>This Paragraph Has a Title</title>
+<para>
+This is a test.  This is only a test.  Had this been a real
+example, it would have made more sense.  Or less.
+</para>
+</formalpara>
+		</section>
+	</chapter>
+</book>

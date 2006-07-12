@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<procedure><title>An Example Procedure</title>
+<step>
+  <para>
+    A Step
+  </para>
+</step>
+<step>
+  <para>
+    Another Step
+  </para>
+  <substeps>
+    <step>
+      <para>
+        Substeps can be nested indefinitely deep.
+      </para>
+    </step>
+  </substeps>
+</step>
+<step>
+  <para>
+    A Final Step
+  </para>
+</step>
+</procedure>
+		</section>
+	</chapter>
+</book>

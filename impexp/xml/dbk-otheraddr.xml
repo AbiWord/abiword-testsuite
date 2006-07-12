@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>Please deliver to:
+<address>
+<othername>The Law Offices of Dewey, Cheatem, and Howe</othername>
+<street>100 Main Street</street>
+<otheraddr>Third Floor</otheraddr>
+<city>Anytown</city>, <state>NY</state> <postcode>12345</postcode>
+<country>USA</country>
+</address>
+</para>
+		</section>
+	</chapter>
+</book>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>
+The <acronym>IRQ</acronym> of the <hardware>SCSI Controller</hardware>
+can be set to 7, 11, or 15.  The factory default setting is 7.
+</para>
+		</section>
+	</chapter>
+</book>

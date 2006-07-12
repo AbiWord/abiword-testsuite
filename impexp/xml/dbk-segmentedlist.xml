@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>
+<segmentedlist><title>State Capitals</title>
+<?dbhtml list-presentation="table"?>
+<segtitle>State</segtitle>
+<segtitle>Capital</segtitle>
+<seglistitem><seg>Alabama</seg><seg>Montgomery</seg></seglistitem>
+<seglistitem><seg>Alaska</seg><seg>Anchorage</seg></seglistitem>
+<seglistitem><seg>Arkansas</seg><seg>Little Rock</seg></seglistitem>
+</segmentedlist>
+
+&hellip;
+</para>
+		</section>
+	</chapter>
+</book>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<figure><title>Notre Dame Cathedral</title>
+<graphic srccredit="Norman Walsh, 1998" fileref="figures/notredame.png"/>
+</figure>
+		</section>
+	</chapter>
+</book>

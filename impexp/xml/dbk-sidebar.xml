@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+<sect1><title>An Example Section</title>
+
+<para>
+Some narrative text.
+</para>
+
+<sidebar><title>A Sidebar</title>
+<para>
+Sidebar content.
+</para>
+</sidebar>
+
+<para>
+The continuing flow of the narrative text, as if the
+sidebar was not present.
+</para>
+
+</sect1>
+	</chapter>
+</book>

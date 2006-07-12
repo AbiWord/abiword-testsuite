@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<para>
+<cmdsynopsis>
+  <command>cd</command>
+  <arg choice='req'><replaceable>directory</replaceable></arg>
+</cmdsynopsis>
+</para>
+<para>
+<cmdsynopsis>
+  <command>cal</command>
+  <arg>-j</arg>
+  <arg>-y</arg>
+  <arg>month <arg>year</arg></arg>
+</cmdsynopsis>
+</para>
+<para>
+<cmdsynopsis>
+  <command>chgrp</command>
+  <arg>-R
+    <group>
+      <arg>-H</arg>
+      <arg>-L</arg>
+      <arg>-P</arg>
+    </group>
+  </arg>
+  <arg>-f</arg>
+  <arg choice='plain'><replaceable>group</replaceable></arg>
+  <arg rep='repeat' choice='plain'><replaceable>file</replaceable></arg>
+</cmdsynopsis>
+</para>
+<para>
+<cmdsynopsis>
+  <command>emacs</command>
+  <arg>-t <replaceable>file</replaceable></arg>
+  <arg>-q</arg>
+  <arg>-u <replaceable>user</replaceable></arg>
+  <arg>+<replaceable>number</replaceable></arg>
+  <arg rep='repeat'>-f <replaceable>function</replaceable></arg>
+  <sbr/>
+  <arg rep='repeat'>-l <replaceable>file</replaceable></arg>
+  <arg rep='repeat' choice='plain'><replaceable>file</replaceable></arg>
+</cmdsynopsis>
+</para>
+		</section>
+	</chapter>
+</book>

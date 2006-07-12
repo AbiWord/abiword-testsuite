@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+	<chapter>
+		<title></title>
+		<section>
+			<title></title>
+<glosslist>
+<glossentry><glossterm>C</glossterm>
+<glossdef>
+<para>
+A procedural programming language invented by K&amp;R.
+</para>
+</glossdef>
+</glossentry>
+<glossentry><glossterm>Pascal</glossterm>
+<glossdef>
+<para>
+A procedural programming language invented by Niklaus Wirth.
+</para>
+</glossdef>
+</glossentry>
+</glosslist>
+<para></para>
+		</section>
+	</chapter>
+</book>
