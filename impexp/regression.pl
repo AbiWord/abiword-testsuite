@@ -207,7 +207,7 @@ sub ImportRegTest
 	my $rawDiffFailures = 0;
 	my $vgFailures = 0;
 	
-	my @docFormatList = ( "abw", "doc", "rtf", "odt", "txt", "wpd" );
+	my @docFormatList = ( "abw", "doc", "rtf", "odt", "txt", "wpd", "xml" );
 	
 	if ($html)
 	{
