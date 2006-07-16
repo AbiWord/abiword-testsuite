@@ -5,7 +5,7 @@ sub GenRaw {
 	my ($branch) = @_;
 
 	# TODO: Move this to regression.conf
-	$importDirs = 'abw rtf txt odt doc wpd';
+	$importDirs = 'abw rtf txt odt doc wpd xml';
 
 	@subDirList = split(/\s+/, $importDirs);
 
