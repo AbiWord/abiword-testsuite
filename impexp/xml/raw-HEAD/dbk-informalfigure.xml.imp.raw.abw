@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="26" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.5.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1153088309" uid="022779e8-1519-11db-81e6-ccae4809484a">
+<version id="1" started="1153088309" uid="0239e4d4-1519-11db-81e6-ccae4809484a" auto="0" top-xid="26"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; margin-right:0pt; lang:en-US; line-height:1.0; font-size:12pt; text-decoration:none; margin-bottom:0pt; font-weight:normal; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="1">
+<p style="Normal" xid="2" props="text-align:left; dom-dir:ltr">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</p>
+<p style="Normal" xid="3" props="text-align:left; dom-dir:ltr">&lt;!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"</p>
+<p style="Normal" xid="4" props="text-align:left; dom-dir:ltr">	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd"&gt;</p>
+<p style="Normal" xid="5"></p>
+<p style="Normal" xid="6" props="text-align:left; dom-dir:ltr">&lt;book&gt;</p>
+<p style="Normal" xid="7" props="text-align:left; dom-dir:ltr">	&lt;chapter&gt;</p>
+<p style="Normal" xid="8" props="text-align:left; dom-dir:ltr">		&lt;title&gt;&lt;/title&gt;</p>
+<p style="Normal" xid="9" props="text-align:left; dom-dir:ltr">		&lt;section&gt;</p>
+<p style="Normal" xid="10" props="text-align:left; dom-dir:ltr">			&lt;title&gt;&lt;/title&gt;</p>
+<p style="Normal" xid="11" props="text-align:left; dom-dir:ltr">&lt;informalfigure&gt;</p>
+<p style="Normal" xid="12" props="text-align:left; dom-dir:ltr">&lt;mediaobject&gt;</p>
+<p style="Normal" xid="13" props="text-align:left; dom-dir:ltr">&lt;imageobject&gt;</p>
+<p style="Normal" xid="14" props="text-align:left; dom-dir:ltr">&lt;imagedata fileref="watarun.eps" srccredit="Norman Walsh, 1998"/&gt;</p>
+<p style="Normal" xid="15" props="text-align:left; dom-dir:ltr">&lt;/imageobject&gt;</p>
+<p style="Normal" xid="16" props="text-align:left; dom-dir:ltr">&lt;textobject&gt;&lt;phrase&gt;Wat Arun&lt;/phrase&gt;&lt;/textobject&gt;</p>
+<p style="Normal" xid="17" props="text-align:left; dom-dir:ltr">&lt;caption&gt;&lt;para&gt;Wat Arun, Temple of the Dawn, on the Chao Phraya River</p>
+<p style="Normal" xid="18" props="text-align:left; dom-dir:ltr">in Bangkok,</p>
+<p style="Normal" xid="19" props="text-align:left; dom-dir:ltr">Thailand. In April, 1998, Wat Arun was in the midst of renovation.&lt;/para&gt;</p>
+<p style="Normal" xid="20" props="text-align:left; dom-dir:ltr">&lt;/caption&gt;</p>
+<p style="Normal" xid="21" props="text-align:left; dom-dir:ltr">&lt;/mediaobject&gt;</p>
+<p style="Normal" xid="22" props="text-align:left; dom-dir:ltr">&lt;/informalfigure&gt;</p>
+<p style="Normal" xid="23" props="text-align:left; dom-dir:ltr">		&lt;/section&gt;</p>
+<p style="Normal" xid="24" props="text-align:left; dom-dir:ltr">	&lt;/chapter&gt;</p>
+<p style="Normal" xid="25" props="text-align:left; dom-dir:ltr">&lt;/book&gt;</p>
+<p style="Normal" xid="26"></p>
+</section>
+</abiword>
