@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.docbook.org/xml/4.3/sdocbookx.dtd">
+<article lang="fr">
+  <title>My Article</title>
+  <section>
+    <title>My section</title>
+    <para>Well, this is a paragraph</para>
+  </section>
+</article>
