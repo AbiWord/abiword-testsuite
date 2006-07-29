@@ -207,7 +207,7 @@ sub ImportRegTest
 	my $rawDiffFailures = 0;
 	my $vgFailures = 0;
 	
-	my @docFormatList = ( "abw", "doc", "rtf", "odt", "txt", "wpd", "xml", "wml", "opml" );
+	my @docFormatList = ( "abw", "doc", "rtf", "odt", "txt", "wpd", "xml", "opml" );
 	
 	if ($html)
 	{
@@ -367,7 +367,7 @@ sub ExportRegTest
 	my $vgFailures = 0;
 	
 	my @sourceList = ( "abw" );
-	my @sinkList = ( "abw", "rtf", "txt", "xml", "html", "odt");
+	my @sinkList = ( "abw", "rtf", "txt", "xml", "html", "odt", "wml" );
 	
 	my $source;
 	my $sink;
