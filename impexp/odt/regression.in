@@ -7,10 +7,15 @@ ucf-basicContents.odt
 ucf-bold.odt
 ucf-border.odt
 ucf-borderLineWidth.odt
+ucf-borderLineWidth-table.odt
 ucf-borderModelProperty.odt
 ucf-breakBeforeAndBreakAfter.odt
+ucf-breakBeforeAndBreakAfter-column.odt
+ucf-breakBeforeAndBreakAfter-table.odt
+ucf-breakBeforeAndBreakAfter-tablerow.odt
 ucf-bulletedList.odt
 ucf-cellBackground.odt
+ucf-cellBorder.odt
 ucf-cellProtect.odt
 ucf-cellShadow.odt
 ucf-color.odt
@@ -44,6 +49,8 @@ ucf-fontStyle.odt
 ucf-fontVariant.odt
 ucf-fontWeight.odt
 ucf-fontWeight_bug.odt
+ucf-frameIndividualPadding.odt
+ucf-framePadding.odt
 ucf-headings.odt
 ucf-hiddenOrConditionalText.odt
 ucf-hyphenation.odt
@@ -51,6 +58,7 @@ ucf-hyphenationPushCharCount.odt
 ucf-hyphenationRemainCharCount.odt
 ucf-justifySingleWord.odt
 ucf-keepTogather.odt
+ucf-keepTogether-tablerow.odt
 ucf-language.odt
 ucf-leaderColor.odt
 ucf-leaderStyle.odt
@@ -84,6 +92,7 @@ ucf-optimalTableColumnWidth.odt
 ucf-optimalTableRowHeight.odt
 ucf-orphans.odt
 ucf-padding.odt
+ucf-padding-tablecell.odt
 ucf-pageNumber.odt
 ucf-paragraphBackgroundColor.odt
 ucf-paragraphBackgroundImageOpacity.odt
@@ -145,8 +154,10 @@ ucf-underliningStyle.odt
 ucf-underliningType.odt
 ucf-underliningWidth.odt
 ucf-verticalAlignment.odt
+ucf-verticalAlignment-tablecell.odt
 ucf-verticalGlyphOrientation.odt
 ucf-widows.odt
 ucf-windowFontColor.odt
 ucf-wrapOption.odt
 ucf-writingMode.odt
+ucf-writingMode-table.odt
