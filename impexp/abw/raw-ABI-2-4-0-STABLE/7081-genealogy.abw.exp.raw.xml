@@ -11,6 +11,7 @@
 <book condition="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0" lang="en-US">
 	<bookinfo>
 		<bibliomisc><application class="software">AbiWord</application></bibliomisc>
+		<author><othername role="full">Dad Home</othername></author>
 	</bookinfo>
 	<chapter>
 		<title></title>
