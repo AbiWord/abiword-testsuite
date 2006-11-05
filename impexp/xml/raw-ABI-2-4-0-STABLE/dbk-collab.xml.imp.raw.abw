@@ -9,11 +9,14 @@
 <!-- ======================================================================== -->
 
 <metadata>
-<m key="dc.format">application/x-abiword</m>
+<m key="">Norman Walsh</m>
+<m key="dc.contributor">Norman Walsh</m>
 <m key="abiword.generator">AbiWord</m>
+<m key="dc.title">DocBook: The Definitive Guide</m>
+<m key="dc.format">application/x-abiword</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1162672477" uid="e3ba992c-6c43-11db-9c35-f586d3187256">
-<version id="1" started="1162672477" uid="e3cb4f06-6c43-11db-9c35-f586d3187256" auto="0" top-xid="4"/>
+<history version="1" edit-time="0" last-saved="1162672505" uid="f430b94e-6c43-11db-95b1-a9506aae1782">
+<version id="1" started="1162672505" uid="f43e3416-6c43-11db-95b1-a9506aae1782" auto="0" top-xid="4"/>
 </history>
 <styles>
 <s type="P" name="Chapter Heading" basedon="Numbered Heading 1" followedby="Normal" props="list-delim:Chapter %L.; list-style:Numbered List; start-value:1; field-color:transparent; field-font:Arial; margin-left:0.0in; text-indent:0.0in; tabstops:1.1in/L0"/>
@@ -26,7 +29,7 @@
 </lists>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
 <section xid="1">
-<p level="1" listid="1000" parentid="0" style="Chapter Heading" xid="2" props="start-value:1; list-style:Numbered List"><field type="list_label" xid="3"></field><c type="list_label">	</c>Some Chapter</p>
-<p xid="4"> You can exit most Windows applications by selecting Quit or Exit from the File menu. </p>
+<p level="1" listid="1000" parentid="0" style="Chapter Heading" xid="2" props="start-value:1; list-style:Numbered List"><field type="list_label" xid="3"></field><c type="list_label">	</c>Just an Example</p>
+<p xid="4"> This is just an example, in real life, Lenny and Norm are both Authors. </p>
 </section>
 </abiword>
