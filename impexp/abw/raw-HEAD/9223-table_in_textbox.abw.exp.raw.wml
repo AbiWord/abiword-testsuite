@@ -1,0 +1,35 @@
+<!DOCTYPE wml PUBLIC "-//PHONE.COM//DTD WML 1.1//EN"
+	"http://www.openwave.com/dtd/wml11.dtd" >
+<!-- This WML file was created by AbiWord -->
+<!-- See http://www.abisource.com/ -->
+
+<wml>
+<head>
+</head>
+<card id="card1" ordered="true">
+<p></p>
+<do type="accept" label="Next"><go href="#card2"/></do>
+</card>
+<card id="card2" ordered="true">
+<p>
+<table columns="5">
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</p>
+<p align="left"></p>
+<p></p>
+</card>
+</wml>
