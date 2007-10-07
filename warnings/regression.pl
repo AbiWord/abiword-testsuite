@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-eval `cd ../ && cat regression.conf`;
+require "../regression.conf";
 
 sub DisplayCell
 {
@@ -10,11 +10,11 @@ sub DisplayCell
 
 sub ExecUnitTest 
 {
-	my ($branch) = @_;
+	my ($sn) = @_;
 
 	# reporting; just reuse the compilation reports from the bootstrap process
-	$abi_log = "../abiword_compilation_report_$branch.txt";
-	$abi_plugin_log = "../abiword_plugins_compilation_report_$branch.txt";
+	$abi_log = "../logs/abiword_compilation_report_$sn.txt";
+	$abi_plugin_log = "../logs/abiword_plugins_compilation_report_$sn.txt";
 
 	$abiword_compilation_report = `cat $abi_log`;
 	$abiword_plugins_compilation_report = `cat $abi_plugin_log`;
@@ -78,12 +78,6 @@ sub HtmlFooter {
 }
 
 # Main function
-if ($root eq "")
-{
-	printf "\$root is unset, please check your regression.conf file\n";
-	die;
-}
-
 if ($#ARGV+1 != 1)
 {
 	print "Usage: regression.pl <branchname>\n";
@@ -95,9 +89,9 @@ if ($html)
 	&HtmlHeader;
 }
 
-$branch = $ARGV[0];
-
-&ExecUnitTest($branch);
+my $sn = $ARGV[0];
+die unless $sn;
+&ExecUnitTest($sn);
 
 if ($html)
 {

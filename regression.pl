@@ -12,7 +12,7 @@ sub ExecTests
 		if ($html)
 		{
 			# TODO: add branch
-			`cd $test; ./regression.pl $ns $abiword_binary >index_$sn.html`;
+			`cd $test; ./regression.pl $sn $abiword_binary >index_$sn.html`;
 		}
 		else
 		{
