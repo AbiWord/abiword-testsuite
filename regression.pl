@@ -3,8 +3,8 @@ require "regression.conf";
 
 sub ExecTests
 {
-	my ($ns, $abiword_binary) = @_;
-	die unless $ns;
+	my ($sn, $abiword_binary) = @_;
+	die unless $sn;
 	die unless $abiword_binary;
 
 	foreach $test ( @tests )
@@ -104,8 +104,6 @@ foreach my $module_info ( @branches )
 
 	# execute the regression test suite
 	&ExecTests($sn, $abiword_binary);
-
-die;
 }
 
 die;
