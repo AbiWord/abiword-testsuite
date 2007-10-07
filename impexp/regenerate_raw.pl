@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-eval `cat ../regression.conf`;
+require "../regression.conf";
 
 sub GenRaw {
 	my ($branch) = @_;

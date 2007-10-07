@@ -1,20 +1,22 @@
 #!/usr/bin/perl
-eval `cat regression.conf`;
+require "regression.conf";
 
 sub ExecTests
 {
-	my ($branch) = @_;
+	my ($ns, $abiword_binary) = @_;
+	die unless $ns;
+	die unless $abiword_binary;
 
 	foreach $test ( @tests )
 	{
 		if ($html)
 		{
 			# TODO: add branch
-			`cd $test; ./regression.pl $branch >index_$branch.html`;
+			`cd $test; ./regression.pl $ns $abiword_binary >index_$sn.html`;
 		}
 		else
 		{
-			`cd $test; ./regression.pl $branch 2>/dev/null`;
+			`cd $test; ./regression.pl $sn $abiword_binary 2>/dev/null`;
 		}
 	}
 }
@@ -43,42 +45,70 @@ if ($root eq "")
 	die;
 }
 
+#
+# Setup environment variables
+#
+
+$ENV{DISPLAY} = ""; # we don't require a display to run
+$ENV{LD_LIBRARY_PATH} = "$root/$prefix/lib";
+$ENV{PKG_CONFIG_PATH} = "$root/$prefix/lib/pkgconfig";
+$ENV{G_SLICE} = "always-malloc";
+$ENV{PATH} = "$root/$prefix/bin:" . $ENV{PATH};
+
 if ($html)
 {
 	open(STDOUT, ">index.html");
 	&HtmlHeader;
 
 	# write out the branch overview index
-	my $branch;
-	foreach $branch ( @branches )
+	foreach my $module_info ( @branches )
 	{
-		print "<h3>Branch: " . $branch . "</h3>\n";
+		my ($abiword_url, $abiword_plugins_url, $abiword_binary) = @$module_info;
+		die unless $abiword_url;
+		die unless $abiword_plugins_url;
+		die unless $abiword_binary;
+		
+		$abiword_url =~ m/.*\/(.*)/;
+		my $sn = $1;
+
+		print "<h3>Branch: " . $sn . "</h3>\n";
 
 		foreach $test ( @tests )
 		{
-			print "View report for <a href=\"./$test/index_$branch.html\">$test</a><br>\n";
+			print "View report for <a href=\"./$test/index_$sn.html\">$test</a><br>\n";
 		}
         }
 }
 
 # start a virtual X server
-`Xvfb $DISPLAY -ac & disown`;
+#`Xvfb $DISPLAY -ac & disown`;
 
-my $branch;
-foreach $branch ( @branches )
+foreach my $module_info ( @branches )
 {
+	my ($abiword_url, $abiword_plugins_url, $abiword_binary) = @$module_info;
+	die unless $abiword_url;
+	die unless $abiword_plugins_url;
+	die unless $abiword_binary;
+
+	$abiword_url =~ m/.*\/(.*)/;
+	my $sn = $1;
+
 	if (!$html)
 	{
-		print "Branch: " . $branch . "\n";
+		print "Branch: " . $sn . "\n";
 	}
 	
 	# bootstrap the regression test suite
-	system './cleanup.pl', $branch;
-	system './bootstrap.pl', $branch;
+	system("./cleanup.pl", $abiword_url);
+	system("./bootstrap.pl", $abiword_url, $abiword_plugins_url);
 
 	# execute the regression test suite
-	&ExecTests($branch);
+	&ExecTests($sn, $abiword_binary);
+
+die;
 }
+
+die;
 
 if ($html) {
 	&HtmlFooter;
@@ -86,6 +116,6 @@ if ($html) {
 }
 
 # Stop the virtual X server (TODO: should only kill the one we started)
-`killall Xvfb`;
+#`killall Xvfb`;
 
 1;

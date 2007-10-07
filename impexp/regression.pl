@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-eval `cat ../regression.conf`;
+require "../regression.conf";
 
 sub DisplayCell
 {
@@ -30,7 +30,11 @@ sub _DiffPruneAWML
 
 sub DiffTest
 {
-	my ($branch_dir, $basedir, $file, $exp_extension) = @_;
+	my ($abiword_binary, $branch_dir, $basedir, $file, $exp_extension) = @_;
+	die unless $abiword_binary;
+	die unless $branch_dir;
+	die unless $basedir;
+	die unless $file;
 
 	my $result = "pass";
 	my $comment = "";
@@ -54,7 +58,7 @@ sub DiffTest
 	my $diffPath = "$rawPath.diff.txt";
 	
 	# generate a new raw output to compare with
-	`abiword --to=$newRawPath $basedir/$file`;
+	`$abiword_binary --to=$newRawPath $basedir/$file`;
 	
 	# HACK: check if there is a raw file with _some_ contents. If not, we assume to have been segfaulted
 	my $err = "";
@@ -131,7 +135,11 @@ sub DiffTest
 
 sub ValgrindTest
 {
-	my ($branch, $basedir, $file, $exp_extension) = @_;
+	my ($abiword_binary, $branch, $basedir, $file, $exp_extension) = @_;
+	die unless $abiword_binary;
+	die unless $branch;
+	die unless $basedir;
+	die unless $file;
 	
 	$filePath = $basedir . '/' . $file;
 	my $destPath;
@@ -159,7 +167,7 @@ sub ValgrindTest
 
 	$valgrind_error = 0;
 	$valgrind_leak = 0;
-	`$vgCommand $vg_options abiword --to=$destPath $filePath >& $vgPath`;
+	`$vgCommand $vg_options $abiword_binary --to=$destPath $filePath >& $vgPath`;
 	open VG, "$vgPath";
 	my $vg_output;
 	while (<VG>)
@@ -202,7 +210,9 @@ sub ValgrindTest
 
 sub ImportRegTest 
 {
-	my ($branch) = @_;
+	my ($branch, $abiword_binary) = @_;
+	die unless $branch;
+	die unless $abiword_binary;
 
 	my $rawDiffFailures = 0;
 	my $vgFailures = 0;
@@ -257,7 +267,7 @@ sub ImportRegTest
 		
 			if ($do_diff)
 			{
-				if (DiffTest("raw-" . $branch, $docFormat, $file, 0) eq "fail")
+				if (DiffTest($abiword_binary, "raw-" . $branch, $docFormat, $file, 0) eq "fail")
 				{
 					$rawDiffFailures++;
 				}
@@ -280,7 +290,7 @@ sub ImportRegTest
 			
 			if ($do_vg)
 			{
-				ValgrindTest($branch, $docFormat, $file, 0);
+				ValgrindTest($abiword_binary, $branch, $docFormat, $file, 0);
 			}
 			else
 			{
@@ -302,7 +312,7 @@ sub ImportRegTest
 			if ($do_gprof)
 			{
 				$gprofOutPath = $docFormat  . '/raw-' . $branch . '/' . $file . '.gmon.txt';
-				$actual_abiword = `which abiword`;
+				$actual_abiword = `which $abiword_binary`;
 				`gprof $actual_abiword gmon.out > $gprofOutPath`;
 				DisplayCell("white", "<a href='$gprofOutPath'>profile<\/a>");
 			}
@@ -361,7 +371,9 @@ sub ImportRegTest
 
 sub ExportRegTest 
 {
-	my ($branch) = @_;
+	my ($branch, $abiword_binary) = @_;
+	die unless $branch;
+	die unless $abiword_binary;
 
 	my $rawDiffFailures = 0;
 	my $vgFailures = 0;
@@ -420,7 +432,7 @@ sub ExportRegTest
 	
 				if ($do_diff)
 				{		
-					if (DiffTest("raw-" . $branch, $source, $file, $sink) eq "fail")
+					if (DiffTest($abiword_binary, "raw-" . $branch, $source, $file, $sink) eq "fail")
 					{
 						$rawDiffFailures++;
 					}
@@ -443,7 +455,7 @@ sub ExportRegTest
 				
 				if ($do_vg)
 				{
-					ValgrindTest($branch, $source, $file, $sink);
+					ValgrindTest($abiword_binary, $branch, $source, $file, $sink);
 				}
 				else
 				{
@@ -465,7 +477,7 @@ sub ExportRegTest
 				if ($do_gprof)
 				{
                                 	$gprofOutPath = $source  . '/raw-' . $branch . '/' . $file . '.' . $sink . '.gmon.txt';
-					$actual_abiword = `which abiword`;
+					$actual_abiword = `$abiword_binary`;
 	                                `gprof $actual_abiword gmon.out > $gprofOutPath`;
         	                        DisplayCell("white", "<a href='$gprofOutPath'>profile<\/a>");
 
@@ -535,31 +547,22 @@ sub HtmlFooter {
 #
 # Main function
 #
-if ($root eq "")
-{
-	printf "\$root is unset, please check your regression.conf file\n";
-	die;
-}
+$#ARGV+1 == 2 || die "Usage: bootstrap.pl <branchname>\n";
 
-if ($#ARGV+1 != 1)
-{
-	print "Usage: bootstrap.pl <branchname>\n";
-	die;
-}
-
-$branch = $ARGV[0];
+my $sn = $ARGV[0];
+my $abiword_binary = $ARGV[1];
 
 if ($html)
 {
 	&HtmlHeader;
 }
 
-&ImportRegTest($branch);
+&ImportRegTest($sn, $abiword_binary);
 if ($html)
 {
 	print "<br/>\n<br/>\n";
 }
-&ExportRegTest($branch);
+&ExportRegTest($sn, $abiword_binary);
 
 if ($html)
 {

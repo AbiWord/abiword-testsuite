@@ -1,20 +1,16 @@
 #!/usr/bin/perl
-eval `cat regression.conf`;
-
-if ($root eq "")
-{
-        printf "\$root is unset, please check your regression.conf file\n";
-        die;
-}
+require "regression.conf";
 
 if ($#ARGV+1 != 1)
 {
-	print "Usage: cleanup.pl <branchname>\n";
+	print "Usage: cleanup.pl <branch url>\n";
 	die;
 }
 
-$abi_branch = $ARGV[0];
-$source_dir = ".src/" . $abi_branch; # TODO: make this configurable
+$abiword_url = $ARGV[0];
+$abiword_url =~ m/.*\/(.*)/;
+$sn = $1;
+$source_dir = $root . "/.src/" . $sn;
 
 #TODO: it isn't really safe to exec rm -rf :-P
 #TODO: run make uninstall first?
