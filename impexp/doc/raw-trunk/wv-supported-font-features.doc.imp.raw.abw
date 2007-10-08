@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="66" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.7.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.date">1998-10-01T19:40:00Z</m>
+<m key="abiword.date_last_changed">1999-08-29T19:20:00Z</m>
+<m key="dc.creator">caolan mcnamara</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.publisher">Sheol Enterprises</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.title">Auto text</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191872293" uid="01ed85c0-75d6-11dc-9e36-9afaff21c200">
+<version id="1" started="1191872293" uid="01f34a6e-75d6-11dc-9e36-9afaff21c200" auto="0" top-xid="66"/>
+</history>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:14pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; margin-top:12pt; keep-with-next:yes"/>
+<s type="P" name="Normal" followedby="Normal" props="text-decoration:none; text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Header" basedon="Normal" followedby="Header" props="font-family:Times New Roman; font-size:10pt; tabstops:3.0000in/C,6.0000in/C; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left"/>
+<s type="P" name="Heading 5" basedon="Normal" followedby="Normal" props="keep-with-next:yes; font-size:10pt; display:none; lang:en-US; line-height:1.0; dom-dir:ltr; text-align:left; font-family:Times New Roman"/>
+<s type="P" name="Footer" basedon="Normal" followedby="Footer" props="font-family:Times New Roman; font-size:10pt; tabstops:3.0000in/C,6.0000in/C; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left"/>
+<s type="P" name="Heading 4" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; dom-dir:ltr; font-weight:bold; lang:en-US; text-align:left; margin-top:22pt; text-decoration:underline; keep-with-next:yes; margin-bottom:3pt; line-height:1.0; font-size:10pt"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; dom-dir:ltr; font-style:italic; font-weight:bold; lang:en-US; margin-top:22pt; text-align:left; keep-with-next:yes; margin-bottom:3pt; line-height:1.0; font-size:10pt"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; font-size:10pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; margin-top:22pt; keep-with-next:yes"/>
+<s type="P" name="Document Map" basedon="Normal" followedby="Document Map" props="font-family:Tahoma; font-size:10pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left; background-color:000080"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section header="7" xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1" xid="2" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-size:14pt; font-family:Arial; font-weight:bold">Color tests</c></p>
+<p style="Normal" xid="3" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Auto text</c></p>
+<p style="Normal" xid="4" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; color:000000">Black test</c></p>
+<p style="Normal" xid="5" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; color:0000ff">Blue text</c></p>
+<p style="Normal" xid="6" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; color:00ffff">Tourqui text</c></p>
+<p style="Normal" xid="7" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; color:00ff00">Green text</c></p>
+<p style="Normal" xid="8" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; color:ff00ff">Pink text</c></p>
+<p style="Normal" xid="9" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; color:ff0000">Red text</c></p>
+<p style="Normal" xid="10" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; color:ffff00">Yellow text</c></p>
+<p style="Normal" xid="11" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; color:ffffff">White text</c></p>
+<p style="Heading 1" xid="12" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-size:14pt; font-family:Arial; font-weight:bold">Font tests</c></p>
+<p style="Header" xid="13" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Arial">Arial Font</c></p>
+<p style="Normal" xid="14" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Garamond">Garamond Font</c></p>
+<p style="Normal" xid="15" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Courier">Courier Font</c></p>
+<p style="Normal" xid="16" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Courier New">Courier New Font</c></p>
+<p style="Normal" xid="17" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Times New Roman Font</c></p>
+<p style="Normal" xid="18" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times">Times Font</c></p>
+<p style="Header" xid="19" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 1" xid="20" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-size:14pt; font-family:Arial; font-weight:bold">Size tests</c></p>
+<p style="Normal" xid="21" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:8pt; font-family:Times New Roman">Size 8, </c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">size 10</c><c props="lang:en-US; font-size:8pt; font-family:Times New Roman"> </c><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">size 12</c><c props="lang:en-US; font-size:8pt; font-family:Times New Roman"> </c><c props="lang:en-US; font-size:20pt; font-family:Times New Roman">size 20</c><c props="lang:en-US; font-size:8pt; font-family:Times New Roman"> </c><c props="lang:en-US; font-size:48pt; font-family:Times New Roman">size big</c></p>
+<p style="Heading 1" xid="22" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Basic Font Attributes</c></p>
+<p style="Normal" xid="23" props="text-align:left; line-height:1.0; keep-with-next:yes; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman; font-style:italic">Italic text</c></p>
+<p style="Normal" xid="24" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-weight:bold">Bolded Text</c></p>
+<p style="Heading 1" xid="25" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Underline tests</c></p>
+<p style="Normal" xid="26" props="text-align:left; line-height:1.0; keep-with-next:yes; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman; text-decoration:underline">Single underline</c></p>
+<p style="Normal" xid="27" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; text-decoration:underline">Words only </c></p>
+<p style="Normal" xid="28" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; text-decoration:underline">Double underline</c></p>
+<p style="Normal" xid="29" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; text-decoration:underline">Dotted</c></p>
+<p style="Normal" xid="30" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; text-decoration:underline">Thick </c></p>
+<p style="Normal" xid="31" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; text-decoration:underline">dash</c></p>
+<p style="Normal" xid="32" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; text-decoration:underline">dot dash</c></p>
+<p style="Normal" xid="33" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; text-decoration:underline">dot dot dash</c></p>
+<p style="Normal" xid="34" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; text-decoration:underline">wave</c></p>
+<p style="Heading 1" xid="35" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-size:14pt; font-family:Arial; font-weight:bold">Text Effects</c></p>
+<p style="Header" xid="36" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman; text-decoration:line-through">strikethrough</c></p>
+<p style="Normal" xid="37" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">double strikethrough</c></p>
+<p style="Normal" xid="38" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; text-position:superscript; font-size:10pt; font-family:Times New Roman">supersctipt</c></p>
+<p style="Normal" xid="39" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; text-position:subscript; font-size:10pt; font-family:Times New Roman">subscript</c></p>
+<p style="Normal" xid="40" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">shadow</c></p>
+<p style="Normal" xid="41" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">outline</c></p>
+<p style="Normal" xid="42" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; color:ffffff">emboss</c></p>
+<p style="Normal" xid="43" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; color:ffffff">engrave</c></p>
+<p style="Header" xid="44" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman">Small Caps  </c></p>
+<p style="Normal" xid="45" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">all caps DroppeD letter</c></p>
+<p style="Heading 5" xid="46" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:-none-; display:none; font-size:10pt; font-family:Times New Roman">Hidden</c></p>
+<p style="Normal" xid="47" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 1" xid="48" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Stupid Animations</c></p>
+<p style="Header" xid="49" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman">Animation 1</c></p>
+<p style="Normal" xid="50" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman">Animation 2</c></p>
+<p style="Normal" xid="51" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman">Animation 3</c></p>
+<p style="Normal" xid="52" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman">Animation 4</c></p>
+<p style="Normal" xid="53" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman">Animation 5</c></p>
+<p style="Normal" xid="54" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:-none-; font-size:10pt; font-family:Times New Roman">Animation 6</c></p>
+<p style="Heading 1" xid="55" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Character Spacing Not Included, that’s a battle for ps conversion</c></p>
+<p style="Normal" xid="56" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Intentionally left blank…</c></p>
+<p style="Heading 1" xid="57" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Final test</c></p>
+<p style="Normal" xid="58" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-weight:bold; font-family:Times New Roman; font-size:20pt; font-style:italic">Normal 20,</c><c props="font-family:Times New Roman; text-decoration:underline; color:ff0000; lang:en-US; text-position:superscript; font-weight:bold; font-style:italic; font-size:20pt"> This is a red, superscripted sentence in all caps, bolded italic and word underlined in font size 20, </c><c props="lang:en-US; font-weight:bold; font-family:Times New Roman; font-size:20pt; font-style:italic">normal 20</c></p>
+<p style="Normal" xid="59" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="60" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="61" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="62" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p xid="63"></p>
+<p xid="64"></p>
+</section>
+<section type="header" id="7" xid="65">
+<p style="Header" xid="66" props="text-align:left; tabstops:3.0000in/C,6.0000in/C; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am a header that demonstrates that colored text works in headers e.g , </c><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; color:ff0000">red text</c><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">, resumption to normal works also</c></p>
+</section>
+</abiword>

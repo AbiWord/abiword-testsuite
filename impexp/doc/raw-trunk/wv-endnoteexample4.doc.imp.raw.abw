@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" version="2.7.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="41" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:lower-roman; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:1; document-endnote-restart-page:0; document-footnote-restart-page:0; document-footnote-initial:1; document-footnote-type:numeric; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.date">1998-11-16T16:54:00Z</m>
+<m key="abiword.date_last_changed">1998-11-16T16:54:00Z</m>
+<m key="dc.creator">Caolan.McNamara</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.publisher">Univeristy of Limerick</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.title">Endnotes</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191872287" uid="feb248dc-75d5-11dc-82c0-b0fbb2d9e9c0">
+<version id="1" started="1191872287" uid="feb5a8e2-75d5-11dc-82c0-b0fbb2d9e9c0" auto="0" top-xid="41"/>
+</history>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:14pt; dom-dir:ltr; margin-bottom:3pt; lang:en-GB; font-weight:bold; line-height:1.0; text-align:left; margin-top:12pt; keep-with-next:yes"/>
+<s type="P" name="Normal" followedby="Normal" props="text-decoration:none; text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; font-size:10pt"/>
+<s type="P" name="Endnote Text" basedon="Normal" followedby="Endnote Text" props="font-family:Times New Roman; font-size:10pt; dom-dir:ltr; lang:en-GB; line-height:1.0; text-position:normal; text-align:left"/>
+</styles>
+<pagesize pagetype="Custom" orientation="portrait" width="8.270139" height="11.690278" units="in" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1" xid="2" props="text-align:center; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-size:14pt; font-family:Arial; font-weight:bold">Endnotes end of section, restart at section</c></p>
+<p style="Normal" xid="3" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am an autonumbered endnote</c><field endnote-id="0" type="endnote_ref" style="Endnote Reference" xid="4" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><endnote endnote-id="0" xid="5">
+<p xid="6"></p>
+<p style="Endnote Text" xid="7" props="text-align:left; line-height:1.0; dom-dir:ltr"><field endnote-id="0" type="endnote_anchor" style="Endnote Reference" xid="8" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"> Endnote i</c></p>
+</endnote></p>
+<p style="Normal" xid="9" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">A am another autonumbered endnote</c><field endnote-id="1" type="endnote_ref" style="Endnote Reference" xid="10" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><endnote endnote-id="1" xid="11">
+<p style="Endnote Text" xid="12" props="text-align:left; line-height:1.0; dom-dir:ltr"><field endnote-id="1" type="endnote_anchor" style="Endnote Reference" xid="13" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"> Endnote ii</c></p>
+</endnote></p>
+<p style="Normal" xid="14" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am a custom endnote</c><c style="Endnote Reference" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman">c</c><endnote endnote-id="2" xid="15">
+<p style="Endnote Text" xid="16" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">custum a custom endnote</c></p>
+</endnote><c endnote-id="2" type="endnote_ref" style="Endnote Reference" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman">ustum</c></p>
+<p style="Normal" xid="17" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I a an autonumbered endnote</c><field endnote-id="3" type="endnote_ref" style="Endnote Reference" xid="18" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><endnote endnote-id="3" xid="19">
+<p style="Endnote Text" xid="20" props="text-align:left; line-height:1.0; dom-dir:ltr"><field endnote-id="3" type="endnote_anchor" style="Endnote Reference" xid="21" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"> Endnote iii</c></p>
+</endnote></p>
+<p style="Normal" xid="22" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am a symbol</c><c style="Endnote Reference" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Symbol"></c><endnote endnote-id="4" xid="23">
+<p style="Endnote Text" xid="24" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"> I am a symbol endnote</c></p>
+</endnote></p>
+<p style="Normal" xid="25" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p xid="26"></p>
+</section>
+<section xid="27" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p xid="28"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p style="Normal" xid="29" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Endnote on another page</c><field endnote-id="5" type="endnote_ref" style="Endnote Reference" xid="30" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><endnote endnote-id="5" xid="31">
+<p style="Endnote Text" xid="32" props="text-align:left; line-height:1.0; dom-dir:ltr"><field endnote-id="5" type="endnote_anchor" style="Endnote Reference" xid="33" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"> another endnote</c></p>
+</endnote></p>
+<p xid="34"></p>
+</section>
+<section xid="35" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p xid="36"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p style="Normal" xid="37" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p xid="38"></p>
+</section>
+<section xid="39" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p xid="40"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p style="Normal" xid="41" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+</section>
+</abiword>

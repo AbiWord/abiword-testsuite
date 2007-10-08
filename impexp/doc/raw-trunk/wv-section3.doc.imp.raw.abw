@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="1140" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.7.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.date">1998-08-12T21:09:00Z</m>
+<m key="abiword.date_last_changed">1998-08-12T21:09:00Z</m>
+<m key="dc.creator">Naomi Magen</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.publisher">Digital</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.title">                Serial ROM format</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191872291" uid="00fb47c4-75d6-11dc-89b8-b5ccad1ce824">
+<version id="1" started="1191872291" uid="011f5682-75d6-11dc-89b8-b5ccad1ce824" auto="0" top-xid="1140"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Normal" props="text-decoration:none; text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:right; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Wingdings; font-size:16pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; keep-with-next:1; margin-top:12pt"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="font-family:Wingdings; font-size:14pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; margin-top:12pt; keep-with-next:yes"/>
+<s type="P" name="Footer" basedon="Normal" followedby="Footer" props="font-family:Times New Roman; font-size:10pt; tabstops:2.8840in/C,5.7681in/C; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:right"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="font-family:Wingdings; font-size:13pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; margin-top:12pt; keep-with-next:yes"/>
+<s type="P" name="Heading 4" basedon="Normal" followedby="Normal" props="font-family:Wingdings; dom-dir:ltr; font-weight:bold; lang:en-US; margin-top:12pt; text-align:right; keep-with-next:yes; margin-right:1.8687in; margin-bottom:3pt; line-height:1.0; font-size:12pt"/>
+<s type="P" name="Heading 5" basedon="Normal" followedby="Normal" props="font-family:Wingdings; font-size:12pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; margin-top:12pt"/>
+<s type="P" name="Body Text" basedon="Normal" followedby="Body Text" props="text-align:left; lang:en-US; font-size:10pt; line-height:1.0; font-family:Times New Roman; dom-dir:ltr"/>
+<s type="P" name="Heading 6" basedon="Normal" followedby="Normal" props="font-family:Wingdings; font-size:12pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:right; margin-right:2.8521in; margin-top:12pt"/>
+<s type="P" name="Heading 7" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:10pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; line-height:1.0; text-align:right; margin-right:3.3438in; margin-top:12pt"/>
+<s type="P" name="Heading 8" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:10pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; line-height:1.0; text-align:right; margin-right:3.8354in; font-style:italic; margin-top:12pt"/>
+<s type="P" name="Heading 9" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:9pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; line-height:1.0; text-align:right; margin-right:4.3271in; font-style:italic; margin-top:12pt"/>
+<s type="P" name="Body Text 2" basedon="Normal" followedby="Body Text 2" props="text-align:center; lang:en-US; font-size:8pt; line-height:1.0; font-family:Times New Roman; dom-dir:ltr"/>
+<s type="P" name="Footnote Text" basedon="Normal" followedby="Footnote Text" props="font-family:Times New Roman; font-size:10pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-position:normal; text-align:right"/>
+<s type="P" name="Header" basedon="Normal" followedby="Header" props="font-family:Times New Roman; font-size:10pt; tabstops:3.0000in/C,6.0000in/C; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:right"/>
+<s type="P" name="TOC 1" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; font-size:10pt; dom-dir:ltr; margin-bottom:6pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; margin-top:6pt"/>
+<s type="P" name="TOC 2" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; margin-left:0.1389in; font-size:10pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left"/>
+<s type="P" name="TOC 3" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; margin-left:0.2778in; font-size:10pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left; font-style:italic"/>
+<s type="P" name="TOC 4" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; margin-left:0.4167in; font-size:9pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left"/>
+<s type="P" name="TOC 5" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; margin-left:0.5556in; font-size:9pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left"/>
+<s type="P" name="TOC 7" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; margin-left:0.8333in; font-size:9pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left"/>
+<s type="P" name="TOC 8" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; margin-left:0.9722in; font-size:9pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left"/>
+<s type="P" name="TOC 9" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; margin-left:1.1111in; font-size:9pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left"/>
+<s type="P" name="TOC 6" basedon="Normal" followedby="Normal" props="font-family:Times New Roman; margin-left:0.6944in; font-size:9pt; dom-dir:ltr; lang:en-US; line-height:1.0; text-align:left"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section footer="9" xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:0.8299in">
+<p style="Normal" xid="2" props="text-align:center; line-height:1.0; dom-dir:ltr"></p>
+<p xid="3"></p>
+</section>
+<section footer="15" footer-first="17" header-first="16" xid="4" props="page-margin-right:1.2479in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3271in; page-margin-header:0.5000in; page-margin-left:1.2479in; page-margin-top:0.9056in; page-margin-bottom:0.8271in">
+<p xid="5"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold"><cbr/></c></p>
+<p style="Normal" xid="6" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p xid="7"></p>
+</section>
+<section footer="21" footer-first="23" header-first="22" xid="8" props="page-margin-right:1.2479in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3271in; page-margin-header:0.5000in; page-margin-left:1.2479in; page-margin-top:0.9056in; page-margin-bottom:0.8271in">
+<p xid="9"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p level="1" listid="1000" parentid="0" style="Heading 1" xid="10" props="margin-top:12pt; start-value:1; dom-dir:ltr; margin-bottom:3pt; list-style:Numbered List; line-height:1.0; text-align:left; field-font:Times New Roman"><field type="list_label" xid="11" props="text-decoration:none"></field><c props="text-decoration:none">	</c><bookmark type="start" name="_Toc394285681" xid="12"/><bookmark type="start" name="_Toc394288159" xid="13"/><bookmark type="start" name="_Toc394288299" xid="14"/><bookmark type="start" name="_Toc394292410" xid="15"/><bookmark type="start" name="_Toc394292499" xid="16"/><bookmark type="start" name="_Toc394373259" xid="17"/><bookmark type="start" name="_Toc394373698" xid="18"/><bookmark type="start" name="_Toc410372391" xid="19"/><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold">Overview</c><bookmark type="end" name="_Toc394285681" xid="20"/><bookmark type="end" name="_Toc394288159" xid="21"/><bookmark type="end" name="_Toc394288299" xid="22"/><bookmark type="end" name="_Toc394292410" xid="23"/><bookmark type="end" name="_Toc394292499" xid="24"/><bookmark type="end" name="_Toc394373259" xid="25"/><bookmark type="end" name="_Toc394373698" xid="26"/><bookmark type="end" name="_Toc410372391" xid="27"/></p>
+<p style="Normal" xid="28" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="29" props="text-align:left; text-indent:-0.2500in; line-height:1.0; dom-dir:ltr; margin-left:0.2500in"></p>
+<p level="1" listid="1000" parentid="0" style="Heading 1" xid="30" props="margin-top:12pt; start-value:1; dom-dir:ltr; margin-bottom:3pt; list-style:Numbered List; line-height:1.0; text-align:left; field-font:Times New Roman"><field type="list_label" xid="31" props="text-decoration:none"></field><c props="text-decoration:none">	</c></p>
+<p xid="32"></p>
+</section>
+<section footer="27" footer-first="29" header-first="28" xid="33" props="page-margin-right:1.2479in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3271in; page-margin-header:0.5000in; page-margin-left:1.2479in; page-margin-top:0.9056in; page-margin-bottom:0.8271in">
+<p xid="34"><c props="lang:en-US; font-size:16pt; font-family:Wingdings; font-weight:bold"><cbr/></c></p>
+<p level="1" listid="1000" parentid="0" style="Heading 1" xid="35" props="margin-top:12pt; start-value:1; dom-dir:ltr; margin-bottom:3pt; list-style:Numbered List; line-height:1.0; text-align:left; field-font:Times New Roman"><field type="list_label" xid="36" props="text-decoration:none"></field><c props="text-decoration:none">	</c><bookmark type="start" name="_Toc394285682" xid="37"/><bookmark type="start" name="_Toc394288160" xid="38"/><bookmark type="start" name="_Toc394288300" xid="39"/><bookmark type="start" name="_Toc394292411" xid="40"/><bookmark type="start" name="_Toc394292500" xid="41"/><bookmark type="start" name="_Toc394373260" xid="42"/><bookmark type="start" name="_Toc394373699" xid="43"/><bookmark type="start" name="_Toc410372392" xid="44"/><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold">General SROM Format</c><bookmark type="end" name="_Toc394285682" xid="45"/><bookmark type="end" name="_Toc394288160" xid="46"/><bookmark type="end" name="_Toc394288300" xid="47"/><bookmark type="end" name="_Toc394292411" xid="48"/><bookmark type="end" name="_Toc394292500" xid="49"/><bookmark type="end" name="_Toc394373260" xid="50"/><bookmark type="end" name="_Toc394373699" xid="51"/><bookmark type="end" name="_Toc410372392" xid="52"/></p>
+<p style="Normal" xid="53" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="54" props="text-align:center; line-height:1.0; dom-dir:ltr"></p>
+<p xid="55"></p>
+</section>
+<section footer="33" footer-first="35" header-first="34" xid="56" props="page-margin-right:1.2479in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3271in; page-margin-header:0.5000in; page-margin-left:1.2479in; page-margin-top:0.9056in; page-margin-bottom:0.8271in">
+<p xid="57"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p level="1" listid="1000" parentid="0" style="Heading 1" xid="58" props="margin-top:12pt; start-value:1; dom-dir:ltr; margin-bottom:3pt; list-style:Numbered List; line-height:1.0; text-align:left; field-font:Times New Roman"><field type="list_label" xid="59" props="text-decoration:none"></field><c props="text-decoration:none">	</c><bookmark type="start" name="_Ref366284846" xid="60"/><bookmark type="start" name="_Toc394285683" xid="61"/><bookmark type="start" name="_Toc394288161" xid="62"/><bookmark type="start" name="_Toc394288301" xid="63"/><bookmark type="start" name="_Toc394292412" xid="64"/><bookmark type="start" name="_Toc394292501" xid="65"/><bookmark type="start" name="_Toc394373261" xid="66"/><bookmark type="start" name="_Toc394373700" xid="67"/><bookmark type="start" name="_Toc410372393" xid="68"/><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold">SROM Board Information</c><bookmark type="end" name="_Ref366284846" xid="69"/><bookmark type="end" name="_Toc394285683" xid="70"/><bookmark type="end" name="_Toc394288161" xid="71"/><bookmark type="end" name="_Toc394288301" xid="72"/><bookmark type="end" name="_Toc394292412" xid="73"/><bookmark type="end" name="_Toc394292501" xid="74"/><bookmark type="end" name="_Toc394373261" xid="75"/><bookmark type="end" name="_Toc394373700" xid="76"/><bookmark type="end" name="_Toc410372393" xid="77"/></p>
+<p style="Normal" xid="78" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p xid="79"></p>
+</section>
+<section footer="39" footer-first="41" header-first="40" xid="80" props="page-margin-right:1.2479in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3271in; page-margin-header:0.5000in; page-margin-left:1.2479in; page-margin-top:0.9056in; page-margin-bottom:0.8271in">
+<p xid="81"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p level="1" listid="1000" parentid="0" style="Heading 1" xid="82" props="margin-top:12pt; start-value:1; dom-dir:ltr; margin-bottom:3pt; list-style:Numbered List; line-height:1.0; text-align:left; field-font:Times New Roman"><field type="list_label" xid="83" props="text-decoration:none"></field><c props="text-decoration:none">	</c><bookmark type="start" name="_Ref347481102" xid="84"/><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold"><pbr/></c><bookmark type="start" name="_Toc394285684" xid="85"/><bookmark type="start" name="_Toc394288162" xid="86"/><bookmark type="start" name="_Toc394288302" xid="87"/><bookmark type="start" name="_Toc394292413" xid="88"/><bookmark type="start" name="_Toc394292502" xid="89"/><bookmark type="start" name="_Toc394373262" xid="90"/><bookmark type="start" name="_Toc394373701" xid="91"/><bookmark type="start" name="_Toc410372394" xid="92"/><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold">Magic Packet information block</c><bookmark type="end" name="_Toc394285684" xid="93"/><bookmark type="end" name="_Toc394288162" xid="94"/><bookmark type="end" name="_Toc394288302" xid="95"/><bookmark type="end" name="_Toc394292413" xid="96"/><bookmark type="end" name="_Toc394292502" xid="97"/><bookmark type="end" name="_Toc394373262" xid="98"/><bookmark type="end" name="_Toc394373701" xid="99"/><bookmark type="end" name="_Toc410372394" xid="100"/></p>
+<p style="Normal" xid="101" props="text-align:center; line-height:1.0; dom-dir:ltr"></p>
+<p xid="102"></p>
+</section>
+<section footer="45" footer-first="47" header-first="46" xid="103" props="page-margin-right:1.2479in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3271in; page-margin-header:0.5000in; page-margin-left:1.2479in; page-margin-top:0.9056in; page-margin-bottom:0.8271in">
+<p xid="104"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 1" xid="105" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285685" xid="106"/><bookmark type="start" name="_Toc394288163" xid="107"/><bookmark type="start" name="_Toc394288303" xid="108"/><bookmark type="start" name="_Ref394289437" xid="109"/><bookmark type="start" name="_Toc394292414" xid="110"/><bookmark type="start" name="_Toc394292503" xid="111"/><bookmark type="start" name="_Toc394373263" xid="112"/><bookmark type="start" name="_Toc394373702" xid="113"/><bookmark type="start" name="_Toc410372395" xid="114"/><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold">5. Single function ID Block</c><bookmark type="end" name="_Toc394285685" xid="115"/><bookmark type="end" name="_Toc394288163" xid="116"/><bookmark type="end" name="_Toc394288303" xid="117"/><bookmark type="end" name="_Ref394289437" xid="118"/><bookmark type="end" name="_Toc394292414" xid="119"/><bookmark type="end" name="_Toc394292503" xid="120"/><bookmark type="end" name="_Toc394373263" xid="121"/><bookmark type="end" name="_Toc394373702" xid="122"/><bookmark type="end" name="_Toc410372395" xid="123"/></p>
+<p style="Normal" xid="124" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="125" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 1" xid="126" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold"><pbr/></c><bookmark type="start" name="_Toc394285686" xid="127"/><bookmark type="start" name="_Toc394288164" xid="128"/><bookmark type="start" name="_Toc394288304" xid="129"/><bookmark type="start" name="_Ref394289443" xid="130"/><bookmark type="start" name="_Toc394292415" xid="131"/><bookmark type="start" name="_Toc394292504" xid="132"/><bookmark type="start" name="_Toc394373264" xid="133"/><bookmark type="start" name="_Toc394373703" xid="134"/><bookmark type="start" name="_Toc410372396" xid="135"/></p>
+<p style="Heading 1" xid="136" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold"><pbr/></c></p>
+<p style="Heading 1" xid="137" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold">6. Dual function ID Block</c><bookmark type="end" name="_Toc394285686" xid="138"/><bookmark type="end" name="_Toc394288164" xid="139"/><bookmark type="end" name="_Toc394288304" xid="140"/><bookmark type="end" name="_Ref394289443" xid="141"/><bookmark type="end" name="_Toc394292415" xid="142"/><bookmark type="end" name="_Toc394292504" xid="143"/><bookmark type="end" name="_Toc394373264" xid="144"/><bookmark type="end" name="_Toc394373703" xid="145"/><bookmark type="end" name="_Toc410372396" xid="146"/></p>
+<p style="Normal" xid="147" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p style="Normal" xid="148" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 2" xid="149" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Ref394285335" xid="150"/><bookmark type="start" name="_Toc394285687" xid="151"/><bookmark type="start" name="_Toc394288165" xid="152"/><bookmark type="start" name="_Toc394288305" xid="153"/><bookmark type="start" name="_Toc394292416" xid="154"/><bookmark type="start" name="_Toc394292505" xid="155"/><bookmark type="start" name="_Toc394373265" xid="156"/><bookmark type="start" name="_Toc394373704" xid="157"/><bookmark type="start" name="_Toc410372397" xid="158"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">6.1</c><c props="lang:en-US; font-size:14pt; font-family:Courier New; font-weight:bold"> </c><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Func1_HwOptions (offset 14d)</c><bookmark type="end" name="_Ref394285335" xid="159"/><bookmark type="end" name="_Toc394285687" xid="160"/><bookmark type="end" name="_Toc394288165" xid="161"/><bookmark type="end" name="_Toc394288305" xid="162"/><bookmark type="end" name="_Toc394292416" xid="163"/><bookmark type="end" name="_Toc394292505" xid="164"/><bookmark type="end" name="_Toc394373265" xid="165"/><bookmark type="end" name="_Toc394373704" xid="166"/><bookmark type="end" name="_Toc410372397" xid="167"/></p>
+<p style="Normal" xid="168" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:9pt; font-family:Arial"><pbr/></c></p>
+<p level="2" listid="1001" parentid="0" style="Heading 2" xid="169" props="dom-dir:ltr; margin-left:0.3750in; start-value:2; text-indent:-0.3750in; list-style:Numbered List; margin-top:12pt; keep-with-next:yes; tabstops:0.3750in/L; margin-bottom:3pt; line-height:1.0; text-align:left; field-font:Times New Roman"><field type="list_label" xid="170" props="text-decoration:none"></field><c props="text-decoration:none">	</c><bookmark type="start" name="_Toc394285688" xid="171"/><bookmark type="start" name="_Toc394288166" xid="172"/><bookmark type="start" name="_Toc394288306" xid="173"/><bookmark type="start" name="_Ref394291117" xid="174"/><bookmark type="start" name="_Toc394292417" xid="175"/><bookmark type="start" name="_Toc394292506" xid="176"/><bookmark type="start" name="_Toc394373266" xid="177"/><bookmark type="start" name="_Toc394373705" xid="178"/><bookmark type="start" name="_Toc410372398" xid="179"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">MiscHwOptions (offset 15d)</c><bookmark type="end" name="_Toc394285688" xid="180"/><bookmark type="end" name="_Toc394288166" xid="181"/><bookmark type="end" name="_Toc394288306" xid="182"/><bookmark type="end" name="_Ref394291117" xid="183"/><bookmark type="end" name="_Toc394292417" xid="184"/><bookmark type="end" name="_Toc394292506" xid="185"/><bookmark type="end" name="_Toc394373266" xid="186"/><bookmark type="end" name="_Toc394373705" xid="187"/><bookmark type="end" name="_Toc410372398" xid="188"/></p>
+<p style="Normal" xid="189" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="190" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p level="2" listid="1002" parentid="0" style="Heading 2" xid="191" props="dom-dir:ltr; margin-left:0.2500in; start-value:1; text-indent:-0.2500in; list-style:Numbered List; margin-top:12pt; keep-with-next:yes; tabstops:0.2500in/L; margin-bottom:3pt; line-height:1.0; text-align:left; field-font:Times New Roman"><field type="list_label" xid="192" props="text-decoration:none"></field><c props="text-decoration:none">	</c><bookmark type="start" name="_Toc394285689" xid="193"/><bookmark type="start" name="_Toc394288167" xid="194"/><bookmark type="start" name="_Toc394288307" xid="195"/><bookmark type="start" name="_Ref394291163" xid="196"/><bookmark type="start" name="_Toc394292418" xid="197"/><bookmark type="start" name="_Toc394292507" xid="198"/><bookmark type="start" name="_Toc394373267" xid="199"/><bookmark type="start" name="_Toc394373706" xid="200"/><bookmark type="start" name="_Toc410372399" xid="201"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Func0_HwOptions (offset 17d)</c><bookmark type="end" name="_Toc394285689" xid="202"/><bookmark type="end" name="_Toc394288167" xid="203"/><bookmark type="end" name="_Toc394288307" xid="204"/><bookmark type="end" name="_Ref394291163" xid="205"/><bookmark type="end" name="_Toc394292418" xid="206"/><bookmark type="end" name="_Toc394292507" xid="207"/><bookmark type="end" name="_Toc394373267" xid="208"/><bookmark type="end" name="_Toc394373706" xid="209"/><bookmark type="end" name="_Toc410372399" xid="210"/></p>
+<p style="Normal" xid="211" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="212" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><pbr/><pbr/></c></p>
+<p style="Normal" xid="213" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="214" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 1" xid="215" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285690" xid="216"/><bookmark type="start" name="_Toc394288168" xid="217"/><bookmark type="start" name="_Toc394288308" xid="218"/><bookmark type="start" name="_Toc394292419" xid="219"/><bookmark type="start" name="_Toc394292508" xid="220"/><bookmark type="start" name="_Toc394373268" xid="221"/><bookmark type="start" name="_Toc394373707" xid="222"/><bookmark type="start" name="_Toc410372400" xid="223"/><c props="lang:en-US; font-size:16pt; font-family:Courier New; font-weight:bold">7. </c><c props="lang:en-US; font-size:16pt; font-family:Arial; font-weight:bold">CONTROLLER INFO LEAF</c><bookmark type="end" name="_Toc394285690" xid="224"/><bookmark type="end" name="_Toc394288168" xid="225"/><bookmark type="end" name="_Toc394288308" xid="226"/><bookmark type="end" name="_Toc394292419" xid="227"/><bookmark type="end" name="_Toc394292508" xid="228"/><bookmark type="end" name="_Toc394373268" xid="229"/><bookmark type="end" name="_Toc394373707" xid="230"/><bookmark type="end" name="_Toc410372400" xid="231"/></p>
+<p style="Normal" xid="232" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 2" xid="233" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285691" xid="234"/><bookmark type="start" name="_Toc394288169" xid="235"/><bookmark type="start" name="_Toc394288309" xid="236"/><bookmark type="start" name="_Toc394292420" xid="237"/><bookmark type="start" name="_Toc394292509" xid="238"/><bookmark type="start" name="_Toc394373269" xid="239"/><bookmark type="start" name="_Toc394373708" xid="240"/><bookmark type="start" name="_Toc410372401" xid="241"/><c props="lang:en-US; font-size:14pt; font-family:Courier New; font-weight:bold">7.1 </c><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Introduction</c><bookmark type="end" name="_Toc394285691" xid="242"/><bookmark type="end" name="_Toc394288169" xid="243"/><bookmark type="end" name="_Toc394288309" xid="244"/><bookmark type="end" name="_Toc394292420" xid="245"/><bookmark type="end" name="_Toc394292509" xid="246"/><bookmark type="end" name="_Toc394373269" xid="247"/><bookmark type="end" name="_Toc394373708" xid="248"/><bookmark type="end" name="_Toc410372401" xid="249"/></p>
+<p style="Normal" xid="250" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Footer" xid="251" props="text-align:left; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"><bookmark type="end" name="_Ref347481102" xid="252"/><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">.</c></p>
+<p xid="253"></p>
+</section>
+<section footer="51" footer-first="53" header-first="52" xid="254" props="page-margin-right:1.2479in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3271in; page-margin-header:0.5000in; page-margin-left:1.2479in; page-margin-top:0.9056in; page-margin-bottom:0.8271in">
+<p xid="255"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-weight:bold"><cbr/></c></p>
+<p style="Heading 2" xid="256" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285692" xid="257"/><bookmark type="start" name="_Toc394288170" xid="258"/><bookmark type="start" name="_Toc394288310" xid="259"/><bookmark type="start" name="_Toc394292421" xid="260"/><bookmark type="start" name="_Toc394292510" xid="261"/><bookmark type="start" name="_Toc394373270" xid="262"/><bookmark type="start" name="_Toc394373709" xid="263"/><bookmark type="start" name="_Toc410372402" xid="264"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">7.2 21041 INFO LEAF</c><bookmark type="end" name="_Toc394285692" xid="265"/><bookmark type="end" name="_Toc394288170" xid="266"/><bookmark type="end" name="_Toc394288310" xid="267"/><bookmark type="end" name="_Toc394292421" xid="268"/><bookmark type="end" name="_Toc394292510" xid="269"/><bookmark type="end" name="_Toc394373270" xid="270"/><bookmark type="end" name="_Toc394373709" xid="271"/><bookmark type="end" name="_Toc410372402" xid="272"/></p>
+<p style="Normal" xid="273" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 3" xid="274" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285693" xid="275"/><bookmark type="start" name="_Toc394288171" xid="276"/><bookmark type="start" name="_Toc394288311" xid="277"/><bookmark type="start" name="_Toc394292422" xid="278"/><bookmark type="start" name="_Toc394292511" xid="279"/><bookmark type="start" name="_Toc394373271" xid="280"/><bookmark type="start" name="_Toc394373710" xid="281"/><bookmark type="start" name="_Toc410372403" xid="282"/><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.2.1 21041 Info Leaf Format</c><bookmark type="end" name="_Toc394285693" xid="283"/><bookmark type="end" name="_Toc394288171" xid="284"/><bookmark type="end" name="_Toc394288311" xid="285"/><bookmark type="end" name="_Toc394292422" xid="286"/><bookmark type="end" name="_Toc394292511" xid="287"/><bookmark type="end" name="_Toc394373271" xid="288"/><bookmark type="end" name="_Toc394373710" xid="289"/><bookmark type="end" name="_Toc410372403" xid="290"/></p>
+<p style="Heading 1" xid="291" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"></p>
+<p xid="292"></p>
+</section>
+<section footer="57" footer-first="59" header-first="58" xid="293" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="294"><c props="lang:en-US; font-size:16pt; font-family:Wingdings; font-weight:bold"><cbr/></c></p>
+<p style="Heading 3" xid="295" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285694" xid="296"/><bookmark type="start" name="_Toc394288172" xid="297"/><bookmark type="start" name="_Toc394288312" xid="298"/><bookmark type="start" name="_Toc394292423" xid="299"/><bookmark type="start" name="_Toc394292512" xid="300"/><bookmark type="start" name="_Toc394373272" xid="301"/><bookmark type="start" name="_Toc394373711" xid="302"/><bookmark type="start" name="_Toc410372404" xid="303"/><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.2.2 21041 Media Block Format</c><bookmark type="end" name="_Toc394285694" xid="304"/><bookmark type="end" name="_Toc394288172" xid="305"/><bookmark type="end" name="_Toc394288312" xid="306"/><bookmark type="end" name="_Toc394292423" xid="307"/><bookmark type="end" name="_Toc394292512" xid="308"/><bookmark type="end" name="_Toc394373272" xid="309"/><bookmark type="end" name="_Toc394373711" xid="310"/><bookmark type="end" name="_Toc410372404" xid="311"/></p>
+<p style="Normal" xid="312" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="313" props="text-align:left; tabstops:0.1972in/L; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="314" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="315"></p>
+</section>
+<section footer="63" footer-first="65" header-first="64" xid="316" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="317"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 2" xid="318" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285695" xid="319"/><bookmark type="start" name="_Toc394288173" xid="320"/><bookmark type="start" name="_Toc394288313" xid="321"/><bookmark type="start" name="_Toc394292424" xid="322"/><bookmark type="start" name="_Toc394292513" xid="323"/><bookmark type="start" name="_Toc394373273" xid="324"/><bookmark type="start" name="_Toc394373712" xid="325"/><bookmark type="start" name="_Toc410372405" xid="326"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">7.3 21140 Info Leaf</c><bookmark type="end" name="_Toc394285695" xid="327"/><bookmark type="end" name="_Toc394288173" xid="328"/><bookmark type="end" name="_Toc394288313" xid="329"/><bookmark type="end" name="_Toc394292424" xid="330"/><bookmark type="end" name="_Toc394292513" xid="331"/><bookmark type="end" name="_Toc394373273" xid="332"/><bookmark type="end" name="_Toc394373712" xid="333"/><bookmark type="end" name="_Toc410372405" xid="334"/></p>
+<p style="Normal" xid="335" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 3" xid="336" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285696" xid="337"/><bookmark type="start" name="_Toc394288174" xid="338"/><bookmark type="start" name="_Toc394288314" xid="339"/><bookmark type="start" name="_Toc394292425" xid="340"/><bookmark type="start" name="_Toc394292514" xid="341"/><bookmark type="start" name="_Toc394373274" xid="342"/><bookmark type="start" name="_Toc394373713" xid="343"/><bookmark type="start" name="_Toc410372406" xid="344"/><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.3.1 21140 Info Leaf Format</c><bookmark type="end" name="_Toc394285696" xid="345"/><bookmark type="end" name="_Toc394288174" xid="346"/><bookmark type="end" name="_Toc394288314" xid="347"/><bookmark type="end" name="_Toc394292425" xid="348"/><bookmark type="end" name="_Toc394292514" xid="349"/><bookmark type="end" name="_Toc394373274" xid="350"/><bookmark type="end" name="_Toc394373713" xid="351"/><bookmark type="end" name="_Toc410372406" xid="352"/></p>
+<p style="Normal" xid="353" props="text-align:right; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p style="Normal" xid="354" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="355" props="text-align:left; tabstops:0.1972in/L; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"> </c></p>
+<p style="Normal" xid="356" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="357"></p>
+</section>
+<section footer="69" footer-first="71" header-first="70" xid="358" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="359"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 3" xid="360" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285697" xid="361"/><bookmark type="start" name="_Toc394288175" xid="362"/><bookmark type="start" name="_Toc394288315" xid="363"/><bookmark type="start" name="_Toc394292426" xid="364"/><bookmark type="start" name="_Toc394292515" xid="365"/><bookmark type="start" name="_Toc394373275" xid="366"/><bookmark type="start" name="_Toc394373714" xid="367"/><bookmark type="start" name="_Toc410372407" xid="368"/><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.3.2 21140 Info Block Format</c><bookmark type="end" name="_Toc394285697" xid="369"/><bookmark type="end" name="_Toc394288175" xid="370"/><bookmark type="end" name="_Toc394288315" xid="371"/><bookmark type="end" name="_Toc394292426" xid="372"/><bookmark type="end" name="_Toc394292515" xid="373"/><bookmark type="end" name="_Toc394373275" xid="374"/><bookmark type="end" name="_Toc394373714" xid="375"/><bookmark type="end" name="_Toc410372407" xid="376"/></p>
+<p style="Normal" xid="377" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="378" props="text-align:left; line-height:1.0; keep-with-next:yes; keep-together:yes; dom-dir:ltr"></p>
+<p style="Normal" xid="379" props="text-align:left; line-height:1.0; keep-with-next:yes; keep-together:yes; dom-dir:ltr; margin-left:0.5000in"></p>
+<p style="Heading 4" xid="380" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.3.2.1 21140 Compact Format</c></p>
+<p style="Normal" xid="381" props="text-align:left; line-height:1.0; keep-with-next:yes; keep-together:yes; dom-dir:ltr"></p>
+<p style="Normal" xid="382" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="383" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="384"></p>
+</section>
+<section footer="75" footer-first="77" header-first="76" xid="385" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="386"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 4" xid="387" props="margin-top:12pt; dom-dir:ltr; margin-bottom:3pt; line-height:1.0; text-align:left; margin-right:1.8687in; keep-with-next:yes"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.3.2.2 21140 Extended Format</c></p>
+<p style="Normal" xid="388" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="389" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="390"></p>
+</section>
+<section footer="81" footer-first="83" header-first="82" xid="391" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="392"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 5" xid="393" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.3.2.2.1 21140 Extended Format – Block Type 0</c></p>
+<p style="Normal" xid="394" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="395"></p>
+</section>
+<section footer="87" footer-first="89" header-first="88" xid="396" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="397"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 5" xid="398" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.3.2.2.2 21140 Extended Format – Block Type 1</c></p>
+<p style="Normal" xid="399" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="400" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p style="Normal" xid="401" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 5" xid="402" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.3.2.2.3 21140 Extended Format – Block Type 5</c></p>
+<p style="Normal" xid="403" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="404" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p style="Normal" xid="405" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="406"></p>
+</section>
+<section footer="93" footer-first="95" header-first="94" xid="407" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="408"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 2" xid="409" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285698" xid="410"/><bookmark type="start" name="_Toc394288176" xid="411"/><bookmark type="start" name="_Toc394288316" xid="412"/><bookmark type="start" name="_Toc394292427" xid="413"/><bookmark type="start" name="_Toc394292516" xid="414"/><bookmark type="start" name="_Toc394373276" xid="415"/><bookmark type="start" name="_Toc394373715" xid="416"/><bookmark type="start" name="_Toc410372408" xid="417"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">7.4 21142 Info Leaf</c><bookmark type="end" name="_Toc394285698" xid="418"/><bookmark type="end" name="_Toc394288176" xid="419"/><bookmark type="end" name="_Toc394288316" xid="420"/><bookmark type="end" name="_Toc394292427" xid="421"/><bookmark type="end" name="_Toc394292516" xid="422"/><bookmark type="end" name="_Toc394373276" xid="423"/><bookmark type="end" name="_Toc394373715" xid="424"/><bookmark type="end" name="_Toc410372408" xid="425"/></p>
+<p style="Normal" xid="426" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 3" xid="427" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285699" xid="428"/><bookmark type="start" name="_Toc394288177" xid="429"/><bookmark type="start" name="_Toc394288317" xid="430"/><bookmark type="start" name="_Toc394292428" xid="431"/><bookmark type="start" name="_Toc394292517" xid="432"/><bookmark type="start" name="_Toc394373277" xid="433"/><bookmark type="start" name="_Toc394373716" xid="434"/><bookmark type="start" name="_Toc410372409" xid="435"/><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.4.1 21142 Info Leaf Format</c><bookmark type="end" name="_Toc394285699" xid="436"/><bookmark type="end" name="_Toc394288177" xid="437"/><bookmark type="end" name="_Toc394288317" xid="438"/><bookmark type="end" name="_Toc394292428" xid="439"/><bookmark type="end" name="_Toc394292517" xid="440"/><bookmark type="end" name="_Toc394373277" xid="441"/><bookmark type="end" name="_Toc394373716" xid="442"/><bookmark type="end" name="_Toc410372409" xid="443"/></p>
+<p style="Normal" xid="444" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="445" props="text-align:right; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p style="Normal" xid="446" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="447"></p>
+</section>
+<section footer="99" footer-first="101" header-first="100" xid="448" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="449"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Normal" xid="450" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 3" xid="451" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285700" xid="452"/><bookmark type="start" name="_Toc394288178" xid="453"/><bookmark type="start" name="_Toc394288318" xid="454"/><bookmark type="start" name="_Toc394292429" xid="455"/><bookmark type="start" name="_Toc394292518" xid="456"/><bookmark type="start" name="_Toc394373278" xid="457"/><bookmark type="start" name="_Toc394373717" xid="458"/><bookmark type="start" name="_Toc410372410" xid="459"/><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.4.2 21142 Info Block Format</c><bookmark type="end" name="_Toc394285700" xid="460"/><bookmark type="end" name="_Toc394288178" xid="461"/><bookmark type="end" name="_Toc394288318" xid="462"/><bookmark type="end" name="_Toc394292429" xid="463"/><bookmark type="end" name="_Toc394292518" xid="464"/><bookmark type="end" name="_Toc394373278" xid="465"/><bookmark type="end" name="_Toc394373717" xid="466"/><bookmark type="end" name="_Toc410372410" xid="467"/></p>
+<p style="Normal" xid="468" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 5" xid="469" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.4.2.1.1 21142 Extended Format – Block Type 2</c></p>
+<p style="Normal" xid="470" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="471" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="472" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="473"></p>
+</section>
+<section footer="105" footer-first="107" header-first="106" xid="474" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="475"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 5" xid="476" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.4.2.1.2 21142 Extended Format – Block Type 3</c></p>
+<p style="Normal" xid="477" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="478" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="479" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="480" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 5" xid="481" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.4.2.1.3 21142 Extended Format – Block Type 5</c></p>
+<p style="Normal" xid="482" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="483" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p xid="484"></p>
+</section>
+<section footer="111" footer-first="113" header-first="112" xid="485" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="486"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p style="Heading 2" xid="487" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285701" xid="488"/><bookmark type="start" name="_Toc394288179" xid="489"/><bookmark type="start" name="_Toc394288319" xid="490"/><bookmark type="start" name="_Toc394292430" xid="491"/><bookmark type="start" name="_Toc394292519" xid="492"/><bookmark type="start" name="_Toc394373279" xid="493"/><bookmark type="start" name="_Toc394373718" xid="494"/><bookmark type="start" name="_Toc410372411" xid="495"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">7.5 21143 Info Leaf</c><bookmark type="end" name="_Toc394285701" xid="496"/><bookmark type="end" name="_Toc394288179" xid="497"/><bookmark type="end" name="_Toc394288319" xid="498"/><bookmark type="end" name="_Toc394292430" xid="499"/><bookmark type="end" name="_Toc394292519" xid="500"/><bookmark type="end" name="_Toc394373279" xid="501"/><bookmark type="end" name="_Toc394373718" xid="502"/><bookmark type="end" name="_Toc410372411" xid="503"/></p>
+<p style="Normal" xid="504" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 3" xid="505" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285702" xid="506"/><bookmark type="start" name="_Toc394288180" xid="507"/><bookmark type="start" name="_Toc394288320" xid="508"/><bookmark type="start" name="_Toc394292431" xid="509"/><bookmark type="start" name="_Toc394292520" xid="510"/><bookmark type="start" name="_Toc394373280" xid="511"/><bookmark type="start" name="_Toc394373719" xid="512"/><bookmark type="start" name="_Toc410372412" xid="513"/><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.5.1 21143 Info Leaf Format</c><bookmark type="end" name="_Toc394285702" xid="514"/><bookmark type="end" name="_Toc394288180" xid="515"/><bookmark type="end" name="_Toc394288320" xid="516"/><bookmark type="end" name="_Toc394292431" xid="517"/><bookmark type="end" name="_Toc394292520" xid="518"/><bookmark type="end" name="_Toc394373280" xid="519"/><bookmark type="end" name="_Toc394373719" xid="520"/><bookmark type="end" name="_Toc410372412" xid="521"/></p>
+<p style="Normal" xid="522" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="523"></p>
+</section>
+<section footer="117" xid="524" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="525"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Normal" xid="526" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 3" xid="527" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285703" xid="528"/><bookmark type="start" name="_Toc394288181" xid="529"/><bookmark type="start" name="_Toc394288321" xid="530"/><bookmark type="start" name="_Toc394292432" xid="531"/><bookmark type="start" name="_Toc394292521" xid="532"/><bookmark type="start" name="_Toc394373281" xid="533"/><bookmark type="start" name="_Toc394373720" xid="534"/><bookmark type="start" name="_Toc410372413" xid="535"/><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.5.2 21143 Info Block Format</c><bookmark type="end" name="_Toc394285703" xid="536"/><bookmark type="end" name="_Toc394288181" xid="537"/><bookmark type="end" name="_Toc394288321" xid="538"/><bookmark type="end" name="_Toc394292432" xid="539"/><bookmark type="end" name="_Toc394292521" xid="540"/><bookmark type="end" name="_Toc394373281" xid="541"/><bookmark type="end" name="_Toc394373720" xid="542"/><bookmark type="end" name="_Toc410372413" xid="543"/></p>
+<p style="Normal" xid="544" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="545" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="546" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 5" xid="547" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.5.2.1.1 21143 Extended Format – Block Type 2</c></p>
+<p style="Normal" xid="548" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="549" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 5" xid="550" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.5.2.1.2 21143 Extended Format – Block Type 3</c></p>
+<p style="Normal" xid="551" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="552" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 5" xid="553" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.5.2.1.3 21143 Extended Format – Block Type 4</c></p>
+<p style="Normal" xid="554" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="555" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="556"></p>
+</section>
+<section footer="123" footer-first="125" header-first="124" xid="557" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="558"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 5" xid="559" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.5.2.1.4 21143 Extended Format - Block Type 5</c></p>
+<p style="Normal" xid="560" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="561" props="text-align:left; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="562"></p>
+</section>
+<section footer="129" footer-first="131" header-first="130" xid="563" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="564"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Heading 5" xid="565" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">7.5.2.1.5 21143 (Rev 4.1 and Above) Extended Format - Block Type 6</c></p>
+<p style="Normal" xid="566" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="567" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold"><pbr/></c></p>
+<p style="Normal" xid="568" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Appendix A - SROM_CRC Calculation Algorithm</c></p>
+<p style="Normal" xid="569" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="570" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">unsigned short CalcSromCrc(unsigned char *SromData);</c></p>
+<p style="Normal" xid="571" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="572" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">#define  DATA_LEN        126	// 1024 bits SROM</c></p>
+<p style="Normal" xid="573" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="574" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">struct {</c></p>
+<p style="Normal" xid="575" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	unsigned char  SromData[DATA_LEN];</c></p>
+<p style="Normal" xid="576" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	unsigned short SromCRC;</c></p>
+<p style="Normal" xid="577" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"> 	} Srom;</c></p>
+<p style="Normal" xid="578" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">main()</c></p>
+<p style="Normal" xid="579" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">{</c></p>
+<p style="Normal" xid="580" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"> Srom.SromCRC = CalcSromCrc(&amp;Srom.SromData);</c></p>
+<p style="Normal" xid="581" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">}</c></p>
+<p style="Normal" xid="582" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="583" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">unsigned short CalcSromCrc(unsigned char *SromData)</c></p>
+<p style="Normal" xid="584" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">{</c></p>
+<p style="Normal" xid="585" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">#define POLY 0x04C11DB6L</c></p>
+<p style="Normal" xid="586" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="587" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   unsigned long crc = 0xFFFFFFFF;</c></p>
+<p style="Normal" xid="588" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   unsigned long FlippedCRC = 0;</c></p>
+<p style="Normal" xid="589" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="590" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   unsigned char CurrentByte;</c></p>
+<p style="Normal" xid="591" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   unsigned Index;</c></p>
+<p style="Normal" xid="592" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   unsigned Bit;</c></p>
+<p style="Normal" xid="593" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   unsigned Msb;</c></p>
+<p style="Normal" xid="594" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   int i;</c></p>
+<p style="Normal" xid="595" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="596" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   for (Index = 0; Index &lt; DATA_LEN; Index++)</c></p>
+<p style="Normal" xid="597" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   {</c></p>
+<p style="Normal" xid="598" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      CurrentByte = SromData[Index];</c></p>
+<p style="Normal" xid="599" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="600" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      for (Bit = 0; Bit &lt; 8; Bit++)</c></p>
+<p style="Normal" xid="601" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      {</c></p>
+<p style="Normal" xid="602" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">         Msb = (crc &gt;&gt; 31) &amp; 1;</c></p>
+<p style="Normal" xid="603" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">         crc &lt;&lt;= 1;</c></p>
+<p style="Normal" xid="604" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="605" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">         if (Msb ^ (CurrentByte &amp; 1))</c></p>
+<p style="Normal" xid="606" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">         {</c></p>
+<p style="Normal" xid="607" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">            crc ^= POLY;</c></p>
+<p style="Normal" xid="608" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">            crc |= 0x00000001;</c></p>
+<p style="Normal" xid="609" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">         }</c></p>
+<p style="Normal" xid="610" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="611" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">         CurrentByte &gt;&gt;= 1;</c></p>
+<p style="Normal" xid="612" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      }</c></p>
+<p style="Normal" xid="613" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   }</c></p>
+<p style="Normal" xid="614" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="615" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   for (i = 0; i &lt; 32; i++)</c></p>
+<p style="Normal" xid="616" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   {</c></p>
+<p style="Normal" xid="617" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      FlippedCRC &lt;&lt;= 1;</c></p>
+<p style="Normal" xid="618" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      Bit = crc &amp; 1;</c></p>
+<p style="Normal" xid="619" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      crc &gt;&gt;= 1;</c></p>
+<p style="Normal" xid="620" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      FlippedCRC += Bit;</c></p>
+<p style="Normal" xid="621" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  }</c></p>
+<p style="Normal" xid="622" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   crc = FlippedCRC ^ 0xFFFFFFFF;</c></p>
+<p style="Normal" xid="623" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">   return (crc &amp; 0xFFFF);</c></p>
+<p style="Normal" xid="624" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">}</c></p>
+<p style="Normal" xid="625" props="text-align:left; text-indent:-0.5000in; line-height:1.0; dom-dir:ltr; margin-right:0.5000in"></p>
+<p xid="626"></p>
+</section>
+<section footer="135" footer-first="137" header-first="136" xid="627" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.3299in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:0.9097in; page-margin-bottom:0.8299in">
+<p xid="628"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><cbr/></c></p>
+<p style="Normal" xid="629" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="630" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Appendix B - ID_BLOCK_CRC Calculation Algorithm</c></p>
+<p style="Normal" xid="631" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="632" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="633" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">/*</c></p>
+<p style="Normal" xid="634" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** This program calculates the CRC which sums the Serial ROM ID Block header and the Magic</c></p>
+<p style="Normal" xid="635" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** Information Block. </c></p>
+<p style="Normal" xid="636" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** In the case of the ID Block header, this serial ROM header of 9 words is read upon reset of</c></p>
+<p style="Normal" xid="637" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** the chip. If the CRC result of these 9 words equals 0, it means the data has </c></p>
+<p style="Normal" xid="638" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** been read correctly.</c></p>
+<p style="Normal" xid="639" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** In the case of the Magic info block, this data is read by the chip upon entering</c></p>
+<p style="Normal" xid="640" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** Magic mode. If the CRC result of these 16 words is equal zero, it means the</c></p>
+<p style="Normal" xid="641" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** data has been read correctly and the chip can enter Magic mode.</c></p>
+<p style="Normal" xid="642" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**			               </c></p>
+<p style="Normal" xid="643" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** CRC is an 8 bit crc. Polynom is   </c><c props="lang:en-US; font-size:10pt; font-family:Arial">x</c><c props="lang:en-US; text-position:superscript; font-size:10pt; font-family:Times New Roman">8</c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  +  </c><c props="lang:en-US; font-size:10pt; font-family:Arial">x</c><c props="lang:en-US; text-position:superscript; font-size:10pt; font-family:Times New Roman">2</c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  + </c><c props="lang:en-US; font-size:10pt; font-family:Arial">x</c><c props="lang:en-US; text-position:superscript; font-size:10pt; font-family:Times New Roman">1</c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  + 1 .</c></p>
+<p style="Normal" xid="644" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** Note that contrary to a regular CRC, this CRC is calculated on the data stream</c></p>
+<p style="Normal" xid="645" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** from MSB 1'st to LSB. This is due to the nature of the SROM data stream</c></p>
+<p style="Normal" xid="646" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** which flows in this manner.</c></p>
+<p style="Normal" xid="647" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**</c></p>
+<p style="Normal" xid="648" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** Predefined SROM header:</c></p>
+<p style="Normal" xid="649" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**</c></p>
+<p style="Normal" xid="650" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    WORD#	Meaning</c></p>
+<p style="Normal" xid="651" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    -----------         -----------</c></p>
+<p style="Normal" xid="652" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      0       Subsystem vendor ID</c></p>
+<p style="Normal" xid="653" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      1       Subsystem ID</c></p>
+<p style="Normal" xid="654" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      2       CIS pointer LOW word</c></p>
+<p style="Normal" xid="655" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      3       CIS pointer HIGH word</c></p>
+<p style="Normal" xid="656" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      4       reserved (value = 0)</c></p>
+<p style="Normal" xid="657" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      5       reserved (value = 0)</c></p>
+<p style="Normal" xid="658" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      6       reserved (value = 0)</c></p>
+<p style="Normal" xid="659" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      7       reserved (value = 0)</c></p>
+<p style="Normal" xid="660" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      8       High byte is reserved (value = 0), Low byte = CRC</c></p>
+<p style="Normal" xid="661" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**</c></p>
+<p style="Normal" xid="662" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** Predefined Magic block:</c></p>
+<p style="Normal" xid="663" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">** </c></p>
+<p style="Normal" xid="664" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    WORD#	Meaning</c></p>
+<p style="Normal" xid="665" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    -----------         -----------</c></p>
+<p style="Normal" xid="666" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      0       reserved (value = 0)</c></p>
+<p style="Normal" xid="667" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      1       reserved (value = 0)</c></p>
+<p style="Normal" xid="668" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      2 	    reserved (value = 0)</c></p>
+<p style="Normal" xid="669" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      3      WOL IEEE addr low word</c></p>
+<p style="Normal" xid="670" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      4      WOL IEEE addr middle word</c></p>
+<p style="Normal" xid="671" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      5      WOL IEEE addr high word</c></p>
+<p style="Normal" xid="672" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      6      WOL Command word</c></p>
+<p style="Normal" xid="673" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      7       reserved (value = 0)</c></p>
+<p style="Normal" xid="674" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      8       reserved (value = 0)</c></p>
+<p style="Normal" xid="675" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**      9       reserved (value = 0)</c></p>
+<p style="Normal" xid="676" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    10       reserved (value = 0)</c></p>
+<p style="Normal" xid="677" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    11       reserved (value = 0)</c></p>
+<p style="Normal" xid="678" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    12       reserved (value = 0)</c></p>
+<p style="Normal" xid="679" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    13       reserved (value = 0)</c></p>
+<p style="Normal" xid="680" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    14       reserved (value = 0)</c></p>
+<p style="Normal" xid="681" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">**    15       High byte is reserved (value = 0), Low byte = CRC</c></p>
+<p style="Normal" xid="682" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">*/</c></p>
+<p style="Normal" xid="683" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="684" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">main()</c></p>
+<p style="Normal" xid="685" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">{</c></p>
+<p style="Normal" xid="686" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">#define POLY 0x6</c></p>
+<p style="Normal" xid="687" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="688" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">#define LEN 9 		/* for ID Block */</c></p>
+<p style="Normal" xid="689" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">#define LEN 16		/* for WOL block */</c></p>
+<p style="Normal" xid="690" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="691" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  unsigned short DAT[LEN];</c></p>
+<p style="Normal" xid="692" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="693" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  int i,Word,n;</c></p>
+<p style="Normal" xid="694" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  char Bit;</c></p>
+<p style="Normal" xid="695" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  unsigned char BitVal;</c></p>
+<p style="Normal" xid="696" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  unsigned char crc;</c></p>
+<p style="Normal" xid="697" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="698" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  n=0;</c></p>
+<p style="Normal" xid="699" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  crc = -1;</c></p>
+<p style="Normal" xid="700" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="701" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  for (Word=0; Word&lt;LEN; Word++)</c></p>
+<p style="Normal" xid="702" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">  for (Bit=15; Bit&gt;=0; Bit--)</c></p>
+<p style="Normal" xid="703" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      {</c></p>
+<p style="Normal" xid="704" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="705" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	if ((Word == (LEN-1)) &amp;&amp; (Bit == 7))</c></p>
+<p style="Normal" xid="706" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	   {</c></p>
+<p style="Normal" xid="707" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	    /*</c></p>
+<p style="Normal" xid="708" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	    ** Insert the correct CRC result into input data stream in place.</c></p>
+<p style="Normal" xid="709" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	    */</c></p>
+<p style="Normal" xid="710" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	    DAT[LEN-1] = (DAT[LEN-1] &amp; 0xff00) | (unsigned short)crc;</c></p>
+<p style="Normal" xid="711" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	    break;</c></p>
+<p style="Normal" xid="712" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	   }</c></p>
+<p style="Normal" xid="713" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="714" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	n++;</c></p>
+<p style="Normal" xid="715" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="716" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	BitVal = ((DAT[Word] &gt;&gt; Bit) &amp; 1) ^ ((crc &gt;&gt; 7) &amp; 1);</c></p>
+<p style="Normal" xid="717" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	crc = crc &lt;&lt; 1;</c></p>
+<p style="Normal" xid="718" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	if (BitVal == 1)</c></p>
+<p style="Normal" xid="719" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	   {</c></p>
+<p style="Normal" xid="720" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	    crc ^= POLY;</c></p>
+<p style="Normal" xid="721" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	    crc |= 0x01;</c></p>
+<p style="Normal" xid="722" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">	   }</c></p>
+<p style="Normal" xid="723" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">      }</c></p>
+<p style="Normal" xid="724" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 1" xid="725" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"></p>
+<p style="Heading 1" xid="726" props="text-align:left; margin-top:12pt; line-height:1.0; margin-bottom:3pt; dom-dir:ltr"></p>
+<p style="Normal" xid="727" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="728" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="729" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="730" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="731" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="732" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="733" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="734" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="735" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="736" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 2" xid="737" props="text-align:left; line-height:1.0; keep-with-next:yes; dom-dir:ltr"><bookmark type="start" name="_Toc394285704" xid="738"/><bookmark type="start" name="_Toc394288182" xid="739"/><bookmark type="start" name="_Toc394288322" xid="740"/><bookmark type="start" name="_Toc394292433" xid="741"/><bookmark type="start" name="_Toc394292522" xid="742"/><bookmark type="start" name="_Toc394373282" xid="743"/><bookmark type="start" name="_Toc394373721" xid="744"/><bookmark type="start" name="_Toc410372414" xid="745"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Appendix C – CIS pointer setting from SROM</c><bookmark type="end" name="_Toc394285704" xid="746"/><bookmark type="end" name="_Toc394288182" xid="747"/><bookmark type="end" name="_Toc394288322" xid="748"/><bookmark type="end" name="_Toc394292433" xid="749"/><bookmark type="end" name="_Toc394292522" xid="750"/><bookmark type="end" name="_Toc394373282" xid="751"/><bookmark type="end" name="_Toc394373721" xid="752"/><bookmark type="end" name="_Toc410372414" xid="753"/></p>
+<p style="Normal" xid="754" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="755" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">CIS (Card Information Structure) is used in CardBus applications to store card’s information. This information is a structure of bytes used by the system software. This specification defines two ways to store the CIS data (known as </c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-style:italic">Tuples</c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">) in CardBus applications:</c></p>
+<p style="Normal" xid="756" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">BOOT ROM</c></p>
+<p style="Normal" xid="757" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM</c></p>
+<p style="Normal" xid="758" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="759" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The CIS pointer register is defined in the PCI configuration space. It has a standard format defined in CardBus specification.</c></p>
+<p style="Normal" xid="760" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<table xid="761" props="table-column-props:0.8875in/3.6875in/1.5750in/0.8875in/3.6875in/1.5750in/; table-column-leftpos:-0.0750in; table-line-thickness:0.8pt; table-col-spacing:0.03in; table-line-type:1; table-line-ignore:0">
+<cell xid="762" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="763" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">31           28</c></p>
+</cell>
+<cell xid="764" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="765" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">27                                                                                               3</c></p>
+</cell>
+<cell xid="766" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:3; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="767" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">2                 1                 0</c></p>
+</cell>
+<cell xid="768" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:1; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="769" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">ROM Image</c></p>
+</cell>
+<cell xid="770" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:2; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="771" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">                              Address Space Offset</c></p>
+</cell>
+<cell xid="772" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:3; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="773" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Address Space Indicator</c></p>
+</cell>
+</table>
+<p style="Normal" xid="774" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="775" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">			CIS Pointer Layout (located in PCI config space)</c></p>
+<p style="Normal" xid="776" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="777" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The Address Space Indicator values can be one of two:</c></p>
+<p style="Normal" xid="778" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">2 - CIS data is stored in SROM</c></p>
+<p style="Normal" xid="779" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">7 - CIS data is stored in BOOT ROM</c></p>
+<p style="Normal" xid="780" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="781" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 2" xid="782" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285705" xid="783"/><bookmark type="start" name="_Toc394288183" xid="784"/><bookmark type="start" name="_Toc394288323" xid="785"/><bookmark type="start" name="_Toc394292434" xid="786"/><bookmark type="start" name="_Toc394292523" xid="787"/><bookmark type="start" name="_Toc394373283" xid="788"/><bookmark type="start" name="_Toc394373722" xid="789"/><bookmark type="start" name="_Toc410372415" xid="790"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">CIS data stored in SROM  (Address Space Indicator = 2)</c><bookmark type="end" name="_Toc394285705" xid="791"/><bookmark type="end" name="_Toc394288183" xid="792"/><bookmark type="end" name="_Toc394288323" xid="793"/><bookmark type="end" name="_Toc394292434" xid="794"/><bookmark type="end" name="_Toc394292523" xid="795"/><bookmark type="end" name="_Toc394373283" xid="796"/><bookmark type="end" name="_Toc394373722" xid="797"/><bookmark type="end" name="_Toc410372415" xid="798"/></p>
+<p style="Normal" xid="799" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="800" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Use this option in case size of CIS data (Tuples) of a single function (Ethernet) or two functions (Ethernet and Modem) can fit in SROM.</c></p>
+<p style="Normal" xid="801" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="802" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">To use this option, the SROM CIS Pointer Low bits 2:0 have to be set to 2 (010 binary). Tulpes are read in memory accesses mapped by CBMA base address register. The SROM can be of 1Kbits (128 bytes) or of 4Kbits (512 bytes). CBMA decodes the entire SROMs in memory range offsets of 200h:3FFh from CBMA value. </c></p>
+<p style="Normal" xid="803" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="804" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">CardBus CIS Pointer Low &amp; CardBus CIS Pointer High contain the values that are used to construct the CIS pointer register in each function’s configuration space. Each function get </c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-style:italic">its own</c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"> CIS pointer value. This means that each functions’ CIS data is accessed at different offset in the same SROM. ROM Image number is not used if CIS points to memory space and hence this field’s bits should be zeroed in the SROM.</c></p>
+<p style="Normal" xid="805" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="806" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The CIS pointer register for the Ethernet function is constructed by using the SROM CIS pointer field according to the following drawing:</c></p>
+<p style="Normal" xid="807" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<table xid="808" props="table-column-props:0.8875in/2.2500in/1.4375in/1.5625in/0.8875in/2.2500in/1.4375in/1.5625in/0.8875in/2.2500in/1.4375in/1.5625in/0.8875in/2.2500in/1.4375in/1.5625in/; table-column-leftpos:-0.0750in; table-line-thickness:0.8pt; table-col-spacing:0.03in; table-line-type:1; table-line-ignore:0">
+<cell xid="809" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="810" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">31           28</c></p>
+</cell>
+<cell xid="811" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:3; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="812" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">27                                                     11   10                               3</c></p>
+</cell>
+<cell xid="813" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="814" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">2                 1                 0</c></p>
+</cell>
+<cell xid="815" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:1; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="816" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">ROM Image</c></p>
+</cell>
+<cell xid="817" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:3; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="818" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">                              Address Space Offset</c></p>
+</cell>
+<cell xid="819" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="820" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Address Space Indicator</c></p>
+</cell>
+<cell xid="821" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="822" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">0  0   0   0  0  0  0  0  0  0  0  0  0  0  0  0  0   0   0   0</c></p>
+</cell>
+<cell xid="823" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:3; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="824" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM CIS Pointer</c></p>
+</cell>
+<cell xid="825" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="826" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">0                 1                 0</c></p>
+</cell>
+<cell xid="827" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:2; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="828" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+</cell>
+<cell xid="829" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:3; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="830" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Low &lt;15:8&gt;</c></p>
+</cell>
+<cell xid="831" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="832" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+</cell>
+</table>
+<p style="Normal" xid="833" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">CIS Pointer register (located in PCI configuration space of </c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-style:italic">Ethernet</c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"> function) layout - SROM application</c></p>
+<p style="Normal" xid="834" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="835" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Note:	SROM CIS Pointer Low bits 7:3 are MBZ.</c></p>
+<p style="Normal" xid="836" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><pbr/>The CIS pointer register for the Modem function is constructed by using the SROM CIS pointer field</c></p>
+<p style="Normal" xid="837" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">according to the following drawing:</c></p>
+<p style="Normal" xid="838" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<table xid="839" props="table-column-props:0.8875in/2.2500in/1.4375in/1.5625in/0.8875in/2.2500in/1.4375in/1.5625in/0.8875in/2.2500in/1.4375in/1.5625in/0.8875in/2.2500in/1.4375in/1.5625in/; table-column-leftpos:-0.0750in; table-line-thickness:0.8pt; table-col-spacing:0.03in; table-line-type:1; table-line-ignore:0">
+<cell xid="840" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="841" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">31           28</c></p>
+</cell>
+<cell xid="842" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:3; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="843" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">27                                                     11   10                               3</c></p>
+</cell>
+<cell xid="844" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="845" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">2                 1                 0</c></p>
+</cell>
+<cell xid="846" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:1; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="847" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">ROM Image</c></p>
+</cell>
+<cell xid="848" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:3; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="849" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">                              Address Space Offset</c></p>
+</cell>
+<cell xid="850" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="851" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Address Space Indicator</c></p>
+</cell>
+<cell xid="852" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="853" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">0  0   0   0  0  0  0  0  0  0  0  0  0  0  0  0  0   0   0   0</c></p>
+</cell>
+<cell xid="854" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:3; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="855" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM CIS Pointer</c></p>
+</cell>
+<cell xid="856" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="857" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">0                 1                 0</c></p>
+</cell>
+<cell xid="858" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:2; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="859" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+</cell>
+<cell xid="860" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:3; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="861" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">High &lt;7:0&gt;</c></p>
+</cell>
+<cell xid="862" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="863" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+</cell>
+</table>
+<p style="Normal" xid="864" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">CIS Pointer register (located in PCI configuration space of </c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-style:italic">Modem</c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"> function) layout - SROM application</c></p>
+<p style="Normal" xid="865" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="866" props="text-align:left; text-indent:-0.5625in; line-height:1.0; dom-dir:ltr; margin-left:0.5625in"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Note:	- SROM CIS Pointer High bits 15:8 are MBZ.</c></p>
+<p style="Normal" xid="867" props="text-align:left; text-indent:-0.0625in; line-height:1.0; dom-dir:ltr; margin-left:0.6250in"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">- If Modem function is disabled (</c><c props="lang:en-US; font-size:9pt; font-family:Arial">ModemEnable = 0), then </c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM CIS Pointer High bits 7:0 are MBZ.</c></p>
+<p style="Normal" xid="868" props="text-align:left; text-indent:-0.0625in; line-height:1.0; dom-dir:ltr; margin-left:0.6250in"></p>
+<p style="Normal" xid="869" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="870" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="871" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="872" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 2" xid="873" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc394285706" xid="874"/><bookmark type="start" name="_Toc394288184" xid="875"/><bookmark type="start" name="_Toc410372416" xid="876"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">Calculating the value of the CIS pointer</c><bookmark type="end" name="_Toc394285706" xid="877"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold"> field  for CIS in SROM</c><bookmark type="end" name="_Toc394288184" xid="878"/><bookmark type="end" name="_Toc410372416" xid="879"/></p>
+<p style="Normal" xid="880" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="881" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Assume we want to locate the Ethernet CIS block at byte address 90h in the SROM and the Modem CIS block at byte address 128h (both 90h and 128h are above the 80h size of the board info).</c></p>
+<p style="Normal" xid="882" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="883" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Ethernet CIS block Offset within the SROM		=     90h</c></p>
+<p style="Normal" xid="884" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM Offset from CBMA			=   200h</c></p>
+<p style="Normal" xid="885" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">						</c></p>
+<p style="Normal" xid="886" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Ethernet CIS block offset from CBMA		=    290h</c></p>
+<p style="Normal" xid="887" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="888" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Configuration Space CIS pointer for Ethernet CIS block:</c></p>
+<p style="Normal" xid="889" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Offset = 290h  = 	0000 0000 0000 0000 0000 0010 1001 0000</c></p>
+<p style="Normal" xid="890" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM indicator:                                                               010</c></p>
+<p style="Normal" xid="891" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The pointer:	0000 0000 0000 0000 0000 0010 1001 0010</c></p>
+<p style="Normal" xid="892" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-weight:bold">Bits&lt;10:3&gt;:	                                               010 1001 0</c></p>
+<p style="Normal" xid="893" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="894" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="895" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Modem CIS block Offset within the SROM		=   128h</c></p>
+<p style="Normal" xid="896" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM Offset from CBMA			=   200h</c></p>
+<p style="Normal" xid="897" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">						</c></p>
+<p style="Normal" xid="898" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Modem CIS block offset from CBMA      		=   328h</c></p>
+<p style="Normal" xid="899" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="900" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Configuration Space CIS pointer for Modem CIS block:</c></p>
+<p style="Normal" xid="901" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Offset = 328h  = 	0000 0000 0000 0000 0000 0011 0010 1000</c></p>
+<p style="Normal" xid="902" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM indicator:                                                               010</c></p>
+<p style="Normal" xid="903" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The pointer:	0000 0000 0000 0000 0000 0011 0010 1010</c></p>
+<p style="Normal" xid="904" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-weight:bold">Bits&lt;10:3&gt;:	                                               011 0010 1</c></p>
+<p style="Normal" xid="905" props="text-align:left; text-indent:0.5000in; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="906" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The SROM CIS Pointer field:</c></p>
+<p style="Normal" xid="907" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">     0          0            6   |    5    |         5   |    2     |       0  |       2</c></p>
+<p style="Normal" xid="908" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">0000     0000      011 0010 1        010 1001 0      00000       010        =    00655202h</c></p>
+<p style="Normal" xid="909" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">MBZ    MBZ     Modem CIS      Ethernet CIS       MBZ     SROM</c></p>
+<p style="Normal" xid="910" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="911" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The SROM CIS field the indicates that the Ethernet CIS block is at offset 90h in the SROM and the Modem CIS block is at offset 128h in the SROM is: 00655202h.</c></p>
+<p style="Normal" xid="912" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="913" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"><pbr/></c></p>
+<p style="Heading 2" xid="914" props="text-align:left; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><bookmark type="start" name="_Toc410372417" xid="915"/><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">CIS data stored in BOOT ROM  (Address Space Indicator = 7)</c><bookmark type="end" name="_Toc410372417" xid="916"/></p>
+<p style="Normal" xid="917" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:14pt; font-family:Arial; font-weight:bold">  </c></p>
+<p style="Normal" xid="918" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Use this option in case size of CIS data (Tuples) of a single function (Ethernet) or two functions (Ethernet and Modem) is too big to fit in SROM. </c></p>
+<p style="Normal" xid="919" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="920" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">To use this option, the SROM CIS Pointer Low bits 2:0 have to be set to 7 (111 binary).</c></p>
+<p style="Normal" xid="921" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="922" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">CardBus CIS Pointer Low &amp; CardBus CIS Pointer High contain the values that are used to construct the CIS pointer register in each function’s configuration space. Both functions get </c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-style:italic">same</c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"> CIS pointer value. This means that both functions’ CIS data is accessed at ‘same’ offset and ‘same’ ROM Image number (from host software point of view). Each function has half of the physical BOOT ROM size. The Ethernet function gets the first half while the Modem function gets the second half of the physical BOOT ROM. The Ethernet or the Modem’s half  BOOT ROM is selected by the MSB bit of the BOOT ROM address lines according to its defined size.</c></p>
+<p style="Normal" xid="923" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="924" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The CIS pointer register for each function is constructed by using the SROM CIS pointer field according to the following drawing:</c></p>
+<p style="Normal" xid="925" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<table xid="926" props="table-column-props:0.8875in/2.1875in/1.5000in/1.5750in/0.8875in/2.1875in/1.5000in/1.5750in/0.8875in/2.1875in/1.5000in/1.5750in/0.8875in/2.1875in/1.5000in/1.5750in/; table-column-leftpos:-0.0750in; table-line-thickness:0.8pt; table-col-spacing:0.03in; table-line-type:1; table-line-ignore:0">
+<cell xid="927" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="928" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">31           28</c></p>
+</cell>
+<cell xid="929" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:3; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="930" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">27                                                   16   15                                 3</c></p>
+</cell>
+<cell xid="931" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="932" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">2                 1                 0</c></p>
+</cell>
+<cell xid="933" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:1; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="934" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">ROM Image</c></p>
+</cell>
+<cell xid="935" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:3; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="936" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">                              Address Space Offset</c></p>
+</cell>
+<cell xid="937" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="938" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Address Space Indicator</c></p>
+</cell>
+<cell xid="939" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="940" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM CIS Pointer</c></p>
+</cell>
+<cell xid="941" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:3; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="942" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">SROM CIS Pointer</c></p>
+</cell>
+<cell xid="943" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.750000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="944" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">1                 1                 1</c></p>
+</cell>
+<cell xid="945" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:2; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="946" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"> High &lt;15:0&gt;</c></p>
+</cell>
+<cell xid="947" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:3; left-thickness:0.750000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:2; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="948" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Low &lt;15:3&gt;</c></p>
+</cell>
+<cell xid="949" props="right-thickness:0.750000px; left-color:000000; bot-style:1; bot-thickness:0.750000px; right-attach:4; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:3; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="950" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+</cell>
+</table>
+<p style="Normal" xid="951" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">CIS Pointer register (located in PCI configuration space of </c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman; font-style:italic">each</c><c props="lang:en-US; font-size:10pt; font-family:Times New Roman"> function) layout - BOOT ROM application</c></p>
+<p xid="952"></p>
+<p xid="953"></p>
+</section>
+<section type="footer" id="9" xid="954">
+<p style="Footer" xid="955" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"></p>
+<p style="Footer" xid="956" props="margin-left:0.2500in; tabstops:2.8840in/C,5.7681in/C; dom-dir:ltr; text-indent:0.2500in; line-height:1.0; text-align:right; margin-right:0.2500in"></p>
+<p style="Normal" xid="957" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="15" xid="958">
+<p style="Footer" xid="959" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"></p>
+<p style="Footer" xid="960" props="margin-left:0.2500in; tabstops:2.8840in/C,5.7681in/C; dom-dir:ltr; text-indent:0.2500in; line-height:1.0; text-align:right; margin-right:0.2500in"></p>
+<p style="Normal" xid="961" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="21" xid="962">
+<p style="Footer" xid="963" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"></p>
+<p style="Footer" xid="964" props="margin-left:0.2500in; tabstops:2.8840in/C,5.7681in/C; dom-dir:ltr; text-indent:0.2500in; line-height:1.0; text-align:right; margin-right:0.2500in"></p>
+<p style="Normal" xid="965" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="27" xid="966">
+<p style="Footer" xid="967" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"></p>
+<p style="Footer" xid="968" props="margin-left:0.2500in; tabstops:2.8840in/C,5.7681in/C; dom-dir:ltr; text-indent:0.2500in; line-height:1.0; text-align:right; margin-right:0.2500in"></p>
+<p style="Normal" xid="969" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="33" xid="970">
+<p style="Footer" xid="971" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"></p>
+<p style="Footer" xid="972" props="margin-left:0.2500in; tabstops:2.8840in/C,5.7681in/C; dom-dir:ltr; text-indent:0.2500in; line-height:1.0; text-align:right; margin-right:0.2500in"></p>
+<p style="Normal" xid="973" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="39" xid="974">
+<p style="Footer" xid="975" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"></p>
+<p style="Footer" xid="976" props="margin-left:0.2500in; tabstops:2.8840in/C,5.7681in/C; dom-dir:ltr; text-indent:0.2500in; line-height:1.0; text-align:right; margin-right:0.2500in"></p>
+<p style="Normal" xid="977" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="45" xid="978">
+<p style="Footer" xid="979" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"></p>
+<p style="Footer" xid="980" props="margin-left:0.2500in; tabstops:2.8840in/C,5.7681in/C; dom-dir:ltr; text-indent:0.2500in; line-height:1.0; text-align:right; margin-right:0.2500in"></p>
+<p style="Normal" xid="981" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="51" xid="982">
+<p style="Footer" xid="983" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"><field type="page_number" xid="984"></field></p>
+<p style="Footer" xid="985" props="margin-left:0.2500in; tabstops:2.8840in/C,5.7681in/C; dom-dir:ltr; text-indent:0.2500in; line-height:1.0; text-align:right; margin-right:0.2500in"></p>
+<p style="Normal" xid="986" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+<p xid="987"></p>
+</section>
+<section type="footer" id="15" xid="988">
+<p style="Footer" xid="989" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"><field type="page_number" xid="990"></field></p>
+<p xid="991"></p>
+</section>
+<section type="header-first" id="16" xid="992">
+<p style="Footer" xid="993" props="text-align:right; tabstops:2.8840in/C,5.7681in/C; line-height:1.0; dom-dir:ltr"></p>
+<p xid="994"><field type="page_number" xid="995"></field></p>
+<p xid="996"><field type="page_number" xid="997"></field></p>
+<p xid="998"><field type="page_number" xid="999"></field></p>
+<p xid="1000"><field type="page_number" xid="1001"></field></p>
+<p xid="1002"><field type="page_number" xid="1003"></field></p>
+<p xid="1004"><field type="page_number" xid="1005"></field></p>
+<p xid="1006"><field type="page_number" xid="1007"></field></p>
+<p xid="1008"><field type="page_number" xid="1009"></field></p>
+<p xid="1010"><field type="page_number" xid="1011"></field></p>
+<p xid="1012"><field type="page_number" xid="1013"></field></p>
+<p xid="1014"><field type="page_number" xid="1015"></field></p>
+<p xid="1016"><field type="page_number" xid="1017"></field></p>
+<p xid="1018"><field type="page_number" xid="1019"></field></p>
+<p xid="1020"></p>
+</section>
+<section type="footer-first" id="17" xid="1021">
+<p style="Normal" xid="1022" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="21" xid="1023">
+<p style="Normal" xid="1024" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="22" xid="1025">
+<p style="Normal" xid="1026" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="23" xid="1027">
+<p style="Normal" xid="1028" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="27" xid="1029">
+<p style="Normal" xid="1030" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="28" xid="1031">
+<p style="Normal" xid="1032" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="29" xid="1033">
+<p style="Normal" xid="1034" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="33" xid="1035">
+<p style="Normal" xid="1036" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="34" xid="1037">
+<p style="Normal" xid="1038" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="35" xid="1039">
+<p style="Normal" xid="1040" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="39" xid="1041">
+<p style="Normal" xid="1042" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="40" xid="1043">
+<p style="Normal" xid="1044" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="41" xid="1045">
+<p style="Normal" xid="1046" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="45" xid="1047">
+<p style="Normal" xid="1048" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="46" xid="1049">
+<p style="Normal" xid="1050" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="47" xid="1051">
+<p style="Normal" xid="1052" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="51" xid="1053">
+<p style="Normal" xid="1054" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="52" xid="1055">
+<p style="Normal" xid="1056" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="53" xid="1057">
+<p style="Normal" xid="1058" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="57" xid="1059">
+<p style="Normal" xid="1060" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="58" xid="1061">
+<p style="Normal" xid="1062" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="59" xid="1063">
+<p style="Normal" xid="1064" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="63" xid="1065">
+<p style="Normal" xid="1066" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="64" xid="1067">
+<p style="Normal" xid="1068" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="65" xid="1069">
+<p style="Normal" xid="1070" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="69" xid="1071">
+<p style="Normal" xid="1072" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="70" xid="1073">
+<p style="Normal" xid="1074" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="71" xid="1075">
+<p style="Normal" xid="1076" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="75" xid="1077">
+<p style="Normal" xid="1078" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="76" xid="1079">
+<p style="Normal" xid="1080" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="77" xid="1081">
+<p style="Normal" xid="1082" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="81" xid="1083">
+<p style="Normal" xid="1084" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="82" xid="1085">
+<p style="Normal" xid="1086" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="83" xid="1087">
+<p style="Normal" xid="1088" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="87" xid="1089">
+<p style="Normal" xid="1090" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="88" xid="1091">
+<p style="Normal" xid="1092" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="89" xid="1093">
+<p style="Normal" xid="1094" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="93" xid="1095">
+<p style="Normal" xid="1096" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="94" xid="1097">
+<p style="Normal" xid="1098" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="95" xid="1099">
+<p style="Normal" xid="1100" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="99" xid="1101">
+<p style="Normal" xid="1102" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="100" xid="1103">
+<p style="Normal" xid="1104" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="101" xid="1105">
+<p style="Normal" xid="1106" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="105" xid="1107">
+<p style="Normal" xid="1108" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="111" xid="1109">
+<p style="Normal" xid="1110" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="106" xid="1111">
+<p style="Normal" xid="1112" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="107" xid="1113">
+<p style="Normal" xid="1114" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="111" xid="1115">
+<p style="Normal" xid="1116" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="112" xid="1117">
+<p style="Normal" xid="1118" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="113" xid="1119">
+<p style="Normal" xid="1120" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="117" xid="1121">
+<p style="Normal" xid="1122" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="123" xid="1123">
+<p style="Normal" xid="1124" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="124" xid="1125">
+<p style="Normal" xid="1126" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="125" xid="1127">
+<p style="Normal" xid="1128" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="129" xid="1129">
+<p style="Normal" xid="1130" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="130" xid="1131">
+<p style="Normal" xid="1132" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="131" xid="1133">
+<p style="Normal" xid="1134" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer" id="135" xid="1135">
+<p style="Normal" xid="1136" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header-first" id="136" xid="1137">
+<p style="Normal" xid="1138" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="footer-first" id="137" xid="1139">
+<p style="Normal" xid="1140" props="text-align:right; line-height:1.0; dom-dir:ltr"></p>
+</section>
+</abiword>

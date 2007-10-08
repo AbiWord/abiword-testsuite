@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<!-- ================================================================================ -->
+<!-- This DocBook file was created by AbiWord.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                                   -->
+<!-- You may obtain more information about AbiWord at http://www.abisource.com        -->
+<!-- ================================================================================ -->
+
+<book condition="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0" lang="en-US">
+	<bookinfo>
+		<bibliomisc><application class="software">AbiWord</application></bibliomisc>
+	</bookinfo>
+	<chapter>
+		<title></title>
+		<section role="Normal">
+			<title></title>
+			<para condition="font-family:Times New Roman; font-size:12pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></para>
+			<section role="abi-frame" condition="xpad:0.03in; ypad:0.03in; frame-col-ypos:0.020833in; bot-style:1; frame-col-xpos:0.687500in; position-to:column-above-text; left-style:1; xpos:0.687500in; bg-style:1; ypos:0.020833in; frame-width:3.510417in; frame-height:2.406250in; frame-page-ypos:1.020833in; frame-type:textbox; top-style:1; frame-page-xpos:1.687500in; background-color:ffffff; wrap-mode:wrapped-both; tight-wrap:0; right-style:1">
+				<title></title>
+				<informaltable frame="all">
+					<tgroup cols='5' align='left' colsep='1' rowsep='1'>
+					<colspec colname='c1'/>
+					<colspec colname='c2'/>
+					<colspec colname='c3'/>
+					<colspec colname='c4'/>
+					<colspec colname='c5'/>
+					<tbody>
+						<row>
+							<entry condition="bot-attach:1; left-attach:0; right-attach:1; top-attach:0"><para></para></entry>
+							<entry condition="bot-attach:1; left-attach:1; right-attach:2; top-attach:0"><para></para></entry>
+							<entry condition="bot-attach:1; left-attach:2; right-attach:3; top-attach:0"><para></para></entry>
+							<entry condition="bot-attach:1; left-attach:3; right-attach:4; top-attach:0"><para></para></entry>
+							<entry condition="bot-attach:1; left-attach:4; right-attach:5; top-attach:0"><para></para></entry>
+						</row>
+						<row>
+							<entry condition="bot-attach:2; left-attach:0; right-attach:1; top-attach:1"><para></para></entry>
+							<entry condition="bot-attach:2; left-attach:1; right-attach:2; top-attach:1"><para></para></entry>
+							<entry condition="bot-attach:2; left-attach:2; right-attach:3; top-attach:1"><para></para></entry>
+							<entry condition="bot-attach:2; left-attach:3; right-attach:4; top-attach:1"><para></para></entry>
+							<entry condition="bot-attach:2; left-attach:4; right-attach:5; top-attach:1"><para></para></entry>
+						</row>
+					</tbody>
+					</tgroup>
+				</informaltable>
+				<para condition="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"></para>
+			</section>
+		</section>
+		<section>
+			<title></title>
+			<para></para>
+		</section>
+	</chapter>
+</book>

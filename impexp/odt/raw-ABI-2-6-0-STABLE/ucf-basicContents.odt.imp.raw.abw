@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="17" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.6.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="meta:editing-duration">PT19S</m>
+<m key="dc.date">
+    2005-12-13T11:59:58
+  </m>
+<m key="abiword.date_last_changed">2005-12-13T11:59:58</m>
+<m key="meta:editing-cycles">1</m>
+<m key="dc.creator">Majid Ali Khan</m>
+<m key="dc.language">en-US</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="meta:initial-creator">
+    Majid Ali Khan
+  </m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191871270" uid="a0acd344-75d3-11dc-9abf-944ba98986da">
+<version id="1" started="1191871270" uid="a0af275c-75d3-11dc-9abf-944ba98986da" auto="0" top-xid="17"/>
+</history>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:1.0in; page-margin-left:1.0in; page-margin-top:1.0in; page-margin-bottom:1.0in">
+<p xid="2"> This is a sample test message for paragraph content test case </p>
+<p xid="3"> <br/> </p>
+<p xid="4"> All white space should be collapsed. </p>
+<p xid="5"> <br/> </p>
+<p xid="6"> Ten           spaces with &lt;text:s text:c="9" /&gt;; with one default space. </p>
+<p xid="7"> Ten          spaces with &lt;text:s text:c="10" /&gt;. </p>
+<p xid="8"> Three    spaces with &lt;text:s /&gt;. </p>
+<p xid="9"> <br/> </p>
+<p xid="10"> Three	tabs with &lt;text:tab text:tab-ref="3" /&gt;. </p>
+<p xid="11"> Three			tabs with &lt;text:tab/&gt;. </p>
+<p xid="12"> <br/> </p>
+<p xid="13"> Three line breaks<br/><br/><br/> with &lt;text:line-break/&gt; end here. </p>
+<p xid="14"> <br/> </p>
+<p xid="15"> Soft Hyphen ­ </p>
+<p xid="16"> Non-breaking hyphen ‑ </p>
+<p xid="17"> No break space </p>
+</section>
+</abiword>

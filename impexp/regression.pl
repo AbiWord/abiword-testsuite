@@ -44,21 +44,24 @@ sub DiffTest
 	
 	my $rawPath;
 	my $newRawPath;
+	my $ext;
 	if ($exp_extension)
 	{
 		$rawPath = $basedir . '/' . $branch_dir . '/' . $file . ".exp.raw.$exp_extension";
 		$newRawPath = $basedir . '/' . $branch_dir . '/' . $file . ".exp.raw.new.$exp_extension";
+		$ext = $exp_extension;
 	}
 	else
 	{
 		$rawPath = $basedir . '/' . $branch_dir . '/' . $file . ".imp.raw.abw";
 		$newRawPath = $rawPath . ".new.abw";
+		$ext = "abw";
 	}
 
 	my $diffPath = "$rawPath.diff.txt";
 	
 	# generate a new raw output to compare with
-	`$abiword_binary --to=$newRawPath $basedir/$file`;
+	`$abiword_binary --to=$ext --to-name=$newRawPath $basedir/$file`;
 	
 	# HACK: check if there is a raw file with _some_ contents. If not, we assume to have been segfaulted
 	my $err = "";
@@ -143,16 +146,19 @@ sub ValgrindTest
 	
 	$filePath = $basedir . '/' . $file;
 	my $destPath;
-	my $vgPath; 
+	my $vgPath;
+	my $ext; 
 	if ($exp_extension)
 	{
 		$destPath = "/tmp/abiword-testsuite/valgrind.tmp." . $exp_extension;
 		$vgPath = $basedir . '/raw-' . $branch . '/' . $file . '.' . $exp_extension . '.vg.txt';
+		$ext = $exp_extension;
 	}
 	else
 	{
 		$destPath = "/tmp/abiword-testsuite/valgrind.tmp.abw";
 		$vgPath = $basedir . '/raw-' . $branch . '/' . $file . '.vg.txt';
+		$ext = "abw";
 	}
 
 
@@ -167,7 +173,7 @@ sub ValgrindTest
 
 	$valgrind_error = 0;
 	$valgrind_leak = 0;
-	`$vgCommand $vg_options $abiword_binary --to=$destPath $filePath >& $vgPath`;
+	`$vgCommand $vg_options $abiword_binary --to=$ext --to-name=$destPath $filePath >& $vgPath`;
 	open VG, "$vgPath";
 	my $vg_output;
 	while (<VG>)

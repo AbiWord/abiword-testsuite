@@ -2,7 +2,9 @@
 require "../regression.conf";
 
 sub GenRaw {
-	my ($branch) = @_;
+	my ($abiword_binary, $branch) = @_;
+	die unless $abiword_binary;
+	die unless $branch;
 
 	# TODO: Move this to regression.conf
 	$importDirs = 'abw rtf txt odt doc wpd xml opml';
@@ -23,7 +25,7 @@ sub GenRaw {
 		{
 			$filePath = $subDir  . '/' . $file;
 			$fileOutPath = $subDir  . '/' . "raw-" . $branch . "/" . $file . ".imp.raw.abw";
-			`abiword --to=$fileOutPath $filePath`;
+			`$abiword_binary --to=abw --to-name=$fileOutPath $filePath`;
 		}
 	    }
 
@@ -46,30 +48,42 @@ sub GenRaw {
 			{
 				$filePath = $source . '/' . $file;
 				$fileOutPath = $source  . '/' . "raw-" . $branch . "/" . $file . ".exp.raw." .$sink;
-				`abiword --to=$fileOutPath $filePath`;
+				`$abiword_binary --to=$sink --to-name=$fileOutPath $filePath`;
 			}
 		}
 	}
 }
 
+#
 # Main function
+#
 
-# start a virtual X server
-`Xvfb $DISPLAY -ac & disown`;
+#
+# Setup environment variables
+#
 
-if ($root eq "")
+#ugly
+$ENV{DISPLAY} = ""; # we don't require a display to run
+$ENV{LD_LIBRARY_PATH} = "$root/$prefix/lib";
+$ENV{PKG_CONFIG_PATH} = "$root/$prefix/lib/pkgconfig";
+$ENV{G_SLICE} = "always-malloc";
+$ENV{PATH} = "$root/../$prefix/bin:" . $ENV{PATH}; # hack hack hack
+
+foreach my $module_info ( @branches )
 {
-	printf "\$root is unset, please check your regression.conf file\n";
-	die;
-}
+	my ($abiword_url, $abiword_plugins_url, $abiword_binary) = @$module_info;
+	die unless $abiword_url;
+	die unless $abiword_plugins_url;
+	die unless $abiword_binary;
 
-my $branch;
-foreach $branch ( @branches )
-{
-	`cd .. ; ./cleanup.pl $branch ; ./bootstrap.pl $branch`;
-	&GenRaw($branch);
-}
+	$abiword_url =~ m/.*\/(.*)/;
+	my $sn = $1;
 
-`killall Xvfb`;
+	# bootstrap the regression test suite
+	system("cd .. && ./cleanup.pl $abiword_url");
+	system("cd .. && ./bootstrap.pl $abiword_url $abiword_plugins_url");
+
+	&GenRaw($abiword_binary, $sn);
+}
 
 1;

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="4" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.6.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="meta:editing-duration">PT8S</m>
+<m key="meta:editing-cycles">2</m>
+<m key="dc.date">2006-07-27T03:20:37</m>
+<m key="abiword.date_last_changed">2006-07-27T03:20:45</m>
+<m key="dc.language">en-US</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191871270" uid="a0493e42-75d3-11dc-9abf-944ba98986da">
+<version id="1" started="1191871270" uid="a04c0104-75d3-11dc-9abf-944ba98986da" auto="0" top-xid="4"/>
+</history>
+<styles>
+<s type="P" name="Normal" props="lang:en-US; font-size:12pt; font-family:Times New Roman; dom-dir:ltr"/>
+<s type="P" name="Heading" basedon="Normal" followedby="Text body" props="margin-top:0.1665in; keep-with-next:yes; margin-bottom:0.0835in; font-family:Arial; font-size:14pt"/>
+<s type="P" name="Text body" basedon="Normal" followedby="Text body" props="margin-bottom:0.0835in; margin-top:0in"/>
+<s type="P" name="Caption" basedon="Normal" followedby="Caption" props="margin-top:0.0835in; font-size:12pt; margin-bottom:0.0835in; font-style:italic"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="2" props="page-margin-right:0.7874in; page-margin-left:0.7874in; page-margin-top:0.7874in; page-margin-bottom:0.7874in">
+<p style="Normal" xid="3" props="dom-dir:ltr">do you see a sqrt? <math dataid="MathLatex0" xid="4" props="height:0.1972in; width:0.352in"><image dataid="snapshot-png-MathLatex0" props="height:0.000000in; width:0.000000in"/></math></p>
+</section>
+<data>
+<d name="MathLatex0" mime-type="application/mathml+xml" base64="no">
+<![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd"><math:math xmlns:math="http://www.w3.org/1998/Math/MathML"><math:semantics><math:msqrt><math:mrow><math:mi>a</math:mi><math:mstyle math:fontstyle="italic"><math:mrow><math:mtext>+</math:mtext></math:mrow></math:mstyle><math:mi>b</math:mi></math:mrow></math:msqrt><math:annotation math:encoding="StarMath 5.0">sqrt {a italic &quot;+&quot; b}</math:annotation></math:semantics></math:math>]]>
+</d>
+</data>
+</abiword>

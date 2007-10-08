@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="89" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.6.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.date">1998-11-19T01:38:00Z</m>
+<m key="abiword.date_last_changed">1998-11-19T01:40:00Z</m>
+<m key="dc.creator">caolan mcnamara</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.publisher">Sheol Enterprises</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.title">Jump to other location</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191871317" uid="bcb9c61e-75d3-11dc-8102-d407f6347e7d">
+<version id="1" started="1191871317" uid="bcc0c978-75d3-11dc-8102-d407f6347e7d" auto="0" top-xid="89"/>
+</history>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:14pt; dom-dir:ltr; margin-bottom:3pt; lang:en-US; font-weight:bold; line-height:1.0; text-align:left; margin-top:12pt; keep-with-next:yes"/>
+<s type="P" name="Normal" followedby="Normal" props="text-decoration:none; text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-US; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="font-family:Arial; dom-dir:ltr; font-style:italic; font-weight:bold; lang:en-US; margin-top:12pt; text-align:left; keep-with-next:yes; margin-bottom:3pt; line-height:1.0; font-size:12pt"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1" xid="2" props="text-align:center; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-size:14pt; font-family:Arial; font-weight:bold">Hyperlinking</c></p>
+<p style="Normal" xid="3" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">nonhidden point bookmark link, </c><a xlink:href="#bookmark1" xid="4"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Jump to other location</c></a></p>
+<p style="Normal" xid="6" props="text-align:left; line-height:1.0; dom-dir:ltr"><bookmark type="start" name="bookmark1" xid="7"/><bookmark type="end" name="bookmark1" xid="8"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Other location</c></p>
+<p style="Normal" xid="9" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"><pbr/>Hidden point bookmark link, </c><a xlink:href="#bookmark2" xid="10"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Jump to another location</c></a></p>
+<p style="Normal" xid="12" props="text-align:left; line-height:1.0; dom-dir:ltr"><bookmark type="start" name="bookmark2" xid="13"/><bookmark type="end" name="bookmark2" xid="14"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Another location</c></p>
+<p style="Normal" xid="15" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"><pbr/>Nonhidden selection bookmark link, </c><a xlink:href="#bookmark3" xid="16"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Jump to this location</c></a></p>
+<p style="Normal" xid="18" props="text-align:left; line-height:1.0; dom-dir:ltr"><bookmark type="start" name="bookmark3" xid="19"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">This location</c><bookmark type="end" name="bookmark3" xid="20"/></p>
+<p style="Normal" xid="21" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"><pbr/>Hidden selection bookmark link, </c><a xlink:href="#bookmark4" xid="22"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">jump to that location</c></a></p>
+<p style="Normal" xid="24" props="text-align:left; line-height:1.0; dom-dir:ltr"><bookmark type="start" name="bookmark4" xid="25"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">That Location</c><bookmark type="end" name="bookmark4" xid="26"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"><pbr/>Ordinary http link </c><a xlink:href="http://www.csn.ul.ie/%7ecaolan/docs/MSWordView.html" xid="27"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">http://www.csn.ul.ie/~caolan/docs/MSWordView.html</c></a></p>
+<p style="Normal" xid="29" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Ordinary mailto link </c><a xlink:href="mailto:caolan.mcnamara%40ul.ie" xid="30"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">mailto:caolan.mcnamara@ul.ie</c></a></p>
+<p style="Heading 1" xid="32" props="text-align:center; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-size:14pt; font-family:Arial; font-weight:bold"><pbr/>CrossReferencing</c></p>
+<p style="Heading 2" xid="33" props="text-align:center; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-weight:bold; font-family:Arial; font-size:12pt; font-style:italic">Crossreference BookMark by Text</c></p>
+<p style="Normal" xid="34" props="text-align:left; line-height:1.0; dom-dir:ltr"><bookmark type="start" name="cross" xid="35"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am a particular reference selection bookmark</c></p>
+<p style="Normal" xid="36" props="text-align:left; line-height:1.0; dom-dir:ltr"><bookmark type="end" name="cross" xid="37"/></p>
+<p style="Normal" xid="38" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the text&lt; </c></p>
+<p style="Normal" xid="39" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">&gt; directly.</c></p>
+<p style="Normal" xid="40" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the text&lt;</c></p>
+<p style="Normal" xid="41" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">&gt; as a hyperlink</c></p>
+<p style="Normal" xid="42" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 2" xid="43" props="text-align:center; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-weight:bold; font-family:Arial; font-size:12pt; font-style:italic">Crossreference BookMark by Pagenumber</c></p>
+<p style="Normal" xid="44" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the pagenumber of the reference text &lt;</c><field type="page_ref" param="cross" xid="45"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">&gt;</c></p>
+<p style="Normal" xid="46" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference bookmark 1’s pagenumber with above/below &lt;</c><field type="page_ref" param="bookmark1" xid="47"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">&gt;</c></p>
+<p style="Normal" xid="48" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the reference bookmark with above/below &lt;</c><field type="page_ref" param="cross" xid="49"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">&gt;</c></p>
+<p style="Normal" xid="50" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the line below me with above/below &lt;</c><field type="page_ref" param="cross2" xid="51"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">&gt;</c></p>
+<p style="Normal" xid="52" props="text-align:left; line-height:1.0; dom-dir:ltr"><bookmark type="start" name="cross2" xid="53"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the final bookmark with above/below</c><bookmark type="end" name="cross2" xid="54"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"> &lt;</c><field type="page_ref" param="finalpoint" xid="55"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">&gt;</c></p>
+<p style="Normal" xid="56" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the final bookmark with above/below without hyperlink &lt;</c><field type="page_ref" param="finalpoint" xid="57"></field><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">&gt;, this only matters</c></p>
+<p style="Normal" xid="58" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">as to whether word should take a click on it to mean jump to that location</c></p>
+<p style="Heading 2" xid="59" props="text-align:center; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-weight:bold; font-family:Arial; font-size:12pt; font-style:italic">Crossreference BookMark by above below</c></p>
+<p style="Normal" xid="60" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Reference above &lt;&gt;</c></p>
+<p style="Normal" xid="61" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Reference below&lt;&gt;</c></p>
+<p style="Normal" xid="62" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Heading 2" xid="63" props="text-align:center; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-US; font-weight:bold; font-family:Arial; font-size:12pt; font-style:italic">Attempts to Break Crossreferencing BookMarks</c></p>
+<p style="Normal" xid="64" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="65" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I have been unable to create a bookmark that contains “ # or spaces, so I believe there cannot be any conflict with either the simple grammer I have devised for them or with html tags.</c></p>
+<p style="Normal" xid="66" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="67" props="text-align:left; line-height:1.0; dom-dir:ltr"><bookmark type="start" name="inbookmark" xid="68"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am </c><bookmark type="start" name="abookmark" xid="69"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">“a bookmark”</c><bookmark type="end" name="abookmark" xid="70"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman"> within a bookmark</c></p>
+<p style="Normal" xid="71" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="72" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am a link to the internal bookmark on page </c><field type="page_ref" param="abookmark" xid="73"></field></p>
+<p style="Normal" xid="74" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am a link to the external bookmark on page </c><field type="page_ref" param="inbookmark" xid="75"></field></p>
+<p style="Normal" xid="76" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="77" props="text-align:left; line-height:1.0; dom-dir:ltr"><bookmark type="start" name="htmlbookmark" xid="78"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am a bookmark that contains a url </c><a xlink:href="#abookmark" xid="79"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">abookmark</c></a><bookmark type="end" name="htmlbookmark" xid="81"/></p>
+<p style="Normal" xid="82" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="83" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the paragraph number of a bookmark </c></p>
+<p style="Normal" xid="84" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the para num with no context </c></p>
+<p style="Normal" xid="85" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I reference the para num with full context <pbr/></c><bookmark type="start" name="finalpoint" xid="86"/><bookmark type="end" name="finalpoint" xid="87"/><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am the last point bookmark</c><bookmark type="end" name="inbookmark" xid="88"/></p>
+<p xid="89"></p>
+</section>
+</abiword>

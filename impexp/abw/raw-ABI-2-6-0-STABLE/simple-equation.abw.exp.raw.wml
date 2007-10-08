@@ -1,0 +1,12 @@
+<!DOCTYPE wml PUBLIC "-//PHONE.COM//DTD WML 1.1//EN"
+	"http://www.openwave.com/dtd/wml11.dtd" >
+<!-- This WML file was created by AbiWord -->
+<!-- See http://www.abisource.com/ -->
+
+<wml>
+<head>
+</head>
+<card id="card1" ordered="true">
+<p><img alt="AbiWord Equation" src="simple-equation.abw.exp.raw.wml_data/snapshot-png-MathLatex0.png" xml:lang="en-US"/></p>
+</card>
+</wml>

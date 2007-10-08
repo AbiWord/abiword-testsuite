@@ -1,0 +1,18 @@
+<!DOCTYPE wml PUBLIC "-//PHONE.COM//DTD WML 1.1//EN"
+	"http://www.openwave.com/dtd/wml11.dtd" >
+<!-- This WML file was created by AbiWord -->
+<!-- See http://www.abisource.com/ -->
+
+<wml>
+<head>
+</head>
+<card id="card1" ordered="true">
+<p>Top of Form 1</p>
+<p align="left">Web <a href="/imghp?hl=en%26tab=wi">Images</a> <a href="/grphp?hl=en%26tab=wg">Groups</a> <a href="/nwshp?hl=en%26tab=wn">News</a> <a href="/froogle?hl=en%26tab=wf">Froogle</a> <a href="/options/index.html">more »</a></p>
+<p align="left"><br/><a href="/advanced_search?hl=en">Advanced Search</a><br/><a href="/preferences?hl=en">Preferences</a><br/><a href="/language_tools?hl=en">Language Tools</a>Bottom of Form 1</p>
+<p align="left">New! Need to know? Be the first to find out with <a href="http://www.google.com/alerts?promo=hpp-us-1">Google Alerts</a>.<br/></p>
+<p align="left"><br/><a href="/ads/">Advertising Programs</a> - <a href="/services/">Business Solutions</a> - <a href="/about.html">About Google</a> </p>
+<p align="left">©2004 Google - Searching 4,285,199,774 web pages</p>
+<p align="left"></p>
+</card>
+</wml>

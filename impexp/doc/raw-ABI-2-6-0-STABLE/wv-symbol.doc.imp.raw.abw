@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="7" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.6.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.publisher">Univeristy of Limerick</m>
+<m key="dc.date">1998-06-17T18:04:00Z</m>
+<m key="abiword.date_last_changed">1998-06-17T18:09:00Z</m>
+<m key="dc.creator">Caolan.McNamara</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191871318" uid="bd2e32ce-75d3-11dc-8b1e-cb64b4b4e2cd">
+<version id="1" started="1191871318" uid="bd324c06-75d3-11dc-8b1e-cb64b4b4e2cd" auto="0" top-xid="7"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Normal" props="text-decoration:none; text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+</styles>
+<pagesize pagetype="Custom" orientation="portrait" width="8.270139" height="11.690278" units="in" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Normal" xid="2" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Symbol"></c></p>
+<p style="Normal" xid="3" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Symbol"></c></p>
+<p style="Normal" xid="4" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Symbol"></c></p>
+<p style="Normal" xid="5" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">		</c></p>
+<p style="Normal" xid="6" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Symbol"></c></p>
+<p xid="7"></p>
+</section>
+</abiword>

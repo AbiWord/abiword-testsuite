@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="80" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.7.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.date">1998-02-20T09:11:00Z</m>
+<m key="abiword.date_last_changed">1998-02-20T18:32:00Z</m>
+<m key="dc.creator">Suman Nayak</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.publisher">Interaction Design Centre</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.title">Thirteen museum Web sites for review</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191872291" uid="00b8f41e-75d6-11dc-83ab-b1cffac04576">
+<version id="1" started="1191872291" uid="00beca56-75d6-11dc-83ab-b1cffac04576" auto="0" top-xid="80"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Normal" props="text-decoration:none; text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:en-GB; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:10pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Normal" xid="2" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="3" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; font-weight:bold">Thirteen museum Web sites for review</c></p>
+<p style="Normal" xid="4" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="5" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">They’re from France, Denmark, Australia, even Ireland,…</c></p>
+<p style="Normal" xid="6" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">They’re on water, planets, computers, fine arts,…</c></p>
+<p style="Normal" xid="7" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">They’re world-famous and less famous</c></p>
+<p style="Normal" xid="8" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">They’re backed by physical museums and virtual only</c></p>
+<p style="Normal" xid="9" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">But they’re not representative</c></p>
+<p style="Normal" xid="10" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="11" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="12" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">Spent some time at each site and make notes of</c></p>
+<p style="Normal" xid="13" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">your assessment of the usability of the site</c></p>
+<p style="Normal" xid="14" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">your personal impression of the site</c></p>
+<p style="Normal" xid="15" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="16" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="17" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">To be discussed Thursday afternoon, February 26</c><c props="lang:en-GB; text-position:superscript; font-size:10pt; font-family:Times New Roman">th</c><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">.</c></p>
+<p style="Normal" xid="18" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="19" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="20" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<table xid="21" props="table-column-props:2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/2.6347in/3.3465in/; table-column-leftpos:-0.0750in; table-line-thickness:0.8pt; table-col-spacing:0.03in; table-line-type:1; table-line-ignore:0">
+<cell xid="22" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="23" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; font-weight:bold">Museum</c></p>
+</cell>
+<cell xid="24" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:1; top-attach:0">
+<p style="Normal" xid="25" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman; font-weight:bold">URL</c></p>
+</cell>
+<cell xid="26" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="27" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Crawford Municipal Art Gallery, Cork</c></p>
+</cell>
+<cell xid="28" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:2; top-attach:1">
+<p style="Normal" xid="29" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.synergy.ie/crawford/</c></p>
+</cell>
+<cell xid="30" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="31" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The Louvre, Paris</c></p>
+</cell>
+<cell xid="32" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:3; top-attach:2">
+<p style="Normal" xid="33" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://mistral.culture.fr/louvre/louvrea.htm</c></p>
+</cell>
+<cell xid="34" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="35" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Château de Versailles, near Paris</c></p>
+</cell>
+<cell xid="36" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:4; top-attach:3">
+<p style="Normal" xid="37" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.chateauversailles.fr/en/</c></p>
+</cell>
+<cell xid="38" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:5; top-attach:4">
+<p style="Normal" xid="39" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The Louisiana Museum of Modern Art, north of Copenhagen</c></p>
+</cell>
+<cell xid="40" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:5; top-attach:4">
+<p style="Normal" xid="41" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.louisiana.dk/english1.html</c></p>
+</cell>
+<cell xid="42" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:6; top-attach:5">
+<p style="Normal" xid="43" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Tycho Brahe Planetarium &amp; Omnimaxtheater, Copenhagen</c></p>
+</cell>
+<cell xid="44" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:6; top-attach:5">
+<p style="Normal" xid="45" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.astro.ku.dk/tycho.html</c></p>
+</cell>
+<cell xid="46" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:7; top-attach:6">
+<p style="Normal" xid="47" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Aquaria Vattenmuseum, Stockholm</c></p>
+</cell>
+<cell xid="48" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:7; top-attach:6">
+<p style="Normal" xid="49" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://home2.swipnet.se/~w-23154/ehome.html</c></p>
+</cell>
+<cell xid="50" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:8; top-attach:7">
+<p style="Normal" xid="51" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Fredrikstad Museum, Fredrikstad, Norway</c></p>
+</cell>
+<cell xid="52" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:8; top-attach:7">
+<p style="Normal" xid="53" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.hiof.no/fredrikstad-museum/</c></p>
+</cell>
+<cell xid="54" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:9; top-attach:8">
+<p style="Normal" xid="55" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Exploratorium, San Francisco</c></p>
+</cell>
+<cell xid="56" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:9; top-attach:8">
+<p style="Normal" xid="57" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.exploratorium.edu/</c></p>
+</cell>
+<cell xid="58" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:10; top-attach:9">
+<p style="Normal" xid="59" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">National Gallery of Art, Washington DC</c></p>
+</cell>
+<cell xid="60" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:10; top-attach:9">
+<p style="Normal" xid="61" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.nga.gov/</c></p>
+</cell>
+<cell xid="62" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:11; top-attach:10">
+<p style="Normal" xid="63" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">Uffizi Gallery, Florence, Italy</c></p>
+</cell>
+<cell xid="64" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:11; top-attach:10">
+<p style="Normal" xid="65" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.uffizi.firenze.it/welcomeE.html</c></p>
+</cell>
+<cell xid="66" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:12; top-attach:11">
+<p style="Normal" xid="67" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">National Museum of Australia, Canberra</c></p>
+</cell>
+<cell xid="68" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:12; top-attach:11">
+<p style="Normal" xid="69" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.nma.gov.au/</c></p>
+</cell>
+<cell xid="70" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:13; top-attach:12">
+<p style="Normal" xid="71" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">EXPO Ticket Office, virtual only</c></p>
+</cell>
+<cell xid="72" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:13; top-attach:12">
+<p style="Normal" xid="73" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://sunsite.unc.edu/expo/ticket_office.html</c></p>
+</cell>
+<cell xid="74" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:1; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:0; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:14; top-attach:13">
+<p style="Normal" xid="75" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">The Virtual Museum of Computing, virtual only</c></p>
+</cell>
+<cell xid="76" props="right-thickness:0.000000px; left-color:000000; bot-style:1; bot-thickness:0.000000px; right-attach:2; left-thickness:0.000000px; right-style:1; background-color:ffffff; right-color:000000; top-color:000000; bot-color:000000; left-attach:1; left-style:1; color:000000; top-style:1; top-thickness:0.000000pt; bot-attach:14; top-attach:13">
+<p style="Normal" xid="77" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Times New Roman">http://www.comlab.ox.ac.uk/archive/other/museums/computing.html</c></p>
+</cell>
+</table>
+<p style="Normal" xid="78" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">This is an extra line to test fastsave so there.</c></p>
+<p style="Normal" xid="79" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">C.</c></p>
+<p xid="80"></p>
+</section>
+</abiword>

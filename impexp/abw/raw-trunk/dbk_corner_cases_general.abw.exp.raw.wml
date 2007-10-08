@@ -1,0 +1,156 @@
+<!DOCTYPE wml PUBLIC "-//PHONE.COM//DTD WML 1.1//EN"
+	"http://www.openwave.com/dtd/wml11.dtd" >
+<!-- This WML file was created by AbiWord -->
+<!-- See http://www.abisource.com/ -->
+
+<wml>
+<head>
+<meta name="title" content="&lt;&quot;make sure this title is escaped&quot;&gt;"/>
+<meta name="author" content="&lt;&quot;make sure this author is escaped&quot;&gt;"/>
+<meta name="subject" content="&lt;&quot;make sure this subject is escaped&quot;&gt;"/>
+<meta name="description" content="&lt;&quot;make sure this description is escaped&quot;&gt;"/>
+<meta name="publisher" content="&lt;&quot;make sure this publisher is escaped&quot;&gt;"/>
+<meta name="contributor" content="&lt;&quot;make sure this contributor is escaped&quot;&gt;"/>
+<meta name="source" content="&lt;&quot;make sure this source is escaped&quot;&gt;"/>
+<meta name="relation" content="&lt;&quot;make sure this relation is escaped&quot;&gt;"/>
+<meta name="coverage" content="&lt;&quot;make sure this coverage is escaped&quot;&gt;"/>
+<meta name="rights" content="&lt;&quot;make sure these rights are escaped&quot;&gt;"/>
+<meta name="keywords" content="&lt;&quot;make sure these keywords are escaped&quot;&gt;"/>
+</head>
+<card id="card1" ordered="true">
+<p>
+<table columns="5">
+<tr>
+<td>table</td>
+<td>at</td>
+<td>the</td>
+<td>beginning</td>
+<td>of</td>
+</tr>
+<tr>
+<td>a</td>
+<td>section</td>
+<td>Heading Text - make sure we don't open a section in a table!</td>
+<td>don't write before a nested tableadon't write after either</td>
+<td>only one level of nesting allowed!</td>
+</tr>
+</table>
+</p>
+<p></p>
+<p>invalid title &amp;&nbsp;alt: <img alt="&quot;&lt;morebad&gt;&quot;" src="dbk_corner_cases_general.abw.exp.raw.wml_data/f0050e48-fb90-11da-81d0-b289a9504188.png" width="239.760000" height="228.240000"/></p>
+<p></p>
+<p><a href="http%3a//www.%3c%3e.com">this is a link with invalid xml chars</a></p>
+<p>Oct 08, 2007</p>
+<p>bookmark <anchor id="&lt;&gt;">with</anchor> invalid chars</p>
+<p>TOC with &lt;&gt;&nbsp;in title:</p>
+<p>&lt;Table of Contents&gt;</p>
+<p><a href="#AbiTOC0">[1] Heading Text - make sure we don't open a section in a table!</a></p><p><a href="#AbiTOC1">[2] a</a></p><p><a href="#AbiTOC2">[3] heading with pic</a></p><p><a href="#AbiTOC3">[4] chart in heading</a></p><p><a href="#AbiTOC4">[5] equation in heading</a></p><p><a href="#AbiTOC5">[6] Pagebreak<br/></a></p><p><a href="#AbiTOC6">[7]  in title</a></p><p><a href="#AbiTOC7">[8] Heading Text - make sure we don't open a section in a textbox!</a></p><p><a href="#AbiTOC8">[9]  &nbsp;chapter</a></p><p><a href="#AbiTOC9">[10]  Heading Text - make sure we don't open a section in a footnote!</a></p><p><a href="#AbiTOC10">[11]  &nbsp;chaptertest field text (1 updates)</a></p><p><a href="#AbiTOC11">[12] test field text (1 updates) Heading Text - make sure we don't open a section in an endnote!</a></p><p><a href="#AbiTOC12">[13] Heading Text - make sure we don't open a section in a footer!</a></p><p><a href="#AbiTOC13">[14] 2</a></p><p><a href="#AbiTOC14">[15] Heading Text - make sure we don't open a section in a header!</a></p><p><a href="#AbiTOC15">[16] 6</a></p><p></p>
+<p><anchor id="AbiTOC0"></anchor><img alt="AbiWord Image c2e681e6-fb98-11da-820c-b289a9504188.png" src="dbk_corner_cases_general.abw.exp.raw.wml_data/c2e681e6-fb98-11da-820c-b289a9504188.png" width="239.760000" height="228.240000"/>heading with pic</p>
+<p>aaaaaaadddd</p>
+<p>style name with &lt;&gt;</p>
+<p>style name with &lt;&gt;</p>
+<p></p>
+<p>
+<table columns="5">
+<tr>
+<td>merged cell</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>split cell</td>
+</tr>
+<tr>
+<td>split cell</td>
+</tr>
+</table>
+</p>
+<p><anchor id="AbiTOC1"></anchor>chart in heading<img alt="AbiWord Chart" src="dbk_corner_cases_general.abw.exp.raw.wml_data/snapshot-png-0.png" width="225.000000" xml:lang="fr-FR"/></p>
+<p><anchor id="AbiTOC2"></anchor>equation in heading<img alt="AbiWord Equation" src="dbk_corner_cases_general.abw.exp.raw.wml_data/snapshot-png-MathLatex3.png" xml:lang="en-US"/></p>
+<p><anchor id="AbiTOC3"></anchor>Pagebreak<br/></p>
+<p></p>
+<p></p>
+<p><anchor id="AbiTOC4"></anchor> in title</p>
+<p><anchor id="AbiTOC5"></anchor></p>
+<do type="accept" label="Next"><go href="#card2"/></do>
+</card>
+<card id="card2" ordered="true">
+<p align="left"><anchor id="AbiTOC6"></anchor><b>Heading Text - make sure we don't open a section in a textbox!</b></p>
+<p>
+<table columns="5">
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</p>
+<p align="left"><anchor id="AbiTOC7"></anchor></p>
+<img alt="&lt;&quot;bad&quot;&gt;" src="dbk_corner_cases_general.abw.exp.raw.wml_data/0ef7512e-fb93-11da-81ec-b289a9504188.png"/><p><anchor id="AbiTOC8"></anchor></p>
+<p><anchor id="AbiTOC9"></anchor><b> </b> chapter</p>
+<p><anchor id="AbiTOC10"></anchor> Heading Text - make sure we don't open a section in a footnote! heading with footnote reference</p>
+<p><anchor id="AbiTOC11"></anchor><b> </b> chaptertest field text (1 updates)</p>
+<p><anchor id="AbiTOC12"></anchor>test field text (1 updates) Heading Text - make sure we don't open a section in an endnote!<b> heading with endnote reference</b><b> </b></p>
+<p></p>
+<do type="accept" label="Next"><go href="#card3"/></do>
+</card>
+<card id="card3" ordered="true">
+<p><anchor id="AbiTOC13"></anchor>Heading Text - make sure we don't open a section in a footer!</p>
+<p></p>
+<p>
+<table columns="5">
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</p>
+<p></p>
+<do type="accept" label="Next"><go href="#card4"/></do>
+</card>
+<card id="card4" ordered="true">
+<p><anchor id="AbiTOC14"></anchor>Heading Text - make sure we don't open a section in a header!</p>
+<p>
+<table columns="5">
+<tr>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</p>
+<p><anchor id="AbiTOC15"></anchor></p>
+</card>
+</wml>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" version="2.7.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="35" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-endnote-restart-page:0; document-footnote-restart-page:0; document-footnote-initial:1; document-footnote-type:numeric; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.date">2004-06-06T20:34:00Z</m>
+<m key="abiword.date_last_changed">2004-06-06T21:10:00Z</m>
+<m key="dc.creator">Jan Christiansen</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.publisher">LH Datateknik</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.title">Footnotes and headers</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191872283" uid="fc7a7db4-75d5-11dc-9dbc-89966f60800a">
+<version id="1" started="1191872283" uid="fc7e9b4c-75d5-11dc-9dbc-89966f60800a" auto="0" top-xid="35"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Normal" props="text-decoration:none; text-indent:0in; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:left; bgcolor:transparent; lang:da-DK; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="C" name="Footnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; font-size:10pt"/>
+<s type="P" name="Footnote Text" basedon="Normal" followedby="Footnote Text" props="font-family:Times New Roman; font-size:10pt; dom-dir:ltr; lang:da-DK; line-height:1.0; text-position:normal; text-align:left"/>
+<s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; font-size:10pt"/>
+<s type="P" name="Endnote Text" basedon="Normal" followedby="Endnote Text" props="font-family:Times New Roman; font-size:10pt; dom-dir:ltr; lang:da-DK; line-height:1.0; text-position:normal; text-align:left"/>
+<s type="P" name="Header" basedon="Normal" followedby="Header" props="font-family:Times New Roman; font-size:12pt; tabstops:3.3465in/C,6.6931in/C; dom-dir:ltr; lang:da-DK; line-height:1.0; text-align:left"/>
+<s type="P" name="Footer" basedon="Normal" followedby="Footer" props="font-family:Times New Roman; font-size:12pt; tabstops:3.3465in/C,6.6931in/C; dom-dir:ltr; lang:da-DK; line-height:1.0; text-align:left"/>
+<s type="P" name="Table Normal" followedby="Table Normal" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; lang:da-DK; orphans:0; text-align:left; widows:0"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section footer="9" header="7" xid="1" props="page-margin-right:0.7875in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.6896in; page-margin-header:0.4917in; page-margin-left:0.7875in; page-margin-top:1.1812in; page-margin-bottom:1.1812in">
+<p style="Normal" xid="2" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:da-DK; font-size:12pt; font-family:Times New Roman">Footnotes and headers</c></p>
+<p style="Normal" xid="3" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Normal" xid="4" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman">This documents is made for testing headers/footers</c><field footnote-id="0" type="footnote_ref" style="Footnote Reference" xid="5" props="lang:en-GB; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><foot footnote-id="0" xid="6">
+<p xid="7"></p>
+<p style="Footnote Text" xid="8" props="text-align:left; line-height:1.0; dom-dir:ltr"><field footnote-id="0" type="footnote_anchor" style="Footnote Reference" xid="9" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman"> A footnote is something written a the bottom of a page. It should be named “1”</c></p>
+</foot><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman"> and footnotes/endnotes</c><field endnote-id="0" type="endnote_ref" style="Endnote Reference" xid="10" props="lang:en-GB; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><endnote endnote-id="0" xid="11">
+<p xid="12"></p>
+<p style="Endnote Text" xid="13" props="text-align:left; line-height:1.0; dom-dir:ltr"><field endnote-id="0" type="endnote_anchor" style="Endnote Reference" xid="14" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><c props="lang:da-DK; font-size:12pt; font-family:Times New Roman"> An endnote is written as the last thing of this docoment. It should be named “i”</c></p>
+</endnote><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman">.  There are 2 fields inserted in the header and the footer. The fields are date, time, pageno and totalpages. But we can not test this, before we have two pages. A page break will follow this sentence.</c></p>
+<p style="Normal" xid="15" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman"><pbr/>This is the second page of our test document.</c></p>
+<p style="Normal" xid="16" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p xid="17"></p>
+<p xid="18"></p>
+</section>
+<section type="header" id="7" xid="19">
+<p style="Normal" xid="20" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p style="Header" xid="21" props="text-align:left; tabstops:3.3465in/C,6.6931in/C; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<section type="header" id="7" xid="22">
+<p style="Header" xid="23" props="text-align:left; tabstops:3.3465in/C,6.6931in/C; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman">This is the first line in the header. Current date </c><field type="date" xid="24"></field><field type="meta_date" xid="25"></field><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman"> and time </c><field type="time" xid="26"></field><field type="meta_date" xid="27"></field><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman">.</c></p>
+<p style="Header" xid="28" props="text-align:left; tabstops:3.3465in/C,6.6931in/C; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman">A second line and we have made the rest of the header</c></p>
+<p style="Normal" xid="29" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p xid="30"></p>
+</section>
+<section type="footer" id="9" xid="31">
+<p style="Footer" xid="32" props="text-align:left; tabstops:3.3465in/C,6.6931in/C; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:12pt; font-family:Times New Roman">This is a footer. The first thing to note is, that this is page </c><field type="page_number" xid="33"></field><c style="Page Number" props="lang:en-GB; font-size:10pt; font-family:Times New Roman"> of </c><field type="page_count" xid="34"></field><c style="Page Number" props="lang:en-GB; font-size:10pt; font-family:Times New Roman"> pages. Then we should be aware of, that this is a 2 line footer, if the page width is small enough.</c></p>
+<p style="Normal" xid="35" props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+</section>
+</abiword>

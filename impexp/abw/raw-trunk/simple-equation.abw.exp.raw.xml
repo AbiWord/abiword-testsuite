@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<!-- ================================================================================ -->
+<!-- This DocBook file was created by AbiWord.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                                   -->
+<!-- You may obtain more information about AbiWord at http://www.abisource.com        -->
+<!-- ================================================================================ -->
+
+<book condition="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0" lang="en-US">
+	<bookinfo>
+		<bibliomisc><application class="software">AbiWord</application></bibliomisc>
+	</bookinfo>
+	<chapter>
+		<title></title>
+		<section role="Normal">
+			<title></title>
+			<para><inlineequation><graphic fileref="simple-equation.abw.exp.raw.xml_data/snapshot-png-MathLatex0.png" format="PNG" depth="0.158333in" width="0.539583in" lang="en-US" condition="width:777; font-family:Times New Roman; display:inline; font-variant:normal; font-weight:normal; bgcolor:transparent; ascent:225; font-style:normal; text-position:normal; text-decoration:none; lang:en-US; descent:3; list-style:None; homogeneous:1; height:228; font-size:12pt; font-stretch:normal; color:000000"/></inlineequation></para>
+		</section>
+	</chapter>
+</book>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="2" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.6.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="1" edit-time="0" last-saved="1191871322" uid="bf47dc22-75d3-11dc-8c9f-f715157f785a">
+<version id="1" started="1191871322" uid="bf4a4d36-75d3-11dc-8c9f-f715157f785a" auto="0" top-xid="2"/>
+</history>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="1" props="page-margin-right:0.9842in; page-margin-left:0.9842in; columns:1">
+<p xid="2" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; margin-bottom:0.0000in; tabstops:0.0000in/L0,0.3933in/L0,0.7867in/L0,1.1800in/L0,1.5733in/L0,1.9667in/L0,2.3600in/L0,2.7533in/L0,3.1467in/L0,3.5400in/L0,3.9333in/L0,4.3267in/L0,4.7200in/L0,5.1133in/L0,5.5067in/L0,5.9000in/L0,6.2933in/L0,6.6867in/L0,7.0800in/L0,7.4733in/L0,7.8667in/L0,8.2600in/L0,8.6533in/L0,9.0467in/L0,9.4400in/L0,9.8333in/L0,10.2267in/L0,10.6200in/L0,11.0133in/L0,11.4067in/L0,11.8000in/L0,12.1933in/L0,12.5867in/L0,12.9800in/L0,13.3733in/L0,13.7667in/L0,14.1600in/L0,14.5533in/L0,14.9467in/L0,15.3400in/L0,15.7333in/L0; line-height:1.0000; text-align:left; margin-right:0.0000in"><c props="font-weight:normal; color:#000000; font-family:Times New Roman; font-size:12pt; font-style:normal">This is the document body</c></p>
+</section>
+</abiword>

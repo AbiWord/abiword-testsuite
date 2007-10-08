@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="430" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.4.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.publisher">&amp;lt;&amp;quot;make sure this publisher is escaped&amp;quot;&amp;gt;</m>
+<m key="dc.description">&amp;lt;&amp;quot;make sure this description is escaped&amp;quot;&amp;gt;</m>
+<m key="abiword.keywords">&amp;lt;&amp;quot;make sure these keywords are escaped&amp;quot;&amp;gt;</m>
+<m key="dc.relation">&amp;lt;&amp;quot;make sure this relation is escaped&amp;quot;&amp;gt;</m>
+<m key="dc.rights">&amp;lt;&amp;quot;make sure these rights are escaped&amp;quot;&amp;gt;</m>
+<m key="dc.language">&amp;lt;&amp;quot;make sure this language is escaped&amp;quot;&amp;gt;</m>
+<m key="dc.source">&amp;lt;&amp;quot;make sure this source is escaped&amp;quot;&amp;gt;</m>
+<m key="dc.creator">&amp;lt;&amp;quot;make sure this author is escaped&amp;quot;&amp;gt;</m>
+<m key="dc.coverage">&amp;lt;&amp;quot;make sure this coverage is escaped&amp;quot;&amp;gt;</m>
+<m key="dc.type">&amp;lt;&amp;quot;make sure this category is escaped&amp;quot;&amp;gt;</m>
+<m key="dc.contributor">&amp;lt;&amp;quot;make sure this contributor is escaped&amp;quot;&amp;gt;</m>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.title">&amp;lt;&amp;quot;make sure this title is escaped&amp;quot;&amp;gt;</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.subject">&amp;lt;&amp;quot;make sure this subject is escaped&amp;quot;&amp;gt;</m>
+</metadata>
+<history version="40" edit-time="5044" last-saved="1191871258" uid="6587fdc0-fb8b-11da-8354-b289a9504188">
+<version id="2" started="1150279113" uid="fd2788ac-fb8c-11da-837c-b289a9504188" auto="0" top-xid="49"/>
+<version id="4" started="1150279472" uid="45806362-fb8d-11da-94ea-d1d995421718" auto="0" top-xid="60"/>
+<version id="38" started="1150280365" uid="12a64a54-fb99-11da-8212-9133020364cc" auto="0" top-xid="63"/>
+<version id="39" started="1150285386" uid="f1c3579e-fb9a-11da-9bd0-a96fa02b7567" auto="0" top-xid="429"/>
+<version id="40" started="1191871258" uid="9940d894-75d3-11dc-9e6e-d423705adbe1" auto="0" top-xid="430"/>
+</history>
+<revisions show="1" mark="1" show-level="0" auto="0">
+<r id="1" time-started="1150285372" version="0">rev1"</r>
+<r id="2" time-started="1150285382" version="0">rev2&lt;&gt;"</r>
+</revisions>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-weight:normal; font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-align:left; widows:2; font-style:normal; text-indent:0in; text-position:normal; font-variant:normal; bgcolor:transparent; line-height:1.0; text-decoration:none; margin-bottom:0pt; margin-right:0pt; font-size:12pt; font-stretch:normal"/>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Arial; font-size:17pt"/>
+<s type="P" name="&lt;bad name&gt;" basedon="Contents 1" followedby="Contents 1" props="text-folded-id:0; lang:en-US; font-variant:normal; margin-bottom:3pt; bgcolor:transparent; color:000000; font-size:17pt; margin-right:0pt; text-position:normal; height:0in; format:%*%d.; font-style:normal; text-decoration:none; keep-together:no; text-align:left; widows:2; list-tag:0; keep-with-next:1; text-indent:0in; width:0in; line-height:1.0; start-value:1; list-decimal:.; list-delim:%L; orphans:2; font-weight:bold; margin-left:0pt; text-folded:0; font-stretch:normal; font-family:Arial; default-tab-interval:0.5in; list-style:None; homogeneous:1; display:inline; dom-dir:ltr; margin-top:22pt"/>
+<s type="P" name="Contents 1" basedon="Normal" followedby="Normal" props="list-delim:%L.; list-decimal:.; list-style:Numbered List; start-value:1; field-color:transparent; margin-left:0.500000in; text-indent:-0.300000in; field-font:NULL"/>
+<s type="P" name="Chapter Heading" basedon="Numbered Heading 1" followedby="Normal" props="list-delim:Chapter %L.; list-style:Numbered List; start-value:1; field-color:transparent; field-font:Arial; margin-left:0.0in; text-indent:0.0in; tabstops:1.1in/L0"/>
+<s type="P" name="Numbered Heading 1" basedon="Heading 1" followedby="Normal" props="list-delim:%L.; list-style:Numbered List; start-value:1; field-color:transparent; field-font:Arial; margin-left:0.0in; text-indent:0.0in; tabstops:0.3in/L0"/>
+<s type="C" name="Reference" props="font-size:10pt"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section footer="1" header="0" xid="48" props="page-margin-top:2.0472in; page-margin-bottom:1.5840in">
+<table xid="16">
+<cell xid="17" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="18"><c props="lang:en-US">table</c></p>
+</cell>
+<cell xid="20" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="21"><c props="lang:en-US">at</c></p>
+</cell>
+<cell xid="23" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="24"><c props="lang:en-US">the</c></p>
+</cell>
+<cell xid="26" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="27"><c props="lang:en-US">beginning</c></p>
+</cell>
+<cell xid="29" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="30"><c props="lang:en-US">of</c></p>
+</cell>
+<cell xid="32" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="33"><c props="lang:en-US">a</c></p>
+</cell>
+<cell xid="35" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="36"><c props="lang:en-US">section</c></p>
+</cell>
+<cell xid="38" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Heading 1" xid="39"><c props="lang:en-US">Heading Text - make sure we don't open a section in a table!</c></p>
+</cell>
+<cell xid="41" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="42"><c props="lang:en-US">don't write before a nested table</c></p>
+<table xid="68">
+<cell xid="69" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Heading 1" xid="70"><c props="lang:en-US">a</c></p>
+</cell>
+<cell xid="72" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="73"></p>
+</cell>
+<cell xid="75" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="76"></p>
+</cell>
+<cell xid="78" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="79"></p>
+</cell>
+<cell xid="81" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="82"></p>
+</cell>
+<cell xid="84" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="85"></p>
+</cell>
+<cell xid="87" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="88"></p>
+</cell>
+<cell xid="90" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="91"></p>
+</cell>
+<cell xid="93" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="94"></p>
+</cell>
+<cell xid="96" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="97"></p>
+</cell>
+</table>
+<p style="Normal" xid="67"><c props="lang:en-US">don't write after either</c></p>
+</cell>
+<cell xid="44" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="45"></p>
+<table xid="101">
+<cell xid="102" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="103"></p>
+<table xid="134">
+<cell xid="135" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="136"></p>
+</cell>
+<cell xid="138" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="139"></p>
+</cell>
+<cell xid="141" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="142"></p>
+</cell>
+<cell xid="144" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="145"></p>
+</cell>
+<cell xid="147" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="148"></p>
+</cell>
+<cell xid="150" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="151"></p>
+</cell>
+<cell xid="153" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="154"></p>
+</cell>
+<cell xid="156" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="157"></p>
+</cell>
+<cell xid="159" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="160"></p>
+</cell>
+<cell xid="162" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="163"></p>
+</cell>
+</table>
+<p style="Normal" xid="133"></p>
+</cell>
+<cell xid="105" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="106"></p>
+</cell>
+<cell xid="108" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="109"></p>
+</cell>
+<cell xid="111" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="112"></p>
+</cell>
+<cell xid="114" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="115"></p>
+</cell>
+<cell xid="117" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="118"></p>
+</cell>
+<cell xid="120" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="121"></p>
+</cell>
+<cell xid="123" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="124"></p>
+</cell>
+<cell xid="126" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="127"></p>
+</cell>
+<cell xid="129" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="130"></p>
+</cell>
+</table>
+<p style="Normal" xid="100"><c props="lang:en-US">only one level of nesting allowed!</c></p>
+</cell>
+</table>
+<p style="Normal" xid="49"></p>
+<p style="Normal" xid="166"><c props="lang:en-US">invalid title &amp; alt: </c><image dataid="f0050e48-fb90-11da-81d0-b289a9504188" title="&quot;&lt;bad&gt;&quot;" alt="&quot;&lt;morebad&gt;&quot;" xid="173" props="height:3.1700in; width:3.3300in"/></p>
+<p style="Normal" xid="167"></p>
+<p style="Normal" xid="50"><a xlink:href="http%3a//www.%3c%3e.com" xid="63"><c props="lang:en-US">this is a link with invalid xml chars</c></a></p>
+<p style="Normal" xid="179"><field type="date_mthdy" xid="384" props="lang:en-US"></field></p>
+<p style="Normal" xid="186"><c props="lang:en-US">bookmark </c><bookmark type="start" name="&lt;&gt;" xid="382"/><c props="lang:en-US">with</c><bookmark type="end" name="&lt;&gt;" xid="383"/><c props="lang:en-US"> invalid chars</c></p>
+<p style="Normal" xid="379"><c props="lang:en-US">TOC with &lt;&gt; in title:</c></p>
+<toc xid="184" props="toc-label-type2:numeric; toc-label-type3:numeric; toc-source-style1:Heading 1; toc-source-style2:Heading 2; toc-source-style3:Heading 3; toc-source-style4:Heading 4; toc-label-type4:numeric; toc-page-type1:numeric; toc-page-type2:numeric; toc-page-type3:numeric; toc-page-type4:numeric; toc-indent1:0.5in; toc-indent2:0.5in; toc-indent3:0.5in; toc-indent4:0.5in; toc-has-label2:1; toc-label-inherits1:1; toc-label-start4:1; toc-label-inherits4:1; toc-heading:&lt;Table of Contents&gt;; toc-tab-leader1:dot; toc-tab-leader4:dot; toc-label-start1:1; toc-has-label1:1; toc-id:0; toc-has-label3:1; toc-has-label4:1; toc-label-inherits2:1; toc-label-inherits3:1; toc-heading-style:Contents Header; toc-tab-leader3:dot; toc-dest-style4:Contents 4; toc-label-start2:1; toc-label-start3:1; toc-dest-style1:Contents 1; toc-dest-style2:Contents 2; toc-dest-style3:Contents 3; toc-tab-leader2:dot; toc-has-heading:1; toc-label-type1:numeric">
+</toc><p style="Normal" xid="183"></p>
+<p style="Heading 1" xid="181"><image dataid="c2e681e6-fb98-11da-820c-b289a9504188" xid="390" props="height:3.17in; width:3.33in"/><c props="lang:en-US">heading with pic</c></p>
+<p style="&lt;bad name&gt;" xid="182"><c revision="1" props="lang:en-US">aaaaaaa</c><c revision="2" props="lang:en-US">dddd</c></p>
+<p style="&lt;bad name&gt;" xid="428"><c props="lang:en-US">style name with &lt;&gt;</c></p>
+<p style="&lt;bad name&gt;" xid="385">style name with &lt;&gt;</p>
+<p style="Normal" xid="391"></p>
+<table xid="393" props="list-tag:1">
+<cell xid="394" props="bot-attach:1; left-attach:0; right-attach:3; top-attach:0">
+<p style="Normal" xid="395"><c props="lang:en-US">merged cell</c></p>
+</cell>
+<cell xid="403" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="404"></p>
+</cell>
+<cell xid="406" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="407"></p>
+</cell>
+<cell xid="409" props="bot-attach:3; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="410"></p>
+</cell>
+<cell xid="412" props="bot-attach:3; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="413"></p>
+</cell>
+<cell xid="415" props="bot-attach:3; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="416"></p>
+</cell>
+<cell xid="418" props="bot-attach:3; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="419"></p>
+</cell>
+<cell xid="421" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="422"><c props="lang:en-US">split cell</c></p>
+</cell>
+<cell xid="425" props="bot-attach:3; left-attach:4; right-attach:5; top-attach:2">
+<p xid="426"><c props="lang:en-US">split cell</c></p>
+</cell>
+</table>
+<p style="Heading 1" xid="339"><c props="lang:en-US">chart in heading</c><embed dataid="0" xid="387" props="width:3.125000in; font-family:Times New Roman; bg; height:3.472222in; font-variant:normal; display:inline; color:000000; ascent:3.472222in; font-style:normal; font-weight:normal; list-style:None; text-decoration:none; homogeneous:1; embed-type:GOChart; font-size:12pt; descent:0.000000in; text-position:normal; lang:fr-FR; font-stretch:normal"><image dataid="snapshot-png-0" props="width:0.002083in"/></embed></p>
+<p style="Heading 1" xid="388"><c props="lang:en-US">equation in heading</c><math dataid="MathLatex3" latexid="LatexMath3" xid="389" props="bg; ascent:210; display:inline; lang:en-US; list-style:None; homogeneous:1; descent:31; width:2144; height:241"><image dataid="snapshot-png-MathLatex3" props="height:0.167361in; width:1.488889in"/></math></p>
+<p style="Heading 1" xid="340"><c props="lang:en-US">Pagebreak<pbr/></c></p>
+<p style="Normal" xid="378"></p>
+<p style="Normal" xid="377"></p>
+<p style="Heading 1" xid="180"><c props="lang:en-US"> in title</c></p>
+<p style="Heading 1" xid="295" props="font-family:Arial; font-size:17pt; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none"></p>
+<frame xid="341" props="xpad:0.03in; ypad:0.03in; frame-col-ypos:5.438194in; bot-style:1; frame-col-xpos:1.728472in; position-to:column-above-text; left-style:1; xpos:1.728472in; bg-style:1; ypos:-0.046528in; frame-width:3.457639in; frame-height:1.625000in; frame-page-ypos:7.484722in; frame-type:textbox; top-style:1; frame-page-xpos:2.728472in; background-color:ffffff; wrap-mode:above-text; tight-wrap:0; right-style:1">
+<p style="Heading 1" xid="343" props="margin-top:0.3056in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0417in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Arial; font-size:17pt; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">Heading Text - make sure we don't open a section in a textbox!</c></p>
+<table xid="344">
+<cell xid="345" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p xid="346"></p>
+</cell>
+<cell xid="348" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p xid="349"></p>
+</cell>
+<cell xid="351" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p xid="352"></p>
+</cell>
+<cell xid="354" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p xid="355"></p>
+</cell>
+<cell xid="357" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p xid="358"></p>
+</cell>
+<cell xid="360" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p xid="361"></p>
+</cell>
+<cell xid="363" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p xid="364"></p>
+</cell>
+<cell xid="366" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p xid="367"></p>
+</cell>
+<cell xid="369" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p xid="370"></p>
+</cell>
+<cell xid="372" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p xid="373"></p>
+</cell>
+</table>
+<p style="Heading 1" xid="376" props="margin-top:0.3056in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0417in; line-height:1.000000; text-align:left; margin-right:0.0000in"></p>
+</frame><frame title="&lt;&quot;bad&quot;&gt;" alt="&lt;&quot;bad&quot;&gt;" strux-image-dataid="0ef7512e-fb93-11da-81ec-b289a9504188" xid="298" props="tight-wrap:0; frame-col-ypos:0.579167in; bot-style:none; wrap-mode:above-text; frame-type:image; frame-width:3.3334in; frame-height:3.1771in; top-style:none; position-to:column-above-text; frame-col-xpos:0.000000in; right-style:none; left-style:none">
+</frame><p style="Heading 1" xid="296"></p>
+<p level="1" listid="1000" parentid="0" style="Chapter Heading" xid="56" props="start-value:1; text-indent:0.0000in; list-style:Numbered List; field-font:Arial; margin-left:0.0000in"><field type="list_label" xid="64" props="width:0in; font-family:Arial; display:inline; color:000000; font-weight:bold; text-position:normal; lang:en-US; font-style:normal; font-variant:normal; text-decoration:none; bgcolor:transparent; list-style:Numbered List; homogeneous:1; height:0in; font-size:17pt; font-stretch:normal"></field><c props="width:0in; font-family:Arial; display:inline; color:000000; font-weight:bold; text-position:normal; lang:en-US; font-style:normal; font-variant:normal; text-decoration:none; bgcolor:transparent; list-style:Numbered List; homogeneous:1; height:0in; font-size:17pt; font-stretch:normal">	</c><c props="height:0in; display:inline; lang:en-US; width:0in; homogeneous:1"> chapter</c><field type="footnote_ref" footnote-id="0" xid="5" props="height:0in; display:inline; lang:en-US; width:0in; homogeneous:1"></field><foot footnote-id="0" xid="2">
+<p style="Heading 1" xid="3"><field type="footnote_anchor" footnote-id="0" xid="6"></field><c footnote-id="0"> </c><c footnote-id="0" props="lang:en-US">Heading Text - make sure we don't open a section in a footnote!</c></p>
+</foot><c props="lang:en-US"> heading with footnote reference</c></p>
+<p level="1" listid="1000" style="Chapter Heading" xid="7" props="list-delim:Chapter %L.; list-decimal:.; list-style:Numbered List; start-value:1; margin-left:0.0000in; text-indent:0.0000in; field-font:Arial"><field type="list_label" xid="65" props="width:0in; font-family:Arial; display:inline; color:000000; font-weight:bold; text-position:normal; lang:en-US; font-style:normal; font-variant:normal; text-decoration:none; bgcolor:transparent; list-style:Numbered List; homogeneous:1; height:0in; font-size:17pt; font-stretch:normal"></field><c props="width:0in; font-family:Arial; display:inline; color:000000; font-weight:bold; text-position:normal; lang:en-US; font-style:normal; font-variant:normal; text-decoration:none; bgcolor:transparent; list-style:Numbered List; homogeneous:1; height:0in; font-size:17pt; font-stretch:normal">	</c><c props="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1"> chapter</c><field endnote-id="0" xid="12" props="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1"><c props="height:0in; display:inline; lang:en-US; width:0in; homogeneous:1">test field text (1 updates)</c></field><endnote endnote-id="0" xid="9">
+<p style="Heading 1" xid="10"><field endnote-id="0" xid="13" props="height:0in; display:inline; lang:en-US; width:0in; homogeneous:1"><c props="lang:en-US; display:inline; height:0in; width:0in; homogeneous:1">test field text (1 updates)</c></field><c props="height:0in; display:inline; lang:en-US; width:0in; homogeneous:1"> </c><c props="lang:en-US">Heading Text - make sure we don't open a section in an endnote</c><c props="height:0in; display:inline; lang:en-US; width:0in; homogeneous:1">!</c></p>
+</endnote><c props="width:0in; font-family:Arial; display:inline; font-variant:normal; font-weight:bold; lang:en-US; font-style:normal; color:000000; bgcolor:transparent; font-size:17pt; text-decoration:none; homogeneous:1; height:0in; text-position:normal; font-stretch:normal"> heading with endnote reference</c><c props="width:0in; font-family:Arial; display:inline; color:000000; font-weight:bold; text-position:normal; lang:en-US; font-style:normal; font-variant:normal; text-decoration:none; bgcolor:transparent; list-style:Numbered List; homogeneous:1; height:0in; font-size:17pt; font-stretch:normal"> </c></p>
+<p style="Normal" xid="175"></p>
+</section>
+<section id="1" listid="0" parentid="0" type="footer" xid="59">
+<p style="Heading 1" xid="60"><c props="lang:en-US">Heading Text - make sure we don't open a section in a footer!</c></p>
+<p style="Normal" xid="220"></p>
+<table xid="222">
+<cell xid="223" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Heading 1" xid="224"><c props="lang:en-US">2</c></p>
+</cell>
+<cell xid="226" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="227"></p>
+</cell>
+<cell xid="229" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="230"></p>
+</cell>
+<cell xid="232" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="233"></p>
+</cell>
+<cell xid="235" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="236"></p>
+</cell>
+<cell xid="238" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="239"></p>
+</cell>
+<cell xid="241" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="242"></p>
+</cell>
+<cell xid="244" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="245"></p>
+</cell>
+<cell xid="247" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="248"></p>
+</cell>
+<cell xid="250" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="251"></p>
+</cell>
+</table>
+<p style="Normal" xid="221"></p>
+</section>
+<section id="0" listid="0" parentid="0" type="header" xid="57">
+<p style="Heading 1" xid="58"><c props="lang:en-US">Heading Text - make sure we don't open a section in a header!</c></p>
+<table xid="188">
+<cell xid="189" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Heading 1" xid="190"><c props="lang:en-US">6</c></p>
+</cell>
+<cell xid="192" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="193"></p>
+</cell>
+<cell xid="195" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="196"></p>
+</cell>
+<cell xid="198" props="bot-attach:1; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="199"></p>
+</cell>
+<cell xid="201" props="bot-attach:1; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="202"></p>
+</cell>
+<cell xid="204" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="205"></p>
+</cell>
+<cell xid="207" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="208"></p>
+</cell>
+<cell xid="210" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="211"></p>
+</cell>
+<cell xid="213" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="214"></p>
+</cell>
+<cell xid="216" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:1">
+<p style="Normal" xid="217"></p>
+</cell>
+</table>
+<p style="Heading 1" xid="187"></p>
+</section>
+<data>
+<d name="f0050e48-fb90-11da-81d0-b289a9504188" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAAUAAAAEwCAIAAABJ0D88AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+CS9JREFUeF7t10EKwzAQBEH75/65bP9hLg0VchZLLS0l9znP5UOAQFTgC9iXAIGowBWd29gE
+CPw/nykQINAVELB/EATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJ
+VwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg
+4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyu
+gIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4
+vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUg
+YAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4v
+r/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghY
+wATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb
+3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYw
+gbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrv
+hslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwg
+LCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3u
+nK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgL
+CDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8
+JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgIC
+Di+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukK
+CFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDD
+y1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwIC
+FjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDy
+uu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAF
+TCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzV
+Le6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAET
+CAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tu
+mHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATC
+AgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO
+6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCA
+gMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslX
+AgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg
+8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6A
+gAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8
+vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBg
+ARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v
++26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjA
+BMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd
+4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCB
+sICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+G
+yVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAs
+IODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6c
+roCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsI
+OLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwl
+IGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIO
+L6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoI
+WMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK7AC66IJFCNLV3qAAAAAElFTkSuQmCC
+</d>
+<d name="c2e681e6-fb98-11da-820c-b289a9504188" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAAUAAAAEwCAIAAABJ0D88AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+CS9JREFUeF7t10EKwzAQBEH75/65bP9hLg0VchZLLS0l9znP5UOAQFTgC9iXAIGowBWd29gE
+CPw/nykQINAVELB/EATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJ
+VwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg
+4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyu
+gIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4
+vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUg
+YAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4v
+r/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghY
+wATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb
+3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYw
+gbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrv
+hslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwg
+LCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3u
+nK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgL
+CDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8
+JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgIC
+Di+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukK
+CFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDD
+y1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwIC
+FjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDy
+uu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAF
+TCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzV
+Le6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAET
+CAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tu
+mHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATC
+AgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO
+6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCA
+gMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslX
+AgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg
+8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6A
+gAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8
+vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBg
+ARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v
++26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjA
+BMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd
+4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCB
+sICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+G
+yVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAs
+IODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6c
+roCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsI
+OLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwl
+IGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIO
+L6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoI
+WMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK7AC66IJFCNLV3qAAAAAElFTkSuQmCC
+</d>
+<d name="0ef7512e-fb93-11da-81ec-b289a9504188" mime-type="image/png" base64="yes">
+iVBORw0KGgoAAAANSUhEUgAAAUAAAAEwCAIAAABJ0D88AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+CS9JREFUeF7t10EKwzAQBEH75/65bP9hLg0VchZLLS0l9znP5UOAQFTgC9iXAIGowBWd29gE
+CPw/nykQINAVELB/EATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJ
+VwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg
+4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyu
+gIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4
+vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUg
+YAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4v
+r/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghY
+wATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb
+3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYw
+gbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrv
+hslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwg
+LCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3u
+nK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgL
+CDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8
+JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgIC
+Di+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukK
+CFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDD
+y1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwIC
+FjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDy
+uu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAF
+TCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzV
+Le6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAET
+CAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tu
+mHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATC
+AgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO
+6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCA
+gMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslX
+AgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg
+8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6A
+gAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8
+vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBg
+ARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v
++26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjA
+BMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd
+4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCB
+sICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK6AgAVMICwg4PDyuu+G
+yVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwlIGABEwgLCDi8vNUt7pyugIAFTCAs
+IODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIOL6/7bph8JSBgARMICwg4vLzVLe6c
+roCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoIWMAEwgICDi+v+26YfCUgYAETCAsI
+OLy81S3unK6AgAVMICwg4PDyuu+GyVcCAhYwgbCAgMPLW93izukKCFjABMICAg4vr/tumHwl
+IGABEwgLCDi8vNUt7pyugIAFTCAsIODw8rrvhslXAgIWMIGwgIDDy1vd4s7pCghYwATCAgIO
+L6/7bph8JSBgARMICwg4vLzVLe6croCABUwgLCDg8PK674bJVwICFjCBsICAw8tb3eLO6QoI
+WMAEwgICDi+v+26YfCUgYAETCAsIOLy81S3unK7AC66IJFCNLV3qAAAAAElFTkSuQmCC
+</d>
+</data>
+</abiword>
