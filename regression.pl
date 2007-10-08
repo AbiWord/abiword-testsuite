@@ -49,6 +49,7 @@ if ($root eq "")
 # Setup environment variables
 #
 
+#ugly
 $ENV{DISPLAY} = ""; # we don't require a display to run
 $ENV{LD_LIBRARY_PATH} = "$root/$prefix/lib";
 $ENV{PKG_CONFIG_PATH} = "$root/$prefix/lib/pkgconfig";
@@ -80,9 +81,6 @@ if ($html)
         }
 }
 
-# start a virtual X server
-#`Xvfb $DISPLAY -ac & disown`;
-
 foreach my $module_info ( @branches )
 {
 	my ($abiword_url, $abiword_plugins_url, $abiword_binary) = @$module_info;
@@ -106,14 +104,9 @@ foreach my $module_info ( @branches )
 	&ExecTests($sn, $abiword_binary);
 }
 
-die;
-
 if ($html) {
 	&HtmlFooter;
 	close(STDOUT);
 }
-
-# Stop the virtual X server (TODO: should only kill the one we started)
-#`killall Xvfb`;
 
 1;
