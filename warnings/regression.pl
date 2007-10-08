@@ -78,11 +78,7 @@ sub HtmlFooter {
 }
 
 # Main function
-if ($#ARGV+1 != 1)
-{
-	print "Usage: regression.pl <branchname>\n";
-	die;
-}
+$#ARGV+1 == 2 || die "Usage: regression.pl <branchname> <abiword binary name>\n";
 
 if ($html)
 {
