@@ -66,7 +66,6 @@ if ($html)
 	{
 		my ($abiword_url, $abiword_plugins_url, $abiword_binary) = @$module_info;
 		die unless $abiword_url;
-		die unless $abiword_plugins_url;
 		die unless $abiword_binary;
 		
 		$abiword_url =~ m/.*\/(.*)/;
@@ -85,7 +84,6 @@ foreach my $module_info ( @branches )
 {
 	my ($abiword_url, $abiword_plugins_url, $abiword_binary) = @$module_info;
 	die unless $abiword_url;
-	die unless $abiword_plugins_url;
 	die unless $abiword_binary;
 
 	$abiword_url =~ m/.*\/(.*)/;
