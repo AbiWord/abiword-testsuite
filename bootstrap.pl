@@ -5,21 +5,22 @@ use File::Basename;
 require "regression.conf";
 
 # check args
-if ($#ARGV+1 != 2)
+if ($#ARGV+1 != 1 && $#ARGV+1 != 2)
 {
-	print "Usage: bootstrap.pl <abiword svn url> <abiword plugins svn url>\n";
+	print "Usage: bootstrap.pl <abiword svn url> [<abiword plugins svn url>]\n";
 	die;
 }
 
 # setup variables
 $abiword_url = $ARGV[0];
-$abiword_plugins_url = $ARGV[1];
+$abiword_plugins_url = ($#ARGV+1 == 2) ? $ARGV[1] : "";
 $abiword_url =~ m/.*\/(.*)/;
 $sn = $1;
 $source_dir = $root . "/.src/" . $sn;
 
 # remap stdout
 open(STDOUT, ">$root/logs/bootstrap_$sn.log");
+open(STDERR, ">>$root/logs/bootstrap_$sn.log");
 
 # setup directories
 # TODO: this is ugly
@@ -74,7 +75,7 @@ elsif ($sn eq "trunk")
 	}
 
 	# build abiword
-	my $abiword_cmd = "cd $source_dir/abiword && CXXFLAGS=\"-pg -g\" ./autogen.sh --prefix=$root/$prefix --enable-plugins && make $MAKE_FLAGS 2>$abi_log && make install";
+	my $abiword_cmd = "cd $source_dir/abiword && CXXFLAGS=\"-pg -g\" ./autogen.sh --prefix=$root/$prefix --enable-plugins && make $make_flags 2>$abi_log && make install";
 	open(ABIWORD_CMD,  "$abiword_cmd |");
 	while (<ABIWORD_CMD>)
 	{
