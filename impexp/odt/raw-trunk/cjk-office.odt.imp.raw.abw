@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="127" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.7.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="120" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.8.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -16,8 +16,8 @@
 <m key="dc.date">2003-06-27T17:40:41</m>
 <m key="abiword.date_last_changed">2003-08-01T15:51:04</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1191872248" uid="e79c2d84-75d5-11dc-9ab1-a4ee8c4d2e9b">
-<version id="1" started="1191872248" uid="e7a0824e-75d5-11dc-9ab1-a4ee8c4d2e9b" auto="0" top-xid="127"/>
+<history version="1" edit-time="0" last-saved="1253536225" uid="89d6625c-a6aa-11de-958f-a28ee90d29a2">
+<version id="1" started="1253536225" uid="89e246ee-a6aa-11de-958f-a28ee90d29a2" auto="0" top-xid="120"/>
 </history>
 <styles>
 <s type="P" name="Heading" basedon="Standard" followedby="Text body" props="margin-top:0.1665in; keep-with-next:yes; margin-bottom:0.0835in; font-family:Andale Sans UI; font-size:20pt"/>
@@ -33,10 +33,10 @@
 <s type="C" name="Rubies_text" followedby="Rubies_text" props="font-size:6pt"/>
 </styles>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
-<section footer="1" header="0" xid="1" props="page-margin-right:0.7874in; page-margin-left:0.7874in; page-margin-top:0.7874in; page-margin-bottom:0.7874in">
-<p xid="2"></p>
+<section footer="1" header="0" xid="1" props="page-margin-right:0.7874in; page-width:8.2673in; page-margin-header:0.7874in; page-margin-left:0.7874in; page-margin-footer:0.7874in; page-margin-bottom:3.769106cm; page-orientation:portrait; page-margin-top:3.769106cm; page-height:11.6925in">
+<p xid="2"><c></c></p>
 <toc xid="3" props="toc-dest-style1:Contents 1; toc-heading:目次; toc-dest-style2:Contents 2; toc-dest-style4:Normal; toc-dest-style3:Normal; toc-has-heading:1; toc-heading-style:Contents Heading; toc-source-style1:Heading 1; toc-source-style2:Heading 2">
-</toc><p style="Heading" xid="4"></p>
+</toc><p style="Heading" xid="4"><c></c></p>
 <p xid="5"><pbr/></p>
 <p style="Heading" props="" xid="6">StarSuite 6.0 詳細</p>
 <p style="Heading 1" xid="7">共通機能きょうつうきのう</p>
@@ -67,98 +67,90 @@
 <p style="Standard" xid="32">StarSuite では OLEオブジェクトをサポートします。文章に埋め込まれたOLEオブジェクトは、編集することもできます。</p>
 <p style="Heading 2" xid="33">StarSuite Math </p>
 <p style="Standard" xid="34">数式エディタです。マウスを使って複雑な数式を入力する事ができます。慣れれば、コマンドライン・インターフェースのように入力することもできるので、素早く簡単に数式を文書に取り込むことができます。StarSuite Math は、単独で使うこともできますが、通常は他のツールから呼び出して利用します。</p>
+<p xid="35"><pbr/></p>
+<p style="Standard" props="" xid="36"><c></c></p>
+<p style="Heading 1" xid="37">ＳＴＡＲＳＵＩＴＥ ＷＲＩＴＥＲ</p>
+<p style="Heading 2" xid="38">入力支援</p>
+<p style="Standard" xid="39">欧文大文字／小文字の自動変換、スペルチェックを自動で行うことができます。また、予め作成したテキストブロックを簡単に呼び出すことができます。</p>
+<p style="Heading 2" xid="40">ＷＥＢパブリッシング</p>
+<p style="Standard" xid="41">作成した文章をＷＥＢ文書として保存できます。ハイパーリンクとして指定した段落を別のファイルとして保存します。文章内の図は自動的にＪＰＥＧファイルとして保存され、ＩＭＧタグで参照されます。イメージマップ、アニメーションＧＩＦ、マクロも作成できます。さらにスクリプト言語をやアプレットを利用することができます。</p>
+<p style="Heading 2" xid="42">プレゼンテーションの作成</p>
+<p style="Standard" xid="43">ＳＴＡＲＳＵＩＴＥ ＷＲＩＴＥＲ文書をプレゼンテーション形式にして保存できます。</p>
+<p style="Heading 2" xid="44">レイアウト、効果</p>
+<p style="Standard" xid="45">オブジェクトに各種のレイアウトや効果を付加することが可能です。サイズ、アンカー、テキストの折り返し、ハイパーリンク、トリミング、外枠、背景、マクロなどを指定できます。</p>
+<p style="Heading 2" xid="46">日本語固有にほんごこゆうの機能きのう</p>
+<p style="Standard" xid="47">縦書き、ルビ、禁則処理、罫線などの日本語特有の機能がサポートされます。</p>
+<p style="Heading 2" xid="48">テーブル</p>
+<p style="Standard" xid="49">テーブル（表）を簡単に作成できます。</p>
+<p style="Heading 2" xid="50">条件付きテキスト</p>
+<p style="Standard" xid="51">文章内のテキストや段落を、特定の条件の時だけ表示したり、表示はされるが印刷されない様にすることができます。</p>
+<p style="Heading 2" xid="52">差込印刷</p>
+<p style="Standard" xid="53">アドレス帳を使って差込印刷ができます。</p>
+<p style="Heading 2" xid="54">長い文書の作成</p>
+<p style="Standard" xid="55">書籍など数百ページに渡る文書を作成するための機能も充実しています。文書を複数のファイルに分けて管理したり、目次、索引、参考文献表を作成でき来ます。また、複数の文章校正者を支援する機能もサポートされています。</p>
+<p style="Heading 1" xid="56">ＳＴＡＲＳＵＩＴＥ ＣＡＬＣ</p>
+<p style="Heading 2" xid="57">豊富な関数</p>
+<p style="Standard" xid="58">ＳＴＡＲＳＵＩＴＥ ＣＡＬＣ ６．０ では９０以上の新しい関数を追加し、合計３００以上の関数をサポートしています。またオートパイロットを使えば複雑な関数も簡単に構成できます。</p>
+<p style="Heading 2" xid="59">ネットワークデータ・サポート</p>
+<p style="Standard" xid="60">ローカルだけではなく、ネットワーク上にあるデータにリンクすることができます。ネットワーク上にあるデータが更新されると、ＳＴＡＲＳＵＩＴＥ ＣＡＬＣのデータも自動的に更新されます。</p>
+<p style="Heading 2" xid="61">テキストデータからの変換</p>
+<p style="Standard" xid="62">カンマ区切りのデータでなくても、簡単にテキストデータからＳＴＡＲＳＵＩＴＥ ＣＡＬＣにインポートできます。</p>
+<p style="Heading 2" xid="63">連続値の入力、リストからの入力</p>
+<p style="Standard" xid="64">連続する値を簡単に入力することができます。またあらかじめ定義したリストのデータを最初の１項目を入力するだけで簡単に入力することが出来ます。</p>
+<p style="Heading 2" xid="65">入力値のチェックとヘルプ</p>
+<p style="Standard" xid="66">入力値を特定の値に制限することができます。また、不正なデータが入力されたときにポップアップメッセージを出力できます。</p>
+<p style="Heading 2" xid="67">スタイル</p>
+<p style="Standard" xid="68">セルやページのスタイル（色、フォント、表示方向、表示エリアなど）を定義したり、指定したりできます。</p>
+<p style="Heading 2" xid="69">フォーマット</p>
+<p style="Standard" xid="70">日時、数値、通貨など各種のフォーマットをサポートしています。</p>
+<p style="Heading 2" xid="71">条件フォーマット</p>
+<p style="Standard" xid="72">セルの内容に応じてフォーマットを変えることができます。また他セルの内容を条件としてセルの内容を変えることもできます。</p>
+<p style="Heading 2" xid="73">画面分割、非スクロール領域</p>
+<p style="Standard" xid="74">いつも表示させておきたい領域を非スクロール領域に指定したり、画面を分割して別の領域を表示しておくことができます。</p>
+<p style="Heading 2" xid="75">ソート、フィルタ</p>
+<p style="Standard" xid="76">データを並び替えたり、条件に合うセルだけを表示することができます。</p>
+<p style="Heading 2" xid="77">クイックサム</p>
+<p style="Standard" xid="78">数字の連続しているエリアの下または右のセルにカーソルをおいて、サムボタン（Σ）をクリックすると合計が表示されます。</p>
+<p style="Heading 2" xid="79">ゴールシーク</p>
+<p style="Standard" xid="80">計算結果が合致するような、変数を求める事ができます。例えば、１年の売り上げを合計する表をそのまま使って、「１年の売り上げが１億円に達するための１２月の売り上げ」といった逆算を、シートの内容を変更せずに計算できます。</p>
+<p style="Heading 2" xid="81">グラフ表示</p>
+<p style="Standard" xid="82">データをグラフにして表示できます。</p>
+<p style="Heading 1" xid="83">ＳＴＡＲＳＵＩＴＥ ＩＭＰＲＥＳＳ</p>
+<p style="Heading 2" xid="84">オートパイロット</p>
+<p style="Standard" xid="85">オートパイロットを使って簡単にテンプレートからプレゼンテーションを作成できます。</p>
+<p style="Heading 2" xid="86">スライドの一覧表示</p>
+<p style="Standard" xid="87">スライドを一覧表示できます。一行に表示するスライドの数を簡単に変更できます。プレゼンテーションの全体像を掴んだり、スライドの順序を入れ替えるのに便利な機能です。</p>
+<p style="Heading 2" xid="88">豊富なスライドショー効果</p>
+<p style="Standard" xid="89">２０種類以上の豊富なスライドショー効果が選択できます。スライド、オブジェクト、テキスト、それぞれに適用可能で、方向（上下、左右、斜め内から、外から、など）の選択も可能です。</p>
+<p style="Heading 2" xid="90">印刷</p>
+<p style="Standard" xid="91">配付資料や、ノートを作成・印刷できます。ページあたりの印刷ページも指定できます。</p>
+<p style="Heading 1" xid="92">ＳＴＡＲＳＵＩＴＥ ＤＲＡＷ</p>
+<p style="Heading 2" xid="93">グラフィックフォーマット</p>
+<p style="Standard" xid="94">ＢＭＰ， ＥＰＳ， ＧＩＦ， ＪＰＥＧ， ＰＣＴ， ＰＮＧ， ＲＡＳ（ＳＵＮ ＲＡＳＴＥＲ）， ＴＩＦＦ， ＷＭＦ， ＸＰＭ など１７種類のグラフィックフォーマットにエクスポート可能です。</p>
+<p style="Heading 2" xid="95">フォントワーク</p>
+<p style="Standard" xid="96">フォントに、色々な効果を割り当てます。基線の回転、文字の回転、傾き、基線からの距離、文字間隔、影、文字と影との距離、影の色など豊富な機能があります。</p>
+<p style="Heading 2" xid="97">ベクターグラフィックス</p>
+<p style="Standard" xid="98">２Ｄ／３Ｄ のベクターグラフィックスを作成できます。オブジェクトを回転させたり、表面にビットマップテクスチャを適用し遠近法や照明効果を付けることができます。</p>
+<p style="Heading 2" xid="99">組織図作成</p>
+<p style="Standard" xid="100">オブジェクトをコネクタでつないでおけば、オブジェクトの移動に伴いコネクタも一緒に移動します。組織図作成や、説明文の付いた図などが簡単に作成できます。</p>
+<p style="Heading 1" xid="101">ＳＴＡＲＳＵＩＴＥ ＢＡＳＥ</p>
+<p style="Heading 2" xid="102">各種のデータソースのサポート</p>
+<p style="Standard" xid="103">ＳＴＡＲＳＵＩＴＥ ＢＡＳＥでは色々なデータソースがサポートされます。使用できるデータの種類には、ＡＤＡＢＡＳ、ＤＢＡＳＥ、テキスト、ＯＤＢＣ、ＪＤＢＣ、ＡＤＯ、ＳＴＡＲＳＵＩＴＥ ＣＡＬＣデータなどがあります。</p>
+<p style="Heading 2" xid="104">アドレス帳</p>
+<p style="Standard" xid="105">システムで利用中のアドレス帳をデータソースとして簡単に登録できます。アドレス帳として、ＷＩＮＤＯＷＳ住所録、ＮＥＴＳＣＡＰＥアドレス帳、ＬＤＡＰサーバーなどが利用できます。また、登録されたアドレス帳を使って、簡単に宛名入りのレター／封筒／ラベルを作成できます。</p>
+<p style="Heading 2" xid="106">データベース管理</p>
+<p style="Standard" xid="107">テーブルの作成、クエリーがオートパイロットを使って行えます。</p>
+<p style="Heading 2" xid="108">蔵書管理</p>
+<p style="Standard" xid="109">蔵書の管理が行えます。蔵書データは、ＳＴＡＲＳＵＩＴＥ ＷＲＩＴＥＲ で参考文献の編集に利用されます。</p>
+<p style="Heading 2" xid="110">ＳＱＬ</p>
+<p style="Standard" xid="111">データソースがＲＤＢＭＳであれば、ＳＱＬを直接使用することもできます。</p>
+<p style="Heading 2" xid="112">ＡＤＡＢＡＳ Ｄ データベース</p>
+<p style="Standard" xid="113">ＳＴＡＲＳＵＩＴＥ にはＡＤＡＢＡＳ Ｄ データベースが含まれています。</p>
 </section>
-<section footer="3" header="2" xid="35" props="page-margin-right:0.7874in; page-margin-left:0.7874in; page-margin-top:0.7874in; page-margin-bottom:0.7874in">
-<p xid="36"><pbr/></p>
-<p style="Standard" props="" xid="37"></p>
-<p style="Heading 1" xid="38">ＳＴＡＲＳＵＩＴＥ ＷＲＩＴＥＲ</p>
-<p style="Heading 2" xid="39">入力支援</p>
-<p style="Standard" xid="40">欧文大文字／小文字の自動変換、スペルチェックを自動で行うことができます。また、予め作成したテキストブロックを簡単に呼び出すことができます。</p>
-<p style="Heading 2" xid="41">ＷＥＢパブリッシング</p>
-<p style="Standard" xid="42">作成した文章をＷＥＢ文書として保存できます。ハイパーリンクとして指定した段落を別のファイルとして保存します。文章内の図は自動的にＪＰＥＧファイルとして保存され、ＩＭＧタグで参照されます。イメージマップ、アニメーションＧＩＦ、マクロも作成できます。さらにスクリプト言語をやアプレットを利用することができます。</p>
-<p style="Heading 2" xid="43">プレゼンテーションの作成</p>
-<p style="Standard" xid="44">ＳＴＡＲＳＵＩＴＥ ＷＲＩＴＥＲ文書をプレゼンテーション形式にして保存できます。</p>
-<p style="Heading 2" xid="45">レイアウト、効果</p>
-<p style="Standard" xid="46">オブジェクトに各種のレイアウトや効果を付加することが可能です。サイズ、アンカー、テキストの折り返し、ハイパーリンク、トリミング、外枠、背景、マクロなどを指定できます。</p>
-<p style="Heading 2" xid="47">日本語固有にほんごこゆうの機能きのう</p>
-<p style="Standard" xid="48">縦書き、ルビ、禁則処理、罫線などの日本語特有の機能がサポートされます。</p>
-<p style="Heading 2" xid="49">テーブル</p>
-<p style="Standard" xid="50">テーブル（表）を簡単に作成できます。</p>
-<p style="Heading 2" xid="51">条件付きテキスト</p>
-<p style="Standard" xid="52">文章内のテキストや段落を、特定の条件の時だけ表示したり、表示はされるが印刷されない様にすることができます。</p>
-<p style="Heading 2" xid="53">差込印刷</p>
-<p style="Standard" xid="54">アドレス帳を使って差込印刷ができます。</p>
-<p style="Heading 2" xid="55">長い文書の作成</p>
-<p style="Standard" xid="56">書籍など数百ページに渡る文書を作成するための機能も充実しています。文書を複数のファイルに分けて管理したり、目次、索引、参考文献表を作成でき来ます。また、複数の文章校正者を支援する機能もサポートされています。</p>
-<p style="Heading 1" xid="57">ＳＴＡＲＳＵＩＴＥ ＣＡＬＣ</p>
-<p style="Heading 2" xid="58">豊富な関数</p>
-<p style="Standard" xid="59">ＳＴＡＲＳＵＩＴＥ ＣＡＬＣ ６．０ では９０以上の新しい関数を追加し、合計３００以上の関数をサポートしています。またオートパイロットを使えば複雑な関数も簡単に構成できます。</p>
-<p style="Heading 2" xid="60">ネットワークデータ・サポート</p>
-<p style="Standard" xid="61">ローカルだけではなく、ネットワーク上にあるデータにリンクすることができます。ネットワーク上にあるデータが更新されると、ＳＴＡＲＳＵＩＴＥ ＣＡＬＣのデータも自動的に更新されます。</p>
-<p style="Heading 2" xid="62">テキストデータからの変換</p>
-<p style="Standard" xid="63">カンマ区切りのデータでなくても、簡単にテキストデータからＳＴＡＲＳＵＩＴＥ ＣＡＬＣにインポートできます。</p>
-<p style="Heading 2" xid="64">連続値の入力、リストからの入力</p>
-<p style="Standard" xid="65">連続する値を簡単に入力することができます。またあらかじめ定義したリストのデータを最初の１項目を入力するだけで簡単に入力することが出来ます。</p>
-<p style="Heading 2" xid="66">入力値のチェックとヘルプ</p>
-<p style="Standard" xid="67">入力値を特定の値に制限することができます。また、不正なデータが入力されたときにポップアップメッセージを出力できます。</p>
-<p style="Heading 2" xid="68">スタイル</p>
-<p style="Standard" xid="69">セルやページのスタイル（色、フォント、表示方向、表示エリアなど）を定義したり、指定したりできます。</p>
-<p style="Heading 2" xid="70">フォーマット</p>
-<p style="Standard" xid="71">日時、数値、通貨など各種のフォーマットをサポートしています。</p>
-<p style="Heading 2" xid="72">条件フォーマット</p>
-<p style="Standard" xid="73">セルの内容に応じてフォーマットを変えることができます。また他セルの内容を条件としてセルの内容を変えることもできます。</p>
-<p style="Heading 2" xid="74">画面分割、非スクロール領域</p>
-<p style="Standard" xid="75">いつも表示させておきたい領域を非スクロール領域に指定したり、画面を分割して別の領域を表示しておくことができます。</p>
-<p style="Heading 2" xid="76">ソート、フィルタ</p>
-<p style="Standard" xid="77">データを並び替えたり、条件に合うセルだけを表示することができます。</p>
-<p style="Heading 2" xid="78">クイックサム</p>
-<p style="Standard" xid="79">数字の連続しているエリアの下または右のセルにカーソルをおいて、サムボタン（Σ）をクリックすると合計が表示されます。</p>
-<p style="Heading 2" xid="80">ゴールシーク</p>
-<p style="Standard" xid="81">計算結果が合致するような、変数を求める事ができます。例えば、１年の売り上げを合計する表をそのまま使って、「１年の売り上げが１億円に達するための１２月の売り上げ」といった逆算を、シートの内容を変更せずに計算できます。</p>
-<p style="Heading 2" xid="82">グラフ表示</p>
-<p style="Standard" xid="83">データをグラフにして表示できます。</p>
-<p style="Heading 1" xid="84">ＳＴＡＲＳＵＩＴＥ ＩＭＰＲＥＳＳ</p>
-<p style="Heading 2" xid="85">オートパイロット</p>
-<p style="Standard" xid="86">オートパイロットを使って簡単にテンプレートからプレゼンテーションを作成できます。</p>
-<p style="Heading 2" xid="87">スライドの一覧表示</p>
-<p style="Standard" xid="88">スライドを一覧表示できます。一行に表示するスライドの数を簡単に変更できます。プレゼンテーションの全体像を掴んだり、スライドの順序を入れ替えるのに便利な機能です。</p>
-<p style="Heading 2" xid="89">豊富なスライドショー効果</p>
-<p style="Standard" xid="90">２０種類以上の豊富なスライドショー効果が選択できます。スライド、オブジェクト、テキスト、それぞれに適用可能で、方向（上下、左右、斜め内から、外から、など）の選択も可能です。</p>
-<p style="Heading 2" xid="91">印刷</p>
-<p style="Standard" xid="92">配付資料や、ノートを作成・印刷できます。ページあたりの印刷ページも指定できます。</p>
-<p style="Heading 1" xid="93">ＳＴＡＲＳＵＩＴＥ ＤＲＡＷ</p>
-<p style="Heading 2" xid="94">グラフィックフォーマット</p>
-<p style="Standard" xid="95">ＢＭＰ， ＥＰＳ， ＧＩＦ， ＪＰＥＧ， ＰＣＴ， ＰＮＧ， ＲＡＳ（ＳＵＮ ＲＡＳＴＥＲ）， ＴＩＦＦ， ＷＭＦ， ＸＰＭ など１７種類のグラフィックフォーマットにエクスポート可能です。</p>
-<p style="Heading 2" xid="96">フォントワーク</p>
-<p style="Standard" xid="97">フォントに、色々な効果を割り当てます。基線の回転、文字の回転、傾き、基線からの距離、文字間隔、影、文字と影との距離、影の色など豊富な機能があります。</p>
-<p style="Heading 2" xid="98">ベクターグラフィックス</p>
-<p style="Standard" xid="99">２Ｄ／３Ｄ のベクターグラフィックスを作成できます。オブジェクトを回転させたり、表面にビットマップテクスチャを適用し遠近法や照明効果を付けることができます。</p>
-<p style="Heading 2" xid="100">組織図作成</p>
-<p style="Standard" xid="101">オブジェクトをコネクタでつないでおけば、オブジェクトの移動に伴いコネクタも一緒に移動します。組織図作成や、説明文の付いた図などが簡単に作成できます。</p>
-<p style="Heading 1" xid="102">ＳＴＡＲＳＵＩＴＥ ＢＡＳＥ</p>
-<p style="Heading 2" xid="103">各種のデータソースのサポート</p>
-<p style="Standard" xid="104">ＳＴＡＲＳＵＩＴＥ ＢＡＳＥでは色々なデータソースがサポートされます。使用できるデータの種類には、ＡＤＡＢＡＳ、ＤＢＡＳＥ、テキスト、ＯＤＢＣ、ＪＤＢＣ、ＡＤＯ、ＳＴＡＲＳＵＩＴＥ ＣＡＬＣデータなどがあります。</p>
-<p style="Heading 2" xid="105">アドレス帳</p>
-<p style="Standard" xid="106">システムで利用中のアドレス帳をデータソースとして簡単に登録できます。アドレス帳として、ＷＩＮＤＯＷＳ住所録、ＮＥＴＳＣＡＰＥアドレス帳、ＬＤＡＰサーバーなどが利用できます。また、登録されたアドレス帳を使って、簡単に宛名入りのレター／封筒／ラベルを作成できます。</p>
-<p style="Heading 2" xid="107">データベース管理</p>
-<p style="Standard" xid="108">テーブルの作成、クエリーがオートパイロットを使って行えます。</p>
-<p style="Heading 2" xid="109">蔵書管理</p>
-<p style="Standard" xid="110">蔵書の管理が行えます。蔵書データは、ＳＴＡＲＳＵＩＴＥ ＷＲＩＴＥＲ で参考文献の編集に利用されます。</p>
-<p style="Heading 2" xid="111">ＳＱＬ</p>
-<p style="Standard" xid="112">データソースがＲＤＢＭＳであれば、ＳＱＬを直接使用することもできます。</p>
-<p style="Heading 2" xid="113">ＡＤＡＢＡＳ Ｄ データベース</p>
-<p style="Standard" xid="114">ＳＴＡＲＳＵＩＴＥ にはＡＤＡＢＡＳ Ｄ データベースが含まれています。</p>
+<section id="0" type="header" xid="114">
+<p style="Standard" xid="115" props="text-align:center"><field type="date_ddmmyy" xid="116"></field></p>
 </section>
-<section id="0" type="header" xid="115">
-<p style="Standard" xid="116" props="text-align:center"><field type="date_ddmmyy" xid="117"></field></p>
-</section>
-<section id="1" type="footer" xid="118">
-<p style="Standard" xid="119" props="text-align:center"><field type="page_number" xid="120"></field>/<field type="page_count" xid="121"></field></p>
-</section>
-<section id="2" type="header" xid="122">
-<p style="Standard" xid="123"></p>
-</section>
-<section id="3" type="footer" xid="124">
-<p style="Standard" xid="125" props="text-align:center"><field type="page_number" xid="126"></field>/<field type="page_count" xid="127"></field></p>
+<section id="1" type="footer" xid="117">
+<p style="Standard" xid="118" props="text-align:center"><field type="page_number" xid="119"></field>/<field type="page_count" xid="120"></field></p>
 </section>
 </abiword>

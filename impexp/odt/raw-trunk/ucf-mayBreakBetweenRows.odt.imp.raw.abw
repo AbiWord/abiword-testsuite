@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="105" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.7.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="105" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.8.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -25,59 +25,59 @@
 <m key="meta:editing-cycles">1</m>
 <m key="dc.subject">Subject of the document</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1191872266" uid="f222d62c-75d5-11dc-9871-f14e47f381f0">
-<version id="1" started="1191872266" uid="f22586e2-75d5-11dc-9871-f14e47f381f0" auto="0" top-xid="105"/>
+<history version="1" edit-time="0" last-saved="1253536245" uid="9603293e-a6aa-11de-8f8f-8bb369a9350f">
+<version id="1" started="1253536245" uid="960b52da-a6aa-11de-8f8f-8bb369a9350f" auto="0" top-xid="105"/>
 </history>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
-<section xid="1" props="page-margin-right:1.0in; page-margin-left:1.0in; page-margin-top:1.0in; page-margin-bottom:1.0in">
-<p xid="2"></p>
-<p xid="3"></p>
-<p xid="4"></p>
-<p xid="5"></p>
-<p xid="6"></p>
-<p xid="7"></p>
-<p xid="8"></p>
-<p xid="9"></p>
-<p xid="10"></p>
-<p xid="11"></p>
-<p xid="12"></p>
-<p xid="13"></p>
-<p xid="14"></p>
-<p xid="15"></p>
-<p xid="16"></p>
-<p xid="17"></p>
-<p xid="18"></p>
-<p xid="19"></p>
-<p xid="20"></p>
-<p xid="21"></p>
-<p xid="22"></p>
-<p xid="23"></p>
-<p xid="24"></p>
-<p xid="25"></p>
-<p xid="26"></p>
-<p xid="27"></p>
-<p xid="28"></p>
-<p xid="29"></p>
-<p xid="30"></p>
-<p xid="31"></p>
-<p xid="32"></p>
-<p xid="33"></p>
-<p xid="34"></p>
-<p xid="35"></p>
-<p xid="36"></p>
-<p xid="37"></p>
-<p xid="38"></p>
-<p xid="39"></p>
-<p xid="40"></p>
-<p xid="41"></p>
-<p xid="42"></p>
-<p xid="43"></p>
-<p xid="44"></p>
-<p xid="45"></p>
+<section xid="1" props="page-margin-right:1.0in; page-width:8.26in; page-margin-left:1.0in; page-orientation:portrait; page-margin-bottom:1.0in; page-margin-top:1.0in; page-height:11.69in">
+<p xid="2"><c></c></p>
+<p xid="3"><c></c></p>
+<p xid="4"><c></c></p>
+<p xid="5"><c></c></p>
+<p xid="6"><c></c></p>
+<p xid="7"><c></c></p>
+<p xid="8"><c></c></p>
+<p xid="9"><c></c></p>
+<p xid="10"><c></c></p>
+<p xid="11"><c></c></p>
+<p xid="12"><c></c></p>
+<p xid="13"><c></c></p>
+<p xid="14"><c></c></p>
+<p xid="15"><c></c></p>
+<p xid="16"><c></c></p>
+<p xid="17"><c></c></p>
+<p xid="18"><c></c></p>
+<p xid="19"><c></c></p>
+<p xid="20"><c></c></p>
+<p xid="21"><c></c></p>
+<p xid="22"><c></c></p>
+<p xid="23"><c></c></p>
+<p xid="24"><c></c></p>
+<p xid="25"><c></c></p>
+<p xid="26"><c></c></p>
+<p xid="27"><c></c></p>
+<p xid="28"><c></c></p>
+<p xid="29"><c></c></p>
+<p xid="30"><c></c></p>
+<p xid="31"><c></c></p>
+<p xid="32"><c></c></p>
+<p xid="33"><c></c></p>
+<p xid="34"><c></c></p>
+<p xid="35"><c></c></p>
+<p xid="36"><c></c></p>
+<p xid="37"><c></c></p>
+<p xid="38"><c></c></p>
+<p xid="39"><c></c></p>
+<p xid="40"><c></c></p>
+<p xid="41"><c></c></p>
+<p xid="42"><c></c></p>
+<p xid="43"><c></c></p>
+<p xid="44"><c></c></p>
+<p xid="45"><c></c></p>
 <p xid="46">this is an example of table that allow a page break occur inside a table.</p>
 <table xid="47" props="table-row-heights:/">
 <cell xid="48" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
-<p xid="49"></p>
+<p xid="49"><c></c></p>
 </cell>
 <cell xid="50" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
 <p xid="51">The cell can split across the page break.</p>
@@ -90,43 +90,43 @@
 <p xid="58">The cell can split across the page break.</p>
 </cell>
 </table>
-<p xid="59"></p>
-<p xid="60"></p>
-<p xid="61"></p>
-<p xid="62"></p>
-<p xid="63"></p>
-<p xid="64"></p>
-<p xid="65"></p>
-<p xid="66"></p>
-<p xid="67"></p>
-<p xid="68"></p>
-<p xid="69"></p>
-<p xid="70"></p>
-<p xid="71"></p>
-<p xid="72"></p>
-<p xid="73"></p>
-<p xid="74"></p>
-<p xid="75"></p>
-<p xid="76"></p>
-<p xid="77"></p>
-<p xid="78"></p>
-<p xid="79"></p>
-<p xid="80"></p>
-<p xid="81"></p>
-<p xid="82"></p>
-<p xid="83"></p>
-<p xid="84"></p>
-<p xid="85"></p>
-<p xid="86"></p>
-<p xid="87"></p>
-<p xid="88"></p>
-<p xid="89"></p>
-<p xid="90"></p>
-<p xid="91"></p>
+<p xid="59"><c></c></p>
+<p xid="60"><c></c></p>
+<p xid="61"><c></c></p>
+<p xid="62"><c></c></p>
+<p xid="63"><c></c></p>
+<p xid="64"><c></c></p>
+<p xid="65"><c></c></p>
+<p xid="66"><c></c></p>
+<p xid="67"><c></c></p>
+<p xid="68"><c></c></p>
+<p xid="69"><c></c></p>
+<p xid="70"><c></c></p>
+<p xid="71"><c></c></p>
+<p xid="72"><c></c></p>
+<p xid="73"><c></c></p>
+<p xid="74"><c></c></p>
+<p xid="75"><c></c></p>
+<p xid="76"><c></c></p>
+<p xid="77"><c></c></p>
+<p xid="78"><c></c></p>
+<p xid="79"><c></c></p>
+<p xid="80"><c></c></p>
+<p xid="81"><c></c></p>
+<p xid="82"><c></c></p>
+<p xid="83"><c></c></p>
+<p xid="84"><c></c></p>
+<p xid="85"><c></c></p>
+<p xid="86"><c></c></p>
+<p xid="87"><c></c></p>
+<p xid="88"><c></c></p>
+<p xid="89"><c></c></p>
+<p xid="90"><c></c></p>
+<p xid="91"><c></c></p>
 <p xid="92">this is an example of table that don't allow a page break occur inside a table.</p>
 <table xid="93" props="table-row-heights:/">
 <cell xid="94" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
-<p xid="95"></p>
+<p xid="95"><c></c></p>
 </cell>
 <cell xid="96" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
 <p xid="97">The cell can not split across the page break and the whole table will be displayed in the next page.</p>

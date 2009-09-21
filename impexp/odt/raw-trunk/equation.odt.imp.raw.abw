@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="4" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.7.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="4" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.8.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -17,8 +17,8 @@
 <m key="abiword.generator">AbiWord</m>
 <m key="dc.format">application/x-abiword</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1191872249" uid="e7e67e66-75d5-11dc-98fb-e275735cf70f">
-<version id="1" started="1191872249" uid="e7e958c0-75d5-11dc-98fb-e275735cf70f" auto="0" top-xid="4"/>
+<history version="1" edit-time="0" last-saved="1253536226" uid="8a2cd52e-a6aa-11de-958f-a28ee90d29a2">
+<version id="1" started="1253536226" uid="8a35909c-a6aa-11de-958f-a28ee90d29a2" auto="0" top-xid="4"/>
 </history>
 <styles>
 <s type="P" name="Normal" props="lang:en-US; font-size:12pt; font-family:Times New Roman; dom-dir:ltr"/>
@@ -27,7 +27,7 @@
 <s type="P" name="Caption" basedon="Normal" followedby="Caption" props="margin-top:0.0835in; font-size:12pt; margin-bottom:0.0835in; font-style:italic"/>
 </styles>
 <pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
-<section xid="2" props="page-margin-right:0.7874in; page-margin-left:0.7874in; page-margin-top:0.7874in; page-margin-bottom:0.7874in">
+<section xid="2" props="page-margin-right:0.7874in; page-width:8.5in; page-margin-left:0.7874in; page-orientation:portrait; page-margin-bottom:0.7874in; page-margin-top:0.7874in; page-height:11in">
 <p style="Normal" xid="3" props="dom-dir:ltr">do you see a sqrt? <math dataid="MathLatex0" xid="4" props="height:0.1972in; width:0.352in"><image dataid="snapshot-png-MathLatex0" props="height:0.000000in; width:0.000000in"/></math></p>
 </section>
 <data>

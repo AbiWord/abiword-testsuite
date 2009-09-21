@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="12" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.7.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="12" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.8.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -25,24 +25,24 @@
 <m key="meta:editing-cycles">1</m>
 <m key="dc.subject">Subject of the document</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1191872282" uid="fba6085e-75d5-11dc-8691-cadf3323494e">
-<version id="1" started="1191872282" uid="fba88bec-75d5-11dc-8691-cadf3323494e" auto="0" top-xid="12"/>
+<history version="1" edit-time="0" last-saved="1253536264" uid="a10861f0-a6aa-11de-95d6-9f15c35771f2">
+<version id="1" started="1253536264" uid="a111f97c-a6aa-11de-95d6-9f15c35771f2" auto="0" top-xid="12"/>
 </history>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
-<section xid="1" props="page-margin-right:1.0in; page-margin-left:1.0in; page-margin-top:1.0in; page-margin-bottom:1.0in">
+<section xid="1" props="page-margin-right:1.0in; page-width:8.26in; page-margin-left:1.0in; page-orientation:portrait; page-margin-bottom:1.0in; page-margin-top:1.0in; page-height:11.69in">
 <p xid="2">this is an example of table cell which disable or enable wrap.</p>
 <table xid="3" props="table-row-heights:0.4in/0.4in/">
 <cell xid="4" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0007in; right-attach:1; top-thickness:0.0007in; right-thickness:0.0007in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0007in; bot-attach:1; top-attach:0">
 <p xid="5">this is an example of disable wrap so that the application determines whether the clipped text is visible or hidden.</p>
 </cell>
 <cell xid="6" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
-<p xid="7"></p>
+<p xid="7"><c></c></p>
 </cell>
 <cell xid="8" props="right-color:#000000; left-color:#000000; bot-style:solid; bot-thickness:0.0007in; right-attach:1; top-thickness:0.0007in; right-thickness:0.0007in; top-color:#000000; bot-color:#000000; left-attach:0; top-style:solid; right-style:solid; left-style:solid; left-thickness:0.0007in; bot-attach:2; top-attach:1">
 <p xid="9">this is an example of enable wrap so that the text is hidden applications may support a scrolling mechanism to access the text.</p>
 </cell>
 <cell xid="10" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
-<p xid="11"></p>
+<p xid="11"><c></c></p>
 </cell>
 </table>
 <p xid="12"></p>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="17" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.7.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<abiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="17" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.8.0" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -23,11 +23,11 @@
   </m>
 <m key="dc.format">application/x-abiword</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1191872249" uid="e84674ec-75d5-11dc-98fb-e275735cf70f">
-<version id="1" started="1191872249" uid="e848d73c-75d5-11dc-98fb-e275735cf70f" auto="0" top-xid="17"/>
+<history version="1" edit-time="0" last-saved="1253536226" uid="8a9efece-a6aa-11de-9b58-8bbdd08514a4">
+<version id="1" started="1253536226" uid="8aa6afca-a6aa-11de-9b58-8bbdd08514a4" auto="0" top-xid="17"/>
 </history>
 <pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
-<section xid="1" props="page-margin-right:1.0in; page-margin-left:1.0in; page-margin-top:1.0in; page-margin-bottom:1.0in">
+<section xid="1" props="page-margin-right:1.0in; page-width:8.26in; page-margin-left:1.0in; page-orientation:portrait; page-margin-bottom:1.0in; page-margin-top:1.0in; page-height:11.69in">
 <p xid="2"> This is a sample test message for paragraph content test case </p>
 <p xid="3"> <br/> </p>
 <p xid="4"> All white space should be collapsed. </p>
