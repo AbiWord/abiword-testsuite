@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
-<abiword template="false" version="2.7.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="41" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:lower-roman; document-endnote-place-enddoc:0; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:1; document-endnote-restart-page:0; document-footnote-restart-page:0; document-footnote-initial:1; document-footnote-type:numeric; document-endnote-place-endsection:1">
+<abiword template="false" version="2.8.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="41" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:lower-roman; document-endnote-place-enddoc:0; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:1; document-endnote-restart-page:0; document-footnote-restart-page:0; document-footnote-initial:1; document-footnote-type:numeric; document-endnote-place-endsection:1">
 <!-- ======================================================================== -->
 <!-- This file is an AbiWord document.                                        -->
 <!-- AbiWord is a free, Open Source word processor.                           -->
@@ -17,8 +17,8 @@
 <m key="dc.format">application/x-abiword</m>
 <m key="dc.title">Endnotes</m>
 </metadata>
-<history version="1" edit-time="0" last-saved="1191872287" uid="fe913764-75d5-11dc-82c0-b0fbb2d9e9c0">
-<version id="1" started="1191872287" uid="fe94b13c-75d5-11dc-82c0-b0fbb2d9e9c0" auto="0" top-xid="41"/>
+<history version="1" edit-time="0" last-saved="1253539418" uid="f8ddf5e6-a6b1-11de-8914-f72e0138cff4">
+<version id="1" started="1253539418" uid="f8e6c86a-a6b1-11de-8914-f72e0138cff4" auto="0" top-xid="41"/>
 </history>
 <styles>
 <s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; font-size:14pt; dom-dir:ltr; margin-bottom:3pt; lang:en-GB; font-weight:bold; line-height:1.0; text-align:left; margin-top:12pt; keep-with-next:yes"/>
@@ -26,7 +26,7 @@
 <s type="C" name="Endnote Reference" basedon="None" followedby="Current Settings" props="text-position:superscript; font-size:10pt"/>
 <s type="P" name="Endnote Text" basedon="Normal" followedby="Endnote Text" props="font-family:Times New Roman; font-size:10pt; dom-dir:ltr; lang:en-GB; line-height:1.0; text-position:normal; text-align:left"/>
 </styles>
-<pagesize pagetype="Custom" orientation="portrait" width="8.270139" height="11.690278" units="in" page-scale="1.000000"/>
+<pagesize pagetype="Custom" orientation="portrait" width="210.061528" height="296.933056" units="mm" page-scale="1.000000"/>
 <section xid="1" props="page-margin-right:1.2500in; section-restart-value:1; dom-dir:ltr; section-space-after:0.0000in; page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
 <p style="Heading 1" xid="2" props="text-align:center; line-height:1.0; margin-top:12pt; keep-with-next:yes; margin-bottom:3pt; dom-dir:ltr"><c props="lang:en-GB; font-size:14pt; font-family:Arial; font-weight:bold">Endnotes end of section, restart at section</c></p>
 <p style="Normal" xid="3" props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-GB; font-size:10pt; font-family:Times New Roman">I am an autonumbered endnote</c><field endnote-id="0" type="endnote_ref" style="Endnote Reference" xid="4" props="lang:-none-; text-position:superscript; font-size:10pt; font-family:Times New Roman"></field><endnote endnote-id="0" xid="5">
