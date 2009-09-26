@@ -64,7 +64,7 @@ if ($html)
 	# write out the branch overview index
 	foreach my $module_info ( @branches )
 	{
-		my ($abiword_url, $abiword_plugins_url, $abiword_binary) = @$module_info;
+		my ($abiword_url, $abiword_binary) = @$module_info;
 		die unless $abiword_url;
 		die unless $abiword_binary;
 		
@@ -82,7 +82,7 @@ if ($html)
 
 foreach my $module_info ( @branches )
 {
-	my ($abiword_url, $abiword_plugins_url, $abiword_binary) = @$module_info;
+	my ($abiword_url, $abiword_binary) = @$module_info;
 	die unless $abiword_url;
 	die unless $abiword_binary;
 
@@ -96,7 +96,7 @@ foreach my $module_info ( @branches )
 	
 	# bootstrap the regression test suite
 	system("./cleanup.pl", $abiword_url);
-	system("./bootstrap.pl", $abiword_url, $abiword_plugins_url);
+	system("./bootstrap.pl", $abiword_url);
 
 	# execute the regression test suite
 	&ExecTests($sn, $abiword_binary);

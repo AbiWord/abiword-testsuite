@@ -13,7 +13,6 @@ if ($#ARGV+1 != 1 && $#ARGV+1 != 2)
 
 # setup variables
 $abiword_url = $ARGV[0];
-$abiword_plugins_url = ($#ARGV+1 == 2) ? $ARGV[1] : "";
 $abiword_url =~ m/.*\/(.*)/;
 $sn = $1;
 $source_dir = $root . "/.src/" . $sn;
@@ -34,36 +33,7 @@ open(STDERR, ">>$root/logs/bootstrap_$sn.log");
 $abi_log = "$root/logs/abiword_compilation_report_$sn.txt";
 $abi_plugin_log = "$root/logs/abiword_plugins_compilation_report_$sn.txt";
 
-if ($sn eq "ABI-2-6-0-STABLE")
-{
-	# cvs update abiword
-	`cd $source_dir && svn co $abiword_url abiword && svn co $abiword_plugins_url abiword-plugins`;
-
-	# apply the testsuite specific patches to the tree
-	foreach $patch ( @patches )
-	{
-		`cd $source_dir && patch -p0 < $root/patches/$patch-$sn.diff`;
-	}
-
-	# build abiword
-	my $abiword_cmd = "cd $source_dir/abiword && CXXFLAGS=\"-pg -g\" ./autogen.sh --prefix=$root/$prefix && make $make_flags 2>$abi_log && make install";
-	open(ABIWORD_CMD,  "$abiword_cmd |");
-	while (<ABIWORD_CMD>)
-	{
-	    print $_;
-	}
-	close(ABIWORD_CMD);
-
-	# build required abiword plugins
-	my $plugin_cmd = "cd $source_dir/abiword-plugins && ./nextgen.sh && CXXFLAGS=\"-pg -g\" ./configure --prefix=$root/$prefix && make $make_flags 2>$abi_plugin_log && make install";
-	open(PLUGIN_CMD,  "$plugin_cmd |");
-	while (<PLUGIN_CMD>)
-	{
-	    print $_;
-	}
-	close(PLUGIN_CMD);
-}
-elsif ($sn eq "trunk")
+if ($sn eq "trunk")
 {
 	# cvs update abiword
 	`cd $source_dir && svn co $abiword_url abiword`;
