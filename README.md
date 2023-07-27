@@ -1,4 +1,8 @@
-# About Regression Testing
+# AbiWord regression test suite.
+
+This repository contain a regression test suite for AbiWord.
+
+## About Regression Testing
 
 Running the fully automated testsuite for AbiWord is as simple as calling
 
@@ -13,9 +17,9 @@ of the regression.conf configuration file.
 The rest of this file describes in some more detail which tests are performed.
 
 
-# Import / Export Testing
+## Import / Export Testing
 
-## Raw Diff Test
+### Raw Diff Test
 
 The raw diff test is a simple test to see if a file that is imported into
 abiword is converted into the same internal representation every time. Changes
@@ -34,37 +38,37 @@ A change reported by the raw diff test should be examined closely to determine i
 the change includes ONLY the expected result of the change. If it includes some
 other unexpected/unwanted changes in the output as well, a regression has been found.
 
-- AbiWord outputs awml differently, for example because of an internal change, or a 
-change in the awml exporter. The raw diff test will now report changes for possible 
-all exported files. In this canse no real harm has been done, and thus the change 
+- AbiWord outputs awml differently, for example because of an internal change, or a
+change in the awml exporter. The raw diff test will now report changes for possible
+all exported files. In this canse no real harm has been done, and thus the change
 should not be considered as an error.
 
-Whenever the awml output changes as expected, the raw output for every file in the 
-test set should be regenerated and stored. This process is automated, and can be 
+Whenever the awml output changes as expected, the raw output for every file in the
+test set should be regenerated and stored. This process is automated, and can be
 done simply by calling:
 
 ```shell
 	./regenerate_raw.pl
 ```
 
-After the raw output has been updated, the changes to the *.raw.* files should be 
-stored in cvs.
+After the raw output has been updated, the changes to the *.raw.* files should be
+stored in the repository.
 
 NOTE: this process will take a while, as a totally new clean build for
       each branch is created (which is slightly dumb, but the easiest way
       to make sure the raw files are created with the correct abiword version.
 
 
-## Valgrind Test
+### Valgrind Test
 
 This test checks for memory errors during the conversions, as well as for memoryleaks.
 
 
-## Adding new documents to the test set
+### Adding new documents to the test set
 
-In the various subdirectories (abw, doc, rtf, etc.) of ./impexp, files can be added at 
+In the various subdirectories (`abw`, `doc`, `rtf`, etc.) of `./impexp`, files can be added at
 will. Make sure to also add them to the regression.in file located in each directory (note:
-you can disable specific files from being tested by commenting them out with a '#').
+you can disable specific files from being tested by commenting them out with a '`#`').
 
 When you finished adding new files, enter the impexp directory and run:
 
@@ -80,13 +84,11 @@ NOTE: make sure to have executed `./bootstrap.pl` at least once before running
 
 
 
-# Unit Testing
+## Unit Testing
 
-<not implemented at the moment>
+\<not implemented at the moment>
 
-
-# Compilation Warning testing
-
+## Compilation Warning testing
 
 This test compiles both abiword and abiword plugins, and checks if there are no
 compiler warnings. The presence of warnings could point out a true problem, so
